@@ -104,8 +104,8 @@
         position: relative;
         border: none;
         border-radius: 1rem 1rem 0.35rem 0.35rem;
-        padding: 1rem 0.85rem;
-        min-height: 82px;
+        padding: 0.8rem 0.85rem;
+        min-height: 72px;
         color: #fff;
         font-weight: 700;
         text-align: left;
@@ -163,7 +163,7 @@
       }
 
       .controls {
-        padding: 1rem;
+        padding: 0.85rem;
         margin-bottom: 1rem;
       }
 
@@ -204,9 +204,13 @@
 
       .control-grid {
         display: grid;
-        gap: 1rem;
+        gap: 0.75rem;
         grid-template-columns: 1fr;
         align-items: end;
+      }
+
+      .control-actions {
+        margin-top: 0.65rem;
       }
 
       label {
@@ -304,15 +308,15 @@
 
       .status-bar {
         display: grid;
-        gap: 0.75rem;
+        gap: 0.5rem;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        margin-top: 1rem;
+        margin-top: 0.65rem;
       }
 
       .stat {
         background: var(--surface-2);
         border-radius: 0.85rem;
-        padding: 0.85rem;
+        padding: 0.65rem 0.75rem;
         border: 1px solid var(--border);
       }
 
@@ -354,25 +358,87 @@
       .question-text {
         font-size: clamp(1.1rem, 2vw, 1.35rem);
         font-weight: 700;
-        margin: 0 0 1rem;
+        margin: 0 0 0.75rem;
+      }
+
+      .orientation-pill {
+        font-size: 0.82rem;
+      }
+
+      .orientation-pill strong {
+        color: var(--text);
+      }
+
+      .orientation-value {
+        text-transform: capitalize;
+      }
+
+      .study-layout {
+        display: grid;
+        gap: 1rem;
+        align-items: start;
       }
 
       .image-panel {
         display: grid;
-        gap: 0.75rem;
-        margin-bottom: 1rem;
+        gap: 0.4rem;
+        align-content: start;
       }
 
       .image-wrap {
         position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 280px;
+        width: 100%;
+        aspect-ratio: var(--art-aspect);
+        margin-inline: auto;
         border: 1px solid var(--border);
         border-radius: 1rem;
         overflow: hidden;
+        background: #fff;
+        box-shadow: 0 5px 16px rgba(15, 23, 42, 0.07);
+      }
+
+      .image-wrap.vertical {
+        width: min(100%, 225px);
+      }
+
+      .image-wrap.horizontal {
+        max-width: 720px;
+      }
+
+      .image-wrap.placeholder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: auto;
+        min-height: 280px;
         background: linear-gradient(180deg, #f7f9fb 0%, #e8edf3 100%);
+      }
+
+      .image-wrap.placeholder .artwork-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .artwork-button {
+        display: block;
+        width: 100%;
+        height: 100%;
+        min-height: 0;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background: #fff;
+      }
+
+      .artwork-button:hover {
+        background: #fff;
+      }
+
+      .artwork-image {
+        display: block;
+        width: 100%;
+        height: 100%;
       }
 
       .placeholder-card {
@@ -397,20 +463,21 @@
 
       .zoom-hint {
         margin: 0;
-        font-size: 0.95rem;
+        font-size: 0.86rem;
+        text-align: center;
         color: var(--muted);
       }
 
       .blank-grid {
         display: grid;
         grid-template-columns: repeat(5, minmax(0, 1fr));
-        gap: 0.75rem;
-        margin: 1rem 0;
+        gap: 0.5rem;
+        margin: 0 0 0.75rem;
       }
 
       .blank-field {
         display: grid;
-        gap: 0.35rem;
+        gap: 0.2rem;
       }
 
       .blank-field label {
@@ -420,7 +487,7 @@
 
       .blank-input {
         min-height: 46px;
-        padding: 0.7rem;
+        padding: 0.6rem;
       }
 
       .blank-input.correct {
@@ -527,17 +594,48 @@
       }
 
       .zoom-frame {
-        min-height: 70vh;
+        height: min(72vh, 760px);
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(180deg, #f7f9fb 0%, #e8edf3 100%);
+        overflow: hidden;
+        background: #fff;
         border-radius: 0.85rem;
         border: 1px solid var(--border);
       }
 
       .zoom-frame .placeholder-card {
         width: min(340px, 65vw);
+      }
+
+      .zoom-artwork {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .zoom-file-path {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem 0.55rem;
+        align-items: baseline;
+        margin: 0.75rem 0 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .zoom-file-path[hidden] {
+        display: none;
+      }
+
+      .zoom-file-path code {
+        padding: 0.25rem 0.45rem;
+        border: 1px solid var(--border);
+        border-radius: 0.4rem;
+        background: var(--surface-2);
+        color: var(--text);
+        overflow-wrap: anywhere;
       }
 
       .sr-only {
@@ -561,6 +659,58 @@
         }
       }
 
+      @media (min-width: 750px) {
+        .study-layout.art-vertical {
+          grid-template-columns: minmax(225px, 0.7fr) minmax(320px, 1.3fr);
+          align-items: center;
+        }
+
+        .study-layout.art-vertical .blank-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .study-layout.art-vertical .blank-field {
+          grid-template-columns: 1.4rem minmax(0, 1fr);
+          align-items: center;
+          gap: 0.35rem;
+        }
+
+        .study-layout.art-vertical .blank-field label {
+          text-align: center;
+        }
+      }
+
+      @media (min-width: 900px) {
+        .controls {
+          display: grid;
+          grid-template-columns: max-content minmax(0, 1fr);
+          gap: 0.65rem 1rem;
+        }
+
+        .controls .control-grid {
+          grid-column: 1 / -1;
+        }
+
+        .controls .control-actions {
+          grid-column: 1;
+          align-self: end;
+          margin-top: 0;
+        }
+
+        .controls .status-bar {
+          grid-column: 2;
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          align-self: stretch;
+          margin-top: 0;
+        }
+
+        .controls .stat {
+          display: grid;
+          align-content: center;
+          padding-block: 0.4rem;
+        }
+      }
+
       @media (min-width: 700px) {
         .tabs {
           grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -580,10 +730,6 @@
           grid-template-columns: repeat(6, minmax(0, 1fr));
         }
 
-        .main-grid {
-          grid-template-columns: minmax(0, 2fr) minmax(320px, 1fr);
-        }
-
         .card-shell,
         .stack-panel,
         .controls {
@@ -592,6 +738,12 @@
 
         .question-stage {
           padding: 1.25rem;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .main-grid {
+          grid-template-columns: minmax(0, 2fr) minmax(320px, 1fr);
         }
       }
     </style>
@@ -625,7 +777,7 @@
           </div>
         </div>
 
-        <div class="button-row" style="margin-top: 1rem">
+        <div class="button-row control-actions">
           <button id="clearFiltersBtn" class="btn-secondary" type="button">Clear Filters</button>
           <button id="shuffleCurrentBtn" type="button">Shuffle Current View</button>
           <button id="resetAppBtn" class="btn-danger" type="button">Reset Webpage</button>
@@ -674,6 +826,10 @@
           <button id="closeZoomBtn" type="button">Close</button>
         </div>
         <div class="zoom-frame" id="zoomFrame"></div>
+        <p class="zoom-file-path" id="zoomFilePath" hidden>
+          <strong>Source file:</strong>
+          <code id="zoomFileName"></code>
+        </p>
       </div>
     </dialog>
 
@@ -687,22 +843,73 @@
         { id: "lower-extremity", name: "Lower Extremity", colorClass: "section-6" },
       ];
 
-      const placeholderQuestions = sections.map((section, sectionIndex) => ({
-        id: `${section.id}-labeling-1`,
-        sectionId: section.id,
-        sectionName: section.name,
-        prompt: `Placeholder labeling question for ${section.name}: identify the 10 numbered structures shown on the image.`,
-        answer: `Replace each label with the final approved anatomy term for this image.`,
-        keywords: [section.name.toLowerCase(), "labeling", "10 blanks", "anatomy"],
-        imageAlt: `Placeholder anatomy labeling image for ${section.name} with points numbered 1 through 10`,
-        sectionColorClass: section.colorClass,
-        type: "label-10",
-        labels: Array.from({ length: 10 }, (_, idx) => ({
-          number: idx + 1,
-          correctAnswer: `Structure ${idx + 1}`,
-        })),
-        order: sectionIndex,
-      }));
+      const artExamples = [
+        {
+          src: "Assets/Art/L1344_760114_PropelSampleLS.png",
+          orientation: "landscape",
+          layout: "vertical",
+          viewBox: { x: 520, y: -10, width: 600, height: 1088 },
+          width: 1600,
+          height: 1067,
+          alt: "Landscape-format labeled anatomical illustration of a long bone with lettered callouts",
+        },
+        {
+          src: "Assets/Art/L1344_760114_PropelSamplePT.png",
+          orientation: "portrait",
+          layout: "vertical",
+          viewBox: { x: 200, y: 0, width: 800, height: 1600 },
+          width: 1200,
+          height: 1600,
+          alt: "Portrait-format labeled anatomical illustration of a long bone with lettered callouts",
+        },
+        {
+          src: "Assets/Art/L1344_760119_PropelSampleLS.png",
+          orientation: "landscape",
+          layout: "horizontal",
+          viewBox: { x: 0, y: 260, width: 1600, height: 500 },
+          width: 1600,
+          height: 1067,
+          alt: "Landscape-format labeled anatomical illustration of a curved bone with lettered callouts",
+        },
+        {
+          src: "Assets/Art/L1344_760119_PropelSamplePT.png",
+          orientation: "portrait",
+          layout: "horizontal",
+          viewBox: { x: 0, y: 600, width: 1200, height: 390 },
+          width: 1200,
+          height: 1600,
+          alt: "Portrait-format labeled anatomical illustration of a curved bone with lettered callouts",
+        },
+      ];
+
+      const placeholderQuestions = sections.map((section, sectionIndex) => {
+        const artwork = artExamples[sectionIndex] || null;
+
+        return {
+          id: `${section.id}-labeling-1`,
+          sectionId: section.id,
+          sectionName: section.name,
+          prompt: artwork
+            ? `Artwork sizing example (${artwork.orientation}): review how this labeled anatomy image fits within the flash card.`
+            : `Placeholder labeling question for ${section.name}: identify the 10 numbered structures shown on the image.`,
+          answer: `Replace each label with the final approved anatomy term for this image.`,
+          keywords: [section.name.toLowerCase(), "labeling", "10 blanks", "anatomy", ...(artwork ? ["artwork", artwork.orientation] : [])],
+          imageAlt: artwork ? artwork.alt : `Placeholder anatomy labeling image for ${section.name} with points numbered 1 through 10`,
+          imageSrc: artwork ? artwork.src : "",
+          imageOrientation: artwork ? artwork.orientation : "",
+          imageLayout: artwork ? artwork.layout : "",
+          imageViewBox: artwork ? artwork.viewBox : null,
+          imageWidth: artwork ? artwork.width : null,
+          imageHeight: artwork ? artwork.height : null,
+          sectionColorClass: section.colorClass,
+          type: "label-10",
+          labels: Array.from({ length: 10 }, (_, idx) => ({
+            number: idx + 1,
+            correctAnswer: `Structure ${idx + 1}`,
+          })),
+          order: sectionIndex,
+        };
+      });
 
       const storageKeys = {
         stack: "msa_flashcards_stack",
@@ -741,6 +948,8 @@
       const clearStackBtn = document.getElementById("clearStackBtn");
       const zoomDialog = document.getElementById("zoomDialog");
       const zoomFrame = document.getElementById("zoomFrame");
+      const zoomFilePath = document.getElementById("zoomFilePath");
+      const zoomFileName = document.getElementById("zoomFileName");
       const closeZoomBtn = document.getElementById("closeZoomBtn");
 
       function loadJSON(key, fallback) {
@@ -768,7 +977,7 @@
         const base = state.mode === "stack" ? state.questions.filter((q) => state.stack.includes(q.id)) : state.questions;
 
         return base.filter((q) => {
-          const matchesSection = state.selectedSections.has(q.sectionId);
+          const matchesSection = state.selectedSections.size === 0 || state.selectedSections.has(q.sectionId);
           const query = state.search.trim().toLowerCase();
           const haystack = `${q.prompt} ${q.sectionName} ${q.keywords.join(" ")}`.toLowerCase();
           const matchesSearch = !query || haystack.includes(query);
@@ -843,6 +1052,17 @@
 
         const isInStack = state.stack.includes(current.id);
         const result = state.results[current.id] || "Not marked";
+        const artworkContent = renderArtwork(current);
+        const orientationNote = current.imageSrc
+          ? `
+            <span class="pill orientation-pill">
+              <strong>Orientation note:</strong>
+              <span class="orientation-value">${escapeHtml(current.imageOrientation)}</span> source canvas
+              (${current.imageWidth} × ${current.imageHeight}) ·
+              <span class="orientation-value">${escapeHtml(current.imageLayout)}</span> displayed artwork
+            </span>
+          `
+          : "";
 
         const answerContent = `
         <p>${escapeHtml(current.answer)}</p>
@@ -871,24 +1091,21 @@
           <div class="question-meta">
             <span class="pill">Section: ${current.sectionName}</span>
             <span class="pill">Status: ${result}</span>
+            ${orientationNote}
           </div>
           <p class="question-text">${escapeHtml(current.prompt)}</p>
-          <div class="image-panel">
-            <div class="image-wrap">
-              <button id="zoomTrigger" type="button" aria-label="Open larger view of image" style="all:unset; cursor:pointer; width:100%; height:100%; display:flex; align-items:center; justify-content:center;">
-                <div class="placeholder-card" aria-label="${escapeHtml(current.imageAlt)}" role="img">
-                  <strong>${escapeHtml(current.sectionName)}</strong>
-                  <span>Numbered Image Placeholder</span>
-                  <span style="margin-top:0.5rem; color: var(--muted); font-size:0.92rem;">4 x 2 image area</span>
-                </div>
-              </button>
+          <div class="study-layout ${current.imageLayout ? `art-${escapeHtml(current.imageLayout)}` : "art-placeholder"}">
+            <div class="image-panel">
+              ${artworkContent}
+              <p class="zoom-hint">Tap or click the image to view the complete canvas.</p>
             </div>
-            <p class="zoom-hint">Tap or click the image to open a larger view.</p>
-          </div>
-          ${questionContent}
-          <div class="question-actions">
-            <button id="checkAnswersBtn" class="btn-primary" type="button">Check Answers</button>
-            <button id="addToStackBtn" type="button">${isInStack ? "Remove from Study Stack" : "Add to Study Stack"}</button>
+            <div class="response-panel">
+              ${questionContent}
+              <div class="question-actions">
+                <button id="checkAnswersBtn" class="btn-primary" type="button">Check Answers</button>
+                <button id="addToStackBtn" type="button">${isInStack ? "Remove from Study Stack" : "Add to Study Stack"}</button>
+              </div>
+            </div>
           </div>
           <div class="answer-box" id="answerBox" ${state.answerShown ? "" : "hidden"}>
             <h2>Results</h2>
@@ -931,6 +1148,48 @@
           render();
         });
         document.getElementById("zoomTrigger").addEventListener("click", () => openZoom(current));
+      }
+
+      function renderArtwork(question) {
+        if (question.imageSrc) {
+          const viewBox = question.imageViewBox;
+          return `
+            <div
+              class="image-wrap ${escapeHtml(question.imageLayout)}"
+              style="--art-aspect: ${viewBox.width} / ${viewBox.height}"
+            >
+              <button id="zoomTrigger" class="artwork-button" type="button" aria-label="Open larger view: ${escapeHtml(question.imageAlt)}">
+                <svg
+                  class="artwork-image"
+                  viewBox="${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}"
+                  preserveAspectRatio="xMidYMid meet"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <image
+                    href="${escapeHtml(question.imageSrc)}"
+                    x="0"
+                    y="0"
+                    width="${question.imageWidth}"
+                    height="${question.imageHeight}"
+                  />
+                </svg>
+              </button>
+            </div>
+          `;
+        }
+
+        return `
+          <div class="image-wrap placeholder">
+            <button id="zoomTrigger" class="artwork-button" type="button" aria-label="Open larger view of image">
+              <div class="placeholder-card" aria-label="${escapeHtml(question.imageAlt)}" role="img">
+                <strong>${escapeHtml(question.sectionName)}</strong>
+                <span>Numbered Image Placeholder</span>
+                <span style="margin-top:0.5rem; color: var(--muted); font-size:0.92rem;">Artwork pending</span>
+              </div>
+            </button>
+          </div>
+        `;
       }
 
       function renderStack() {
@@ -1097,13 +1356,25 @@
       }
 
       function openZoom(question) {
-        zoomFrame.innerHTML = `
-        <div class="placeholder-card" aria-label="${escapeHtml(question.imageAlt)}" role="img">
-          <strong>${escapeHtml(question.sectionName)}</strong>
-          <span>Zoomed Numbered Image Placeholder</span>
-          <span style="margin-top:0.5rem; color: var(--muted); font-size:0.92rem;">Replace with approved anatomy image</span>
-        </div>
-      `;
+        zoomFilePath.hidden = !question.imageSrc;
+        zoomFileName.textContent = question.imageSrc || "";
+        zoomFrame.innerHTML = question.imageSrc
+          ? `
+            <img
+              class="zoom-artwork"
+              src="${escapeHtml(question.imageSrc)}"
+              alt="${escapeHtml(question.imageAlt)}"
+              width="${question.imageWidth}"
+              height="${question.imageHeight}"
+            />
+          `
+          : `
+            <div class="placeholder-card" aria-label="${escapeHtml(question.imageAlt)}" role="img">
+              <strong>${escapeHtml(question.sectionName)}</strong>
+              <span>Zoomed Numbered Image Placeholder</span>
+              <span style="margin-top:0.5rem; color: var(--muted); font-size:0.92rem;">Replace with approved anatomy image</span>
+            </div>
+          `;
         zoomDialog.showModal();
       }
 
