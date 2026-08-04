@@ -312,6 +312,26 @@ h1 {
   background: var(--section-1);
 }
 
+.tab.has-icon {
+  padding-right: 4.4rem;
+}
+
+.tab.has-icon::after {
+  display: none;
+}
+
+.tab-icon {
+  position: absolute;
+  right: 0.35rem;
+  bottom: 0.2rem;
+  display: block;
+  width: 3.8rem;
+  height: 4.25rem;
+  object-fit: contain;
+  opacity: 0.92;
+  pointer-events: none;
+}
+
 .tab.section-2 {
   --tab-color: #c45118;
   background: var(--tab-color);

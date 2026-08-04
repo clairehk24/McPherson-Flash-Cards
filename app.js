@@ -25,6 +25,15 @@
     responses: "mcpherson_flashcards_v2_responses",
   };
 
+  const tabIconSources = {
+    "head-neck": "Assets/L1344_760013-TabCardSection1.png",
+    "lumbar-region": "Assets/L1344_760069-TabCardSection2.png",
+    "thorax-abdomen": "Assets/L1344_760078-TabCardSection3.png",
+    "pelvic-bones": "Assets/L1344_760099-TabCardSection4.png",
+    "upper-extremity": "Assets/L1344_760137-TabCardSection5.png",
+    "lower-extremity": "Assets/L1344_760187-TabCardSection6.png",
+  };
+
   const state = {
     cards: originalCards.slice(),
     selectedSections: new Set(),
@@ -200,9 +209,13 @@
     elements.tabs.innerHTML = sections
       .map((section) => {
         const active = state.selectedSections.has(section.id);
+        const iconSource = tabIconSources[section.id];
+        const tabIcon = iconSource
+          ? `<img class="tab-icon" src="${escapeHtml(iconSource)}" alt="" aria-hidden="true" />`
+          : "";
         return `
           <button
-            class="tab ${escapeHtml(section.colorClass)}"
+            class="tab ${escapeHtml(section.colorClass)} ${tabIcon ? "has-icon" : ""}"
             type="button"
             data-section-id="${escapeHtml(section.id)}"
             aria-pressed="${active}"
@@ -210,6 +223,7 @@
           >
             <span class="tab-name">${escapeHtml(section.name)}</span>
             <span class="tab-count">${section.cardCount} cards</span>
+            ${tabIcon}
           </button>
         `;
       })
