@@ -298,7 +298,7 @@
     }
     if (card.interaction === "fill-blank") {
       return card.ready
-        ? "Complete every blank in the card text."
+        ? "Type each missing term. Press Enter or move to another field to check your answer."
         : "This card is awaiting highlighted answer text in the manuscript.";
     }
     if (card.interaction === "select-all") {
@@ -467,12 +467,7 @@
       .join("");
 
     return `
-      <section class="fill-card-sheet" aria-labelledby="fill-card-content-heading">
-        <div class="fill-card-sheet-header">
-          <p class="card-content-kicker">Back-of-card content</p>
-          <h3 id="fill-card-content-heading">Complete the card text</h3>
-          <p>Type the missing terms. Leave a blank or press Enter to check it.</p>
-        </div>
+      <section class="fill-card-sheet" aria-label="Fill-in-the-blank response">
         <div class="guided-notes">${paragraphs || '<p class="empty-state">No card text was found.</p>'}</div>
       </section>
     `;

@@ -715,31 +715,6 @@ h1 {
   box-shadow: 0 5px 16px rgba(20, 40, 60, 0.06);
 }
 
-.fill-card-sheet-header {
-  border-bottom: 1px solid color-mix(in srgb, var(--section-color) 28%, var(--line));
-  padding: 0.6rem 0.75rem;
-  background: var(--section-soft);
-}
-
-.fill-card-sheet-header h3 {
-  margin: 0;
-}
-
-.fill-card-sheet-header > p:last-child {
-  margin: 0.2rem 0 0;
-  color: var(--muted);
-  font-size: 0.84rem;
-}
-
-.card-content-kicker {
-  margin: 0 0 0.12rem;
-  color: var(--section-color);
-  font-size: 0.68rem;
-  font-weight: 850;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
 .guided-notes {
   display: grid;
   gap: 0;
