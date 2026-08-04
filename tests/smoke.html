@@ -119,13 +119,42 @@
               ).length === 14,
             "Section 3 card-type metadata does not match its approved ranges.",
           );
+          assert(
+            data.cards.filter(
+              (card) => card.sectionId === "pelvic-bones" && card.cardType === "bones",
+            ).length === 4 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "pelvic-bones" && card.cardType === "ligaments",
+              ).length === 2 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "pelvic-bones" && card.cardType === "muscles",
+              ).length === 7,
+            "Section 4 card-type metadata does not match its approved ranges.",
+          );
+          assert(
+            data.cards.filter(
+              (card) => card.sectionId === "upper-extremity" && card.cardType === "bones",
+            ).length === 13 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "upper-extremity" &&
+                  card.cardType === "ligaments",
+              ).length === 9 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "upper-extremity" && card.cardType === "muscles",
+              ).length === 51,
+            "Section 5 card-type metadata does not match its approved ranges.",
+          );
           const cardTypeFilter = documentRoot.getElementById("cardTypeFilter");
           cardTypeFilter.value = "muscles";
           cardTypeFilter.dispatchEvent(new Event("change", { bubbles: true }));
           assert(
-            documentRoot.getElementById("progressText").textContent === "1 of 59" &&
+            documentRoot.getElementById("progressText").textContent === "1 of 117" &&
               documentRoot.querySelector(".card-id").textContent.includes("1.17"),
-            "The Muscles filter should show cards 1.17 through 1.56.",
+            "The Muscles filter should include approved muscle cards through Section 5.",
           );
           cardTypeFilter.value = "all";
           cardTypeFilter.dispatchEvent(new Event("change", { bubbles: true }));

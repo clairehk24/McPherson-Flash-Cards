@@ -2,22 +2,22 @@
 window.MCPHERSON_CARD_DATA = {
   "schemaVersion": 2,
   "source": {
-    "filename": "Section 3 Question Manuscript.docx",
-    "sha256": "3f521381449698327e9dd4c6c2dc1a51d65580c73361d701a87a26106c855d63",
+    "filename": "Section 5 Question Manuscript.docx",
+    "sha256": "0816fc25eba4743a92da2a9acfe73a264a050c9db2c83fd8be8a722b3dad662a",
     "manuscriptSectionHeadings": [
       "Section 1: Head and neck",
       "Section 2: Lumbar Region",
       "Section 3: Thorax and Abdomen",
       "Section 4: Pelvic Bones",
-      "Section 5: Upper ?",
+      "Section 5: Upper Extremity",
       "Section 6:?"
     ],
     "merge": {
       "replacedSectionIds": [
-        "thorax-abdomen"
+        "upper-extremity"
       ],
-      "replacedCards": 23,
-      "preservedCards": 221
+      "replacedCards": 73,
+      "preservedCards": 171
     }
   },
   "sections": [
@@ -10866,6 +10866,8 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Pelvic Bones (Anterior)",
       "interaction": "drag-drop",
@@ -10880,9 +10882,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Pelvic Bones (Anterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image89.png"
+        "packageSource": "word/media/image1.png"
       },
-      "searchText": "4.1 pelvic bones pelvic bones (anterior) l1344_760099 a. sacrum b. sacroiliac joint c. iliac fossa d. iliac crest e. anterior superior iliac spine (asis) f. anterior inferior iliac spine (aiis) g. ischial spine h. ramus of ischium i. obturator foramen j. inferior pubic ramus k. superior pubic ramus l. pubic symphysis",
+      "searchText": "4.1 pelvic bones bones pelvic bones (anterior) l1344_760099 a. sacrum b. sacroiliac joint c. iliac fossa d. iliac crest e. anterior superior iliac spine (asis) f. anterior inferior iliac spine (aiis) g. ischial spine h. ramus of ischium i. obturator foramen j. inferior pubic ramus k. superior pubic ramus l. pubic symphysis",
       "labels": [
         {
           "id": "label-a",
@@ -10952,6 +10954,8 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Pelvic Bones (Medial)",
       "interaction": "drag-drop",
@@ -10966,9 +10970,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Pelvic Bones (Medial) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image90.png"
+        "packageSource": "word/media/image2.png"
       },
-      "searchText": "4.2 pelvic bones pelvic bones (medial) l1344_760100 a. iliac tuberosity b. posterior superior iliac spine c. posterior inferior iliac spine d. ischial spine e. body of ischium f. medial end of pubis g. pubic crest h. pubic tubercle i. superior ramus of pubis j. terminal line k. auricular surface",
+      "searchText": "4.2 pelvic bones bones pelvic bones (medial) l1344_760100 a. iliac tuberosity b. posterior superior iliac spine c. posterior inferior iliac spine d. ischial spine e. body of ischium f. medial end of pubis g. pubic crest h. pubic tubercle i. superior ramus of pubis j. terminal line k. auricular surface",
       "labels": [
         {
           "id": "label-a",
@@ -11033,6 +11037,8 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Pelvic Bones (Posterior View)",
       "interaction": "drag-drop",
@@ -11047,9 +11053,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Pelvic Bones (Posterior View) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image91.png"
+        "packageSource": "word/media/image3.png"
       },
-      "searchText": "4.3 pelvic bones pelvic bones (posterior view) l1344_760102 a. iliac crest b. posterior gluteal line c. greater sciatic notch d. ischial spine e. lesser sciatic notch f. ischial tuberosity g. inferior pubic ramus h. obturator foramen i. superior pubic ramus j. posterior inferior iliac spine k. posterior superior iliac spine l. iliac tuberosity",
+      "searchText": "4.3 pelvic bones bones pelvic bones (posterior view) l1344_760102 a. iliac crest b. posterior gluteal line c. greater sciatic notch d. ischial spine e. lesser sciatic notch f. ischial tuberosity g. inferior pubic ramus h. obturator foramen i. superior pubic ramus j. posterior inferior iliac spine k. posterior superior iliac spine l. iliac tuberosity",
       "labels": [
         {
           "id": "label-a",
@@ -11119,6 +11125,8 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Sacrum",
       "interaction": "drag-drop",
@@ -11133,9 +11141,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Sacrum anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image92.png"
+        "packageSource": "word/media/image4.png"
       },
-      "searchText": "4.4 pelvic bones sacrum l1344_760103 a. superior articular processes b. sacral promontory c. sacral foramina d. coccyx e. transverse lines",
+      "searchText": "4.4 pelvic bones bones sacrum l1344_760103 a. superior articular processes b. sacral promontory c. sacral foramina d. coccyx e. transverse lines",
       "labels": [
         {
           "id": "label-a",
@@ -11170,15 +11178,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Posterior Ligaments",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760104",
         "src": "Assets/Cards/L1344_760104.png",
@@ -11186,9 +11194,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Posterior Ligaments anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image93.png"
+        "packageSource": "word/media/image5.png"
       },
-      "searchText": "4.5 pelvic bones posterior ligaments l1344_760104 a. iliolumbar ligaments: restricts excessive side bending and rotation of the lumbar spine, anterior shear forces between l5 and the sacrum b. posterior sacroiliac ligament: restricts displacement of the ilium from the sacrum c. sacrospinous ligament: restricts excessive rotation of the pelvis and sacrum d. sacrotuberous ligament: restricts excessive anterior tipping of the sacrum",
+      "searchText": "4.5 pelvic bones ligaments posterior ligaments l1344_760104 a. iliolumbar ligaments: restricts excessive side bending and rotation of the lumbar spine, anterior shear forces between l5 and the sacrum b. posterior sacroiliac ligament: restricts displacement of the ilium from the sacrum c. sacrospinous ligament: restricts excessive rotation of the pelvis and sacrum d. sacrotuberous ligament: restricts excessive anterior tipping of the sacrum",
       "titleTemplate": [
         {
           "type": "text",
@@ -11199,29 +11207,138 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Iliolumbar ligaments: restricts excessive side bending and rotation of the lumbar spine, anterior shear forces between L5 and the sacrum"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligaments: restricts excessive side bending and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " of the lumbar spine, "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " shear forces between L5 and the sacrum"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Posterior sacroiliac ligament: restricts displacement of the ilium from the sacrum"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts displacement of the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " from the sacrum"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Sacrospinous ligament: restricts excessive rotation of the pelvis and sacrum"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-7"
+          },
+          {
+            "type": "text",
+            "text": " of the pelvis and sacrum"
           }
         ],
         [
           {
             "type": "text",
-            "text": "d. Sacrotuberous ligament: restricts excessive anterior tipping of the sacrum"
+            "text": "d. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-8"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-9"
+          },
+          {
+            "type": "text",
+            "text": " tipping of the sacrum"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Iliolumbar"
+        },
+        {
+          "id": "blank-2",
+          "answer": "rotation"
+        },
+        {
+          "id": "blank-3",
+          "answer": "anterior"
+        },
+        {
+          "id": "blank-4",
+          "answer": "Posterior sacroiliac"
+        },
+        {
+          "id": "blank-5",
+          "answer": "ilium"
+        },
+        {
+          "id": "blank-6",
+          "answer": "Sacrospinous"
+        },
+        {
+          "id": "blank-7",
+          "answer": "rotation"
+        },
+        {
+          "id": "blank-8",
+          "answer": "Sacrotuberous"
+        },
+        {
+          "id": "blank-9",
+          "answer": "anterior"
+        }
+      ]
     },
     {
       "id": "4.6",
@@ -11229,15 +11346,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Anterior Ligaments",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760105",
         "src": "Assets/Cards/L1344_760105.png",
@@ -11245,9 +11362,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Anterior Ligaments anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image94.png"
+        "packageSource": "word/media/image6.png"
       },
-      "searchText": "4.6 pelvic bones anterior ligaments l1344_760105 a. iliolumbar ligaments: restricts excessive side bending and rotation of the lumbar spine, anterior shear forces between l5 and the sacrum b. anterior sacroiliac ligament: minimal impact on pelvic stability, connects the anterior sacrum to the ilium c. anterior longitudinal ligament: restricts excessive extension, reinforces intervertebral discs d. sacrospinous ligament: restricts excessive rotation of the pelvis and sacrum e. sacrotuberous ligament: restricts excessive anterior tipping of the sacrum",
+      "searchText": "4.6 pelvic bones ligaments anterior ligaments l1344_760105 a. iliolumbar ligaments: restricts excessive side bending and rotation of the lumbar spine, anterior shear forces between l5 and the sacrum b. anterior sacroiliac ligament: minimal impact on pelvic stability, connects the anterior sacrum to the ilium c. anterior longitudinal ligament: restricts excessive extension, reinforces intervertebral discs d. sacrospinous ligament: restricts excessive rotation of the pelvis and sacrum e. sacrotuberous ligament: restricts excessive anterior tipping of the sacrum",
       "titleTemplate": [
         {
           "type": "text",
@@ -11258,35 +11375,152 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Iliolumbar ligaments: restricts excessive side bending and rotation of the lumbar spine, anterior shear forces between L5 and the sacrum"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligaments: restricts excessive side bending and rotation of the lumbar spine, anterior shear forces between L5 and the sacrum"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Anterior sacroiliac ligament: minimal impact on pelvic stability, connects the anterior sacrum to the ilium"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " ligament: minimal impact on pelvic stability, connects the anterior "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " to the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Anterior longitudinal ligament: restricts excessive extension, reinforces intervertebral discs"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
+          },
+          {
+            "type": "text",
+            "text": ", reinforces intervertebral discs"
           }
         ],
         [
           {
             "type": "text",
-            "text": "d. Sacrospinous ligament: restricts excessive rotation of the pelvis and sacrum"
+            "text": "d. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-7"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-8"
+          },
+          {
+            "type": "text",
+            "text": " of the pelvis and sacrum"
           }
         ],
         [
           {
             "type": "text",
-            "text": "e. Sacrotuberous ligament: restricts excessive anterior tipping of the sacrum"
+            "text": "e. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-9"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-10"
+          },
+          {
+            "type": "text",
+            "text": " tipping of the sacrum"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Iliolumbar"
+        },
+        {
+          "id": "blank-2",
+          "answer": "Anterior sacroiliac"
+        },
+        {
+          "id": "blank-3",
+          "answer": "sacrum"
+        },
+        {
+          "id": "blank-4",
+          "answer": "ilium"
+        },
+        {
+          "id": "blank-5",
+          "answer": "Anterior longitudinal"
+        },
+        {
+          "id": "blank-6",
+          "answer": "extension"
+        },
+        {
+          "id": "blank-7",
+          "answer": "Sacrospinous"
+        },
+        {
+          "id": "blank-8",
+          "answer": "rotation"
+        },
+        {
+          "id": "blank-9",
+          "answer": "Sacrotuberous"
+        },
+        {
+          "id": "blank-10",
+          "answer": "anterior"
+        }
+      ]
     },
     {
       "id": "4.7",
@@ -11294,15 +11528,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Levator ani (iliococcygeus, puborectalis, pubococcygeus)",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760106",
         "src": "Assets/Cards/L1344_760106.png",
@@ -11310,42 +11544,115 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Levator ani (iliococcygeus, puborectalis, pubococcygeus) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image95.png"
+        "packageSource": "word/media/image7.png"
       },
-      "searchText": "4.7 pelvic bones levator ani (iliococcygeus, puborectalis, pubococcygeus) l1344_760106 proximal insertion: pubis, ischium distal insertion: urethra, anal canal, perineal body, coccyx innervation: pudendal nerve action: compression of the anal canal, defecation, urination, birth, coughing",
-      "titleTemplate": [
+      "searchText": "4.7 pelvic bones muscles levator ani (iliococcygeus, puborectalis, pubococcygeus) l1344_760106 proximal insertion: *pubis *ischium anococcygeal ligament distal insertion: *urethra *anal canal *perineal body *coccyx innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *compression of the anal canal *defecation, urination, birth *coughing",
+      "groups": [
         {
-          "type": "text",
-          "text": "Levator ani (iliococcygeus, puborectalis, pubococcygeus)"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "pubis",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "ischium",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "anococcygeal ligament",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "urethra",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "anal canal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "perineal body",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "coccyx",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "pudendal nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "anterior rami of spinal nerves S4-S5",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "compression of the anal canal",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "defecation, urination, birth",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "coughing",
+              "correct": true
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: pubis, ischium"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: urethra, anal canal, perineal body, coccyx"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: pudendal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: compression of the anal canal, defecation, urination, birth, coughing"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        },
+        {
+          "type": "text",
+          "text": " (iliococcygeus, puborectalis, pubococcygeus)"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Levator ani"
+        }
+      ]
     },
     {
       "id": "4.8",
@@ -11353,15 +11660,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Superficial transverse perineal",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760107",
         "src": "Assets/Cards/L1344_760107.png",
@@ -11369,42 +11676,106 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Superficial transverse perineal anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image96.png"
+        "packageSource": "word/media/image8.png"
       },
-      "searchText": "4.8 pelvic bones superficial transverse perineal l1344_760107 proximal insertion: ischium distal insertion: perineal body innervation: pudendal nerve action: supports the perineal body, maintains the anus at the center of the perineum",
-      "titleTemplate": [
+      "searchText": "4.8 pelvic bones muscles superficial transverse perineal l1344_760107 proximal insertion: *ischium pubis anococcygeal ligament distal insertion: *perineal body pubic symphysis coccyx innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *supports the perineal body *maintains the anus at the center of the perineum compression of the anal canal",
+      "groups": [
         {
-          "type": "text",
-          "text": "Superficial transverse perineal"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischium",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "pubis",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "anococcygeal ligament",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "perineal body",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "pubic symphysis",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "coccyx",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "pudendal nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "anterior rami of spinal nerves S4-S5",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "supports the perineal body",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "maintains the anus at the center of the perineum",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "compression of the anal canal",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ischium"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: perineal body"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: pudendal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: supports the perineal body, maintains the anus at the center of the perineum"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Superficial transverse perineal"
+        }
+      ]
     },
     {
       "id": "4.9",
@@ -11412,15 +11783,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Bulbospongiosus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760108",
         "src": "Assets/Cards/L1344_760108.png",
@@ -11428,42 +11799,106 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Bulbospongiosus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image97.png"
+        "packageSource": "word/media/image9.png"
       },
-      "searchText": "4.9 pelvic bones bulbospongiosus l1344_760108 proximal insertion: perineal body distal insertion: perineal membrane, corpus spongiosum of the penis, deep fascia of the penis, clitoris in the female innervation: pudendal nerve action: compresses the urethra during urination or ejaculation, aids erection",
-      "titleTemplate": [
+      "searchText": "4.9 pelvic bones muscles bulbospongiosus l1344_760108 proximal insertion: *perineal body anococcygeal ligament ischial rami distal insertion: *perineal membrane *corpus spongiosum of the penis, deep fascia of the penis, clitoris in the female pubic symphysis innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *compresses the urethra during urination or ejaculation *aids erection stabilizes the coccyx",
+      "groups": [
         {
-          "type": "text",
-          "text": "Bulbospongiosus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "perineal body",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "anococcygeal ligament",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ischial rami",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "perineal membrane",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "corpus spongiosum of the penis, deep fascia of the penis, clitoris in the female",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "pubic symphysis",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "pudendal nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "anterior rami of spinal nerves S4-S5",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "compresses the urethra during urination or ejaculation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "aids erection",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "stabilizes the coccyx",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: perineal body"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: perineal membrane, corpus spongiosum of the penis, deep fascia of the penis, clitoris in the female"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: pudendal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: compresses the urethra during urination or ejaculation, aids erection"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Bulbospongiosus"
+        }
+      ]
     },
     {
       "id": "4.10",
@@ -11471,15 +11906,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Ischiocavernosus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760109",
         "src": "Assets/Cards/L1344_760109.png",
@@ -11487,42 +11922,106 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Ischiocavernosus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image98.png"
+        "packageSource": "word/media/image10.png"
       },
-      "searchText": "4.10 pelvic bones ischiocavernosus l1344_760109 proximal insertion: ischium, ischial rami, pubic rami distal insertion: pubic symphysis, corpus cavernosum of the penis in males, clitoris in females innervation: pudendal nerve action: compresses veins to maintain erection",
-      "titleTemplate": [
+      "searchText": "4.10 pelvic bones muscles ischiocavernosus l1344_760109 proximal insertion: *ischium *ischial rami *pubic rami distal insertion: *pubic symphysis *corpus cavernosum of the penis in males, clitoris in females perineal body innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *compresses veins to maintain erection supports the pelvic floor closes the anus",
+      "groups": [
         {
-          "type": "text",
-          "text": "Ischiocavernosus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischium",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "ischial rami",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "pubic rami",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "pubic symphysis",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "corpus cavernosum of the penis in males, clitoris in females",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "perineal body",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "pudendal nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "anterior rami of spinal nerves S4-S5",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "compresses veins to maintain erection",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "supports the pelvic floor",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "closes the anus",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ischium, ischial rami, pubic rami"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: pubic symphysis, corpus cavernosum of the penis in males, clitoris in females"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: pudendal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: compresses veins to maintain erection"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Ischiocavernosus"
+        }
+      ]
     },
     {
       "id": "4.11",
@@ -11530,15 +12029,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "External urethral sphincter",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760110",
         "src": "Assets/Cards/L1344_760110.png",
@@ -11546,42 +12045,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "External urethral sphincter anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image99.png"
+        "packageSource": "word/media/image11.png"
       },
-      "searchText": "4.11 pelvic bones external urethral sphincter l1344_760110 proximal insertion: ischial rami, pubic rami distal insertion: male—median raphe; female—vaginal wall innervation: pudendal nerve action: voluntarily compresses urethra during urination",
-      "titleTemplate": [
+      "searchText": "4.11 pelvic bones muscles external urethral sphincter l1344_760110 proximal insertion: *ischial rami *pubic rami pubic symphysis ischial spine distal insertion: *male—median raphe; female—vaginal wall perineal body coccyx innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *voluntarily compresses urethra during urination closes the anus stabilizes the coccyx",
+      "groups": [
         {
-          "type": "text",
-          "text": "External urethral sphincter"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischial rami",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "pubic rami",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "pubic symphysis",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "ischial spine",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "male—median raphe; female—vaginal wall",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "perineal body",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "coccyx",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "pudendal nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "anterior rami of spinal nerves S4-S5",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "voluntarily compresses urethra during urination",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "closes the anus",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "stabilizes the coccyx",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ischial rami, pubic rami"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: male—median raphe; female—vaginal wall"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: pudendal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: voluntarily compresses urethra during urination"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "External urethral sphincter"
+        }
+      ]
     },
     {
       "id": "4.12",
@@ -11589,15 +12157,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "External anal sphincter",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760111",
         "src": "Assets/Cards/L1344_760111.png",
@@ -11605,42 +12173,106 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "External anal sphincter anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image100.png"
+        "packageSource": "word/media/image12.png"
       },
-      "searchText": "4.12 pelvic bones external anal sphincter l1344_760111 proximal insertion: anococcygeal ligament distal insertion: perineal body innervation: pudendal nerve action: closes the anus",
-      "titleTemplate": [
+      "searchText": "4.12 pelvic bones muscles external anal sphincter l1344_760111 proximal insertion: *anococcygeal ligament pubic symphysis ischial spine distal insertion: *perineal body pubic symphysis coccyx innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *closes the anus voluntarily compresses urethra during urination stabilizes the coccyx",
+      "groups": [
         {
-          "type": "text",
-          "text": "External anal sphincter"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "anococcygeal ligament",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "pubic symphysis",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ischial spine",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "perineal body",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "pubic symphysis",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "coccyx",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "pudendal nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "anterior rami of spinal nerves S4-S5",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "closes the anus",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "voluntarily compresses urethra during urination",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "stabilizes the coccyx",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: anococcygeal ligament"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: perineal body"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: pudendal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: closes the anus"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "External anal sphincter"
+        }
+      ]
     },
     {
       "id": "4.13",
@@ -11648,15 +12280,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "pelvic-bones",
       "sectionName": "Pelvic Bones",
       "sectionColorClass": "section-4",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
       "manuscriptSectionHeading": "Section 4: Pelvic Bones",
       "title": "Coccygeus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760112",
         "src": "Assets/Cards/L1344_760112.png",
@@ -11664,42 +12296,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Coccygeus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image101.png"
+        "packageSource": "word/media/image13.png"
       },
-      "searchText": "4.13 pelvic bones coccygeus l1344_760112 proximal insertion: ischial spine distal insertion: anterior rami of spinal nerves s4-s5 innervation: s4 and s5 action: supports the pelvic floor and stabilizes the coccyx",
-      "titleTemplate": [
+      "searchText": "4.13 pelvic bones muscles coccygeus l1344_760112 proximal insertion: *ischial spine ischial rami pubic rami ischium distal insertion: *anterior rami of spinal nerves s4-s5 perineal body pubic symphysis coccyx innervation: *s4 and s5 pudendal nerve action: *supports the pelvic floor *stabilizes the coccyx closes the anus",
+      "groups": [
         {
-          "type": "text",
-          "text": "Coccygeus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischial spine",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "ischial rami",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "pubic rami",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "ischium",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "anterior rami of spinal nerves S4-S5",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "perineal body",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "pubic symphysis",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "coccyx",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "S4 and S5",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "pudendal nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "supports the pelvic floor",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "stabilizes the coccyx",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "closes the anus",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ischial spine"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: anterior rami of spinal nerves S4-S5"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: S4 and S5"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: supports the pelvic floor and stabilizes the coccyx"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Coccygeus"
+        }
+      ]
     },
     {
       "id": "5.1",
@@ -11707,7 +12413,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Humerus (Anterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -11721,9 +12429,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Humerus (Anterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image102.png"
+        "packageSource": "word/media/image1.png"
       },
-      "searchText": "5.1 upper extremity humerus (anterior) l1344_760114 a. head b. anatomical neck c. surgical neck d. medial supracondylar ridge e. coronoid fossa f. medial epicondyle g. trochlea h. capitulum i. lateral epicondyle j. radial fossa k. lateral supracondylar ridge l. deltoid tuberosity m. lesser tuberosity n. bicipital groove o. great tuberosity p. superior aspect of the anatomical neck",
+      "searchText": "5.1 upper extremity bones humerus (anterior) l1344_760114 a. head b. anatomical neck c. surgical neck d. medial supracondylar ridge e. coronoid fossa f. medial epicondyle g. trochlea h. capitulum i. lateral epicondyle j. radial fossa k. lateral supracondylar ridge l. deltoid tuberosity m. lesser tuberosity n. bicipital groove o. great tuberosity p. superior aspect of the anatomical neck",
       "labels": [
         {
           "id": "label-a",
@@ -11813,7 +12521,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Humerus (Posterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -11827,9 +12537,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Humerus (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image103.png"
+        "packageSource": "word/media/image2.png"
       },
-      "searchText": "5.2 upper extremity humerus (posterior) l1344_760115 a. greater tuberosity b. olecranon fossa c. medial epicondyle d. surgical neck e. anatomical neck f. head",
+      "searchText": "5.2 upper extremity bones humerus (posterior) l1344_760115 a. greater tuberosity b. olecranon fossa c. medial epicondyle d. surgical neck e. anatomical neck f. head",
       "labels": [
         {
           "id": "label-a",
@@ -11869,7 +12579,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Distal Humerus (Posterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -11883,9 +12595,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Distal Humerus (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image104.png"
+        "packageSource": "word/media/image3.png"
       },
-      "searchText": "5.3 upper extremity distal humerus (posterior) l1344_762040 a. olecranon fossa b. medial epicondyle",
+      "searchText": "5.3 upper extremity bones distal humerus (posterior) l1344_762040 a. olecranon fossa b. medial epicondyle",
       "labels": [
         {
           "id": "label-a",
@@ -11905,7 +12617,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Scapula (Anterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -11919,9 +12633,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Scapula (Anterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image105.png"
+        "packageSource": "word/media/image4.png"
       },
-      "searchText": "5.4 upper extremity scapula (anterior) l1344_760116 a. acromion process b. facet for clavicle c. coracoid process d. spine e. subscapular fossa f. inferior angle g. glenoid fossa",
+      "searchText": "5.4 upper extremity bones scapula (anterior) l1344_760116 a. acromion process b. facet for clavicle c. coracoid process d. spine e. subscapular fossa f. inferior angle g. glenoid fossa",
       "labels": [
         {
           "id": "label-a",
@@ -11966,7 +12680,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Scapula (Posterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -11980,9 +12696,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Scapula (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image106.png"
+        "packageSource": "word/media/image5.png"
       },
-      "searchText": "5.5 upper extremity scapula (posterior) l1344_760117 a. supraspinous fossa b. spine c. infraspinous fossa",
+      "searchText": "5.5 upper extremity bones scapula (posterior) l1344_760117 a. supraspinous fossa b. spine c. infraspinous fossa",
       "labels": [
         {
           "id": "label-a",
@@ -12007,7 +12723,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Scapula (Lateral)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -12021,9 +12739,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Scapula (Lateral) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image107.png"
+        "packageSource": "word/media/image6.png"
       },
-      "searchText": "5.6 upper extremity scapula (lateral) l1344_760118 a. acromion process b. supraspinous fossa c. coracoid process d. glenoid fossa",
+      "searchText": "5.6 upper extremity bones scapula (lateral) l1344_760118 a. acromion process b. supraspinous fossa c. coracoid process d. glenoid fossa",
       "labels": [
         {
           "id": "label-a",
@@ -12053,7 +12771,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Clavicle (Superior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -12067,9 +12787,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Clavicle (Superior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image108.png"
+        "packageSource": "word/media/image7.png"
       },
-      "searchText": "5.7 upper extremity clavicle (superior) l1344_760119 a. acromial (lateral) end b. sternal (medial) end c. acromial facet d. shaft e. sternal facet",
+      "searchText": "5.7 upper extremity bones clavicle (superior) l1344_760119 a. acromial (lateral) end b. sternal (medial) end c. acromial facet d. shaft e. sternal facet",
       "labels": [
         {
           "id": "label-a",
@@ -12104,7 +12824,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Clavicle (Inferior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -12118,9 +12840,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Clavicle (Inferior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image109.png"
+        "packageSource": "word/media/image8.png"
       },
-      "searchText": "5.8 upper extremity clavicle (inferior) l1344_760120 a. acromial (lateral) end b. trapezoid line c. shaft d. sternal (medial) end e. conoid tubercle f. subclavian groove g. costal tuberosity",
+      "searchText": "5.8 upper extremity bones clavicle (inferior) l1344_760120 a. acromial (lateral) end b. trapezoid line c. shaft d. sternal (medial) end e. conoid tubercle f. subclavian groove g. costal tuberosity",
       "labels": [
         {
           "id": "label-a",
@@ -12165,7 +12887,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Radius and Ulna (Anterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -12179,9 +12903,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Radius and Ulna (Anterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image110.png"
+        "packageSource": "word/media/image9.png"
       },
-      "searchText": "5.9 upper extremity radius and ulna (anterior) l1344_760121 a. trochlear notch b. coronoid process c. interosseous border of the ulna d. head of the ulna e. styloid process of the ulna f. styloid process of the radius g. interosseous border of the radius h. radial tuberosity i. neck of the radius j. head of the radius k. olecranon",
+      "searchText": "5.9 upper extremity bones radius and ulna (anterior) l1344_760121 a. trochlear notch b. coronoid process c. interosseous border of the ulna d. head of the ulna e. styloid process of the ulna f. styloid process of the radius g. interosseous border of the radius h. radial tuberosity i. neck of the radius j. head of the radius k. olecranon",
       "labels": [
         {
           "id": "label-a",
@@ -12246,7 +12970,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Radius and Ulna (Posterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -12260,9 +12986,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Radius and Ulna (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image111.png"
+        "packageSource": "word/media/image10.png"
       },
-      "searchText": "5.10 upper extremity radius and ulna (posterior) l1344_760122 a. olecranon b. head of the radius c. neck of the radius d. styloid process of radius e. styloid process of the ulna f. head of the ulna g. interosseous border of the ulna h. interosseous border of the radius",
+      "searchText": "5.10 upper extremity bones radius and ulna (posterior) l1344_760122 a. olecranon b. head of the radius c. neck of the radius d. styloid process of radius e. styloid process of the ulna f. head of the ulna g. interosseous border of the ulna h. interosseous border of the radius",
       "labels": [
         {
           "id": "label-a",
@@ -12312,7 +13038,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Proximal End of the Ulna",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -12326,9 +13054,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Proximal End of the Ulna anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image112.png"
+        "packageSource": "word/media/image11.png"
       },
-      "searchText": "5.11 upper extremity proximal end of the ulna l1344_760123 a. coronoid process b. radial notch c. olecranon d. trochlear notch",
+      "searchText": "5.11 upper extremity bones proximal end of the ulna l1344_760123 a. coronoid process b. radial notch c. olecranon d. trochlear notch",
       "labels": [
         {
           "id": "label-a",
@@ -12358,7 +13086,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Wrist and Hand (Volar)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -12372,9 +13102,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Wrist and Hand (Volar) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image113.png"
+        "packageSource": "word/media/image12.png"
       },
-      "searchText": "5.12 upper extremity wrist and hand (volar) l1344_760124 a. metacarpophalangeal joint b. metacarpals (5) c. carpometacarpal (cmc) joint d. carpals e. trapezoid f. trapezium g. capitate h. scaphoid (navicular) i. radius j. ulna k. lunate l. pisiform m. triquetrum n. hamate o. phalanges p. proximal phalange q. middle phalange r. distal phalange s. interphalangeal joints",
+      "searchText": "5.12 upper extremity bones wrist and hand (volar) l1344_760124 a. metacarpophalangeal joint b. metacarpals (5) c. carpometacarpal (cmc) joint d. carpals e. trapezoid f. trapezium g. capitate h. scaphoid (navicular) i. radius j. ulna k. lunate l. pisiform m. triquetrum n. hamate o. phalanges p. proximal phalange q. middle phalange r. distal phalange s. interphalangeal joints",
       "labels": [
         {
           "id": "label-a",
@@ -12479,7 +13209,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Metacarpals (Dorsal)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -12493,9 +13225,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Metacarpals (Dorsal) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image114.png"
+        "packageSource": "word/media/image13.png"
       },
-      "searchText": "5.13 upper extremity metacarpals (dorsal) l1344_760125 a. ulna b. triquetrum c. pisiform d. hamate e. capitate f. metacarpals g. trapezoid h. trapezium i. scaphoid j. lunate k. radius",
+      "searchText": "5.13 upper extremity bones metacarpals (dorsal) l1344_760125 a. ulna b. triquetrum c. pisiform d. hamate e. capitate f. metacarpals g. trapezoid h. trapezium i. scaphoid j. lunate k. radius",
       "labels": [
         {
           "id": "label-a",
@@ -12560,15 +13292,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Sternoclavicular Joint",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760126",
         "src": "Assets/Cards/L1344_760126.png",
@@ -12576,9 +13308,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Sternoclavicular Joint anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image115.png"
+        "packageSource": "word/media/image14.png"
       },
-      "searchText": "5.14 upper extremity sternoclavicular joint l1344_760126 a. anterior sternoclavicular ligamen: restricts anterior displacement of the clavicle b. interclavicular ligament: stabilizes sternoclavicular joint c. costoclavicular ligament: stabilizes sternoclavicular joint",
+      "searchText": "5.14 upper extremity ligaments sternoclavicular joint l1344_760126 a. anterior sternoclavicular ligament: restricts anterior displacement of the clavicle b. interclavicular ligament: stabilizes sternoclavicular joint c. costoclavicular ligament: stabilizes sternoclavicular joint",
       "titleTemplate": [
         {
           "type": "text",
@@ -12589,23 +13321,96 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Anterior sternoclavicular ligamen: restricts anterior displacement of the clavicle"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " displacement of the clavicle"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Interclavicular ligament: stabilizes sternoclavicular joint"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ligament: stabilizes "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " joint"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Costoclavicular ligament: stabilizes sternoclavicular joint"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " ligament: stabilizes "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
+          },
+          {
+            "type": "text",
+            "text": " joint"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Anterior sternoclavicular"
+        },
+        {
+          "id": "blank-2",
+          "answer": "anterior"
+        },
+        {
+          "id": "blank-3",
+          "answer": "Interclavicular"
+        },
+        {
+          "id": "blank-4",
+          "answer": "sternoclavicular"
+        },
+        {
+          "id": "blank-5",
+          "answer": "Costoclavicular"
+        },
+        {
+          "id": "blank-6",
+          "answer": "sternoclavicular"
+        }
+      ]
     },
     {
       "id": "5.15",
@@ -12613,15 +13418,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Acromioclavicular Joint",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760127",
         "src": "Assets/Cards/L1344_760127.png",
@@ -12629,9 +13434,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Acromioclavicular Joint anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image116.png"
+        "packageSource": "word/media/image15.png"
       },
-      "searchText": "5.15 upper extremity acromioclavicular joint l1344_760127 a. coracoclavicular ligament (conoid and trapezoid ligaments): restricts superior dislocation of the acromioclavicular (ac) joint, rotation of the scapula b. acromioclavicular ligament: restricts anterior-posterior translation and posterior axial rotation, reinforces joint capsule",
+      "searchText": "5.15 upper extremity ligaments acromioclavicular joint l1344_760127 a. coracoclavicular ligament (conoid and trapezoid ligaments): restricts superior dislocation of the acromioclavicular (ac) joint, rotation of the scapula b. acromioclavicular ligament: restricts anterior-posterior translation and posterior axial rotation, reinforces joint capsule",
       "titleTemplate": [
         {
           "type": "text",
@@ -12642,17 +13447,78 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Coracoclavicular ligament (conoid and trapezoid ligaments): restricts superior dislocation of the acromioclavicular (AC) joint, rotation of the scapula"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament (conoid and trapezoid ligaments): restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " dislocation of the acromioclavicular (AC) joint, "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " of the scapula"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Acromioclavicular ligament: restricts anterior-posterior translation and posterior axial rotation, reinforces joint capsule"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts anterior-posterior translation and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " axial rotation, reinforces joint capsule"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Coracoclavicular"
+        },
+        {
+          "id": "blank-2",
+          "answer": "superior"
+        },
+        {
+          "id": "blank-3",
+          "answer": "rotation"
+        },
+        {
+          "id": "blank-4",
+          "answer": "Acromioclavicular"
+        },
+        {
+          "id": "blank-5",
+          "answer": "posterior"
+        }
+      ]
     },
     {
       "id": "5.16",
@@ -12660,15 +13526,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Glenohumeral Ligaments",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760128",
         "src": "Assets/Cards/L1344_760128.png",
@@ -12676,9 +13542,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Glenohumeral Ligaments anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image117.png"
+        "packageSource": "word/media/image16.png"
       },
-      "searchText": "5.16 upper extremity glenohumeral ligaments l1344_760128 a. coracoacromial ligament: restricts superior displacement of the humeral head b. coracohumeral ligament: restricts excessive external rotation and inferior translation of the humerus c. glenohumeral ligaments (superior, middle, inferior): restricts − superior: external rotation and inferior translation of the humeral head − middle: external rotation and anterior translation of the humeral head − inferior (anterior): external rotation and superior and anterior translation of the humeral head − inferior (posterior): internal rotation and anterior translation d. transverse humeral ligament: restricts the exit of the long head of the biceps from the bicipital groove",
+      "searchText": "5.16 upper extremity ligaments glenohumeral ligaments l1344_760128 a. coracoacromial ligament: restricts superior displacement of the humeral head b. coracohumeral ligament: restricts excessive external rotation and inferior translation of the humerus c. glenohumeral ligaments (superior, middle, inferior): restricts − superior: external rotation and inferior translation of the humeral head − middle: external rotation and anterior translation of the humeral head − inferior (anterior): external rotation and superior and anterior translation of the humeral head − inferior (posterior): internal rotation and anterior translation d. transverse humeral ligament: restricts the exit of the long head of the biceps from the bicipital groove",
       "titleTemplate": [
         {
           "type": "text",
@@ -12689,29 +13555,218 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Coracoacromial ligament: restricts superior displacement of the humeral head"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " displacement of the humeral head"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Coracohumeral ligament: restricts excessive external rotation and inferior translation of the humerus"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " rotation and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " translation of the humerus"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Glenohumeral ligaments (superior, middle, inferior): Restricts − Superior: external rotation and inferior translation of the humeral head − Middle: external rotation and anterior translation of the humeral head − Inferior (anterior): external rotation and superior and anterior translation of the humeral head − Inferior (posterior): internal rotation and anterior translation"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
+          },
+          {
+            "type": "text",
+            "text": " ligaments (superior, middle, inferior): Restricts − Superior: "
+          },
+          {
+            "type": "blank",
+            "id": "blank-7"
+          },
+          {
+            "type": "text",
+            "text": " rotation and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-8"
+          },
+          {
+            "type": "text",
+            "text": " translation of the humeral head − Middle: "
+          },
+          {
+            "type": "blank",
+            "id": "blank-9"
+          },
+          {
+            "type": "text",
+            "text": " rotation and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-10"
+          },
+          {
+            "type": "text",
+            "text": " translation of the humeral head − Inferior (anterior): "
+          },
+          {
+            "type": "blank",
+            "id": "blank-11"
+          },
+          {
+            "type": "text",
+            "text": " rotation and superior and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-12"
+          },
+          {
+            "type": "text",
+            "text": " translation of the humeral head − Inferior (posterior): "
+          },
+          {
+            "type": "blank",
+            "id": "blank-13"
+          },
+          {
+            "type": "text",
+            "text": " rotation and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-14"
+          },
+          {
+            "type": "text",
+            "text": " translation"
           }
         ],
         [
           {
             "type": "text",
-            "text": "d. Transverse humeral ligament: restricts the exit of the long head of the biceps from the bicipital groove"
+            "text": "d. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-15"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts the exit of the long head of the biceps from the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-16"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Coracoacromial"
+        },
+        {
+          "id": "blank-2",
+          "answer": "superior"
+        },
+        {
+          "id": "blank-3",
+          "answer": "Coracohumeral"
+        },
+        {
+          "id": "blank-4",
+          "answer": "external"
+        },
+        {
+          "id": "blank-5",
+          "answer": "inferior"
+        },
+        {
+          "id": "blank-6",
+          "answer": "Glenohumeral"
+        },
+        {
+          "id": "blank-7",
+          "answer": "external"
+        },
+        {
+          "id": "blank-8",
+          "answer": "inferior"
+        },
+        {
+          "id": "blank-9",
+          "answer": "external"
+        },
+        {
+          "id": "blank-10",
+          "answer": "anterior"
+        },
+        {
+          "id": "blank-11",
+          "answer": "external"
+        },
+        {
+          "id": "blank-12",
+          "answer": "anterior"
+        },
+        {
+          "id": "blank-13",
+          "answer": "internal"
+        },
+        {
+          "id": "blank-14",
+          "answer": "anterior"
+        },
+        {
+          "id": "blank-15",
+          "answer": "Transverse humeral"
+        },
+        {
+          "id": "blank-16",
+          "answer": "bicipital groove"
+        }
+      ]
     },
     {
       "id": "5.17",
@@ -12719,15 +13774,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Glenohumeral Ligaments (Lateral)",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "drag-drop",
+      "interactionLabel": "Drag and Drop",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760129",
         "src": "Assets/Cards/L1344_760129.png",
@@ -12735,72 +13790,56 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Glenohumeral Ligaments (Lateral) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image118.png"
+        "packageSource": "word/media/image17.png"
       },
-      "searchText": "5.17 upper extremity glenohumeral ligaments (lateral) l1344_760129 a. long head of the biceps b. superior glenohumeral ligament c. middle glenohumeral ligament d. subscapularis tendon e. inferior glenohumeral ligament complex f. labrum g. teres minor tendon h. infraspinatus tendon i. supraspinatus tendon",
-      "titleTemplate": [
+      "searchText": "5.17 upper extremity ligaments glenohumeral ligaments (lateral) l1344_760129 a. long head of the biceps b. superior glenohumeral ligament c. middle glenohumeral ligament d. subscapularis tendon e. inferior glenohumeral ligament complex f. labrum g. teres minor tendon h. infraspinatus tendon i. supraspinatus tendon",
+      "labels": [
         {
-          "type": "text",
-          "text": "Glenohumeral Ligaments (Lateral)"
+          "id": "label-a",
+          "target": "a",
+          "answer": "Long head of the biceps"
+        },
+        {
+          "id": "label-b",
+          "target": "b",
+          "answer": "Superior glenohumeral ligament"
+        },
+        {
+          "id": "label-c",
+          "target": "c",
+          "answer": "Middle glenohumeral ligament"
+        },
+        {
+          "id": "label-d",
+          "target": "d",
+          "answer": "Subscapularis tendon"
+        },
+        {
+          "id": "label-e",
+          "target": "e",
+          "answer": "Inferior glenohumeral ligament complex"
+        },
+        {
+          "id": "label-f",
+          "target": "f",
+          "answer": "Labrum"
+        },
+        {
+          "id": "label-g",
+          "target": "g",
+          "answer": "Teres minor tendon"
+        },
+        {
+          "id": "label-h",
+          "target": "h",
+          "answer": "Infraspinatus tendon"
+        },
+        {
+          "id": "label-i",
+          "target": "i",
+          "answer": "Supraspinatus tendon"
         }
-      ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "a. Long head of the biceps"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "b. Superior glenohumeral ligament"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "c. Middle glenohumeral ligament"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "d. Subscapularis tendon"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "e. Inferior glenohumeral ligament complex"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "f. Labrum"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "g. Teres minor tendon"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "h. Infraspinatus tendon"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "i. Supraspinatus tendon"
-          }
-        ]
-      ],
-      "blanks": []
+      ]
     },
     {
       "id": "5.18",
@@ -12808,15 +13847,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Radioulnar Joint (Lateral)",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760130",
         "src": "Assets/Cards/L1344_760130.png",
@@ -12824,9 +13863,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Radioulnar Joint (Lateral) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image119.png"
+        "packageSource": "word/media/image18.png"
       },
-      "searchText": "5.18 upper extremity radioulnar joint (lateral) l1344_760130 a. radial collateral ligament (lateral collateral ligament): restricts excess varus stress b. annular ligament of the radius: stabilizes radial head to the ulna in the radial notch",
+      "searchText": "5.18 upper extremity ligaments radioulnar joint (lateral) l1344_760130 a. radial collateral ligament (lateral collateral ligament): restricts excess varus stress b. annular ligament of the radius: stabilizes radial head to the ulna in the radial notch",
       "titleTemplate": [
         {
           "type": "text",
@@ -12837,17 +13876,86 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Radial collateral ligament (lateral collateral ligament): restricts excess varus stress"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament ("
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " collateral ligament): restricts excess "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " stress"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Annular ligament of the radius: stabilizes radial head to the ulna in the radial notch"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " of the radius: stabilizes "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " head to the ulna in the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Radial collateral"
+        },
+        {
+          "id": "blank-2",
+          "answer": "lateral"
+        },
+        {
+          "id": "blank-3",
+          "answer": "varus"
+        },
+        {
+          "id": "blank-4",
+          "answer": "Annular ligament"
+        },
+        {
+          "id": "blank-5",
+          "answer": "radial"
+        },
+        {
+          "id": "blank-6",
+          "answer": "radial notch"
+        }
+      ]
     },
     {
       "id": "5.19",
@@ -12855,15 +13963,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Radioulnar Joint (Medial)",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760131",
         "src": "Assets/Cards/L1344_760131.png",
@@ -12871,9 +13979,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Radioulnar Joint (Medial) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image120.png"
+        "packageSource": "word/media/image19.png"
       },
-      "searchText": "5.19 upper extremity radioulnar joint (medial) l1344_760131 a. annular ligament of the radius: stabilizes radial head to the ulna in the radial notch b. ulnar collateral ligament (medial collateral ligament): restricts excess valgus stress",
+      "searchText": "5.19 upper extremity ligaments radioulnar joint (medial) l1344_760131 a. annular ligament of the radius: stabilizes radial head to the ulna in the radial notch b. ulnar collateral ligament (medial collateral ligament): restricts excess valgus stress",
       "titleTemplate": [
         {
           "type": "text",
@@ -12884,17 +13992,78 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Annular ligament of the radius: stabilizes radial head to the ulna in the radial notch"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " of the radius: stabilizes radial head to the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " in the radial notch"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Ulnar collateral ligament (medial collateral ligament): restricts excess valgus stress"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ligament ("
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " collateral ligament): restricts excess "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " stress"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Annular ligament"
+        },
+        {
+          "id": "blank-2",
+          "answer": "ulna"
+        },
+        {
+          "id": "blank-3",
+          "answer": "Ulnar collateral"
+        },
+        {
+          "id": "blank-4",
+          "answer": "medial"
+        },
+        {
+          "id": "blank-5",
+          "answer": "valgus"
+        }
+      ]
     },
     {
       "id": "5.20",
@@ -12902,15 +14071,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Radiocarpal and Intercarpal Ligaments",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760132",
         "src": "Assets/Cards/L1344_760132.png",
@@ -12918,9 +14087,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Radiocarpal and Intercarpal Ligaments anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image121.png"
+        "packageSource": "word/media/image20.png"
       },
-      "searchText": "5.20 upper extremity radiocarpal and intercarpal ligaments l1344_760132 a. dorsal radiocarpal ligament: restricts wrist flexion b. palmar and dorsal carpometacarpal ligaments: stabilize cmc joints c. palmar ulnocarpal ligament: stabilizes ulnocarpal joint, prevents displacement of the head of the ulna",
+      "searchText": "5.20 upper extremity ligaments radiocarpal and intercarpal ligaments l1344_760132 a. dorsal radiocarpal ligament: restricts wrist flexion b. palmar and dorsal carpometacarpal ligaments: stabilize cmc joints c. palmar ulnocarpal ligament: stabilizes ulnocarpal joint, prevents displacement of the head of the ulna",
       "titleTemplate": [
         {
           "type": "text",
@@ -12931,23 +14100,88 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Dorsal radiocarpal ligament: restricts wrist flexion"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts wrist "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Palmar and dorsal carpometacarpal ligaments: stabilize CMC joints"
+            "text": "b. Palmar and dorsal "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ligaments: stabilize CMC joints"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Palmar ulnocarpal ligament: stabilizes ulnocarpal joint, prevents displacement of the head of the ulna"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " ligament: stabilizes "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " joint, prevents displacement of the head of the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Dorsal radiocarpal"
+        },
+        {
+          "id": "blank-2",
+          "answer": "flexion"
+        },
+        {
+          "id": "blank-3",
+          "answer": "carpometacarpal"
+        },
+        {
+          "id": "blank-4",
+          "answer": "Palmar ulnocarpal"
+        },
+        {
+          "id": "blank-5",
+          "answer": "ulnocarpal"
+        },
+        {
+          "id": "blank-6",
+          "answer": "ulna"
+        }
+      ]
     },
     {
       "id": "5.21",
@@ -12955,15 +14189,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Radiocarpal and Intercarpal Ligaments",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760133",
         "src": "Assets/Cards/L1344_760133.png",
@@ -12971,9 +14205,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Radiocarpal and Intercarpal Ligaments anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image122.png"
+        "packageSource": "word/media/image21.png"
       },
-      "searchText": "5.21 upper extremity radiocarpal and intercarpal ligaments l1344_760133 a. volar (palmar) radiocarpal ligament: restricts wrist extension b. radial collateral ligament: restricts adduction of the wrist/ulnar deviation c. ulnar collateral ligament of the wrist: restricts wrist abduction/radial deviation d. intercarpal ligaments (dorsal, palmar, interosseous): restricts separation of the carpal bones e. collateral ligaments of the metacarpophalangeal (mcp) and interphalangeal (ip) joints: restricts sideways movement of the joint",
+      "searchText": "5.21 upper extremity ligaments radiocarpal and intercarpal ligaments l1344_760133 a. volar (palmar) radiocarpal ligament: restricts wrist extension b. radial collateral ligament: restricts adduction of the wrist/ulnar deviation c. ulnar collateral ligament of the wrist: restricts wrist abduction/radial deviation d. intercarpal ligaments (dorsal, palmar, interosseous): restricts separation of the carpal bones e. collateral ligaments of the metacarpophalangeal (mcp) and interphalangeal (ip) joints: restricts sideways movement of the joint",
       "titleTemplate": [
         {
           "type": "text",
@@ -12984,35 +14218,176 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Volar (palmar) radiocarpal ligament: restricts wrist extension"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " (palmar) "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts wrist "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Radial collateral ligament: restricts adduction of the wrist/ulnar deviation"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " of the wrist/"
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
+          },
+          {
+            "type": "text",
+            "text": " deviation"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Ulnar collateral ligament of the wrist: restricts wrist abduction/radial deviation"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-7"
+          },
+          {
+            "type": "text",
+            "text": " ligament of the wrist: restricts wrist "
+          },
+          {
+            "type": "blank",
+            "id": "blank-8"
+          },
+          {
+            "type": "text",
+            "text": "/"
+          },
+          {
+            "type": "blank",
+            "id": "blank-9"
+          },
+          {
+            "type": "text",
+            "text": " deviation"
           }
         ],
         [
           {
             "type": "text",
-            "text": "d. Intercarpal ligaments (dorsal, palmar, interosseous): restricts separation of the carpal bones"
+            "text": "d. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-10"
+          },
+          {
+            "type": "text",
+            "text": " ligaments (dorsal, palmar, interosseous): restricts separation of the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-11"
+          },
+          {
+            "type": "text",
+            "text": " bones"
           }
         ],
         [
           {
             "type": "text",
-            "text": "e. Collateral ligaments of the metacarpophalangeal (MCP) and interphalangeal (IP) joints: restricts sideways movement of the joint"
+            "text": "e. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-12"
+          },
+          {
+            "type": "text",
+            "text": " ligaments of the metacarpophalangeal (MCP) and interphalangeal (IP) joints: restricts sideways movement of the joint"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Volar"
+        },
+        {
+          "id": "blank-2",
+          "answer": "radiocarpal"
+        },
+        {
+          "id": "blank-3",
+          "answer": "extension"
+        },
+        {
+          "id": "blank-4",
+          "answer": "Radial collateral"
+        },
+        {
+          "id": "blank-5",
+          "answer": "adduction"
+        },
+        {
+          "id": "blank-6",
+          "answer": "ulnar"
+        },
+        {
+          "id": "blank-7",
+          "answer": "Ulnar collateral"
+        },
+        {
+          "id": "blank-8",
+          "answer": "abduction"
+        },
+        {
+          "id": "blank-9",
+          "answer": "radial"
+        },
+        {
+          "id": "blank-10",
+          "answer": "Intercarpal"
+        },
+        {
+          "id": "blank-11",
+          "answer": "carpal"
+        },
+        {
+          "id": "blank-12",
+          "answer": "Collateral"
+        }
+      ]
     },
     {
       "id": "5.22",
@@ -13020,15 +14395,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Upper extremity: Palmar ligaments",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_762048",
         "src": "Assets/Cards/L1344_762048.png",
@@ -13036,9 +14411,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Upper extremity: Palmar ligaments anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image123.png"
+        "packageSource": "word/media/image22.png"
       },
-      "searchText": "5.22 upper extremity upper extremity: palmar ligaments l1344_762048 a. palmar ligaments (volar plates): restricts hyperextension b. transverse carpal ligament (flexor retinaculum): the roof of the carpal tunnel",
+      "searchText": "5.22 upper extremity ligaments upper extremity: palmar ligaments l1344_762048 a. palmar ligaments (volar plates): restricts hyperextension b. transverse carpal ligament (flexor retinaculum): the roof of the carpal tunnel",
       "titleTemplate": [
         {
           "type": "text",
@@ -13049,17 +14424,62 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Palmar ligaments (volar plates): restricts hyperextension"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligaments (volar plates): restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Transverse carpal ligament (flexor retinaculum): the roof of the carpal tunnel"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ligament ("
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": "): the roof of the carpal tunnel"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Palmar"
+        },
+        {
+          "id": "blank-2",
+          "answer": "hyperextension"
+        },
+        {
+          "id": "blank-3",
+          "answer": "Transverse carpal"
+        },
+        {
+          "id": "blank-4",
+          "answer": "flexor retinaculum"
+        }
+      ]
     },
     {
       "id": "5.23",
@@ -13067,14 +14487,16 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Pectoralis major",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
       "ready": false,
       "draftReasonCodes": [
-        "fill_card_has_no_highlights"
+        "select_group_has_no_correct_answer"
       ],
       "image": {
         "sourceFile": "L1344_760134",
@@ -13083,78 +14505,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Pectoralis major anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image124.png"
+        "packageSource": "word/media/image23.png"
       },
-      "searchText": "5.23 upper extremity pectoralis major l1344_760134 proximal insertion: clavicular head: anterior surface of the medial half of the clavicle sternal head: sternum and costal cartilages of ribs 1-6 distal insertion: clavicular head: lateral lip of the bicipital groove of the humerus sternal head: lateral lip of the bicipital groove of the humerus innervation: clavicular head: lateral pectoral nerve sternal head: medial pectoral nerve action: adduction, internal rotation, transverse adduction at the glenohumeral joint",
-      "titleTemplate": [
+      "searchText": "5.23 upper extremity muscles pectoralis major l1344_760134 proximal insertion: *anterior surface of the medial half of the clavicle sternum and costal cartilages of ribs 1-6 anterior ends of ribs three to five superior surface of the costal end of the first rib distal insertion: lateral lip of the bicipital groove of the humerus lateral lip of the bicipital groove of the humerus coracoid process of the scapula medial surface of the humeral shaft innervation: lateral pectoral nerve medial pectoral nerve subclavian (c5-c6) nerve musculocutaneous nerve action: *adduction at the glenohumeral joint abduction at the glenohumeral joint *internal rotation at the glenohumeral joint transverse adduction at the glenohumeral joint",
+      "groups": [
         {
-          "type": "text",
-          "text": "Pectoralis major"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "anterior surface of the medial half of the clavicle",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "sternum and costal cartilages of ribs 1-6",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "anterior ends of ribs three to five",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "superior surface of the costal end of the first rib",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "lateral lip of the bicipital groove of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lateral lip of the bicipital groove of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "coracoid process of the scapula",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "medial surface of the humeral shaft",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "lateral pectoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "medial pectoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "subclavian (C5-C6) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "adduction at the glenohumeral joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "abduction at the glenohumeral joint",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "internal rotation at the glenohumeral joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "transverse adduction at the glenohumeral joint",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion:"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Clavicular head: anterior surface of the medial half of the clavicle"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Sternal head: sternum and costal cartilages of ribs 1-6"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion:"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Clavicular head: lateral lip of the bicipital groove of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Sternal head: lateral lip of the bicipital groove of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation:"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Clavicular head: lateral pectoral nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Sternal head: medial pectoral nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: adduction, internal rotation, transverse adduction at the glenohumeral joint"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Pectoralis major"
+        }
+      ]
     },
     {
       "id": "5.24",
@@ -13162,15 +14637,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Pectoralis minor",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760135",
         "src": "Assets/Cards/L1344_760135.png",
@@ -13178,42 +14653,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Pectoralis minor anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image125.png"
+        "packageSource": "word/media/image24.png"
       },
-      "searchText": "5.24 upper extremity pectoralis minor l1344_760135 proximal insertion: anterior ends of ribs three to five distal insertion: coracoid process of the scapula innervation: medial and lateral pectoral nerves action: protracts and downwardly rotates the shoulder",
-      "titleTemplate": [
+      "searchText": "5.24 upper extremity muscles pectoralis minor l1344_760135 proximal insertion: *anterior ends of ribs three to five anterior surface of the medial half of the clavicle sternum and costal cartilages of ribs 1-6 distal insertion: *coracoid process of the scapula inferior surface of the middle one third of the clavicle medial surface of the humeral shaft innervation: *medial pectoral nerves *lateral pectoral nerves subclavian (c5-c6) nerve musculocutaneous nerve action: *protracts and downwardly rotates the shoulder protracts and upwardly rotates the shoulder retracts and downwardly rotates the shoulder",
+      "groups": [
         {
-          "type": "text",
-          "text": "Pectoralis minor"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "anterior ends of ribs three to five",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "anterior surface of the medial half of the clavicle",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "sternum and costal cartilages of ribs 1-6",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "coracoid process of the scapula",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "inferior surface of the middle one third of the clavicle",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "medial surface of the humeral shaft",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "medial pectoral nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "lateral pectoral nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "subclavian (C5-C6) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "protracts and downwardly rotates the shoulder",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "protracts and upwardly rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "retracts and downwardly rotates the shoulder",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: anterior ends of ribs three to five"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: coracoid process of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: medial and lateral pectoral nerves"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: protracts and downwardly rotates the shoulder"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Pectoralis minor"
+        }
+      ]
     },
     {
       "id": "5.25",
@@ -13221,15 +14770,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Subclavius",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760136",
         "src": "Assets/Cards/L1344_760136.png",
@@ -13237,42 +14786,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Subclavius anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image126.png"
+        "packageSource": "word/media/image25.png"
       },
-      "searchText": "5.25 upper extremity subclavius l1344_760136 proximal insertion: superior surface of the costal end of the first rib distal insertion: inferior surface of the middle one third of the clavicle innervation: subclavian (c5-c6) nerve action: stabilizes the clavicle",
-      "titleTemplate": [
+      "searchText": "5.25 upper extremity muscles subclavius l1344_760136 proximal insertion: *superior surface of the costal end of the first rib coracoid process of the scapula anterior surface of the manubrium of the sternum distal insertion: *inferior surface of the middle one third of the clavicle coracoid process of the scapula posterior surface of the manubrium of the sternum innervation: medial pectoral nerves lateral pectoral nerves *subclavian (c5-c6) nerve musculocutaneous nerve action: *stabilizes the clavicle downwardly rotates the clavicle",
+      "groups": [
         {
-          "type": "text",
-          "text": "Subclavius"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "superior surface of the costal end of the first rib",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "coracoid process of the scapula",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "anterior surface of the manubrium of the sternum",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "inferior surface of the middle one third of the clavicle",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "coracoid process of the scapula",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "posterior surface of the manubrium of the sternum",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "medial pectoral nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "lateral pectoral nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "subclavian (C5-C6) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "stabilizes the clavicle",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "downwardly rotates the clavicle",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: superior surface of the costal end of the first rib"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: inferior surface of the middle one third of the clavicle"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: subclavian (C5-C6) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: stabilizes the clavicle"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Subclavius"
+        }
+      ]
     },
     {
       "id": "5.26",
@@ -13280,15 +14898,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Coracobrachialis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760137",
         "src": "Assets/Cards/L1344_760137.png",
@@ -13296,42 +14914,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Coracobrachialis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image127.png"
+        "packageSource": "word/media/image26.png"
       },
-      "searchText": "5.26 upper extremity coracobrachialis l1344_760137 proximal insertion: coracoid process of the scapula distal insertion: medial surface of the humeral shaft innervation: musculocutaneous nerve action: flexes and adducts the arm",
-      "titleTemplate": [
+      "searchText": "5.26 upper extremity muscles coracobrachialis l1344_760137 proximal insertion: *coracoid process of the scapula lateral lip of the bicipital groove of the humerus lesser tubercle of the humerus greater tubercle of the humerus distal insertion: *medial surface of the humeral shaft deltoid tuberosity of the humerus intertubercular sulcus of the humerus coracoid process of the scapula innervation: medial pectoral nerves lateral pectoral nerves subclavian (c5-c6) nerve *musculocutaneous nerve action: *flexes the arm *adducts the arm abducts the arm horizontally adducts the arm",
+      "groups": [
         {
-          "type": "text",
-          "text": "Coracobrachialis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "coracoid process of the scapula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "lateral lip of the bicipital groove of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lesser tubercle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "greater tubercle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial surface of the humeral shaft",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "deltoid tuberosity of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "intertubercular sulcus of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "coracoid process of the scapula",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "medial pectoral nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "lateral pectoral nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "subclavian (C5-C6) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "musculocutaneous nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes the arm",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "adducts the arm",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "abducts the arm",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "horizontally adducts the arm",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: coracoid process of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial surface of the humeral shaft"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: musculocutaneous nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes and adducts the arm"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Coracobrachialis"
+        }
+      ]
     },
     {
       "id": "5.27",
@@ -13339,15 +15046,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Serratus anterior",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760138",
         "src": "Assets/Cards/L1344_760138.png",
@@ -13355,42 +15062,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Serratus anterior anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image128.png"
+        "packageSource": "word/media/image27.png"
       },
-      "searchText": "5.27 upper extremity serratus anterior l1344_760138 proximal insertion: external surfaces of ribs one to nine distal insertion: medial border of the scapula innervation: long thoracic (c5-c7) nerve action: protracts and upwardly rotates the shoulder",
-      "titleTemplate": [
+      "searchText": "5.27 upper extremity muscles serratus anterior l1344_760138 proximal insertion: *external surfaces of ribs one to nine external surfaces of ribs six to twelve sternum and costal cartilages of ribs 1-6 distal insertion: *medial border of the scapula lateral border of the scapula coracoid process of the scapula innervation: *long thoracic (c5-c7) nerve subclavian (c5-c6) nerve musculocutaneous nerve axillary nerve action: *protracts and upwardly rotates the shoulder protracts and downwardly rotates the shoulder retracts and upwardly rotates the shoulder retracts and downwardly rotates the shoulder",
+      "groups": [
         {
-          "type": "text",
-          "text": "Serratus anterior"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "external surfaces of ribs one to nine",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "external surfaces of ribs six to twelve",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "sternum and costal cartilages of ribs 1-6",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial border of the scapula",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lateral border of the scapula",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "coracoid process of the scapula",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "long thoracic (C5-C7) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "subclavian (C5-C6) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "axillary nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "protracts and upwardly rotates the shoulder",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "protracts and downwardly rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "retracts and upwardly rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "retracts and downwardly rotates the shoulder",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: external surfaces of ribs one to nine"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial border of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: long thoracic (C5-C7) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: protracts and upwardly rotates the shoulder"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Serratus anterior"
+        }
+      ]
     },
     {
       "id": "5.28",
@@ -13398,15 +15184,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Deltoid",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760139",
         "src": "Assets/Cards/L1344_760139.png",
@@ -13414,60 +15200,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Deltoid anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image129.png"
+        "packageSource": "word/media/image28.png"
       },
-      "searchText": "5.28 upper extremity deltoid l1344_760139 proximal insertion: clavicle, acromion, the spine of the scapula distal insertion: deltoid tuberosity of the humerus innervation: axillary nerve action: anterior: flexion and internal rotation of the arm middle: abduction of the arm posterior: extension and external rotation of the arm",
-      "titleTemplate": [
+      "searchText": "5.28 upper extremity muscles deltoid l1344_760139 proximal insertion: *clavicle *acromion *the spine of the scapula coracoid process of the scapula distal insertion: *deltoid tuberosity of the humerus lateral lip of the bicipital groove of the humerus medial surface of the humeral shaft innervation: *axillary nerve subclavian (c5-c6) nerve musculocutaneous nerve long thoracic (c5-c7) nerve action: * flexion and internal rotation of the arm * abduction of the arm * extension and external rotation of the arm",
+      "groups": [
         {
-          "type": "text",
-          "text": "Deltoid"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "clavicle",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "acromion",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "the spine of the scapula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "coracoid process of the scapula",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "deltoid tuberosity of the humerus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lateral lip of the bicipital groove of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "medial surface of the humeral shaft",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "axillary nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "subclavian (C5-C6) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "long thoracic (C5-C7) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexion and internal rotation of the arm",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "abduction of the arm",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "extension and external rotation of the arm",
+              "correct": true
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: clavicle, acromion, the spine of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: deltoid tuberosity of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: axillary nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action:"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Anterior: flexion and internal rotation of the arm"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Middle: abduction of the arm"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Posterior: extension and external rotation of the arm"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Deltoid"
+        }
+      ]
     },
     {
       "id": "5.29",
@@ -13475,15 +15322,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Levator scapulae",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760140",
         "src": "Assets/Cards/L1344_760140.png",
@@ -13491,42 +15338,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Levator scapulae anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image130.png"
+        "packageSource": "word/media/image29.png"
       },
-      "searchText": "5.29 upper extremity levator scapulae l1344_760140 proximal insertion: transverse processes of c1-c2 and posterior tubercles of transverse processes c3-c4 distal insertion: superior angle of the scapula, medial border of the scapula superior to the spine of the scapula innervation: c3-c4 and dorsal scapular nerve action: elevates and downwardly rotates the scapula and extends and side bends the neck",
-      "titleTemplate": [
+      "searchText": "5.29 upper extremity muscles levator scapulae l1344_760140 proximal insertion: *transverse processes of c1-c2 *posterior tubercles of transverse processes c3-c4 anterior ends of ribs three to five superior surface of the costal end of the first rib distal insertion: *superior angle of the scapula *medial border of the scapula superior to the spine of the scapula coracoid process of the scapula lateral lip of the bicipital groove of the humerus innervation: *c3-c4 *dorsal scapular nerve long thoracic (c5-c7) nerve axillary nerve action: *elevates and downwardly rotates the scapula *extends and side bends the neck flexes and side bends the neck elevates and upwardly rotates the scapula",
+      "groups": [
         {
-          "type": "text",
-          "text": "Levator scapulae"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "transverse processes of C1-C2",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "posterior tubercles of transverse processes C3-C4",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "anterior ends of ribs three to five",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "superior surface of the costal end of the first rib",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "superior angle of the scapula",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "medial border of the scapula superior to the spine of the scapula",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "coracoid process of the scapula",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "lateral lip of the bicipital groove of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "C3-C4",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "dorsal scapular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "long thoracic (C5-C7) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "axillary nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "elevates and downwardly rotates the scapula",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends and side bends the neck",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes and side bends the neck",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "elevates and upwardly rotates the scapula",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: transverse processes of C1-C2 and posterior tubercles of transverse processes C3-C4"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: superior angle of the scapula, medial border of the scapula superior to the spine of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: C3-C4 and dorsal scapular nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: elevates and downwardly rotates the scapula and extends and side bends the neck"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Levator scapulae"
+        }
+      ]
     },
     {
       "id": "5.30",
@@ -13534,15 +15470,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Trapezius",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760141",
         "src": "Assets/Cards/L1344_760141.png",
@@ -13550,96 +15486,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Trapezius anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image131.png"
+        "packageSource": "word/media/image30.png"
       },
-      "searchText": "5.30 upper extremity trapezius l1344_760141 proximal insertion: upper: external occipital protuberance and superior nuchal line of the occipital bone, nuchal ligament, and spinous processes of c7-t12 middle: medial border of the acromion process, upper border of the scapular spine lower: spinous processes of t4-t12 distal insertion: upper: posterior aspect of the lateral one third of the clavicle, acromion, and the spine of the scapula middle: medial border of the acromion, upper border of the spine of the scapula lower: triangular space at the base of the scapular spine innervation: accessory nerve action: upper: elevates, depresses, retracts, and upwardly rotates the scapula; extends and side bends the neck middle: elevation, upward rotation, adduction of the scapula lower: depression, adduction, upward rotation of the scapula",
-      "titleTemplate": [
+      "searchText": "5.30 upper extremity muscles trapezius l1344_760141 proximal insertion: *external occipital protuberance and superior nuchal line of the occipital bone, nuchal ligament *spinous processes of c7-t12 *medial border of the acromion process, upper border of the scapular spine transverse processes of c7-t12 distal insertion: *posterior aspect of the lateral one third of the clavicle, acromion, and the spine of the scapula *medial border of the acromion, upper border of the spine of the scapula *triangular space at the base of the scapular spine iliac crest innervation: *accessory nerve axillary nerve long thoracic (c5-c7) nerve action: *elevates and upwardly rotates the scapula *extends and side bends the neck extends and rotates the neck *depression, adduction, upward rotation of the scapula",
+      "groups": [
         {
-          "type": "text",
-          "text": "Trapezius"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "external occipital protuberance and superior nuchal line of the occipital bone, nuchal ligament",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "spinous processes of C7-T12",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "medial border of the acromion process, upper border of the scapular spine",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "transverse processes of C7-T12",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "posterior aspect of the lateral one third of the clavicle, acromion, and the spine of the scapula",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "medial border of the acromion, upper border of the spine of the scapula",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "triangular space at the base of the scapular spine",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "iliac crest",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "accessory nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "axillary nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "long thoracic (C5-C7) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "elevates and upwardly rotates the scapula",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends and side bends the neck",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "extends and rotates the neck",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "depression, adduction, upward rotation of the scapula",
+              "correct": true
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion:"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Upper: external occipital protuberance and superior nuchal line of the occipital bone, nuchal ligament, and spinous processes of C7-T12"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Middle: medial border of the acromion process, upper border of the scapular spine"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Lower: spinous processes of T4-T12"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion:"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Upper: posterior aspect of the lateral one third of the clavicle, acromion, and the spine of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Middle: medial border of the acromion, upper border of the spine of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Lower: triangular space at the base of the scapular spine"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: accessory nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action:"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Upper: elevates, depresses, retracts, and upwardly rotates the scapula; extends and side bends the neck"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Middle: elevation, upward rotation, adduction of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Lower: depression, adduction, upward rotation of the scapula"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Trapezius"
+        }
+      ]
     },
     {
       "id": "5.31",
@@ -13647,15 +15613,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Latissimus dorsi",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760142",
         "src": "Assets/Cards/L1344_760142.png",
@@ -13663,42 +15629,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Latissimus dorsi anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image132.png"
+        "packageSource": "word/media/image31.png"
       },
-      "searchText": "5.31 upper extremity latissimus dorsi l1344_760142 proximal insertion: t7-t12, lumbar vertebrae, ribs 9 to 12, iliac crest distal insertion: intertubercular sulcus of the humerus innervation: thoracodorsal nerve action: adducts the arm, internal rotation of the shoulder",
-      "titleTemplate": [
+      "searchText": "5.31 upper extremity muscles latissimus dorsi l1344_760142 proximal insertion: *t7-t12 lumbar vertebrae *ribs 9 to 12 *iliac crest upper border of the scapular spine distal insertion: *intertubercular sulcus of the humerus lateral lip of the bicipital groove of the humerus coracoid process of the scapula innervation: *thoracodorsal nerve musculocutaneous nerve long thoracic (c5-c7) nerve action: *adducts the arm *internal rotation of the shoulder externally rotates the shoulder protracts and downwardly rotates the shoulder",
+      "groups": [
         {
-          "type": "text",
-          "text": "Latissimus dorsi"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "T7-T12 lumbar vertebrae",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "ribs 9 to 12",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "iliac crest",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "upper border of the scapular spine",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "intertubercular sulcus of the humerus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lateral lip of the bicipital groove of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "coracoid process of the scapula",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "thoracodorsal nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "long thoracic (C5-C7) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "adducts the arm",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "internal rotation of the shoulder",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "externally rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "protracts and downwardly rotates the shoulder",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: T7-T12, lumbar vertebrae, ribs 9 to 12, iliac crest"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: intertubercular sulcus of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: thoracodorsal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: adducts the arm, internal rotation of the shoulder"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Latissimus dorsi"
+        }
+      ]
     },
     {
       "id": "5.32",
@@ -13706,15 +15751,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Infraspinatus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760143",
         "src": "Assets/Cards/L1344_760143.png",
@@ -13722,42 +15767,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Infraspinatus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image133.png"
+        "packageSource": "word/media/image32.png"
       },
-      "searchText": "5.32 upper extremity infraspinatus l1344_760143 proximal insertion: infraspinous fossa of the scapula distal insertion: greater tubercle of the humerus innervation: suprascapular nerve action: externally rotates the shoulder",
-      "titleTemplate": [
+      "searchText": "5.32 upper extremity muscles infraspinatus l1344_760143 proximal insertion: *infraspinous fossa of the scapula lateral border of the dorsal scapular surface medial border of the dorsal scapular surface distal insertion: *greater tubercle of the humerus lesser tubercle of the humerus intertubercular sulcus of the humerus innervation: *suprascapular nerve subclavian (c5-c6) nerve musculocutaneous nerve long thoracic (c5-c7) nerve action: *externally rotates the shoulder internally rotates the shoulder abducts the arm",
+      "groups": [
         {
-          "type": "text",
-          "text": "Infraspinatus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "infraspinous fossa of the scapula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "lateral border of the dorsal scapular surface",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "medial border of the dorsal scapular surface",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "greater tubercle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lesser tubercle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "intertubercular sulcus of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "suprascapular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "subclavian (C5-C6) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "long thoracic (C5-C7) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "externally rotates the shoulder",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "internally rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "abducts the arm",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: infraspinous fossa of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: greater tubercle of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: suprascapular nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: externally rotates the shoulder"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Infraspinatus"
+        }
+      ]
     },
     {
       "id": "5.33",
@@ -13765,15 +15884,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Teres minor",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760144",
         "src": "Assets/Cards/L1344_760144.png",
@@ -13781,42 +15900,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Teres minor anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image134.png"
+        "packageSource": "word/media/image33.png"
       },
-      "searchText": "5.33 upper extremity teres minor l1344_760144 proximal insertion: lateral border of the dorsal scapular surface distal insertion: greater tubercle of the humerus innervation: lower and upper subscapular nerve action: externally rotates the shoulder",
-      "titleTemplate": [
+      "searchText": "5.33 upper extremity muscles teres minor l1344_760144 proximal insertion: *lateral border of the dorsal scapular surface subscapular fossa of the scapula medial border of the dorsal scapular surface distal insertion: *greater tubercle of the humerus lesser tubercle of the humerus coracoid process of the scapula innervation: *lower and upper subscapular nerve musculocutaneous nerve suprascapular nerve action: *externally rotates the shoulder internally rotates the shoulder abducts the arm",
+      "groups": [
         {
-          "type": "text",
-          "text": "Teres minor"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral border of the dorsal scapular surface",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "subscapular fossa of the scapula",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "medial border of the dorsal scapular surface",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "greater tubercle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lesser tubercle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "coracoid process of the scapula",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "lower and upper subscapular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "suprascapular nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "externally rotates the shoulder",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "internally rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "abducts the arm",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral border of the dorsal scapular surface"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: greater tubercle of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: lower and upper subscapular nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: externally rotates the shoulder"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Teres minor"
+        }
+      ]
     },
     {
       "id": "5.34",
@@ -13824,15 +16012,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Subscapularis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760145",
         "src": "Assets/Cards/L1344_760145.png",
@@ -13840,42 +16028,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Subscapularis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image135.png"
+        "packageSource": "word/media/image34.png"
       },
-      "searchText": "5.34 upper extremity subscapularis l1344_760145 proximal insertion: subscapular fossa of the scapula distal insertion: lesser tubercle of the humerus innervation: upper and lower subscapular nerves action: internally rotates the shoulder",
-      "titleTemplate": [
+      "searchText": "5.34 upper extremity muscles subscapularis l1344_760145 proximal insertion: *subscapular fossa of the scapula lateral border of the dorsal scapular surface medial border of the dorsal scapular surface distal insertion: *lesser tubercle of the humerus greater tubercle of the humerus medial surface of the humeral shaft intertubercular sulcus of the humerus innervation: *lower and upper subscapular nerve musculocutaneous nerve suprascapular nerve action: *internally rotates the shoulder externally rotates the shoulder abducts the arm",
+      "groups": [
         {
-          "type": "text",
-          "text": "Subscapularis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "subscapular fossa of the scapula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "lateral border of the dorsal scapular surface",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "medial border of the dorsal scapular surface",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "lesser tubercle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "greater tubercle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "medial surface of the humeral shaft",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "intertubercular sulcus of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "lower and upper subscapular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "suprascapular nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "internally rotates the shoulder",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "externally rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "abducts the arm",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: subscapular fossa of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: lesser tubercle of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: upper and lower subscapular nerves"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: internally rotates the shoulder"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Subscapularis"
+        }
+      ]
     },
     {
       "id": "5.35",
@@ -13883,15 +16145,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Supraspinatus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760146",
         "src": "Assets/Cards/L1344_760146.png",
@@ -13899,42 +16161,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Supraspinatus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image136.png"
+        "packageSource": "word/media/image35.png"
       },
-      "searchText": "5.35 upper extremity supraspinatus l1344_760146 proximal insertion: supraspinous fossa of the scapula distal insertion: greater tubercle of the humerus innervation: suprascapular nerve action: abducts the arm",
-      "titleTemplate": [
+      "searchText": "5.35 upper extremity muscles supraspinatus l1344_760146 proximal insertion: *supraspinous fossa of the scapula medial border of the dorsal scapular surface lateral border of the dorsal scapular surface distal insertion: *greater tubercle of the humerus intertubercular sulcus of the humerus lesser tubercle of the humerus innervation: *suprascapular nerve lower and upper subscapular nerve axillary nerve action: *abducts the arm internally rotates the shoulder externally rotates the shoulder",
+      "groups": [
         {
-          "type": "text",
-          "text": "Supraspinatus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "supraspinous fossa of the scapula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "medial border of the dorsal scapular surface",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral border of the dorsal scapular surface",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "greater tubercle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "intertubercular sulcus of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lesser tubercle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "suprascapular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "lower and upper subscapular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "axillary nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "abducts the arm",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "internally rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "externally rotates the shoulder",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: supraspinous fossa of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: greater tubercle of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: suprascapular nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: abducts the arm"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Supraspinatus"
+        }
+      ]
     },
     {
       "id": "5.36",
@@ -13942,15 +16273,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Rhomboid major",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760147",
         "src": "Assets/Cards/L1344_760147.png",
@@ -13958,42 +16289,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Rhomboid major anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image137.png"
+        "packageSource": "word/media/image36.png"
       },
-      "searchText": "5.36 upper extremity rhomboid major l1344_760147 proximal insertion: spinous processes of t2-t5 distal insertion: medial border of the scapula inferior to the spine of the scapula innervation: dorsal scapular nerve action: retracts and downwardly rotates the scapula",
-      "titleTemplate": [
+      "searchText": "5.36 upper extremity muscles rhomboid major l1344_760147 proximal insertion: *spinous processes of t2-t5 posterior surface of the scapula coracoid process tubercle above the glenoid cavity distal insertion: *medial border of the scapula inferior to the spine of the scapula intertubercular sulcus of the humerus radial tuberosity innervation: *dorsal scapular nerve axillary nerve suprascapular nerve lower subscapular nerve action: *retracts and downwardly rotates the scapula protracts and downwardly rotates the shoulder adducts and internally rotates humerus externally rotates the shoulder",
+      "groups": [
         {
-          "type": "text",
-          "text": "Rhomboid major"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "spinous processes of T2-T5",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "posterior surface of the scapula",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "coracoid process",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "tubercle above the glenoid cavity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial border of the scapula inferior to the spine of the scapula",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "intertubercular sulcus of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "radial tuberosity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "dorsal scapular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "axillary nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "suprascapular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "lower subscapular nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "retracts and downwardly rotates the scapula",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "protracts and downwardly rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "adducts and internally rotates humerus",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "externally rotates the shoulder",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: spinous processes of T2-T5"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial border of the scapula inferior to the spine of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: dorsal scapular nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: retracts and downwardly rotates the scapula"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Rhomboid major"
+        }
+      ]
     },
     {
       "id": "5.37",
@@ -14001,15 +16416,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Rhomboid minor",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760148",
         "src": "Assets/Cards/L1344_760148.png",
@@ -14017,42 +16432,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Rhomboid minor anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image138.png"
+        "packageSource": "word/media/image37.png"
       },
-      "searchText": "5.37 upper extremity rhomboid minor l1344_760148 proximal insertion: nuchal ligament and spinous processes of c7-t1 distal insertion: medial border of the scapula adjacent to the spine of the scapula innervation: dorsal scapular nerve action: retracts and downwardly rotates the scapula",
-      "titleTemplate": [
+      "searchText": "5.37 upper extremity muscles rhomboid minor l1344_760148 proximal insertion: *nuchal ligament *spinous processes of c7-t1 coracoid process posterior surface of the scapula distal insertion: *medial border of the scapula adjacent to the spine of the scapula intertubercular sulcus of the humerus radial tuberosity posterior surface of the scapula innervation: *dorsal scapular nerve long thoracic (c5-c7) nerve axillary nerve suprascapular nerve action: *retracts and downwardly rotates the scapula protracts and downwardly rotates the shoulder adducts and internally rotates humerus transverse adduction at the glenohumeral joint",
+      "groups": [
         {
-          "type": "text",
-          "text": "Rhomboid minor"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "nuchal ligament",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "spinous processes of C7-T1",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "coracoid process",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "posterior surface of the scapula",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial border of the scapula adjacent to the spine of the scapula",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "intertubercular sulcus of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "radial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "posterior surface of the scapula",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "dorsal scapular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "long thoracic (C5-C7) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "axillary nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "suprascapular nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "retracts and downwardly rotates the scapula",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "protracts and downwardly rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "adducts and internally rotates humerus",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "transverse adduction at the glenohumeral joint",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: nuchal ligament and spinous processes of C7-T1"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial border of the scapula adjacent to the spine of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: dorsal scapular nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: retracts and downwardly rotates the scapula"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Rhomboid minor"
+        }
+      ]
     },
     {
       "id": "5.38",
@@ -14060,15 +16564,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Teres major",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760149",
         "src": "Assets/Cards/L1344_760149.png",
@@ -14076,42 +16580,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Teres major anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image139.png"
+        "packageSource": "word/media/image38.png"
       },
-      "searchText": "5.38 upper extremity teres major l1344_760149 proximal insertion: posterior surface of the scapula distal insertion: intertubercular sulcus of the humerus innervation: lower subscapular nerve action: adducts and internally rotates humerus",
-      "titleTemplate": [
+      "searchText": "5.38 upper extremity muscles teres major l1344_760149 proximal insertion: *posterior surface of the scapula coracoid process tubercle above the glenoid cavity distal insertion: *intertubercular sulcus of the humerus medial border of the scapula adjacent to the spine of the scapula radial tuberosity innervation: *lower subscapular nerve long thoracic (c5-c7) nerve axillary nerve suprascapular nerve action: *adducts and internally rotates humerus protracts and downwardly rotates the shoulder retracts and downwardly rotates the scapula externally rotates the shoulder",
+      "groups": [
         {
-          "type": "text",
-          "text": "Teres major"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "posterior surface of the scapula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "coracoid process",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "tubercle above the glenoid cavity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "intertubercular sulcus of the humerus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "medial border of the scapula adjacent to the spine of the scapula",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "radial tuberosity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "lower subscapular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "long thoracic (C5-C7) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "axillary nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "suprascapular nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "adducts and internally rotates humerus",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "protracts and downwardly rotates the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "retracts and downwardly rotates the scapula",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "externally rotates the shoulder",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: posterior surface of the scapula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: intertubercular sulcus of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: lower subscapular nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: adducts and internally rotates humerus"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Teres major"
+        }
+      ]
     },
     {
       "id": "5.39",
@@ -14119,15 +16702,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Biceps brachii (long head, short head)",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760150",
         "src": "Assets/Cards/L1344_760150.png",
@@ -14135,42 +16718,125 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Biceps brachii (long head, short head) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image140.png"
+        "packageSource": "word/media/image39.png"
       },
-      "searchText": "5.39 upper extremity biceps brachii (long head, short head) l1344_760150 proximal insertion: coracoid process, tubercle above the glenoid cavity distal insertion: radial tuberosity innervation: musculocutaneous action: flexes and supinates the forearm",
-      "titleTemplate": [
+      "searchText": "5.39 upper extremity muscles biceps brachii (long head, short head) l1344_760150 proximal insertion: *coracoid process *tubercle above the glenoid cavity posterior shaft of the humerus distal insertion: *radial tuberosity intertubercular sulcus of the humerus posterior humeral shaft distal to the radial groove lateral epicondyle of the humerus innervation: *musculocutaneous radial ulnar action: *flexes the forearm *supinates the forearm pronates the forearm abducts the arm",
+      "groups": [
         {
-          "type": "text",
-          "text": "Biceps brachii (long head, short head)"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "coracoid process",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "tubercle above the glenoid cavity",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior shaft of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "radial tuberosity",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "intertubercular sulcus of the humerus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "posterior humeral shaft distal to the radial groove",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "musculocutaneous",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "radial",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "ulnar",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes the forearm",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "supinates the forearm",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "pronates the forearm",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "abducts the arm",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: coracoid process, tubercle above the glenoid cavity"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: radial tuberosity"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: musculocutaneous"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes and supinates the forearm"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        },
+        {
+          "type": "text",
+          "text": " (long head, short head)"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Biceps brachii"
+        }
+      ]
     },
     {
       "id": "5.40",
@@ -14178,15 +16844,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Brachialis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760151",
         "src": "Assets/Cards/L1344_760151.png",
@@ -14194,42 +16860,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Brachialis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image141.png"
+        "packageSource": "word/media/image40.png"
       },
-      "searchText": "5.40 upper extremity brachialis l1344_760151 proximal insertion: front of the distal humerus distal insertion: coronoid process of the ulna innervation: musculocutaneous, radial action: flexes the elbow",
-      "titleTemplate": [
+      "searchText": "5.40 upper extremity muscles brachialis l1344_760151 proximal insertion: *front of the distal humerus posterior shaft of the humerus coracoid process tubercle above the glenoid cavity distal insertion: *coronoid process coracoid process radial tuberosity lateral radius innervation: musculocutaneous *radial ulnar axillary nerve action: *flexes the elbow extends the elbow pronates the forearm supinates the forearm",
+      "groups": [
         {
-          "type": "text",
-          "text": "Brachialis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "front of the distal humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "posterior shaft of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "coracoid process",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "tubercle above the glenoid cavity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "coronoid process",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "coracoid process",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "radial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "lateral radius",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "musculocutaneous",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "radial",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "ulnar",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "axillary nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes the elbow",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the elbow",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "pronates the forearm",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "supinates the forearm",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: front of the distal humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: coronoid process of the ulna"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: musculocutaneous, radial"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes the elbow"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Brachialis"
+        }
+      ]
     },
     {
       "id": "5.41",
@@ -14237,15 +16992,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Triceps brachii",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760152",
         "src": "Assets/Cards/L1344_760152.png",
@@ -14253,42 +17008,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Triceps brachii anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image142.png"
+        "packageSource": "word/media/image41.png"
       },
-      "searchText": "5.41 upper extremity triceps brachii l1344_760152 proximal insertion: infraglenoid tubercle of the scapula, posterior shaft of the humerus, posterior humeral shaft distal to the radial groove distal insertion: olecranon process of the ulna innervation: radial action: extends the elbow and shoulder",
-      "titleTemplate": [
+      "searchText": "5.41 upper extremity muscles triceps brachii l1344_760152 proximal insertion: *infraglenoid tubercle of the scapula *posterior shaft of the humerus *posterior humeral shaft distal to the radial groove distal insertion: *olecranon process of the ulna coronoid process lateral radius innervation: *radial ulnar axillary nerve musculocutaneous nerve action: *extends the elbow *extends the shoulder adducts the arm",
+      "groups": [
         {
-          "type": "text",
-          "text": "Triceps brachii"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "infraglenoid tubercle of the scapula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "posterior shaft of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior humeral shaft distal to the radial groove",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "olecranon process of the ulna",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "coronoid process",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lateral radius",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "radial",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "axillary nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "extends the elbow",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the shoulder",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "adducts the arm",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: infraglenoid tubercle of the scapula, posterior shaft of the humerus, posterior humeral shaft distal to the radial groove"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: olecranon process of the ulna"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: radial"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: extends the elbow and shoulder"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Triceps brachii"
+        }
+      ]
     },
     {
       "id": "5.42",
@@ -14296,15 +17125,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Anconeus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760153",
         "src": "Assets/Cards/L1344_760153.png",
@@ -14312,42 +17141,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Anconeus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image143.png"
+        "packageSource": "word/media/image42.png"
       },
-      "searchText": "5.42 upper extremity anconeus l1344_760153 proximal insertion: lateral epicondyle of the humerus distal insertion: lateral aspect of the olecranon process of the ulna innervation: radial nerve action: extends the elbow and shoulder",
-      "titleTemplate": [
+      "searchText": "5.42 upper extremity muscles anconeus l1344_760153 proximal insertion: *lateral epicondyle of the humerus posterior shaft of the humerus intertubercular sulcus of the humerus distal insertion: *lateral aspect of the olecranon process of the ulna radial tuberosity posterior shaft of the humerus innervation: *radial nerve ulnar axillary nerve musculocutaneous nerve action: *extends the elbow *extends the shoulder pronates the forearm supinates the forearm",
+      "groups": [
         {
-          "type": "text",
-          "text": "Anconeus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral epicondyle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "posterior shaft of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "intertubercular sulcus of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "lateral aspect of the olecranon process of the ulna",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "radial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "posterior shaft of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "radial nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "axillary nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "extends the elbow",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the shoulder",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "pronates the forearm",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "supinates the forearm",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral epicondyle of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: lateral aspect of the olecranon process of the ulna"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: radial nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: extends the elbow and shoulder"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Anconeus"
+        }
+      ]
     },
     {
       "id": "5.43",
@@ -14355,15 +17263,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Pronator teres",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760154",
         "src": "Assets/Cards/L1344_760154.png",
@@ -14371,42 +17279,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Pronator teres anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image144.png"
+        "packageSource": "word/media/image43.png"
       },
-      "searchText": "5.43 upper extremity pronator teres l1344_760154 proximal insertion: medial epicondyle of the humerus, coronoid process of the ulna distal insertion: lateral radius innervation: median nerve action: pronates the forearm",
-      "titleTemplate": [
+      "searchText": "5.43 upper extremity muscles pronator teres l1344_760154 proximal insertion: *medial epicondyle of the humerus lateral epicondyle of the humerus *coronoid process of the ulna distal insertion: *lateral radius radial tuberosity olecranon process posterior surface of the ulna innervation: *median nerve radial nerve musculocutaneous nerve ulnar nerve action: *pronates the forearm extends the elbow flexes the hand",
+      "groups": [
         {
-          "type": "text",
-          "text": "Pronator teres"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "medial epicondyle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "coronoid process of the ulna",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "lateral radius",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "radial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "olecranon process",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "posterior surface of the ulna",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "radial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "ulnar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "pronates the forearm",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the elbow",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes the hand",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: medial epicondyle of the humerus, coronoid process of the ulna"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: lateral radius"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: median nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: pronates the forearm"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Pronator teres"
+        }
+      ]
     },
     {
       "id": "5.44",
@@ -14414,15 +17401,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Flexor carpi radialis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760155",
         "src": "Assets/Cards/L1344_760155.png",
@@ -14430,42 +17417,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor carpi radialis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image145.png"
+        "packageSource": "word/media/image44.png"
       },
-      "searchText": "5.44 upper extremity flexor carpi radialis l1344_760155 proximal insertion: medial epicondyle of the humerus distal insertion: base of the second and third metacarpals innervation: median nerve action: flexes and abducts the hand",
-      "titleTemplate": [
+      "searchText": "5.44 upper extremity muscles flexor carpi radialis l1344_760155 proximal insertion: *medial epicondyle of the humerus olecranon process posterior surface of the ulna distal insertion: *base of the second and third metacarpals radial tuberosity lateral epicondyle of the humerus innervation: *median nerve ulnar nerve musculocutaneous nerve radial nerve action: *flexes and abducts the hand extends the hand",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor carpi radialis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "medial epicondyle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "olecranon process",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior surface of the ulna",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the second and third metacarpals",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "radial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes and abducts the hand",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the hand",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: medial epicondyle of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the second and third metacarpals"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: median nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes and abducts the hand"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor carpi radialis"
+        }
+      ]
     },
     {
       "id": "5.45",
@@ -14473,15 +17529,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Palmaris longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760156",
         "src": "Assets/Cards/L1344_760156.png",
@@ -14489,42 +17545,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Palmaris longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image146.png"
+        "packageSource": "word/media/image45.png"
       },
-      "searchText": "5.45 upper extremity palmaris longus l1344_760156 proximal insertion: medial epicondyle of the humerus distal insertion: palmar aponeurosis, skin and fascia of the palm innervation: median nerve action: aids in flexion of the wrist and elbow, tenses the skin and fascia of the palm",
-      "titleTemplate": [
+      "searchText": "5.45 upper extremity muscles palmaris longus l1344_760156 proximal insertion: *medial epicondyle of the humerus lateral epicondyle of the humerus olecranon process of the ulna distal insertion: *palmar aponeurosis *skin and fascia of the palm base of the second and third metacarpals innervation: *median nerve ulnar nerve musculocutaneous nerve radial nerve action: *aids in flexion of the wrist and elbow *tenses the skin and fascia of the palm flexes and adducts the hand",
+      "groups": [
         {
-          "type": "text",
-          "text": "Palmaris longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "medial epicondyle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "olecranon process of the ulna",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "palmar aponeurosis",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "skin and fascia of the palm",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the second and third metacarpals",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "aids in flexion of the wrist and elbow",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "tenses the skin and fascia of the palm",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes and adducts the hand",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: medial epicondyle of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: palmar aponeurosis, skin and fascia of the palm"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: median nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: aids in flexion of the wrist and elbow, tenses the skin and fascia of the palm"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Palmaris longus"
+        }
+      ]
     },
     {
       "id": "5.46",
@@ -14532,15 +17662,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Flexor carpi ulnaris",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760157",
         "src": "Assets/Cards/L1344_760157.png",
@@ -14548,42 +17678,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor carpi ulnaris anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image147.png"
+        "packageSource": "word/media/image46.png"
       },
-      "searchText": "5.46 upper extremity flexor carpi ulnaris l1344_760157 proximal insertion: medial epicondyle of the humerus, olecranon process, posterior surface of the ulna distal insertion: pisiform, hamate, base of the fifth metacarpal innervation: ulnar nerve action: flexes and adducts the hand",
-      "titleTemplate": [
+      "searchText": "5.46 upper extremity muscles flexor carpi ulnaris l1344_760157 proximal insertion: *medial epicondyle of the humerus *olecranon process *posterior surface of the ulna distal insertion: *pisiform *hamate *base of the fifth metacarpal lunate innervation: *ulnar nerve musculocutaneous nerve radial nerve median nerve action: *flexes and adducts the hand tenses the skin and fascia of the palm flexes the middle phalanges of fingers two to five",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor carpi ulnaris"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "medial epicondyle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "olecranon process",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior surface of the ulna",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "pisiform",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "hamate",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the fifth metacarpal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "lunate",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "ulnar nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "median nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes and adducts the hand",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "tenses the skin and fascia of the palm",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes the middle phalanges of fingers two to five",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: medial epicondyle of the humerus, olecranon process, posterior surface of the ulna"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: pisiform, hamate, base of the fifth metacarpal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: ulnar nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes and adducts the hand"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor carpi ulnaris"
+        }
+      ]
     },
     {
       "id": "5.47",
@@ -14591,15 +17800,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Flexor digitorum superficialis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760158",
         "src": "Assets/Cards/L1344_760158.png",
@@ -14607,42 +17816,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor digitorum superficialis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image148.png"
+        "packageSource": "word/media/image47.png"
       },
-      "searchText": "5.47 upper extremity flexor digitorum superficialis l1344_760158 proximal insertion: medial epicondyle of the humerus, coronoid process of the ulna, the shaft of the radius distal insertion: middle phalanges of fingers two to five innervation: median nerve action: flexes the wrist and the middle phalanges of fingers two to five",
-      "titleTemplate": [
+      "searchText": "5.47 upper extremity muscles flexor digitorum superficialis l1344_760158 proximal insertion: *medial epicondyle of the humerus *coronoid process of the ulna *the shaft of the radius lateral epicondyle of the humerus distal insertion: *middle phalanges of fingers two to five pisiform hamate innervation: *median nerve ulnar nerve musculocutaneous nerve radial nerve action: *flexes the wrist *flexes the middle phalanges of fingers two to five flexes distal interphalangeal joints",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor digitorum superficialis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "medial epicondyle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "coronoid process of the ulna",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "the shaft of the radius",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "middle phalanges of fingers two to five",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "pisiform",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "hamate",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes the wrist",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexes the middle phalanges of fingers two to five",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes distal interphalangeal joints",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: medial epicondyle of the humerus, coronoid process of the ulna, the shaft of the radius"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: middle phalanges of fingers two to five"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: median nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes the wrist and the middle phalanges of fingers two to five"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor digitorum superficialis"
+        }
+      ]
     },
     {
       "id": "5.48",
@@ -14650,15 +17938,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Flexor digitorum profundus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760159",
         "src": "Assets/Cards/L1344_760159.png",
@@ -14666,42 +17954,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor digitorum profundus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image149.png"
+        "packageSource": "word/media/image48.png"
       },
-      "searchText": "5.48 upper extremity flexor digitorum profundus l1344_760159 proximal insertion: coronoid process, anteromedial surface of the ulna, interosseous membrane distal insertion: distal phalanges of fingers two to five innervation: median nerve (fingers 2 and 3), ulnar nerve (fingers 4 and 5) action: flexes distal interphalangeal joints",
-      "titleTemplate": [
+      "searchText": "5.48 upper extremity muscles flexor digitorum profundus l1344_760159 proximal insertion: *coronoid process *anteromedial surface of the ulna *interosseous membrane medial epicondyle of the humerus distal insertion: *distal phalanges of fingers two to five base of the second and third metacarpals middle phalanges of fingers two to five innervation: median nerve (fingers 2 and 3) *ulnar nerve (fingers 4 and 5) musculocutaneous nerve radial nerve action: *flexes distal interphalangeal joints flexes proximal interphalangeal joints flexes the wrist",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor digitorum profundus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "coronoid process",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "anteromedial surface of the ulna",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "interosseous membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "medial epicondyle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "distal phalanges of fingers two to five",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the second and third metacarpals",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "middle phalanges of fingers two to five",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve (fingers 2 and 3)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve (fingers 4 and 5)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes distal interphalangeal joints",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexes proximal interphalangeal joints",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes the wrist",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: coronoid process, anteromedial surface of the ulna, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: distal phalanges of fingers two to five"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: median nerve (fingers 2 and 3), ulnar nerve (fingers 4 and 5)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes distal interphalangeal joints"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor digitorum profundus"
+        }
+      ]
     },
     {
       "id": "5.49",
@@ -14709,15 +18076,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Flexor pollicis longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760160",
         "src": "Assets/Cards/L1344_760160.png",
@@ -14725,42 +18092,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor pollicis longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image150.png"
+        "packageSource": "word/media/image49.png"
       },
-      "searchText": "5.49 upper extremity flexor pollicis longus l1344_760160 proximal insertion: anterior surface of the radius, interosseous membrane distal insertion: distal phalanx of the thumb innervation: median nerve action: flexes the distal phalanx of the thumb",
-      "titleTemplate": [
+      "searchText": "5.49 upper extremity muscles flexor pollicis longus l1344_760160 proximal insertion: *anterior surface of the radius *interosseous membrane anteromedial surface of the ulna distal insertion: *distal phalanx of the thumb proximal phalanx of the thumb base of the second and third metacarpals innervation: *median nerve ulnar nerve musculocutaneous nerve radial nerve action: *flexes the distal phalanx of the thumb flexes the proximal phalanx of the thumb abducts and extends the thumb",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor pollicis longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "anterior surface of the radius",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "anteromedial surface of the ulna",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "distal phalanx of the thumb",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "proximal phalanx of the thumb",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the second and third metacarpals",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes the distal phalanx of the thumb",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexes the proximal phalanx of the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "abducts and extends the thumb",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: anterior surface of the radius, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: distal phalanx of the thumb"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: median nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes the distal phalanx of the thumb"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor pollicis longus"
+        }
+      ]
     },
     {
       "id": "5.50",
@@ -14768,15 +18209,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Pronator quadratus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760161",
         "src": "Assets/Cards/L1344_760161.png",
@@ -14784,42 +18225,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Pronator quadratus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image151.png"
+        "packageSource": "word/media/image50.png"
       },
-      "searchText": "5.50 upper extremity pronator quadratus l1344_760161 proximal insertion: distal portion of the anterior ulnar shaft distal insertion: distal surface of the anterior radius innervation: median nerve action: pronates the forearm",
-      "titleTemplate": [
+      "searchText": "5.50 upper extremity muscles pronator quadratus l1344_760161 proximal insertion: *distal portion of the anterior ulnar shaft proximal anteromedial surface of the ulna posterior shaft of the radius distal insertion: *distal surface of the anterior radius interosseous membrane base of the distal phalanx of the thumb innervation: *median nerve ulnar nerve musculocutaneous nerve radial nerve action: *pronates the forearm flexes the wrist extends the wrist stabilizes the distal radioulnar joint",
+      "groups": [
         {
-          "type": "text",
-          "text": "Pronator quadratus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "distal portion of the anterior ulnar shaft",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "Proximal anteromedial surface of the ulna",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior shaft of the radius",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "distal surface of the anterior radius",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "pronates the forearm",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexes the wrist",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "extends the wrist",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "stabilizes the distal radioulnar joint",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: distal portion of the anterior ulnar shaft"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: distal surface of the anterior radius"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: median nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: pronates the forearm"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Pronator quadratus"
+        }
+      ]
     },
     {
       "id": "5.51",
@@ -14827,15 +18347,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Brachioradialis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760162",
         "src": "Assets/Cards/L1344_760162.png",
@@ -14843,42 +18363,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Brachioradialis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image152.png"
+        "packageSource": "word/media/image51.png"
       },
-      "searchText": "5.51 upper extremity brachioradialis l1344_760162 proximal insertion: lateral supracondylar ridge at the distal end of the humerus distal insertion: base of the styloid process of the radius innervation: radial nerve action: flexes the forearm",
-      "titleTemplate": [
+      "searchText": "5.51 upper extremity muscles brachioradialis l1344_760162 proximal insertion: *lateral supracondylar ridge at the distal end of the humerus anteromedial surface of the ulna posterior shaft of the humerus distal insertion: *base of the styloid process of the radius base of the second and third metacarpals base of the distal phalanx of the thumb pisiform innervation: median nerve ulnar nerve musculocutaneous nerve *radial nerve action: *flexes the forearm flexes the shoulder pronates the forearm",
+      "groups": [
         {
-          "type": "text",
-          "text": "Brachioradialis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral supracondylar ridge at the distal end of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "anteromedial surface of the ulna",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior shaft of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the styloid process of the radius",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the second and third metacarpals",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "pisiform",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes the forearm",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexes the shoulder",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "pronates the forearm",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral supracondylar ridge at the distal end of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the styloid process of the radius"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: radial nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes the forearm"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Brachioradialis"
+        }
+      ]
     },
     {
       "id": "5.52",
@@ -14886,15 +18485,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Extensor carpi radialis longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760163",
         "src": "Assets/Cards/L1344_760163.png",
@@ -14902,42 +18501,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor carpi radialis longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image153.png"
+        "packageSource": "word/media/image52.png"
       },
-      "searchText": "5.52 upper extremity extensor carpi radialis longus l1344_760163 proximal insertion: lateral supracondylar ridge of the humerus distal insertion: base of the second metacarpal innervation: radial nerve action: extends and abducts the hand",
-      "titleTemplate": [
+      "searchText": "5.52 upper extremity muscles extensor carpi radialis longus l1344_760163 proximal insertion: *lateral supracondylar ridge of the humerus dorsal shaft of the radius lateral epicondyle of the humerus medial epicondyle of the humerus distal insertion: *base of the second metacarpal middle phalanges of fingers two to five hamate base of the distal phalanx of the thumb innervation: median nerve ulnar nerve musculocutaneous nerve *radial nerve action: *extends and abducts the hand extends the thumb extends distal interphalangeal joints",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor carpi radialis longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral supracondylar ridge of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "dorsal shaft of the radius",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "medial epicondyle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the second metacarpal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "middle phalanges of fingers two to five",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "hamate",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "extends and abducts the hand",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "extends distal interphalangeal joints",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral supracondylar ridge of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the second metacarpal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: radial nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: extends and abducts the hand"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor carpi radialis longus"
+        }
+      ]
     },
     {
       "id": "5.53",
@@ -14945,15 +18628,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Extensor carpi radialis brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760164",
         "src": "Assets/Cards/L1344_760164.png",
@@ -14961,42 +18644,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor carpi radialis brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image154.png"
+        "packageSource": "word/media/image53.png"
       },
-      "searchText": "5.53 upper extremity extensor carpi radialis brevis l1344_760164 proximal insertion: lateral epicondyle of the humerus distal insertion: base of the third metacarpal innervation: posterior interosseous nerve (radial) action: extends and abducts the hand",
-      "titleTemplate": [
+      "searchText": "5.53 upper extremity muscles extensor carpi radialis brevis l1344_760164 proximal insertion: *lateral epicondyle of the humerus medial epicondyle of the humerus olecranon process distal insertion: *base of the third metacarpal interosseous membrane base of the second and third metacarpals innervation: *posterior interosseous nerve (radial) musculocutaneous nerve radial nerve median nerve action: *extends and abducts the hand extends and adducts the hand extends the thumb extends distal interphalangeal joints",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor carpi radialis brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral epicondyle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "medial epicondyle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "olecranon process",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the third metacarpal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the second and third metacarpals",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "median nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "extends and abducts the hand",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends and adducts the hand",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "extends the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "extends distal interphalangeal joints",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral epicondyle of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the third metacarpal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior interosseous nerve (radial)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: extends and abducts the hand"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor carpi radialis brevis"
+        }
+      ]
     },
     {
       "id": "5.54",
@@ -15004,15 +18766,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Extensor digitorum",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760165",
         "src": "Assets/Cards/L1344_760165.png",
@@ -15020,42 +18782,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor digitorum anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image155.png"
+        "packageSource": "word/media/image54.png"
       },
-      "searchText": "5.54 upper extremity extensor digitorum l1344_760165 proximal insertion: lateral epicondyle of the humerus, proximal ulna distal insertion: extensor expansions, distal phalanges of the fingers innervation: posterior interosseous nerve (radial) action: extends the hand and abducts the fingers",
-      "titleTemplate": [
+      "searchText": "5.54 upper extremity muscles extensor digitorum l1344_760165 proximal insertion: *lateral epicondyle of the humerus *proximal ulna olecranon process medial epicondyle of the humerus distal insertion: *extensor expansions *distal phalanges of the fingers interosseous membrane proximal phalanges of the fingers innervation: *posterior interosseous nerve (radial) radial nerve median nerve action: *extends the hand and abducts the fingers extends and adducts the hand extends the thumb extends distal interphalangeal joints",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor digitorum"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral epicondyle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "proximal ulna",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "olecranon process",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "medial epicondyle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "extensor expansions",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanges of the fingers",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "interosseous membrane",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "proximal phalanges of the fingers",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "radial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "median nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "extends the hand and abducts the fingers",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends and adducts the hand",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "extends the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "extends distal interphalangeal joints",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral epicondyle of the humerus, proximal ulna"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: extensor expansions, distal phalanges of the fingers"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior interosseous nerve (radial)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: extends the hand and abducts the fingers"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor digitorum"
+        }
+      ]
     },
     {
       "id": "5.55",
@@ -15063,15 +18909,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Extensor digiti minimi",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760166",
         "src": "Assets/Cards/L1344_760166.png",
@@ -15079,42 +18925,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor digiti minimi anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image156.png"
+        "packageSource": "word/media/image55.png"
       },
-      "searchText": "5.55 upper extremity extensor digiti minimi l1344_760166 proximal insertion: lateral epicondyle of the humerus distal insertion: extensor expansion, distal phalanx of finger five innervation: posterior interosseous nerve (radial) action: extends the little finger",
-      "titleTemplate": [
+      "searchText": "5.55 upper extremity muscles extensor digiti minimi l1344_760166 proximal insertion: *lateral epicondyle of the humerus medial epicondyle of the humerus dorsal shaft of the radius and ulna interosseous membrane distal insertion: *extensor expansion *distal phalanx of finger five pisiform innervation: *posterior interosseous nerve (radial) ulnar nerve median nerve action: *extends the little finger adducts the wrist extends the thumb",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor digiti minimi"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral epicondyle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "medial epicondyle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "dorsal shaft of the radius and ulna",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "interosseous membrane",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "extensor expansion",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanx of finger five",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "pisiform",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "median nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "extends the little finger",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "adducts the wrist",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "extends the thumb",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral epicondyle of the humerus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: extensor expansion, distal phalanx of finger five"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior interosseous nerve (radial)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: extends the little finger"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor digiti minimi"
+        }
+      ]
     },
     {
       "id": "5.56",
@@ -15122,15 +19042,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Extensor carpi ulnaris",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760167",
         "src": "Assets/Cards/L1344_760167.png",
@@ -15138,42 +19058,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor carpi ulnaris anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image157.png"
+        "packageSource": "word/media/image56.png"
       },
-      "searchText": "5.56 upper extremity extensor carpi ulnaris l1344_760167 proximal insertion: lateral epicondyle of the humerus, posterior border of the ulna distal insertion: base of the fifth metacarpal innervation: posterior interosseous nerve (radial) action: extends and adducts the hand",
-      "titleTemplate": [
+      "searchText": "5.56 upper extremity muscles extensor carpi ulnaris l1344_760167 proximal insertion: *lateral epicondyle of the humerus *posterior border of the ulna anteromedial surface of the ulna posterior shaft of the humerus distal insertion: *base of the fifth metacarpal base of the second and third metacarpals middle phalanges of fingers two to five base of the distal phalanx of the thumb innervation: *posterior interosseous nerve (radial) ulnar nerve median nerve action: *extends and adducts the hand extends the thumb extends the little finger",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor carpi ulnaris"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral epicondyle of the humerus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "posterior border of the ulna",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "anteromedial surface of the ulna",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "posterior shaft of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the fifth metacarpal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the second and third metacarpals",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "middle phalanges of fingers two to five",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "median nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "extends and adducts the hand",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "extends the little finger",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral epicondyle of the humerus, posterior border of the ulna"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the fifth metacarpal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior interosseous nerve (radial)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: extends and adducts the hand"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor carpi ulnaris"
+        }
+      ]
     },
     {
       "id": "5.57",
@@ -15181,15 +19180,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Supinator",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760168",
         "src": "Assets/Cards/L1344_760168.png",
@@ -15197,42 +19196,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Supinator anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image158.png"
+        "packageSource": "word/media/image57.png"
       },
-      "searchText": "5.57 upper extremity supinator l1344_760168 proximal insertion: lateral epicondyle of the humerus, proximal ulna distal insertion: proximal end of the radius innervation: posterior interosseous nerve (radial) action: supinates the forearm",
-      "titleTemplate": [
+      "searchText": "5.57 upper extremity muscles supinator l1344_760168 proximal insertion: lateral epicondyle of the humerus *proximal ulna medial epicondyle of the humerus interosseous membrane distal insertion: *proximal end of the radius interosseous membrane anteromedial surface of the ulna posterior shaft of the humerus innervation: *posterior interosseous nerve (radial) ulnar nerve musculocutaneous nerve radial nerve action: *supinates the forearm flexes the elbow extends the elbow",
+      "groups": [
         {
-          "type": "text",
-          "text": "Supinator"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "proximal ulna",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "medial epicondyle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "interosseous membrane",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "proximal end of the radius",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "anteromedial surface of the ulna",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "posterior shaft of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "supinates the forearm",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexes the elbow",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "extends the elbow",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral epicondyle of the humerus, proximal ulna"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: proximal end of the radius"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior interosseous nerve (radial)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: supinates the forearm"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Supinator"
+        }
+      ]
     },
     {
       "id": "5.58",
@@ -15240,15 +19323,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Abductor pollicis longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760169",
         "src": "Assets/Cards/L1344_760169.png",
@@ -15256,42 +19339,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Abductor pollicis longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image159.png"
+        "packageSource": "word/media/image58.png"
       },
-      "searchText": "5.58 upper extremity abductor pollicis longus l1344_760169 proximal insertion: posterior surface of the radius and ulna, interosseous membrane distal insertion: base of the first metacarpal, trapezium innervation: posterior interosseous nerve (radial) action: abducts and extends the thumb",
-      "titleTemplate": [
+      "searchText": "5.58 upper extremity muscles abductor pollicis longus l1344_760169 proximal insertion: *posterior surface of the radius and ulna *interosseous membrane dorsal shaft of the radius and ulna lateral epicondyle of the humerus distal insertion: *base of the first metacarpal *trapezium base of the distal phalanx of the thumb hamate innervation: *posterior interosseous nerve (radial) ulnar nerve musculocutaneous nerve radial nerve action: *abducts the thumb *extends the thumb adducts the thumb flexes the thumb",
+      "groups": [
         {
-          "type": "text",
-          "text": "Abductor pollicis longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "posterior surface of the radius and ulna",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "dorsal shaft of the radius and ulna",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the first metacarpal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "trapezium",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "hamate",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "abducts the thumb",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the thumb",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "adducts the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "flexes the thumb",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: posterior surface of the radius and ulna, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the first metacarpal, trapezium"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior interosseous nerve (radial)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: abducts and extends the thumb"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Abductor pollicis longus"
+        }
+      ]
     },
     {
       "id": "5.59",
@@ -15299,15 +19471,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Extensor pollicis brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760170",
         "src": "Assets/Cards/L1344_760170.png",
@@ -15315,42 +19487,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor pollicis brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image160.png"
+        "packageSource": "word/media/image59.png"
       },
-      "searchText": "5.59 upper extremity extensor pollicis brevis l1344_760170 proximal insertion: dorsal shaft of the radius and ulna, interosseous membrane distal insertion: base of the proximal phalanx of the thumb innervation: posterior interosseous nerve (radial) action: extends the thumb",
-      "titleTemplate": [
+      "searchText": "5.59 upper extremity muscles extensor pollicis brevis l1344_760170 proximal insertion: *dorsal shaft of the radius and ulna *interosseous membrane lateral epicondyle of the humerus medial epicondyle of the humerus distal insertion: *base of the proximal phalanx of the thumb base of the distal phalanx of the thumb base of the second and third metacarpals innervation: *posterior interosseous nerve (radial) ulnar nerve musculocutaneous nerve radial nerve action: *extends the thumb adducts the thumb flexes the thumb",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor pollicis brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "dorsal shaft of the radius and ulna",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "medial epicondyle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the proximal phalanx of the thumb",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the second and third metacarpals",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "extends the thumb",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "adducts the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes the thumb",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: dorsal shaft of the radius and ulna, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the proximal phalanx of the thumb"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior interosseous nerve (radial)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: extends the thumb"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor pollicis brevis"
+        }
+      ]
     },
     {
       "id": "5.60",
@@ -15358,15 +19609,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Extensor pollicis longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760171",
         "src": "Assets/Cards/L1344_760171.png",
@@ -15374,42 +19625,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor pollicis longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image161.png"
+        "packageSource": "word/media/image60.png"
       },
-      "searchText": "5.60 upper extremity extensor pollicis longus l1344_760171 proximal insertion: dorsal shaft of the radius and ulna, interosseous membrane distal insertion: base of the distal phalanx of the thumb innervation: posterior interosseous nerve (radial) action: extends the thumb",
-      "titleTemplate": [
+      "searchText": "5.60 upper extremity muscles extensor pollicis longus l1344_760171 proximal insertion: *dorsal shaft of the radius and ulna *interosseous membrane lateral epicondyle of the humerus medial epicondyle of the humerus distal insertion: *base of the proximal phalanx of the thumb base of the distal phalanx of the thumb base of the second and third metacarpals innervation: *posterior interosseous nerve (radial) ulnar nerve musculocutaneous nerve radial nerve action: *extends the thumb adducts the thumb flexes the thumb",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor pollicis longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "dorsal shaft of the radius and ulna",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "medial epicondyle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the proximal phalanx of the thumb",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the second and third metacarpals",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "extends the thumb",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "adducts the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes the thumb",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: dorsal shaft of the radius and ulna, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the distal phalanx of the thumb"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior interosseous nerve (radial)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: extends the thumb"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor pollicis longus"
+        }
+      ]
     },
     {
       "id": "5.61",
@@ -15417,15 +19747,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Extensor indicis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760172",
         "src": "Assets/Cards/L1344_760172.png",
@@ -15433,42 +19763,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor indicis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image162.png"
+        "packageSource": "word/media/image61.png"
       },
-      "searchText": "5.61 upper extremity extensor indicis l1344_760172 proximal insertion: posterior surface of the distal ulna, interosseous membrane distal insertion: tendon of the extensor digitorum of the index finger innervation: posterior interosseous nerve (radial) action: extends the index finger, aids in extending the wrist",
-      "titleTemplate": [
+      "searchText": "5.61 upper extremity muscles extensor indicis l1344_760172 proximal insertion: dorsal shaft of the radius and ulna *interosseous membrane *posterior surface of the distal ulna lateral epicondyle of the humerus distal insertion: *tendon of the extensor digitorum of the index finger base of the second and third metacarpals middle phalanges of fingers two to five innervation: *posterior interosseous nerve (radial) ulnar nerve musculocutaneous nerve radial nerve action: *extends the index finger *aids in extending the wrist flexes distal interphalangeal joints",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor indicis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "dorsal shaft of the radius and ulna",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior surface of the distal ulna",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lateral epicondyle of the humerus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "tendon of the extensor digitorum of the index finger",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the second and third metacarpals",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "middle phalanges of fingers two to five",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "musculocutaneous nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "extends the index finger",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "aids in extending the wrist",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes distal interphalangeal joints",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: posterior surface of the distal ulna, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: tendon of the extensor digitorum of the index finger"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior interosseous nerve (radial)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: extends the index finger, aids in extending the wrist"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor indicis"
+        }
+      ]
     },
     {
       "id": "5.62",
@@ -15476,15 +19885,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Palmaris brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760173",
         "src": "Assets/Cards/L1344_760173.png",
@@ -15492,42 +19901,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Palmaris brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image163.png"
+        "packageSource": "word/media/image62.png"
       },
-      "searchText": "5.62 upper extremity palmaris brevis l1344_760173 proximal insertion: palmar aponeurosis and flexor retinaculum of the hand distal insertion: skin along the medial margin of the hand innervation: ulnar (c8-t1) nerve action: wrinkles the skin on the hypothenar eminence, deepens the hollow of the hand, assists with grip",
-      "titleTemplate": [
+      "searchText": "5.62 upper extremity muscles palmaris brevis l1344_760173 proximal insertion: *palmar aponeurosis *flexor retinaculum of the hand interosseous membrane dorsal shaft of the ulna distal insertion: *skin along the medial margin of the hand interosseous membrane base of the third and fourth metacarpals innervation: posterior interosseous nerve (radial) ulnar nerve radial nerve * ulnar (c8-t1) nerve action: *wrinkles the skin on the hypothenar eminence *deepens the hollow of the hand *assists with grip flexes the wrist",
+      "groups": [
         {
-          "type": "text",
-          "text": "Palmaris brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "palmar aponeurosis",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "flexor retinaculum of the hand",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "interosseous membrane",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "dorsal shaft of the ulna",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "skin along the medial margin of the hand",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the third and fourth metacarpals",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "ulnar (C8-T1) nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "wrinkles the skin on the hypothenar eminence",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "deepens the hollow of the hand",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assists with grip",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "flexes the wrist",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: palmar aponeurosis and flexor retinaculum of the hand"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: skin along the medial margin of the hand"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: ulnar (C8-T1) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: wrinkles the skin on the hypothenar eminence, deepens the hollow of the hand, assists with grip"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Palmaris brevis"
+        }
+      ]
     },
     {
       "id": "5.63",
@@ -15535,15 +20028,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Abductor pollicis brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760174",
         "src": "Assets/Cards/L1344_760174.png",
@@ -15551,42 +20044,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Abductor pollicis brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image164.png"
+        "packageSource": "word/media/image63.png"
       },
-      "searchText": "5.63 upper extremity abductor pollicis brevis l1344_760174 proximal insertion: tubercles of the scaphoid and trapezium bones, flexor retinaculum of the hand distal insertion: lateral aspect of the base of the proximal phalanx of the thumb innervation: median (c8-t1) nerve action: abducts the thumb at the carpometacarpal joint",
-      "titleTemplate": [
+      "searchText": "5.63 upper extremity muscles abductor pollicis brevis l1344_760174 proximal insertion: *tubercles of the scaphoid and trapezium bones *flexor retinaculum of the hand skin along the medial margin of the hand distal insertion: *lateral aspect of the base of the proximal phalanx of the thumb base of the second and third metacarpals middle phalanges of fingers two to five innervation: posterior interosseous nerve (radial) ulnar nerve ulnar (c8-t1) nerve *median (c8-t1) nerve action: *abducts the thumb at the carpometacarpal joint extends the thumb flexes the thumb",
+      "groups": [
         {
-          "type": "text",
-          "text": "Abductor pollicis brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "tubercles of the scaphoid and trapezium bones",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "flexor retinaculum of the hand",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "skin along the medial margin of the hand",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "lateral aspect of the base of the proximal phalanx of the thumb",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the second and third metacarpals",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "middle phalanges of fingers two to five",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "ulnar (C8-T1) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "median (C8-T1) nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "abducts the thumb at the carpometacarpal joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes the thumb",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: tubercles of the scaphoid and trapezium bones, flexor retinaculum of the hand"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: lateral aspect of the base of the proximal phalanx of the thumb"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: median (C8-T1) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: abducts the thumb at the carpometacarpal joint"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Abductor pollicis brevis"
+        }
+      ]
     },
     {
       "id": "5.64",
@@ -15594,15 +20161,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Flexor pollicis brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760175",
         "src": "Assets/Cards/L1344_760175.png",
@@ -15610,42 +20177,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor pollicis brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image165.png"
+        "packageSource": "word/media/image64.png"
       },
-      "searchText": "5.64 upper extremity flexor pollicis brevis l1344_760175 proximal insertion: tubercle of the trapezium bone, palmar aspects of the capitate and trapezoid bones, flexor retinaculum of the hand distal insertion: lateral aspect of the base of the proximal phalanx of the thumb innervation: superficial—median nerve; deep—ulnar nerve action: flexes the thumb",
-      "titleTemplate": [
+      "searchText": "5.64 upper extremity muscles flexor pollicis brevis l1344_760175 proximal insertion: *tubercle of the trapezium bone *palmar aspects of the capitate and trapezoid bones *flexor retinaculum of the hand distal insertion: *lateral aspect of the base of the proximal phalanx of the thumb base of the distal phalanx of the thumb lateral aspect of the distal phalanx of the thumb innervation: *median nerve *ulnar nerve radial nerve posterior interosseous nerve (radial) action: *flexes the thumb flexes the wrist flexes the middle phalanges",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor pollicis brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "tubercle of the trapezium bone",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "palmar aspects of the capitate and trapezoid bones",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "flexor retinaculum of the hand",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "lateral aspect of the base of the proximal phalanx of the thumb",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lateral aspect of the distal phalanx of the thumb",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes the thumb",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexes the wrist",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes the middle phalanges",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: tubercle of the trapezium bone, palmar aspects of the capitate and trapezoid bones, flexor retinaculum of the hand"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: lateral aspect of the base of the proximal phalanx of the thumb"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: superficial—median nerve; deep—ulnar nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes the thumb"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor pollicis brevis"
+        }
+      ]
     },
     {
       "id": "5.65",
@@ -15653,15 +20294,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Opponens pollicis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760176",
         "src": "Assets/Cards/L1344_760176.png",
@@ -15669,42 +20310,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Opponens pollicis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image166.png"
+        "packageSource": "word/media/image65.png"
       },
-      "searchText": "5.65 upper extremity opponens pollicis l1344_760176 proximal insertion: tubercle of the trapezium bone and the flexor retinaculum of the hand distal insertion: anterolateral aspect of the body of the first metacarpal innervation: median nerve action: opposes the thumb towards other fingers",
-      "titleTemplate": [
+      "searchText": "5.65 upper extremity muscles opponens pollicis l1344_760176 proximal insertion: *tubercle of the trapezium bone *the flexor retinaculum of the hand scaphoid lunate distal insertion: *anterolateral aspect of the body of the first metacarpal base of the distal phalanx of the thumb medial aspect of the distal phalanx of the thumb innervation: posterior interosseous nerve (radial) radial nerve ulnar (c8-t1) nerve *median nerve action: *opposes the thumb towards other fingers extends the thumb flexes the thumb",
+      "groups": [
         {
-          "type": "text",
-          "text": "Opponens pollicis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "tubercle of the trapezium bone",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "the flexor retinaculum of the hand",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "scaphoid",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lunate",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "anterolateral aspect of the body of the first metacarpal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "medial aspect of the distal phalanx of the thumb",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "radial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "ulnar (C8-T1) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "median nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "opposes the thumb towards other fingers",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes the thumb",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: tubercle of the trapezium bone and the flexor retinaculum of the hand"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: anterolateral aspect of the body of the first metacarpal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: median nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: opposes the thumb towards other fingers"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Opponens pollicis"
+        }
+      ]
     },
     {
       "id": "5.66",
@@ -15712,15 +20432,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Abductor digiti minimi",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760177",
         "src": "Assets/Cards/L1344_760177.png",
@@ -15728,42 +20448,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Abductor digiti minimi anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image167.png"
+        "packageSource": "word/media/image66.png"
       },
-      "searchText": "5.66 upper extremity abductor digiti minimi l1344_760177 proximal insertion: pisiform bone and tendon of the flexor carpi ulnaris distal insertion: medial aspect of the base of the proximal phalanx of the fifth finger innervation: ulnar (c8-t1) nerve action: abducts the little finger at the metacarpophalangeal (mcp) joint",
-      "titleTemplate": [
+      "searchText": "5.66 upper extremity muscles abductor digiti minimi l1344_760177 proximal insertion: *pisiform bone *tendon of the flexor carpi ulnaris hamate distal insertion: *medial aspect of the base of the proximal phalanx of the fifth finger distal phalanx of the fifth finger volar side of the distal phalanx of the fifth finger innervation: *ulnar (c8-t1) nerve posterior interosseous nerve (radial) radial nerve action: *abducts the little finger at the metacarpophalangeal (mcp) joint flexes the little finger assists in wrist extension",
+      "groups": [
         {
-          "type": "text",
-          "text": "Abductor digiti minimi"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "pisiform bone",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "tendon of the flexor carpi ulnaris",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "hamate",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial aspect of the base of the proximal phalanx of the fifth finger",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanx of the fifth finger",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "volar side of the distal phalanx of the fifth finger",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "ulnar (C8-T1) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "abducts the little finger at the metacarpophalangeal (MCP) joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexes the little finger",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "assists in wrist extension",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: pisiform bone and tendon of the flexor carpi ulnaris"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial aspect of the base of the proximal phalanx of the fifth finger"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: ulnar (C8-T1) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: abducts the little finger at the metacarpophalangeal (MCP) joint"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Abductor digiti minimi"
+        }
+      ]
     },
     {
       "id": "5.67",
@@ -15771,15 +20560,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Flexor digiti minimi",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760178",
         "src": "Assets/Cards/L1344_760178.png",
@@ -15787,42 +20576,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor digiti minimi anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image168.png"
+        "packageSource": "word/media/image67.png"
       },
-      "searchText": "5.67 upper extremity flexor digiti minimi l1344_760178 proximal insertion: hook of the hamate and flexor retinaculum of the hand distal insertion: medial aspect of the base of the proximal phalanx of the fifth finger innervation: ulnar (c8-t1) nerve action: flexes the fifth finger at the metacarpophalangeal (mcp) joint",
-      "titleTemplate": [
+      "searchText": "5.67 upper extremity muscles flexor digiti minimi l1344_760178 proximal insertion: *hook of the hamate *flexor retinaculum of the hand palmar aponeurosis capitate distal insertion: *medial aspect of the base of the proximal phalanx of the fifth finger distal phalanx of the fifth finger volar side of the distal phalanx of the fifth finger innervation: *ulnar (c8-t1) nerve posterior interosseous nerve (radial) radial nerve action: *flexes the fifth finger at the metacarpophalangeal (mcp) joint abducts the little finger at the metacarpophalangeal (mcp) joint flexes the little finger assists in wrist extension",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor digiti minimi"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "hook of the hamate",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "flexor retinaculum of the hand",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "palmar aponeurosis",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "capitate",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial aspect of the base of the proximal phalanx of the fifth finger",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanx of the fifth finger",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "volar side of the distal phalanx of the fifth finger",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "ulnar (C8-T1) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes the fifth finger at the metacarpophalangeal (MCP) joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "abducts the little finger at the metacarpophalangeal (MCP) joint",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexes the little finger",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "assists in wrist extension",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: hook of the hamate and flexor retinaculum of the hand"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial aspect of the base of the proximal phalanx of the fifth finger"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: ulnar (C8-T1) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes the fifth finger at the metacarpophalangeal (MCP) joint"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor digiti minimi"
+        }
+      ]
     },
     {
       "id": "5.68",
@@ -15830,15 +20698,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Opponens digiti minimi",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760179",
         "src": "Assets/Cards/L1344_760179.png",
@@ -15846,42 +20714,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Opponens digiti minimi anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image169.png"
+        "packageSource": "word/media/image68.png"
       },
-      "searchText": "5.68 upper extremity opponens digiti minimi l1344_760179 proximal insertion: hook of the hamate and flexor retinaculum of the hand distal insertion: medial aspect of the fifth metacarpal innervation: ulnar (c8-t1) nerve action: opposes the fifth finger toward the thumb",
-      "titleTemplate": [
+      "searchText": "5.68 upper extremity muscles opponens digiti minimi l1344_760179 proximal insertion: *hook of the hamate *flexor retinaculum of the hand palmar aponeurosis capitate distal insertion: *medial aspect of the fifth metacarpal distal phalanx of the fifth finger volar side of the distal phalanx of the fifth finger innervation: *ulnar (c8-t1) nerve posterior interosseous nerve (radial) radial nerve action: *opposes the fifth finger toward the thumb flexes the fifth finger assists in wrist extension",
+      "groups": [
         {
-          "type": "text",
-          "text": "Opponens digiti minimi"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "hook of the hamate",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "flexor retinaculum of the hand",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "palmar aponeurosis",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "capitate",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial aspect of the fifth metacarpal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanx of the fifth finger",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "volar side of the distal phalanx of the fifth finger",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "ulnar (C8-T1) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "opposes the fifth finger toward the thumb",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexes the fifth finger",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "assists in wrist extension",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: hook of the hamate and flexor retinaculum of the hand"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial aspect of the fifth metacarpal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: ulnar (C8-T1) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: opposes the fifth finger toward the thumb"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Opponens digiti minimi"
+        }
+      ]
     },
     {
       "id": "5.69",
@@ -15889,15 +20831,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Lumbricals (one to four)",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760180",
         "src": "Assets/Cards/L1344_760180.png",
@@ -15905,42 +20847,125 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Lumbricals (one to four) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image170.png"
+        "packageSource": "word/media/image69.png"
       },
-      "searchText": "5.69 upper extremity lumbricals (one to four) l1344_760180 proximal insertion: tendon of the flexor digitorum profundus distal insertion: radial aspect of the extensor hood of each digit innervation: median nerve (fingers 2 and 3), ulnar nerve (fingers 4 and 5) action: flexion at the metacarpophalangeal (mcp) joint and extension at the interphalangeal (ip) joint",
-      "titleTemplate": [
+      "searchText": "5.69 upper extremity muscles lumbricals (one to four) l1344_760180 proximal insertion: *tendon of the flexor digitorum profundus interosseous membrane base of the second, third, and fourth metacarpals distal insertion: *radial aspect of the extensor hood of each digit distal phalanx of the second, third, and fourth phalanges palmar aponeurosis innervation: *median nerve (fingers 2 and 3) *ulnar nerve (fingers 4 and 5) radial nerve posterior interosseous nerve (radial) action: *flexion at the metacarpophalangeal (mcp) joint *extension at the interphalangeal (ip) joint extension at the metacarpophalangeal (mcp) joint flexion at the interphalangeal (ip) joint",
+      "groups": [
         {
-          "type": "text",
-          "text": "Lumbricals (one to four)"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "tendon of the flexor digitorum profundus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "base of the second, third, and fourth metacarpals",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "radial aspect of the extensor hood of each digit",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanx of the second, third, and fourth phalanges",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "palmar aponeurosis",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "median nerve (fingers 2 and 3)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "ulnar nerve (fingers 4 and 5)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexion at the metacarpophalangeal (MCP) joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extension at the interphalangeal (IP) joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "extension at the metacarpophalangeal (MCP) joint",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "flexion at the interphalangeal (IP) joint",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: tendon of the flexor digitorum profundus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: radial aspect of the extensor hood of each digit"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: median nerve (fingers 2 and 3), ulnar nerve (fingers 4 and 5)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexion at the metacarpophalangeal (MCP) joint and extension at the interphalangeal (IP) joint"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        },
+        {
+          "type": "text",
+          "text": " (one to four)"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Lumbricals"
+        }
+      ]
     },
     {
       "id": "5.70",
@@ -15948,15 +20973,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Adductor pollicis transversus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760181",
         "src": "Assets/Cards/L1344_760181.png",
@@ -15964,42 +20989,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Adductor pollicis transversus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image171.png"
+        "packageSource": "word/media/image70.png"
       },
-      "searchText": "5.70 upper extremity adductor pollicis transversus l1344_760181 proximal insertion: palmar aspect of the body of the third metacarpal distal insertion: medial aspect of the base of the proximal phalanx of the thumb innervation: ulnar (c8-t1) nerve action: thumb adduction at the carpometacarpal joint",
-      "titleTemplate": [
+      "searchText": "5.70 upper extremity muscles adductor pollicis transversus l1344_760181 proximal insertion: *palmar aspect of the body of the third metacarpal tubercle of the trapezium bone interosseous membrane lunate distal insertion: *medial aspect of the base of the proximal phalanx of the thumb base of the distal phalanx of the thumb lateral aspect of the base of the proximal phalanx of the thumb innervation: *ulnar (c8-t1) nerve posterior interosseous nerve (radial) radial nerve action: *thumb adduction at the carpometacarpal joint extends the thumb opposes the thumb toward the fifth finger",
+      "groups": [
         {
-          "type": "text",
-          "text": "Adductor pollicis transversus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "palmar aspect of the body of the third metacarpal",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "tubercle of the trapezium bone",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "interosseous membrane",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lunate",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial aspect of the base of the proximal phalanx of the thumb",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lateral aspect of the base of the proximal phalanx of the thumb",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "ulnar (C8-T1) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "thumb adduction at the carpometacarpal joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "opposes the thumb toward the fifth finger",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: palmar aspect of the body of the third metacarpal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial aspect of the base of the proximal phalanx of the thumb"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: ulnar (C8-T1) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: thumb adduction at the carpometacarpal joint"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Adductor pollicis transversus"
+        }
+      ]
     },
     {
       "id": "5.71",
@@ -16007,15 +21106,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Adductor pollicis oblique",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760182",
         "src": "Assets/Cards/L1344_760182.png",
@@ -16023,42 +21122,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Adductor pollicis oblique anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image172.png"
+        "packageSource": "word/media/image71.png"
       },
-      "searchText": "5.71 upper extremity adductor pollicis oblique l1344_760182 proximal insertion: palmar aspects of the capitate bone and bases of the second and third metacarpal bones distal insertion: medial aspect of the base of the proximal phalanx of the thumb innervation: ulnar (c8-t1) nerve action: thumb adduction at the carpometacarpal joint",
-      "titleTemplate": [
+      "searchText": "5.71 upper extremity muscles adductor pollicis oblique l1344_760182 proximal insertion: *palmar aspects of the capitate bone *bases of the second and third metacarpal bones tubercle of the trapezium bone distal insertion: *medial aspect of the base of the proximal phalanx of the thumb base of the distal phalanx of the thumb lateral aspect of the base of the proximal phalanx of the thumb innervation: *ulnar (c8-t1) nerve posterior interosseous nerve (radial) radial nerve action: *thumb adduction at the carpometacarpal joint extends the thumb opposes the thumb toward the fifth finger",
+      "groups": [
         {
-          "type": "text",
-          "text": "Adductor pollicis oblique"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "palmar aspects of the capitate bone",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "bases of the second and third metacarpal bones",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "tubercle of the trapezium bone",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial aspect of the base of the proximal phalanx of the thumb",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "base of the distal phalanx of the thumb",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lateral aspect of the base of the proximal phalanx of the thumb",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "ulnar (C8-T1) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "thumb adduction at the carpometacarpal joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "extends the thumb",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "opposes the thumb toward the fifth finger",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: palmar aspects of the capitate bone and bases of the second and third metacarpal bones"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial aspect of the base of the proximal phalanx of the thumb"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: ulnar (C8-T1) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: thumb adduction at the carpometacarpal joint"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Adductor pollicis oblique"
+        }
+      ]
     },
     {
       "id": "5.72",
@@ -16066,15 +21234,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Palmar interossei (one to three)",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760183",
         "src": "Assets/Cards/L1344_760183.png",
@@ -16082,42 +21250,130 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Palmar interossei (one to three) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image173.png"
+        "packageSource": "word/media/image72.png"
       },
-      "searchText": "5.72 upper extremity palmar interossei (one to three) l1344_760183 proximal insertion: palmar surface of the second, fourth, and fifth metacarpal bones distal insertion: extensor hood and base of the proximal phalanges of their related digits innervation: ulnar (c8-t1) nerve action: adduction of the thumb, index, ring, and little fingers, contribute to flexion of the metacarpophalangeal (mcp) and extension of the interphalangeal (ip) joint",
-      "titleTemplate": [
+      "searchText": "5.72 upper extremity muscles palmar interossei (one to three) l1344_760183 proximal insertion: *palmar surface of the second, fourth, and fifth metacarpal bones tendon of the flexor digitorum profundus interosseous membrane base of the first, second, and third metacarpals distal insertion: *extensor hood and base of the proximal phalanges of their related digits radial aspect of the extensor hood of each digit distal phalanx of the second, third, and fourth phalanges palmar aponeurosis innervation: *ulnar (c8-t1) nerve median nerve posterior interosseous nerve (radial) action: *adduction of the thumb, index, ring, and little fingers *contribute to flexion of the metacarpophalangeal (mcp) and extension of the interphalangeal (ip) joint abduction of the thumb, index, ring, and little fingers flexes distal interphalangeal joints",
+      "groups": [
         {
-          "type": "text",
-          "text": "Palmar interossei (one to three)"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "palmar surface of the second, fourth, and fifth metacarpal bones",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "tendon of the flexor digitorum profundus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "interosseous membrane",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "base of the first, second, and third metacarpals",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "extensor hood and base of the proximal phalanges of their related digits",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "radial aspect of the extensor hood of each digit",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "distal phalanx of the second, third, and fourth phalanges",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "palmar aponeurosis",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "ulnar (C8-T1) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "median nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "adduction of the thumb, index, ring, and little fingers",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "contribute to flexion of the metacarpophalangeal (MCP) and extension of the interphalangeal (IP) joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "abduction of the thumb, index, ring, and little fingers",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "flexes distal interphalangeal joints",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: palmar surface of the second, fourth, and fifth metacarpal bones"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: extensor hood and base of the proximal phalanges of their related digits"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: ulnar (C8-T1) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: adduction of the thumb, index, ring, and little fingers, contribute to flexion of the metacarpophalangeal (MCP) and extension of the interphalangeal (IP) joint"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        },
+        {
+          "type": "text",
+          "text": " (one to three)"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Palmar interossei"
+        }
+      ]
     },
     {
       "id": "5.73",
@@ -16125,15 +21381,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "upper-extremity",
       "sectionName": "Upper Extremity",
       "sectionColorClass": "section-5",
-      "manuscriptSectionHeading": "Section 5: Upper ?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 5: Upper Extremity",
       "title": "Dorsal interossei (one to four)",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760184",
         "src": "Assets/Cards/L1344_760184.png",
@@ -16141,42 +21397,120 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Dorsal interossei (one to four) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image174.png"
+        "packageSource": "word/media/image73.png"
       },
-      "searchText": "5.73 upper extremity dorsal interossei (one to four) l1344_760184 proximal insertion: radial side of the lateral metacarpal and the ulnar side of the medial metacarpal distal insertion: radial side of the lateral metacarpal and extensor expansion innervation: ulnar (c8-t1) nerve action: abducts the finger, simultaneously flexes the metacarpophalangeal (mcp) joint and extends the interphalangeal (ip) joint",
-      "titleTemplate": [
+      "searchText": "5.73 upper extremity muscles dorsal interossei (one to four) l1344_760184 proximal insertion: *radial side of the lateral metacarpal *ulnar side of the medial metacarpal palmar aponeurosis distal insertion: *radial side of the lateral metacarpal and extensor expansion distal phalanx of the second, third, and fourth phalanges distal phalanx of the thumb innervation: *ulnar (c8-t1) nerve posterior interosseous nerve (radial) radial nerve action: *abducts the finger *simultaneously flexes the metacarpophalangeal (mcp) joint and extends the interphalangeal (ip) joint extension at the metacarpophalangeal (mcp) joint flexion at the interphalangeal (ip) joint",
+      "groups": [
         {
-          "type": "text",
-          "text": "Dorsal interossei (one to four)"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "radial side of the lateral metacarpal",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "ulnar side of the medial metacarpal",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "palmar aponeurosis",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "radial side of the lateral metacarpal and extensor expansion",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanx of the second, third, and fourth phalanges",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "distal phalanx of the thumb",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "ulnar (C8-T1) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior interosseous nerve (radial)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "radial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "abducts the finger",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "simultaneously flexes the metacarpophalangeal (MCP) joint and extends the interphalangeal (IP) joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "extension at the metacarpophalangeal (MCP) joint",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "flexion at the interphalangeal (IP) joint",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: radial side of the lateral metacarpal and the ulnar side of the medial metacarpal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: radial side of the lateral metacarpal and extensor expansion"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: ulnar (C8-T1) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: abducts the finger, simultaneously flexes the metacarpophalangeal (MCP) joint and extends the interphalangeal (IP) joint"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        },
+        {
+          "type": "text",
+          "text": " (one to four)"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Dorsal interossei"
+        }
+      ]
     },
     {
       "id": "6.1",
