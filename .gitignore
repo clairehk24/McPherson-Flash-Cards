@@ -1,0 +1,5 @@
+.manuscript-source/
+.codex-preview/
+__pycache__/
+*.pyc
+

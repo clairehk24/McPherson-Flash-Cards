@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>McPherson Flash Cards browser smoke test</title>
+    <style>
+      body {
+        margin: 1rem;
+        font: 16px/1.5 Consolas, monospace;
+      }
+
+      iframe {
+        position: fixed;
+        width: 1280px;
+        height: 900px;
+        opacity: 0.01;
+        pointer-events: none;
+      }
+
+      #results {
+        white-space: pre-wrap;
+      }
+
+      [data-status="passed"] {
+        color: #176b31;
+      }
+
+      [data-status="failed"] {
+        color: #a11d14;
+      }
+
+      body.preview-mode {
+        margin: 0;
+      }
+
+      body.preview-mode > h1,
+      body.preview-mode > #results {
+        display: none;
+      }
+
+      body.preview-mode iframe {
+        position: static;
+        display: block;
+        width: 1280px;
+        height: 1200px;
+        border: 0;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Browser smoke test</h1>
+    <pre id="results">Running…</pre>
+    <iframe id="appFrame" title="Application under test"></iframe>
+
+    <script>
+      const results = document.getElementById("results");
+      const frame = document.getElementById("appFrame");
+
+      function assert(condition, message) {
+        if (!condition) throw new Error(message);
+      }
+
+      function searchFor(documentRoot, query) {
+        const search = documentRoot.getElementById("searchInput");
+        search.value = query;
+        search.dispatchEvent(new Event("input", { bubbles: true }));
+      }
+
+      localStorage.clear();
+      frame.addEventListener("load", () => {
+        if (!frame.contentWindow.MCPHERSON_CARD_DATA) return;
+        try {
+          const appWindow = frame.contentWindow;
+          const documentRoot = frame.contentDocument;
+          const data = appWindow.MCPHERSON_CARD_DATA;
+
+          assert(data.cards.length === 244, "Expected all 244 manuscript cards.");
+          assert(
+            data.cards.filter((card) => card.cardType === "bones").length === 9 &&
+              data.cards.filter((card) => card.cardType === "ligaments").length === 7 &&
+              data.cards.filter((card) => card.cardType === "muscles").length === 40,
+            "Section 1 card-type metadata does not match the approved ranges.",
+          );
+          const cardTypeFilter = documentRoot.getElementById("cardTypeFilter");
+          cardTypeFilter.value = "muscles";
+          cardTypeFilter.dispatchEvent(new Event("change", { bubbles: true }));
+          assert(
+            documentRoot.getElementById("progressText").textContent === "1 of 40" &&
+              documentRoot.querySelector(".card-id").textContent.includes("1.17"),
+            "The Muscles filter should show cards 1.17 through 1.56.",
+          );
+          cardTypeFilter.value = "all";
+          cardTypeFilter.dispatchEvent(new Event("change", { bubbles: true }));
+          assert(
+            documentRoot.querySelectorAll("[data-drop-target]").length === 18,
+            "Card 1.1 should render 18 drag-and-drop targets.",
+          );
+
+          const firstChip = documentRoot.querySelector("[data-choice-id]");
+          const firstTarget = documentRoot.querySelector("[data-drop-target]");
+          firstChip.click();
+          documentRoot.querySelector("[data-drop-target]").click();
+          assert(
+            documentRoot.querySelector("[data-drop-target]").classList.contains("is-filled"),
+            "Click-to-place drag-and-drop fallback did not fill a target.",
+          );
+
+          searchFor(documentRoot, "L1344_760021");
+          const fillCard = data.cards.find((card) => card.id === "1.10");
+          assert(
+            documentRoot.querySelectorAll("[data-blank-id]").length === fillCard.blanks.length,
+            "Fill-in-the-blank inputs do not match imported highlights.",
+          );
+          assert(
+            documentRoot.querySelector(".fill-card-sheet") &&
+              documentRoot.querySelectorAll(".guided-note-row").length ===
+                fillCard.paragraphs.length,
+            "Fill-in content should use the guided-notes card structure.",
+          );
+          assert(
+            documentRoot.querySelectorAll("[data-blank-status]").length ===
+              fillCard.blanks.length,
+            "Each fill-in blank should have its own feedback status.",
+          );
+
+          const firstBlank = fillCard.blanks[0];
+          const firstInput = documentRoot.querySelector(
+            `[data-blank-id="${firstBlank.id}"]`,
+          );
+          firstInput.value = "not the answer";
+          firstInput.dispatchEvent(new Event("input", { bubbles: true }));
+          firstInput.dispatchEvent(new Event("blur", { bubbles: false }));
+          assert(
+            documentRoot
+              .querySelector(`[data-blank-status="${firstBlank.id}"]`)
+              .classList.contains("incorrect"),
+            "Leaving an incorrect blank should show Try again feedback.",
+          );
+
+          firstInput.focus();
+          firstInput.value = firstBlank.answer;
+          firstInput.dispatchEvent(new Event("input", { bubbles: true }));
+          firstInput.dispatchEvent(
+            new KeyboardEvent("keydown", { key: "Enter", bubbles: true }),
+          );
+          assert(
+            documentRoot
+              .querySelector(`[data-blank-status="${firstBlank.id}"]`)
+              .classList.contains("correct"),
+            "Enter should check the current blank.",
+          );
+          assert(
+            documentRoot.activeElement ===
+              documentRoot.querySelectorAll("[data-blank-id]")[1],
+            "Enter should advance focus to the next blank.",
+          );
+
+          for (const blank of fillCard.blanks) {
+            const input = documentRoot.querySelector(`[data-blank-id="${blank.id}"]`);
+            input.value = blank.answer;
+            input.dispatchEvent(new Event("input", { bubbles: true }));
+          }
+          documentRoot.querySelector('[data-action="check"]').click();
+          assert(
+            documentRoot.querySelector(".feedback-box.correct"),
+            "A fully correct fill-in-the-blank response was not graded as correct.",
+          );
+          assert(
+            documentRoot.querySelectorAll(".blank-status.correct").length ===
+              fillCard.blanks.length,
+            "Check answers should mark every correct blank individually.",
+          );
+
+          searchFor(documentRoot, "L1344_760028");
+          const selectCard = data.cards.find((card) => card.id === "1.17");
+          assert(
+            selectCard.blanks.length === 1 &&
+              selectCard.blanks[0].answer === selectCard.title &&
+              documentRoot.querySelector(".card-title [data-blank-id]"),
+            "Muscle cards should render their title as a graded blank.",
+          );
+          for (const group of selectCard.groups) {
+            for (const option of group.options) {
+              if (!option.correct) continue;
+              const checkbox = documentRoot.querySelector(
+                `[data-option-id="${option.id}"]`,
+              );
+              checkbox.checked = true;
+              checkbox.dispatchEvent(new Event("change", { bubbles: true }));
+            }
+          }
+          documentRoot.querySelector('[data-action="check"]').click();
+          assert(
+            documentRoot.querySelector(".feedback-box.incorrect"),
+            "Correct select-all options must not pass while the muscle name is blank.",
+          );
+          const muscleNameInput = documentRoot.querySelector(
+            ".card-title [data-blank-id]",
+          );
+          muscleNameInput.value = selectCard.blanks[0].answer;
+          muscleNameInput.dispatchEvent(new Event("input", { bubbles: true }));
+          documentRoot.querySelector('[data-action="check"]').click();
+          assert(
+            documentRoot.querySelector(".feedback-box.correct"),
+            "The muscle name and select-all response were not graded together.",
+          );
+
+          searchFor(documentRoot, "L1344_760248");
+          assert(
+            documentRoot.querySelector('[data-action="check"]').disabled,
+            "Draft card 6.64 should not allow grading.",
+          );
+          assert(
+            documentRoot.querySelector(".draft-notice"),
+            "Draft card 6.64 should explain its editorial status.",
+          );
+
+          searchFor(documentRoot, "L1344_760021");
+          frame.style.width = "390px";
+          const viewportWidth = documentRoot.documentElement.clientWidth;
+          const contentWidth = documentRoot.documentElement.scrollWidth;
+          assert(
+            contentWidth <= viewportWidth,
+            `Responsive layout overflows at 390 px (${contentWidth} > ${viewportWidth}).`,
+          );
+
+          results.dataset.status = "passed";
+          results.textContent =
+            "PASS\n" +
+            "• Loaded 244 cards and all section controls\n" +
+            "• Exercised drag-and-drop click fallback\n" +
+            "• Graded a fill-in-the-blank card correctly\n" +
+            "• Graded a select-all-that-apply card correctly\n" +
+            "• Kept incomplete manuscript cards in draft mode\n" +
+            "• Verified no horizontal overflow at a 390 px viewport";
+          document.title = "PASS — McPherson smoke test";
+
+          if (new URLSearchParams(location.search).has("preview")) {
+            documentRoot.querySelector('[data-action="clear-response"]')?.click();
+            const previewInputs = documentRoot.querySelectorAll("[data-blank-id]");
+            previewInputs[0].value = fillCard.blanks[0].answer;
+            previewInputs[0].dispatchEvent(new Event("input", { bubbles: true }));
+            previewInputs[0].dispatchEvent(new Event("blur"));
+            previewInputs[1].value = "sample response";
+            previewInputs[1].dispatchEvent(new Event("input", { bubbles: true }));
+            previewInputs[1].dispatchEvent(new Event("blur"));
+            document.body.classList.add("preview-mode");
+            frame.style.width = "1280px";
+          }
+        } catch (error) {
+          results.dataset.status = "failed";
+          results.textContent = `FAIL\n${error.stack || error.message}`;
+          document.title = "FAIL — McPherson smoke test";
+        }
+      });
+      frame.src = "../index.html";
+    </script>
+  </body>
+</html>
