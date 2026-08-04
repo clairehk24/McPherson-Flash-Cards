@@ -272,7 +272,7 @@ h1 {
 
 .tab-count {
   margin-top: 0.3rem;
-  color: rgba(255, 255, 255, 0.82);
+  color: #fff;
   font-size: 0.75rem;
   font-weight: 600;
 }
@@ -313,13 +313,13 @@ h1 {
 }
 
 .tab.section-2 {
-  --tab-color: var(--section-2);
-  background: var(--section-2);
+  --tab-color: #c45118;
+  background: var(--tab-color);
 }
 
 .tab.section-3 {
-  --tab-color: var(--section-3);
-  background: var(--section-3);
+  --tab-color: #027b89;
+  background: var(--tab-color);
 }
 
 .tab.section-4 {
@@ -335,16 +335,6 @@ h1 {
 .tab.section-6 {
   --tab-color: var(--section-6);
   background: var(--section-6);
-}
-
-.tab.section-2,
-.tab.section-3 {
-  color: #07121f;
-}
-
-.tab.section-2 .tab-count,
-.tab.section-3 .tab-count {
-  color: rgba(7, 18, 31, 0.78);
 }
 
 .controls,
