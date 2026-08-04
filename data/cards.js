@@ -2,11 +2,11 @@
 window.MCPHERSON_CARD_DATA = {
   "schemaVersion": 2,
   "source": {
-    "filename": "Section 1 Quesiton Manuscript.docx",
-    "sha256": "02fe9acf10b2bd851adc873c172b88f8710fdd13bff312f30618c39846817660",
+    "filename": "Section 2 Question Manuscript.docx",
+    "sha256": "aa984ab0166ec23a580700b1ace3519c5355783de21b601a5fe539503db44698",
     "manuscriptSectionHeadings": [
       "Section 1: Head and neck",
-      "Section 2: Lumbar and Bones",
+      "Section 2: Lumbar Region",
       "Section 3: Thorax Bones",
       "Section 4: Pelvic Bones",
       "Section 5: Upper ?",
@@ -14,10 +14,10 @@ window.MCPHERSON_CARD_DATA = {
     ],
     "merge": {
       "replacedSectionIds": [
-        "head-neck"
+        "lumbar-region"
       ],
-      "replacedCards": 56,
-      "preservedCards": 188
+      "replacedCards": 8,
+      "preservedCards": 236
     }
   },
   "sections": [
@@ -7121,7 +7121,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lumbar-region",
       "sectionName": "Lumbar Region",
       "sectionColorClass": "section-2",
-      "manuscriptSectionHeading": "Section 2: Lumbar and Bones",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 2: Lumbar Region",
       "title": "Vertebra (Superior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -7135,9 +7137,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Vertebra (Superior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image58.png"
+        "packageSource": "word/media/image1.png"
       },
-      "searchText": "2.1 lumbar region vertebra (superior) l1344_760068 a. pedicle b. vertebral canal c. lamina d. spinous process e. inferior articular facet f. superior articular facet g. transverse process",
+      "searchText": "2.1 lumbar region bones vertebra (superior) l1344_760068 a. pedicle b. vertebral canal c. lamina d. spinous process e. inferior articular facet f. superior articular facet g. transverse process",
       "labels": [
         {
           "id": "label-a",
@@ -7182,7 +7184,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lumbar-region",
       "sectionName": "Lumbar Region",
       "sectionColorClass": "section-2",
-      "manuscriptSectionHeading": "Section 2: Lumbar and Bones",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 2: Lumbar Region",
       "title": "Vertebra (Lateral)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -7196,9 +7200,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Vertebra (Lateral) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image59.png"
+        "packageSource": "word/media/image2.png"
       },
-      "searchText": "2.2 lumbar region vertebra (lateral) l1344_760069 a. superior articular process b. transverse process c. costal facet d. intervertebral foramen e. apophyseal joint f. spinous process g. inferior articular process h. pedicle i. inferior costal facet j. t7 k. intervertebral disc l. t6 m. superior costal facet n. superior articular process",
+      "searchText": "2.2 lumbar region bones vertebra (lateral) l1344_760069 a. superior articular process b. transverse process c. costal facet d. intervertebral foramen e. apophyseal joint f. spinous process g. inferior articular process h. pedicle i. inferior costal facet j. t7 k. intervertebral disc l. t6 m. superior costal facet n. superior articular process",
       "labels": [
         {
           "id": "label-a",
@@ -7278,7 +7282,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lumbar-region",
       "sectionName": "Lumbar Region",
       "sectionColorClass": "section-2",
-      "manuscriptSectionHeading": "Section 2: Lumbar and Bones",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 2: Lumbar Region",
       "title": "Lumbar Ligaments (Lateral)",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
@@ -7292,9 +7298,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Lumbar Ligaments (Lateral) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image60.png"
+        "packageSource": "word/media/image3.png"
       },
-      "searchText": "2.3 lumbar region lumbar ligaments (lateral) l1344_760070 a. interspinous ligament: restricts hyperflexion b. supraspinous ligament: restricts hyperflexion and separation of the spinous processes c. posterior longitudinal ligament: restricts hyperflexion d. ligamentum flavum: restricts excessive separation of adjacent vertebral lamina and hyperflexion e. anterior longitudinal ligament: restricts excessive hyperextension",
+      "searchText": "2.3 lumbar region ligaments lumbar ligaments (lateral) l1344_760070 a. interspinous ligament: restricts hyperflexion b. supraspinous ligament: restricts hyperflexion and separation of the spinous processes c. posterior longitudinal ligament: restricts hyperflexion d. ligamentum flavum: restricts excessive separation of adjacent vertebral lamina and hyperflexion e. anterior longitudinal ligament: restricts excessive hyperextension",
       "titleTemplate": [
         {
           "type": "text",
@@ -7389,7 +7395,7 @@ window.MCPHERSON_CARD_DATA = {
           },
           {
             "type": "text",
-            "text": " ligament: restricts excessive "
+            "text": " longitudinal ligament: restricts excessive "
           },
           {
             "type": "blank",
@@ -7432,7 +7438,7 @@ window.MCPHERSON_CARD_DATA = {
         },
         {
           "id": "blank-9",
-          "answer": "Anterior longitudinal"
+          "answer": "Anterior"
         },
         {
           "id": "blank-10",
@@ -7446,15 +7452,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lumbar-region",
       "sectionName": "Lumbar Region",
       "sectionColorClass": "section-2",
-      "manuscriptSectionHeading": "Section 2: Lumbar and Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 2: Lumbar Region",
       "title": "Iliocostalis lumborum",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "unexpected_correct_marker"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760071",
         "src": "Assets/Cards/L1344_760071.png",
@@ -7462,88 +7468,109 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Iliocostalis lumborum anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image61.png"
+        "packageSource": "word/media/image4.png"
       },
-      "searchText": "2.4 lumbar region iliocostalis lumborum l1344_760071 proximal insertion: *posterior surface of the sacrum *lip of the iliac crest *thoracolumbar fascia distal insertion: *angle of the 6th to 12th ribs *transverse process of l1-l4 vertebrae innervation: *dorsal rami of spinal nerves action: *bilateral contraction—lumbar spine extension *unilateral contraction—ipsilateral lumbar spine side bending",
+      "searchText": "2.4 lumbar region muscles iliocostalis lumborum l1344_760071 proximal insertion: *posterior surface of the sacrum *lip of the iliac crest *thoracolumbar fascia transverse process of vertebrae distal insertion: *angle of the 6th to 12th ribs *transverse process of l1-l4 vertebrae the spinous process of the inferior vertebra innervation: *dorsal rami of spinal nerves posterior rami of the spinal nerves medial ramus of the dorsal root of the spinal nerve action: *bilateral contraction—lumbar spine extension *unilateral contraction—ipsilateral lumbar spine side bending lumbar spine stabilization",
+      "groups": [
+        {
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "posterior surface of the sacrum",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "lip of the iliac crest",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "thoracolumbar fascia",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "transverse process of vertebrae",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "angle of the 6th to 12th ribs",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "transverse process of L1-L4 vertebrae",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "the spinous process of the inferior vertebra",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "dorsal rami of spinal nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "medial ramus of the dorsal root of the spinal nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "bilateral contraction—lumbar spine extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "unilateral contraction—ipsilateral lumbar spine side bending",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "lumbar spine stabilization",
+              "correct": false
+            }
+          ]
+        }
+      ],
       "titleTemplate": [
         {
           "type": "blank",
           "id": "blank-1"
         }
-      ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: "
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "*posterior surface of the sacrum"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "*lip of the iliac crest"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "*thoracolumbar fascia"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: "
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "*angle of the 6th to 12th ribs"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "*transverse process of L1-L4 vertebrae"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: "
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "*dorsal rami of spinal nerves"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: "
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "*bilateral contraction—lumbar spine extension"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "*unilateral contraction—ipsilateral lumbar spine side bending"
-          }
-        ]
       ],
       "blanks": [
         {
@@ -7558,15 +7585,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lumbar-region",
       "sectionName": "Lumbar Region",
       "sectionColorClass": "section-2",
-      "manuscriptSectionHeading": "Section 2: Lumbar and Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 2: Lumbar Region",
       "title": "Interspinales lumborum",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760072",
         "src": "Assets/Cards/L1344_760072.png",
@@ -7574,42 +7601,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Interspinales lumborum anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image62.png"
+        "packageSource": "word/media/image5.png"
       },
-      "searchText": "2.5 lumbar region interspinales lumborum l1344_760072 proximal insertion: the spinous process of the superior vertebra distal insertion: the spinous process of the inferior vertebra innervation: posterior rami of the spinal nerves action: lumbar spine stabilization",
-      "titleTemplate": [
+      "searchText": "2.5 lumbar region muscles interspinales lumborum l1344_760072 proximal insertion: *spinous process of the superior vertebra thoracolumbar fascia transverse process of vertebrae distal insertion: *spinous process of the inferior vertebra transverse process of l1-l4 vertebrae rib 12 innervation: *posterior rami of the spinal nerves dorsal rami of spinal nerves medial ramus of the dorsal root of the spinal nerve action: *lumbar spine stabilization bilateral contraction—lumbar spine extension unilateral contraction—ipsilateral lumbar spine side bending",
+      "groups": [
         {
-          "type": "text",
-          "text": "Interspinales lumborum"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "spinous process of the superior vertebra",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "thoracolumbar fascia",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "transverse process of vertebrae",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "spinous process of the inferior vertebra",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "transverse process of L1-L4 vertebrae",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "rib 12",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior rami of the spinal nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "dorsal rami of spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "medial ramus of the dorsal root of the spinal nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "lumbar spine stabilization",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "bilateral contraction—lumbar spine extension",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "unilateral contraction—ipsilateral lumbar spine side bending",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: the spinous process of the superior vertebra"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: the spinous process of the inferior vertebra"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior rami of the spinal nerves"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: lumbar spine stabilization"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Interspinales lumborum"
+        }
+      ]
     },
     {
       "id": "2.6",
@@ -7617,15 +7713,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lumbar-region",
       "sectionName": "Lumbar Region",
       "sectionColorClass": "section-2",
-      "manuscriptSectionHeading": "Section 2: Lumbar and Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 2: Lumbar Region",
       "title": "Multifidus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760073",
         "src": "Assets/Cards/L1344_760073.png",
@@ -7633,42 +7729,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Multifidus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image63.png"
+        "packageSource": "word/media/image6.png"
       },
-      "searchText": "2.6 lumbar region multifidus l1344_760073 proximal insertion: back surface of the sacrum, posterior superior iliac spine, transverse process of vertebrae distal insertion: base of the spinous process of vertebrae innervation: medial ramus of the dorsal root of the spinal nerve action: bilateral contraction—vertebral column extension; ipsilateral contraction—contralateral rotation of vertebral column",
-      "titleTemplate": [
+      "searchText": "2.6 lumbar region muscles multifidus l1344_760073 proximal insertion: *back surface of the sacrum *posterior superior iliac spine *transverse process of vertebrae thoracolumbar fascia distal insertion: *base of the spinous process of vertebrae angle of the 6th to 12th ribs transverse process of l1-l4 vertebrae the spinous process of the inferior vertebra innervation: *medial ramus of the dorsal root of the spinal nerve dorsal rami of spinal nerves posterior rami of the spinal nerves action: *bilateral contraction—vertebral column extension *ipsilateral contraction—contralateral rotation of vertebral column bilateral contraction—vertebral column flexion ipsilateral contraction—ipsilateral rotation of vertebral column",
+      "groups": [
         {
-          "type": "text",
-          "text": "Multifidus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "back surface of the sacrum",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "posterior superior iliac spine",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "transverse process of vertebrae",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "thoracolumbar fascia",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the spinous process of vertebrae",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "angle of the 6th to 12th ribs",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "transverse process of L1-L4 vertebrae",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "the spinous process of the inferior vertebra",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "medial ramus of the dorsal root of the spinal nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "dorsal rami of spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "bilateral contraction—vertebral column extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "ipsilateral contraction—contralateral rotation of vertebral column",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "bilateral contraction—vertebral column flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "ipsilateral contraction—ipsilateral rotation of vertebral column",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: back surface of the sacrum, posterior superior iliac spine, transverse process of vertebrae"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the spinous process of vertebrae"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: medial ramus of the dorsal root of the spinal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: bilateral contraction—vertebral column extension; ipsilateral contraction—contralateral rotation of vertebral column"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Multifidus"
+        }
+      ]
     },
     {
       "id": "2.7",
@@ -7676,15 +7856,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lumbar-region",
       "sectionName": "Lumbar Region",
       "sectionColorClass": "section-2",
-      "manuscriptSectionHeading": "Section 2: Lumbar and Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 2: Lumbar Region",
       "title": "Rotators",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760074",
         "src": "Assets/Cards/L1344_760074.png",
@@ -7692,42 +7872,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Rotators anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image64.png"
+        "packageSource": "word/media/image7.png"
       },
-      "searchText": "2.7 lumbar region rotators l1344_760074 proximal insertion: transverse process of vertebrae distal insertion: spinous process of the superior vertebrae innervation: posterior rami of the spinal nerve action: stabilizes the spine, contributes to rotation and extension of the spine",
-      "titleTemplate": [
+      "searchText": "2.7 lumbar region muscles rotators l1344_760074 proximal insertion: *transverse process of vertebrae spinous process of the superior vertebra posterior surface of the sacrum thoracolumbar fascia distal insertion: *spinous process of the superior vertebrae transverse process of l1-l4 vertebrae the spinous process of the inferior vertebra innervation: *posterior rami of the spinal nerve dorsal rami of spinal nerves medial ramus of the dorsal root of the spinal nerve action: *stabilizes the spine *contributes to rotation and extension of the spine unilateral contraction—ipsilateral lumbar spine side bending",
+      "groups": [
         {
-          "type": "text",
-          "text": "Rotators"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "transverse process of vertebrae",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "spinous process of the superior vertebra",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior surface of the sacrum",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "thoracolumbar fascia",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "spinous process of the superior vertebrae",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "transverse process of L1-L4 vertebrae",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "the spinous process of the inferior vertebra",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior rami of the spinal nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "dorsal rami of spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "medial ramus of the dorsal root of the spinal nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "stabilizes the spine",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "contributes to rotation and extension of the spine",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "unilateral contraction—ipsilateral lumbar spine side bending",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: transverse process of vertebrae"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: spinous process of the superior vertebrae"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior rami of the spinal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: stabilizes the spine, contributes to rotation and extension of the spine"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Rotators"
+        }
+      ]
     },
     {
       "id": "2.8",
@@ -7735,15 +7989,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lumbar-region",
       "sectionName": "Lumbar Region",
       "sectionColorClass": "section-2",
-      "manuscriptSectionHeading": "Section 2: Lumbar and Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 2: Lumbar Region",
       "title": "Quadratus lumborum",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760075",
         "src": "Assets/Cards/L1344_760075.png",
@@ -7751,42 +8005,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Quadratus lumborum anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image65.png"
+        "packageSource": "word/media/image8.png"
       },
-      "searchText": "2.8 lumbar region quadratus lumborum l1344_760075 proximal insertion: ilium, ribs 5 to 10 distal insertion: rib 12, vertebrae l1-l4 innervation: subcostal nerve (t12), anterior rami of spinal nerves l1-l4 action: lateral bending",
-      "titleTemplate": [
+      "searchText": "2.8 lumbar region muscles quadratus lumborum l1344_760075 proximal insertion: *ilium *ribs 5 to 10 posterior surface of the sacrum distal insertion: *rib 12 *vertebrae l1-l4 angle of the 8th to 10th ribs posterior surface of the sacrum innervation: *subcostal nerve (t12) *anterior rami of spinal nerves l1-l4 dorsal rami of spinal nerves posterior rami of the spinal nerves action: *lateral bending bilateral contraction—lumbar spine extension unilateral contraction—ipsilateral lumbar spine side bending lumbar spine stabilization",
+      "groups": [
         {
-          "type": "text",
-          "text": "Quadratus lumborum"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ilium",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "ribs 5 to 10",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior surface of the sacrum",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "rib 12",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "vertebrae L1-L4",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "angle of the 8th to 10th ribs",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "posterior surface of the sacrum",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "subcostal nerve (T12)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "anterior rami of spinal nerves L1-L4",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "dorsal rami of spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "lateral bending",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "bilateral contraction—lumbar spine extension",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "unilateral contraction—ipsilateral lumbar spine side bending",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "lumbar spine stabilization",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ilium, ribs 5 to 10"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: rib 12, vertebrae L1-L4"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: subcostal nerve (T12), anterior rami of spinal nerves L1-L4"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: lateral bending"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Quadratus lumborum"
+        }
+      ]
     },
     {
       "id": "3.1",

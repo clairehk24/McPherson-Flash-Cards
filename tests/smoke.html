@@ -77,16 +77,37 @@
 
           assert(data.cards.length === 244, "Expected all 244 manuscript cards.");
           assert(
-            data.cards.filter((card) => card.cardType === "bones").length === 9 &&
-              data.cards.filter((card) => card.cardType === "ligaments").length === 7 &&
-              data.cards.filter((card) => card.cardType === "muscles").length === 40,
-            "Section 1 card-type metadata does not match the approved ranges.",
+            data.cards.filter(
+              (card) => card.sectionId === "head-neck" && card.cardType === "bones",
+            ).length === 9 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "head-neck" && card.cardType === "ligaments",
+              ).length === 7 &&
+              data.cards.filter(
+                (card) => card.sectionId === "head-neck" && card.cardType === "muscles",
+              ).length === 40,
+            "Section 1 card-type metadata does not match its approved ranges.",
+          );
+          assert(
+            data.cards.filter(
+              (card) => card.sectionId === "lumbar-region" && card.cardType === "bones",
+            ).length === 2 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "lumbar-region" && card.cardType === "ligaments",
+              ).length === 1 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "lumbar-region" && card.cardType === "muscles",
+              ).length === 5,
+            "Section 2 card-type metadata does not match its approved ranges.",
           );
           const cardTypeFilter = documentRoot.getElementById("cardTypeFilter");
           cardTypeFilter.value = "muscles";
           cardTypeFilter.dispatchEvent(new Event("change", { bubbles: true }));
           assert(
-            documentRoot.getElementById("progressText").textContent === "1 of 40" &&
+            documentRoot.getElementById("progressText").textContent === "1 of 45" &&
               documentRoot.querySelector(".card-id").textContent.includes("1.17"),
             "The Muscles filter should show cards 1.17 through 1.56.",
           );

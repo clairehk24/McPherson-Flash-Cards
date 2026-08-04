@@ -26,12 +26,12 @@
   };
 
   const tabIconSources = {
-    "head-neck": "Assets/L1344_760013-TabCardSection1.png?v=20260804-1",
-    "lumbar-region": "Assets/L1344_760069-TabCardSection2.png?v=20260804-1",
-    "thorax-abdomen": "Assets/L1344_760078-TabCardSection3.png?v=20260804-1",
-    "pelvic-bones": "Assets/L1344_760099-TabCardSection4.png?v=20260804-1",
-    "upper-extremity": "Assets/L1344_760137-TabCardSection5.png?v=20260804-1",
-    "lower-extremity": "Assets/L1344_760187-TabCardSection6.png?v=20260804-1",
+    "head-neck": "Assets/L1344_760013-TabCardSection1.png?v=20260804-2",
+    "lumbar-region": "Assets/L1344_760069-TabCardSection2.png?v=20260804-2",
+    "thorax-abdomen": "Assets/L1344_760078-TabCardSection3.png?v=20260804-2",
+    "pelvic-bones": "Assets/L1344_760099-TabCardSection4.png?v=20260804-2",
+    "upper-extremity": "Assets/L1344_760137-TabCardSection5.png?v=20260804-2",
+    "lower-extremity": "Assets/L1344_760187-TabCardSection6.png?v=20260804-2",
   };
 
   const state = {

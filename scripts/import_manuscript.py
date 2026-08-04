@@ -71,6 +71,11 @@ CARD_TYPE_RANGES = {
         (10, 16, "ligaments", "Ligaments"),
         (17, 56, "muscles", "Muscles"),
     ],
+    "2": [
+        (1, 2, "bones", "Bones"),
+        (3, 3, "ligaments", "Ligaments"),
+        (4, 8, "muscles", "Muscles"),
+    ],
 }
 
 GROUP_PATTERN = re.compile(

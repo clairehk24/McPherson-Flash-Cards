@@ -1,10 +1,10 @@
 {
   "source": {
-    "filename": "Section 1 Quesiton Manuscript.docx",
-    "sha256": "02fe9acf10b2bd851adc873c172b88f8710fdd13bff312f30618c39846817660",
+    "filename": "Section 2 Question Manuscript.docx",
+    "sha256": "aa984ab0166ec23a580700b1ace3519c5355783de21b601a5fe539503db44698",
     "manuscriptSectionHeadings": [
       "Section 1: Head and neck",
-      "Section 2: Lumbar and Bones",
+      "Section 2: Lumbar Region",
       "Section 3: Thorax Bones",
       "Section 4: Pelvic Bones",
       "Section 5: Upper ?",
@@ -12,55 +12,25 @@
     ],
     "merge": {
       "replacedSectionIds": [
-        "head-neck"
+        "lumbar-region"
       ],
-      "replacedCards": 56,
-      "preservedCards": 188
+      "replacedCards": 8,
+      "preservedCards": 236
     }
   },
   "summary": {
     "cards": 244,
-    "readyCards": 96,
-    "draftCards": 148,
+    "readyCards": 101,
+    "draftCards": 143,
     "interactions": {
       "drag-drop": 49,
-      "fill-blank": 155,
-      "select-all": 40
+      "fill-blank": 150,
+      "select-all": 45
     },
     "errors": 0,
-    "warnings": 150
+    "warnings": 145
   },
   "issues": [
-    {
-      "severity": "warning",
-      "code": "unexpected_correct_marker",
-      "message": "An asterisk appears on a fill-in-the-blank card. Correct-answer asterisks are only interpreted for select-all-that-apply cards.",
-      "cardId": "2.4"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "2.5"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "2.6"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "2.7"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "2.8"
-    },
     {
       "severity": "warning",
       "code": "fill_card_has_no_highlights",
