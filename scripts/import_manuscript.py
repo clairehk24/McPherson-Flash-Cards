@@ -76,6 +76,11 @@ CARD_TYPE_RANGES = {
         (3, 3, "ligaments", "Ligaments"),
         (4, 8, "muscles", "Muscles"),
     ],
+    "3": [
+        (1, 7, "bones", "Bones"),
+        (8, 9, "ligaments", "Ligaments"),
+        (10, 23, "muscles", "Muscles"),
+    ],
 }
 
 GROUP_PATTERN = re.compile(
@@ -793,10 +798,16 @@ def build_card_data(
         elif interaction == "select-all":
             interaction_data, ready = build_select_interaction(raw_card, issues)
             if card_type["id"] == "muscles":
+                title_templates, title_blanks = make_templates(
+                    [raw_card.title_segments]
+                )
+                if not title_blanks:
+                    title_templates = [[{"type": "blank", "id": "blank-1"}]]
+                    title_blanks = [{"id": "blank-1", "answer": raw_card.title}]
                 interaction_data.update(
                     {
-                        "titleTemplate": [{"type": "blank", "id": "blank-1"}],
-                        "blanks": [{"id": "blank-1", "answer": raw_card.title}],
+                        "titleTemplate": title_templates[0],
+                        "blanks": title_blanks,
                     }
                 )
         else:

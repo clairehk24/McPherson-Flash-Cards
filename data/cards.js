@@ -2,22 +2,22 @@
 window.MCPHERSON_CARD_DATA = {
   "schemaVersion": 2,
   "source": {
-    "filename": "Section 2 Question Manuscript.docx",
-    "sha256": "aa984ab0166ec23a580700b1ace3519c5355783de21b601a5fe539503db44698",
+    "filename": "Section 3 Question Manuscript.docx",
+    "sha256": "3f521381449698327e9dd4c6c2dc1a51d65580c73361d701a87a26106c855d63",
     "manuscriptSectionHeadings": [
       "Section 1: Head and neck",
       "Section 2: Lumbar Region",
-      "Section 3: Thorax Bones",
+      "Section 3: Thorax and Abdomen",
       "Section 4: Pelvic Bones",
       "Section 5: Upper ?",
       "Section 6:?"
     ],
     "merge": {
       "replacedSectionIds": [
-        "lumbar-region"
+        "thorax-abdomen"
       ],
-      "replacedCards": 8,
-      "preservedCards": 236
+      "replacedCards": 23,
+      "preservedCards": 221
     }
   },
   "sections": [
@@ -8132,7 +8132,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Thoracic Vertebrae (Lateral View)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -8146,9 +8148,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Thoracic Vertebrae (Lateral View) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image66.png"
+        "packageSource": "word/media/image1.png"
       },
-      "searchText": "3.1 thorax and abdomen thoracic vertebrae (lateral view) l1344_760076 a. superior costotransverse ligament b. costotransverse ligament (not shown) c. lateral costotransverse ligament d. ribs e. vertebral body f. radiate ligament (inferior band) g. radiate ligament (intermediate band) h. radiate ligament (superior band) i. intervertebral disc j. anterior longitudinal ligament k. intra-articular ligament",
+      "searchText": "3.1 thorax and abdomen bones thoracic vertebrae (lateral view) l1344_760076 a. superior costotransverse ligament b. costotransverse ligament (not shown) c. lateral costotransverse ligament d. ribs e. vertebral body f. radiate ligament (inferior band) g. radiate ligament (intermediate band) h. radiate ligament (superior band) i. intervertebral disc j. anterior longitudinal ligament k. intra-articular ligament",
       "labels": [
         {
           "id": "label-a",
@@ -8213,7 +8215,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Thoracic Vertebrae (Superior View)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -8227,9 +8231,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Thoracic Vertebrae (Superior View) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image67.png"
+        "packageSource": "word/media/image2.png"
       },
-      "searchText": "3.2 thorax and abdomen thoracic vertebrae (superior view) l1344_760077 a. spinous process b. laminae c. vertebral canal d. costal facet e. pedicle f. superior costal facet g. body h. costovertebral joint i. superior articular facet j. costotransverse joint k. sixth rib l. transverse process",
+      "searchText": "3.2 thorax and abdomen bones thoracic vertebrae (superior view) l1344_760077 a. spinous process b. laminae c. vertebral canal d. costal facet e. pedicle f. superior costal facet g. body h. costovertebral joint i. superior articular facet j. costotransverse joint k. sixth rib l. transverse process",
       "labels": [
         {
           "id": "label-a",
@@ -8299,7 +8303,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Rib Cage (Anterior View)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -8313,9 +8319,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Rib Cage (Anterior View) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image68.png"
+        "packageSource": "word/media/image3.png"
       },
-      "searchText": "3.3 thorax and abdomen rib cage (anterior view) l1344_760078 a. sternoclavicular joint b. second chondrosternal joint c. chondrosternal joints d. interchondral joints e. costal cartilage f. xiphoid process g. xiphisternal joint h. intercostal space i. costochondral joint j. sternum k. clavicles",
+      "searchText": "3.3 thorax and abdomen bones rib cage (anterior view) l1344_760078 a. sternoclavicular joint b. second chondrosternal joint c. chondrosternal joints d. interchondral joints e. costal cartilage f. xiphoid process g. xiphisternal joint h. intercostal space i. costochondral joint j. sternum k. clavicles",
       "labels": [
         {
           "id": "label-a",
@@ -8380,7 +8386,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Rib Cage (Lateral View)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -8394,9 +8402,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Rib Cage (Lateral View) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image69.png"
+        "packageSource": "word/media/image4.png"
       },
-      "searchText": "3.4 thorax and abdomen rib cage (lateral view) l1344_760079 a. intercostal space b. floating ribs c. costal cartilage d. sternum",
+      "searchText": "3.4 thorax and abdomen bones rib cage (lateral view) l1344_760079 a. intercostal space b. floating ribs c. costal cartilage d. sternum",
       "labels": [
         {
           "id": "label-a",
@@ -8426,7 +8434,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Sternum and Ribs",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -8440,9 +8450,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Sternum and Ribs anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image70.png"
+        "packageSource": "word/media/image5.png"
       },
-      "searchText": "3.5 thorax and abdomen sternum and ribs l1344_760080 a. interclavicular ligament b. anterior sternoclavicular ligament c. costoclavicular ligament d. manubrium e. manubriosternal joint f. costochondral articulation g. costoxiphoid ligament h. interchondral ligament (interarticular) i. costal cartilage j. interchondral joint k. xiphoid process l. xiphisternal joint m. costal cartilage n. body o. costosternal ligament p. inferior joint cavity q. articular disc r. superior joint cavity s. superior sternoclavicular ligament",
+      "searchText": "3.5 thorax and abdomen bones sternum and ribs l1344_760080 a. interclavicular ligament b. anterior sternoclavicular ligament c. costoclavicular ligament d. manubrium e. manubriosternal joint f. costochondral articulation g. costoxiphoid ligament h. interchondral ligament (interarticular) i. costal cartilage j. interchondral joint k. xiphoid process l. xiphisternal joint m. costal cartilage n. body o. costosternal ligament p. inferior joint cavity q. articular disc r. superior joint cavity s. superior sternoclavicular ligament",
       "labels": [
         {
           "id": "label-a",
@@ -8547,7 +8557,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Rib (Medial View)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -8561,9 +8573,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Rib (Medial View) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image71.png"
+        "packageSource": "word/media/image6.png"
       },
-      "searchText": "3.6 thorax and abdomen rib (medial view) l1344_760081 a. superior and inferior facets on the head b. neck c. tubercular facet d. tubercle e. angle f. shaft",
+      "searchText": "3.6 thorax and abdomen bones rib (medial view) l1344_760081 a. superior and inferior facets on the head b. neck c. tubercular facet d. tubercle e. angle f. shaft",
       "labels": [
         {
           "id": "label-a",
@@ -8603,7 +8615,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Sternum (Anterior and Lateral View)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -8617,9 +8631,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Sternum (Anterior and Lateral View) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image72.png"
+        "packageSource": "word/media/image7.png"
       },
-      "searchText": "3.7 thorax and abdomen sternum (anterior and lateral view) l1344_760082 a. jugular notch b. facet for articulation with the clavicle c. facet for articulation with the clavicle d. manubriosternal joint e. facets for articulation with ribs f. xiphisternal joint g. xiphoid process h. body of the sternum i. sternal angle j. manubrium k. clavicular notch",
+      "searchText": "3.7 thorax and abdomen bones sternum (anterior and lateral view) l1344_760082 a. jugular notch b. facet for articulation with the clavicle c. facet for articulation with the clavicle d. manubriosternal joint e. facets for articulation with ribs f. xiphisternal joint g. xiphoid process h. body of the sternum i. sternal angle j. manubrium k. clavicular notch",
       "labels": [
         {
           "id": "label-a",
@@ -8684,15 +8698,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Thorax",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760083",
         "src": "Assets/Cards/L1344_760083.png",
@@ -8700,9 +8714,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Thorax anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image73.png"
+        "packageSource": "word/media/image8.png"
       },
-      "searchText": "3.8 thorax and abdomen thorax l1344_760083 a. radiate ligament: attaches ribs to thoracic vertebrae and intervertebral discs b. intra-articular ligament of the head of the rib: attaches intervertebral disc to the ridge in between the two facets of the head of the rib c. costotransverse ligament: protects nerves within the intervertebral foramen, provides stability to the joint, and restricts excessive movements of the ribs at the transverse joint during inhalation",
+      "searchText": "3.8 thorax and abdomen ligaments thorax l1344_760083 a. radiate ligament: attaches ribs to thoracic vertebrae and intervertebral discs b. intra-articular ligament of the head of the rib: attaches intervertebral disc to the ridge in between the two facets of the head of the rib c. costotransverse ligament: protects nerves within the intervertebral foramen, provides stability to the joint, and restricts excessive movements of the ribs at the transverse joint during inhalation",
       "titleTemplate": [
         {
           "type": "text",
@@ -8713,23 +8727,116 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Radiate ligament: attaches ribs to thoracic vertebrae and intervertebral discs"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament: attaches "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " to thoracic vertebrae and intervertebral discs"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Intra-articular ligament of the head of the rib: attaches intervertebral disc to the ridge in between the two facets of the head of the rib"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ligament of the head of the rib: attaches "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " to the ridge in between the two "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " of the head of the rib"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Costotransverse ligament: protects nerves within the intervertebral foramen, provides stability to the joint, and restricts excessive movements of the ribs at the transverse joint during inhalation"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
+          },
+          {
+            "type": "text",
+            "text": " ligament: protects nerves within the intervertebral foramen, provides stability to the joint, and restricts excessive movements of the ribs at the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-7"
+          },
+          {
+            "type": "text",
+            "text": " joint during "
+          },
+          {
+            "type": "blank",
+            "id": "blank-8"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Radiate"
+        },
+        {
+          "id": "blank-2",
+          "answer": "ribs"
+        },
+        {
+          "id": "blank-3",
+          "answer": "Intra-articular"
+        },
+        {
+          "id": "blank-4",
+          "answer": "intervertebral disc"
+        },
+        {
+          "id": "blank-5",
+          "answer": "facets"
+        },
+        {
+          "id": "blank-6",
+          "answer": "Costotransverse"
+        },
+        {
+          "id": "blank-7",
+          "answer": "transverse"
+        },
+        {
+          "id": "blank-8",
+          "answer": "inhalation"
+        }
+      ]
     },
     {
       "id": "3.9",
@@ -8737,15 +8844,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Thorax",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760084",
         "src": "Assets/Cards/L1344_760084.png",
@@ -8753,9 +8860,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Thorax anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image74.png"
+        "packageSource": "word/media/image9.png"
       },
-      "searchText": "3.9 thorax and abdomen thorax l1344_760084 a. sternocostal ligaments (radiate + intra-articular): restricts movement at the sternocostal joint b. costochondral ligaments: reinforces costochondral joint c. costoxiphoid ligaments: reinforces joints",
+      "searchText": "3.9 thorax and abdomen ligaments thorax l1344_760084 a. sternocostal ligaments (radiate + intra-articular): restricts movement at the sternocostal joint b. costochondral ligaments: reinforces costochondral joint c. costoxiphoid ligaments: reinforces joints",
       "titleTemplate": [
         {
           "type": "text",
@@ -8766,23 +8873,84 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Sternocostal ligaments (radiate + intra-articular): restricts movement at the sternocostal joint"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligaments (radiate + intra-articular): restricts movement at the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " joint"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Costochondral ligaments: reinforces costochondral joint"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ligaments: reinforces "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " joint"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Costoxiphoid ligaments: reinforces joints"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " ligaments: reinforces joints"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Sternocostal"
+        },
+        {
+          "id": "blank-2",
+          "answer": "sternocostal"
+        },
+        {
+          "id": "blank-3",
+          "answer": "Costochondral"
+        },
+        {
+          "id": "blank-4",
+          "answer": "costochondral"
+        },
+        {
+          "id": "blank-5",
+          "answer": "Costoxiphoid"
+        }
+      ]
     },
     {
       "id": "3.10",
@@ -8790,15 +8958,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Longissimus thoracic",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760085",
         "src": "Assets/Cards/L1344_760085.png",
@@ -8806,42 +8974,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Longissimus thoracic anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image75.png"
+        "packageSource": "word/media/image10.png"
       },
-      "searchText": "3.10 thorax and abdomen longissimus thoracic l1344_760085 proximal insertion: lumbar aponeurosis, medial part of the sacropelvic surface, posterior sacroiliac ligament, spinous and transverse process of l1-l5 distal insertion: accessory and transverse processes of t12-l5, angles of ribs 7 to 12 innervation: lateral branch of the posterior rami of the spinal nerves action: bilateral contraction—spine extension; unilateral contraction—ipsilateral side bending of the spine",
-      "titleTemplate": [
+      "searchText": "3.10 thorax and abdomen muscles longissimus thoracic l1344_760085 proximal insertion: *lumbar aponeurosis *medial part of the sacropelvic surface *posterior sacroiliac ligament *spinous and transverse process of l1-l5 distal insertion: *accessory and transverse processes of t12-l5 *angles of ribs 7 to 12 ilium innervation: *lateral branch of the posterior rami of the spinal nerves dorsal rami of the thoracic and lumbar spinal nerves (t7-l3) posterior rami of the spinal nerves action: *bilateral contraction—spine extension *unilateral contraction—ipsilateral side bending of the spine assists in expiration unilateral contraction—contralateral side bending of the spine",
+      "groups": [
         {
-          "type": "text",
-          "text": "Longissimus thoracic"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lumbar aponeurosis",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "medial part of the sacropelvic surface",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior sacroiliac ligament",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "spinous and transverse process of L1-L5",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "accessory and transverse processes of T12-L5",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "angles of ribs 7 to 12",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "ilium",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "lateral branch of the posterior rami of the spinal nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "dorsal rami of the thoracic and lumbar spinal nerves (T7-L3)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "bilateral contraction—spine extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "unilateral contraction—ipsilateral side bending of the spine",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assists in expiration",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "unilateral contraction—contralateral side bending of the spine",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lumbar aponeurosis, medial part of the sacropelvic surface, posterior sacroiliac ligament, spinous and transverse process of L1-L5"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: accessory and transverse processes of T12-L5, angles of ribs 7 to 12"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: lateral branch of the posterior rami of the spinal nerves"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: bilateral contraction—spine extension; unilateral contraction—ipsilateral side bending of the spine"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Longissimus thoracic"
+        }
+      ]
     },
     {
       "id": "3.11",
@@ -8849,15 +9096,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Iliocostalis thoracic",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760086",
         "src": "Assets/Cards/L1344_760086.png",
@@ -8865,42 +9112,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Iliocostalis thoracic anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image76.png"
+        "packageSource": "word/media/image11.png"
       },
-      "searchText": "3.11 thorax and abdomen iliocostalis thoracic l1344_760086 proximal insertion: spinous process of the lumbar vertebrae; posterior part of the medial lip of the iliac crest, supraspinous ligament, and lateral crest of the sacrum distal insertion: nuchal ligament, ribs 3 to 12, thoracic and lumbar vertebrae innervation: dorsal rami of the thoracic and lumbar spinal nerves (t7-l3) action: bilateral contraction—spine extension; unilateral contraction—lateral flexion of the spine; assists in expiration",
-      "titleTemplate": [
+      "searchText": "3.11 thorax and abdomen muscles iliocostalis thoracic l1344_760086 proximal insertion: *spinous process of the lumbar vertebrae *posterior part of the medial lip of the iliac crest *supraspinous ligament *lateral crest of the sacrum distal insertion: *nuchal ligament *ribs 3 to 12 *thoracic and lumbar vertebrae innervation: *dorsal rami of the thoracic and lumbar spinal nerves (t7-l3) posterior rami of the spinal nerves lateral branch of the posterior rami of the spinal nerves action: *bilateral contraction—spine extension *unilateral contraction—lateral flexion of the spine *assists in expiration assists in inhalation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Iliocostalis thoracic"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "spinous process of the lumbar vertebrae",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "posterior part of the medial lip of the iliac crest",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "supraspinous ligament",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lateral crest of the sacrum",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "nuchal ligament",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "ribs 3 to 12",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "thoracic and lumbar vertebrae",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "dorsal rami of the thoracic and lumbar spinal nerves (T7-L3)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "lateral branch of the posterior rami of the spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "bilateral contraction—spine extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "unilateral contraction—lateral flexion of the spine",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assists in expiration",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "assists in inhalation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: spinous process of the lumbar vertebrae; posterior part of the medial lip of the iliac crest, supraspinous ligament, and lateral crest of the sacrum"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: nuchal ligament, ribs 3 to 12, thoracic and lumbar vertebrae"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: dorsal rami of the thoracic and lumbar spinal nerves (T7-L3)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: bilateral contraction—spine extension; unilateral contraction—lateral flexion of the spine; assists in expiration"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Iliocostalis thoracic"
+        }
+      ]
     },
     {
       "id": "3.12",
@@ -8908,15 +9234,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Semispinalis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760087",
         "src": "Assets/Cards/L1344_760087.png",
@@ -8924,42 +9250,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Semispinalis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image77.png"
+        "packageSource": "word/media/image12.png"
       },
-      "searchText": "3.12 thorax and abdomen semispinalis l1344_760087 proximal insertion: thoracic and lumbar vertebrae, sacrum, posterior aspect of the iliac crest, sacroiliac and supraspinous ligament distal insertion: spinous process of c2, t1-t8, and occiput of the skull innervation: posterior rami of the spinal nerves action: unilateral flexion of the vertebral column, bilateral extension of the vertebral column",
-      "titleTemplate": [
+      "searchText": "3.12 thorax and abdomen muscles semispinalis l1344_760087 proximal insertion: *thoracic and lumbar vertebrae *sacrum *posterior aspect of the iliac crest *sacroiliac and supraspinous ligament distal insertion: *spinous process of c2, t1-t8 *occiput of the skull ribs 3 to 12 ilium innervation: *posterior rami of the spinal nerves dorsal rami of the thoracic and lumbar spinal nerves (t7-l3) lateral branch of the posterior rami of the spinal nerves action: *unilateral flexion of the vertebral column *bilateral extension of the vertebral column assists in expiration assists in inhalation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Semispinalis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "thoracic and lumbar vertebrae",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "sacrum",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior aspect of the iliac crest",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "sacroiliac and supraspinous ligament",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "spinous process of C2, T1-T8",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "occiput of the skull",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "ribs 3 to 12",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "ilium",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior rami of the spinal nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "dorsal rami of the thoracic and lumbar spinal nerves (T7-L3)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "lateral branch of the posterior rami of the spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "unilateral flexion of the vertebral column",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "bilateral extension of the vertebral column",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assists in expiration",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "assists in inhalation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: thoracic and lumbar vertebrae, sacrum, posterior aspect of the iliac crest, sacroiliac and supraspinous ligament"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: spinous process of C2, T1-T8, and occiput of the skull"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior rami of the spinal nerves"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: unilateral flexion of the vertebral column, bilateral extension of the vertebral column"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Semispinalis"
+        }
+      ]
     },
     {
       "id": "3.13",
@@ -8967,15 +9377,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Abdomen: Rectus abdominis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760088",
         "src": "Assets/Cards/L1344_760088.png",
@@ -8983,42 +9393,130 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Abdomen: Rectus abdominis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image78.png"
+        "packageSource": "word/media/image13.png"
       },
-      "searchText": "3.13 thorax and abdomen abdomen: rectus abdominis l1344_760088 proximal insertion: pubis distal insertion: sternum, ribs five and seven innervation: anterior rami of the thoracic spinal nerves (t6-t12) action: trunk flexion, abdominal compression, core stability",
+      "searchText": "3.13 thorax and abdomen muscles abdomen: rectus abdominis l1344_760088 proximal insertion: *pubis lumbar aponeurosis medial part of the sacropelvic surface posterior sacroiliac ligament distal insertion: *sternum *ribs 5 to 7 accessory and transverse processes of t12-l5 innervation: *anterior rami of the thoracic spinal nerves (t6-t12) lateral branch of the posterior rami of the spinal nerves dorsal rami of the thoracic and lumbar spinal nerves (t7-l3) posterior rami of the spinal nerves action: *trunk flexion *abdominal compression *core stability trunk rotation",
+      "groups": [
+        {
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "pubis",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "lumbar aponeurosis",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "medial part of the sacropelvic surface",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "posterior sacroiliac ligament",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "sternum",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "ribs 5 to 7",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "accessory and transverse processes of T12-L5",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "anterior rami of the thoracic spinal nerves (T6-T12)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "lateral branch of the posterior rami of the spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "dorsal rami of the thoracic and lumbar spinal nerves (T7-L3)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "trunk flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "abdominal compression",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "core stability",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "trunk rotation",
+              "correct": false
+            }
+          ]
+        }
+      ],
       "titleTemplate": [
         {
           "type": "text",
-          "text": "Abdomen: Rectus abdominis"
+          "text": "Abdomen: "
+        },
+        {
+          "type": "blank",
+          "id": "blank-1"
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: pubis"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: sternum, ribs five and seven"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: anterior rami of the thoracic spinal nerves (T6-T12)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: trunk flexion, abdominal compression, core stability"
-          }
-        ]
-      ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Rectus abdominis"
+        }
+      ]
     },
     {
       "id": "3.14",
@@ -9026,15 +9524,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Abdomen: External oblique",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760089",
         "src": "Assets/Cards/L1344_760089.png",
@@ -9042,42 +9540,130 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Abdomen: External oblique anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image79.png"
+        "packageSource": "word/media/image14.png"
       },
-      "searchText": "3.14 thorax and abdomen abdomen: external oblique l1344_760089 proximal insertion: ribs 5 to 12, ilium distal insertion: ribs 7 to 10, linea alba, ilium innervation: intercostal nerves (t7-11), subcostal nerve (t12), iliohypogastric nerve (l1), ilioinguinal nerve (l1) action: trunk lateral flexion, contralateral rotation, trunk flexion",
+      "searchText": "3.14 thorax and abdomen muscles abdomen: external oblique l1344_760089 proximal insertion: *ribs 5 to 12 *ilium spinous and transverse process of l1-l5 distal insertion: *ribs 7 to 10 *linea alba *ilium transverse process of lumbar vertebrae innervation: *intercostal nerves (t7-11) *subcostal nerve (t12) *iliohypogastric nerve (l1) *ilioinguinal nerve (l1) action: *trunk lateral flexion *contralateral rotation *trunk flexion ipsilateral rotation",
+      "groups": [
+        {
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ribs 5 to 12",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "ilium",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "spinous and transverse process of L1-L5",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "ribs 7 to 10",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "linea alba",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "ilium",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "transverse process of lumbar vertebrae",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "intercostal nerves (T7-11)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "subcostal nerve (T12)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "iliohypogastric nerve (L1)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "ilioinguinal nerve (L1)",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "trunk lateral flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "contralateral rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "trunk flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "ipsilateral rotation",
+              "correct": false
+            }
+          ]
+        }
+      ],
       "titleTemplate": [
         {
           "type": "text",
-          "text": "Abdomen: External oblique"
+          "text": "Abdomen: "
+        },
+        {
+          "type": "blank",
+          "id": "blank-1"
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ribs 5 to 12, ilium"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: ribs 7 to 10, linea alba, ilium"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: intercostal nerves (T7-11), subcostal nerve (T12), iliohypogastric nerve (L1), ilioinguinal nerve (L1)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: trunk lateral flexion, contralateral rotation, trunk flexion"
-          }
-        ]
-      ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "External oblique"
+        }
+      ]
     },
     {
       "id": "3.15",
@@ -9085,15 +9671,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Abdomen: Internal oblique",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760090",
         "src": "Assets/Cards/L1344_760090.png",
@@ -9101,42 +9687,135 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Abdomen: Internal oblique anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image80.png"
+        "packageSource": "word/media/image15.png"
       },
-      "searchText": "3.15 thorax and abdomen abdomen: internal oblique l1344_760090 proximal insertion: thoracolumbar fascia, anterior two thirds of the iliac crest, lateral two thirds of the inguinal ligament distal insertion: inferior borders of ribs 10 to 12, linea alba, pubic crest innervation: intercostal nerves (t7-11), subcostal nerve (t12), iliohypogastric (l1), ilioinguinal nerve (l1) action: trunk flexion, compression of intra-abdominal viscera, ipsilateral flexion and rotation",
+      "searchText": "3.15 thorax and abdomen muscles abdomen: internal oblique l1344_760090 proximal insertion: *thoracolumbar fascia *anterior two thirds of the iliac crest *lateral two thirds of the inguinal ligament posterior sacroiliac ligament distal insertion: *inferior borders of ribs 10 to 12 *linea alba *pubic crest ilium innervation: *intercostal nerves (t7-11) *subcostal nerve (t12) *iliohypogastric (l1) *ilioinguinal nerve (l1) action: *trunk flexion *compression of intra-abdominal viscera *ipsilateral flexion and rotation contralateral flexion and rotation",
+      "groups": [
+        {
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "thoracolumbar fascia",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "anterior two thirds of the iliac crest",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral two thirds of the inguinal ligament",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "posterior sacroiliac ligament",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "inferior borders of ribs 10 to 12",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "linea alba",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "pubic crest",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "ilium",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "intercostal nerves (T7-11)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "subcostal nerve (T12)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "iliohypogastric (L1)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "ilioinguinal nerve (L1)",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "trunk flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "compression of intra-abdominal viscera",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "ipsilateral flexion and rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "contralateral flexion and rotation",
+              "correct": false
+            }
+          ]
+        }
+      ],
       "titleTemplate": [
         {
           "type": "text",
-          "text": "Abdomen: Internal oblique"
+          "text": "Abdomen: "
+        },
+        {
+          "type": "blank",
+          "id": "blank-1"
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: thoracolumbar fascia, anterior two thirds of the iliac crest, lateral two thirds of the inguinal ligament"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: inferior borders of ribs 10 to 12, linea alba, pubic crest"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: intercostal nerves (T7-11), subcostal nerve (T12), iliohypogastric (L1), ilioinguinal nerve (L1)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: trunk flexion, compression of intra-abdominal viscera, ipsilateral flexion and rotation"
-          }
-        ]
-      ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Internal oblique"
+        }
+      ]
     },
     {
       "id": "3.16",
@@ -9144,15 +9823,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Abdomen: Transverse abdominis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760091",
         "src": "Assets/Cards/L1344_760091.png",
@@ -9160,42 +9839,130 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Abdomen: Transverse abdominis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image81.png"
+        "packageSource": "word/media/image16.png"
       },
-      "searchText": "3.16 thorax and abdomen abdomen: transverse abdominis l1344_760091 proximal insertion: ilium, ribs 5 to 10 distal insertion: sternum, linea alba, pubis innervation: intercostal nerves (t7-11), subcostal nerve (t12), iliohypogastric nerve (l1), ilioinguinal nerve (l1) action: squeezes the abdomen during forced exhalation, defecation, urination, and childbirth",
+      "searchText": "3.16 thorax and abdomen muscles abdomen: transverse abdominis l1344_760091 proximal insertion: *ilium *ribs 5 to 10 lumbar aponeurosis transverse process of lumbar vertebrae distal insertion: *sternum *linea alba *pubis transverse process of lumbar vertebrae innervation: *intercostal nerves (t7-11) *subcostal nerve (t12) *iliohypogastric (l1) *ilioinguinal nerve (l1) action: *squeezes the abdomen during forced exhalation *defecation, urination, and childbirth contralateral flexion and rotation",
+      "groups": [
+        {
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ilium",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "ribs 5 to 10",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lumbar aponeurosis",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "transverse process of lumbar vertebrae",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "sternum",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "linea alba",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "pubis",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "transverse process of lumbar vertebrae",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "intercostal nerves (T7-11)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "subcostal nerve (T12)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "iliohypogastric (L1)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "ilioinguinal nerve (L1)",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "squeezes the abdomen during forced exhalation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "defecation, urination, and childbirth",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "contralateral flexion and rotation",
+              "correct": false
+            }
+          ]
+        }
+      ],
       "titleTemplate": [
         {
           "type": "text",
-          "text": "Abdomen: Transverse abdominis"
+          "text": "Abdomen: "
+        },
+        {
+          "type": "blank",
+          "id": "blank-1"
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ilium, ribs 5 to 10"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: sternum, linea alba, pubis"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: intercostal nerves (T7-11), subcostal nerve (T12), iliohypogastric nerve (L1), ilioinguinal nerve (L1)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: squeezes the abdomen during forced exhalation, defecation, urination, and childbirth"
-          }
-        ]
-      ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Transverse abdominis"
+        }
+      ]
     },
     {
       "id": "3.17",
@@ -9203,15 +9970,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Serratus posterior superior",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760092",
         "src": "Assets/Cards/L1344_760092.png",
@@ -9219,42 +9986,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Serratus posterior superior anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image82.png"
+        "packageSource": "word/media/image17.png"
       },
-      "searchText": "3.17 thorax and abdomen serratus posterior superior l1344_760092 proximal insertion: nuchal ligament, spinous processes of c7-t3 distal insertion: external surfaces of the second to fifth ribs innervation: anterior rami of nerves t2-t5 action: elevates the ribs at the costovertebral joints",
-      "titleTemplate": [
+      "searchText": "3.17 thorax and abdomen muscles serratus posterior superior l1344_760092 proximal insertion: *nuchal ligament *spinous processes of c7-t3 spinous processes of t11-l2 vertebrae distal insertion: *external surfaces of the second to fifth ribs external surfaces of ribs 9 to 12 lateral border of scapula innervation: *anterior rami of nerves t2-t5 anterior rami of nerves t9 to t12 adjacent intercostal nerves action: *elevates the ribs at the costovertebral joints depresses the ribs at the costovertebral joints contralateral flexion and rotation ipsilateral flexion and rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Serratus posterior superior"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "nuchal ligament",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "spinous processes of C7-T3",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "spinous processes of T11-L2 vertebrae",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "external surfaces of the second to fifth ribs",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "external surfaces of ribs 9 to 12",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lateral border of scapula",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "anterior rami of nerves T2-T5",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "anterior rami of nerves T9 to T12",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "adjacent intercostal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "elevates the ribs at the costovertebral joints",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "depresses the ribs at the costovertebral joints",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "contralateral flexion and rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "ipsilateral flexion and rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: nuchal ligament, spinous processes of C7-T3"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: external surfaces of the second to fifth ribs"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: anterior rami of nerves T2-T5"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: elevates the ribs at the costovertebral joints"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Serratus posterior superior"
+        }
+      ]
     },
     {
       "id": "3.18",
@@ -9262,15 +10103,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Serratus posterior inferior",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760093",
         "src": "Assets/Cards/L1344_760093.png",
@@ -9278,42 +10119,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Serratus posterior inferior anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image83.png"
+        "packageSource": "word/media/image18.png"
       },
-      "searchText": "3.18 thorax and abdomen serratus posterior inferior l1344_760093 proximal insertion: spinous processes of t11-l2 vertebrae distal insertion: external surfaces of ribs 9 to 12 innervation: anterior rami of nerves t9 to t12 action: depresses the ribs at the costovertebral joints",
-      "titleTemplate": [
+      "searchText": "3.18 thorax and abdomen muscles serratus posterior inferior l1344_760093 proximal insertion: nuchal ligament spinous processes of c7-t3 *spinous processes of t11-l2 vertebrae distal insertion: *external surfaces of ribs 9 to 12 lateral border of scapula external surfaces of the second to fifth ribs innervation: *anterior rami of nerves t9 to t12 adjacent intercostal nerves anterior rami of nerves t2 to t5 action: *depresses the ribs at the costovertebral joints elevates the ribs at the costovertebral joints contralateral flexion and rotation ipsilateral flexion and rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Serratus posterior inferior"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "nuchal ligament",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "spinous processes of C7-T3",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "spinous processes of T11-L2 vertebrae",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "external surfaces of ribs 9 to 12",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lateral border of scapula",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "external surfaces of the second to fifth ribs",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "anterior rami of nerves T9 to T12",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "adjacent intercostal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "anterior rami of nerves T2 to T5",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "depresses the ribs at the costovertebral joints",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "elevates the ribs at the costovertebral joints",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "contralateral flexion and rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "ipsilateral flexion and rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: spinous processes of T11-L2 vertebrae"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: external surfaces of ribs 9 to 12"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: anterior rami of nerves T9 to T12"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: depresses the ribs at the costovertebral joints"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Serratus posterior inferior"
+        }
+      ]
     },
     {
       "id": "3.19",
@@ -9321,15 +10236,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "External intercostals",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760094",
         "src": "Assets/Cards/L1344_760094.png",
@@ -9337,42 +10252,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "External intercostals anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image84.png"
+        "packageSource": "word/media/image19.png"
       },
-      "searchText": "3.19 thorax and abdomen external intercostals l1344_760094 proximal insertion: inferior borders of ribs 1 to 11 and their adjacent costal cartilages distal insertion: superior borders of ribs and costal cartilages immediately below the origin sites innervation: adjacent intercostal nerves action: elevates the ribs at the costovertebral joints, provides support of the intercostal spaces",
-      "titleTemplate": [
+      "searchText": "3.19 thorax and abdomen muscles external intercostals l1344_760094 proximal insertion: *inferior borders of ribs 1 to 11 and their adjacent costal cartilages costal grooves of the ribs sternum distal insertion: *superior borders of ribs and costal cartilages immediately below the origin sites inferior borders of ribs and costal cartilages immediately below the origin sites external surfaces of the second to fifth ribs innervation: *adjacent intercostal nerves posterior rami of the spinal nerves dorsal rami of the thoracic and lumbar spinal nerves action: *elevates the ribs at the costovertebral joints *provides support of the intercostal spaces depresses the ribs at the costovertebral joints",
+      "groups": [
         {
-          "type": "text",
-          "text": "External intercostals"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "inferior borders of ribs 1 to 11 and their adjacent costal cartilages",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "costal grooves of the ribs",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "sternum",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "superior borders of ribs and costal cartilages immediately below the origin sites",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "inferior borders of ribs and costal cartilages immediately below the origin sites",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "external surfaces of the second to fifth ribs",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "adjacent intercostal nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "dorsal rami of the thoracic and lumbar spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "elevates the ribs at the costovertebral joints",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "provides support of the intercostal spaces",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "depresses the ribs at the costovertebral joints",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: inferior borders of ribs 1 to 11 and their adjacent costal cartilages"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: superior borders of ribs and costal cartilages immediately below the origin sites"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: adjacent intercostal nerves"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: elevates the ribs at the costovertebral joints, provides support of the intercostal spaces"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "External intercostals"
+        }
+      ]
     },
     {
       "id": "3.20",
@@ -9380,15 +10364,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Internal intercostals",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760095",
         "src": "Assets/Cards/L1344_760095.png",
@@ -9396,42 +10380,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Internal intercostals anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image85.png"
+        "packageSource": "word/media/image20.png"
       },
-      "searchText": "3.20 thorax and abdomen internal intercostals l1344_760095 proximal insertion: inferior borders of ribs 1 to 11 and their adjacent costal cartilages distal insertion: superior borders of ribs and costal cartilages immediately below the origin sites innervation: adjacent intercostal nerves action: depresses the ribs at the costovertebral joints, provides structural support to the intercostal spaces",
-      "titleTemplate": [
+      "searchText": "3.20 thorax and abdomen muscles internal intercostals l1344_760095 proximal insertion: *inferior borders of ribs 1 to 11 and their adjacent costal cartilages costal grooves of the ribs external surfaces of the second to fifth ribs distal insertion: *superior borders of ribs and costal cartilages immediately below the origin sites inferior borders of ribs and costal cartilages immediately below the origin sites innervation: *adjacent intercostal nerves posterior rami of the spinal nerves dorsal rami of the thoracic and lumbar spinal nerves action: *depresses the ribs at the costovertebral joints *provides structural support to the intercostal spaces contralateral flexion and rotation ipsilateral flexion and rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Internal intercostals"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "inferior borders of ribs 1 to 11 and their adjacent costal cartilages",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "costal grooves of the ribs",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "external surfaces of the second to fifth ribs",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "superior borders of ribs and costal cartilages immediately below the origin sites",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "inferior borders of ribs and costal cartilages immediately below the origin sites",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "adjacent intercostal nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "dorsal rami of the thoracic and lumbar spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "depresses the ribs at the costovertebral joints",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "provides structural support to the intercostal spaces",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "contralateral flexion and rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "ipsilateral flexion and rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: inferior borders of ribs 1 to 11 and their adjacent costal cartilages"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: superior borders of ribs and costal cartilages immediately below the origin sites"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: adjacent intercostal nerves"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: depresses the ribs at the costovertebral joints, provides structural support to the intercostal spaces"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Internal intercostals"
+        }
+      ]
     },
     {
       "id": "3.21",
@@ -9439,15 +10492,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Innermost intercostals",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760096",
         "src": "Assets/Cards/L1344_760096.png",
@@ -9455,42 +10508,106 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Innermost intercostals anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image86.png"
+        "packageSource": "word/media/image21.png"
       },
-      "searchText": "3.21 thorax and abdomen innermost intercostals l1344_760096 proximal insertion: costal grooves of the ribs distal insertion: superior border of the immediate rib below innervation: intercostal nerve action: depresses the ribs during forced expiration; supports the intercostal spaces and the thoracic cage",
-      "titleTemplate": [
+      "searchText": "3.21 thorax and abdomen muscles innermost intercostals l1344_760096 proximal insertion: *costal grooves of the ribs inferior borders of ribs 1 to 11 and their adjacent costal cartilages external surfaces of the fifth to twelfth ribs distal insertion: *superior border of the immediate rib below inferior borders of ribs 1 to 11 and their adjacent costal cartilages innervation: *intercostal nerves posterior rami of the spinal nerves dorsal rami of the thoracic and lumbar spinal nerves action: *depresses the ribs during forced expiration *supports the intercostal spaces and the thoracic cage assists in trunk rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Innermost intercostals"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "costal grooves of the ribs",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "inferior borders of ribs 1 to 11 and their adjacent costal cartilages",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "external surfaces of the fifth to twelfth ribs",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "superior border of the immediate rib below",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "inferior borders of ribs 1 to 11 and their adjacent costal cartilages",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "intercostal nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "dorsal rami of the thoracic and lumbar spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "depresses the ribs during forced expiration",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "supports the intercostal spaces and the thoracic cage",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assists in trunk rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: costal grooves of the ribs"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: superior border of the immediate rib below"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: intercostal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: depresses the ribs during forced expiration; supports the intercostal spaces and the thoracic cage"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Innermost intercostals"
+        }
+      ]
     },
     {
       "id": "3.22",
@@ -9498,15 +10615,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Transversus thoracic",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760097",
         "src": "Assets/Cards/L1344_760097.png",
@@ -9514,42 +10631,111 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Transversus thoracic anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image87.png"
+        "packageSource": "word/media/image22.png"
       },
-      "searchText": "3.22 thorax and abdomen transversus thoracic l1344_760097 proximal insertion: posterolateral aspects of the body and xyphoid process of the sternum distal insertion: internal surfaces of costal cartilages two to six and costal ends of the adjacent ribs innervation: adjacent intercostal nerves action: depresses the ribs and their costal cartilages",
-      "titleTemplate": [
+      "searchText": "3.22 thorax and abdomen muscles transversus thoracic l1344_760097 proximal insertion: *posterolateral aspects of the body and xyphoid process of the sternum inferior borders of ribs 1 to 11 and their adjacent costal cartilages inferior border of the clavicle distal insertion: *internal surfaces of costal cartilages two to six and costal ends of the adjacent ribs superior borders of ribs and costal cartilages immediately below the origin sites anterior surface of the manubrium of the sternum innervation: *adjacent intercostal nerves posterior rami of the spinal nerves dorsal rami of the thoracic and lumbar spinal nerves action: *depresses the ribs and their costal cartilages elevates the ribs at the costovertebral joints assists with trunk flexion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Transversus thoracic"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "posterolateral aspects of the body and xyphoid process of the sternum",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "inferior borders of ribs 1 to 11 and their adjacent costal cartilages",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "inferior border of the clavicle",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "internal surfaces of costal cartilages two to six and costal ends of the adjacent ribs",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "superior borders of ribs and costal cartilages immediately below the origin sites",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "anterior surface of the manubrium of the sternum",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "adjacent intercostal nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "dorsal rami of the thoracic and lumbar spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "depresses the ribs and their costal cartilages",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "elevates the ribs at the costovertebral joints",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "assists with trunk flexion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: posterolateral aspects of the body and xyphoid process of the sternum"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: internal surfaces of costal cartilages two to six and costal ends of the adjacent ribs"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: adjacent intercostal nerves"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: depresses the ribs and their costal cartilages"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Transversus thoracic"
+        }
+      ]
     },
     {
       "id": "3.23",
@@ -9557,15 +10743,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "thorax-abdomen",
       "sectionName": "Thorax and Abdomen",
       "sectionColorClass": "section-3",
-      "manuscriptSectionHeading": "Section 3: Thorax Bones",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 3: Thorax and Abdomen",
       "title": "Diaphragm",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760098",
         "src": "Assets/Cards/L1344_760098.png",
@@ -9573,42 +10759,106 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Diaphragm anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image88.png"
+        "packageSource": "word/media/image23.png"
       },
-      "searchText": "3.23 thorax and abdomen diaphragm l1344_760098 proximal insertion: xyphoid process, internal surfaces of costal cartilages 7 to 12 and adjacent ribs, medial and lateral arcuate ligaments, vertebrae l1-l3 distal insertion: central tendon innervation: phrenic nerves (c3-c5) action: serves as the primary muscle of inspiration",
-      "titleTemplate": [
+      "searchText": "3.23 thorax and abdomen muscles diaphragm l1344_760098 proximal insertion: *xyphoid process *internal surfaces of costal cartilages 7 to 12 and adjacent ribs *medial and lateral arcuate ligaments *vertebrae l1-l3 distal insertion: *central tendon thoracolumbar fascia innervation: *phrenic nerves (c3-c5) vagus nerve posterior rami of the spinal nerves action: *serves as the primary muscle of inspiration assists in trunk flexion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Diaphragm"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "xyphoid process",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "internal surfaces of costal cartilages 7 to 12 and adjacent ribs",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "medial and lateral arcuate ligaments",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "vertebrae L1-L3",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "central tendon",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "thoracolumbar fascia",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "phrenic nerves (C3-C5)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "vagus nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "posterior rami of the spinal nerves",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "serves as the primary muscle of inspiration",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "assists in trunk flexion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: xyphoid process, internal surfaces of costal cartilages 7 to 12 and adjacent ribs, medial and lateral arcuate ligaments, vertebrae L1-L3"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: central tendon"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: phrenic nerves (C3-C5)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: serves as the primary muscle of inspiration"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Diaphragm"
+        }
+      ]
     },
     {
       "id": "4.1",

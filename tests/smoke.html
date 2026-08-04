@@ -103,11 +103,27 @@
               ).length === 5,
             "Section 2 card-type metadata does not match its approved ranges.",
           );
+          assert(
+            data.cards.filter(
+              (card) =>
+                card.sectionId === "thorax-abdomen" && card.cardType === "bones",
+            ).length === 7 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "thorax-abdomen" &&
+                  card.cardType === "ligaments",
+              ).length === 2 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "thorax-abdomen" && card.cardType === "muscles",
+              ).length === 14,
+            "Section 3 card-type metadata does not match its approved ranges.",
+          );
           const cardTypeFilter = documentRoot.getElementById("cardTypeFilter");
           cardTypeFilter.value = "muscles";
           cardTypeFilter.dispatchEvent(new Event("change", { bubbles: true }));
           assert(
-            documentRoot.getElementById("progressText").textContent === "1 of 45" &&
+            documentRoot.getElementById("progressText").textContent === "1 of 59" &&
               documentRoot.querySelector(".card-id").textContent.includes("1.17"),
             "The Muscles filter should show cards 1.17 through 1.56.",
           );

@@ -1,132 +1,36 @@
 {
   "source": {
-    "filename": "Section 2 Question Manuscript.docx",
-    "sha256": "aa984ab0166ec23a580700b1ace3519c5355783de21b601a5fe539503db44698",
+    "filename": "Section 3 Question Manuscript.docx",
+    "sha256": "3f521381449698327e9dd4c6c2dc1a51d65580c73361d701a87a26106c855d63",
     "manuscriptSectionHeadings": [
       "Section 1: Head and neck",
       "Section 2: Lumbar Region",
-      "Section 3: Thorax Bones",
+      "Section 3: Thorax and Abdomen",
       "Section 4: Pelvic Bones",
       "Section 5: Upper ?",
       "Section 6:?"
     ],
     "merge": {
       "replacedSectionIds": [
-        "lumbar-region"
+        "thorax-abdomen"
       ],
-      "replacedCards": 8,
-      "preservedCards": 236
+      "replacedCards": 23,
+      "preservedCards": 221
     }
   },
   "summary": {
     "cards": 244,
-    "readyCards": 101,
-    "draftCards": 143,
+    "readyCards": 117,
+    "draftCards": 127,
     "interactions": {
       "drag-drop": 49,
-      "fill-blank": 150,
-      "select-all": 45
+      "fill-blank": 136,
+      "select-all": 59
     },
     "errors": 0,
-    "warnings": 145
+    "warnings": 129
   },
   "issues": [
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.8"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.9"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.10"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.11"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.12"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.13"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.14"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.15"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.16"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.17"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.18"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.19"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.20"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.21"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.22"
-    },
-    {
-      "severity": "warning",
-      "code": "fill_card_has_no_highlights",
-      "message": "No highlighted answer text was found. The card was imported as a visible draft but cannot be graded yet.",
-      "cardId": "3.23"
-    },
     {
       "severity": "warning",
       "code": "fill_card_has_no_highlights",
