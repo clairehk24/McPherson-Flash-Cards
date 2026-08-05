@@ -3,7 +3,7 @@ window.MCPHERSON_CARD_DATA = {
   "schemaVersion": 2,
   "source": {
     "filename": "Section 5 Question Manuscript.docx",
-    "sha256": "0816fc25eba4743a92da2a9acfe73a264a050c9db2c83fd8be8a722b3dad662a",
+    "sha256": "7f111bd8092d1d203fb17bca8653ee9c8bf05ed60cb609c5638b49886e3a6d8b",
     "manuscriptSectionHeadings": [
       "Section 1: Head and neck",
       "Section 2: Lumbar Region",
@@ -14494,10 +14494,8 @@ window.MCPHERSON_CARD_DATA = {
       "interaction": "select-all",
       "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "select_group_has_no_correct_answer"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760134",
         "src": "Assets/Cards/L1344_760134.png",
@@ -14507,7 +14505,7 @@ window.MCPHERSON_CARD_DATA = {
         "draftThumbnail": true,
         "packageSource": "word/media/image23.png"
       },
-      "searchText": "5.23 upper extremity muscles pectoralis major l1344_760134 proximal insertion: *anterior surface of the medial half of the clavicle sternum and costal cartilages of ribs 1-6 anterior ends of ribs three to five superior surface of the costal end of the first rib distal insertion: lateral lip of the bicipital groove of the humerus lateral lip of the bicipital groove of the humerus coracoid process of the scapula medial surface of the humeral shaft innervation: lateral pectoral nerve medial pectoral nerve subclavian (c5-c6) nerve musculocutaneous nerve action: *adduction at the glenohumeral joint abduction at the glenohumeral joint *internal rotation at the glenohumeral joint transverse adduction at the glenohumeral joint",
+      "searchText": "5.23 upper extremity muscles pectoralis major l1344_760134 proximal insertion: *anterior surface of the medial half of the clavicle sternum and costal cartilages of ribs 1-6 anterior ends of ribs three to five superior surface of the costal end of the first rib distal insertion: *crest of the greater tubercle of the humerus lateral lip of the bicipital groove of the humerus coracoid process of the scapula medial surface of the humeral shaft innervation: *lateral pectoral nerve medial pectoral nerve subclavian (c5-c6) nerve musculocutaneous nerve action: *adduction at the glenohumeral joint abduction at the glenohumeral joint *internal rotation at the glenohumeral joint *transverse adduction at the glenohumeral joint",
       "groups": [
         {
           "id": "proximal-insertion",
@@ -14543,8 +14541,8 @@ window.MCPHERSON_CARD_DATA = {
           "options": [
             {
               "id": "distal-insertion-option-1",
-              "text": "lateral lip of the bicipital groove of the humerus",
-              "correct": false
+              "text": "crest of the greater tubercle of the humerus",
+              "correct": true
             },
             {
               "id": "distal-insertion-option-2",
@@ -14571,7 +14569,7 @@ window.MCPHERSON_CARD_DATA = {
             {
               "id": "innervation-option-1",
               "text": "lateral pectoral nerve",
-              "correct": false
+              "correct": true
             },
             {
               "id": "innervation-option-2",
@@ -14613,7 +14611,7 @@ window.MCPHERSON_CARD_DATA = {
             {
               "id": "action-option-4",
               "text": "transverse adduction at the glenohumeral joint",
-              "correct": false
+              "correct": true
             }
           ]
         }

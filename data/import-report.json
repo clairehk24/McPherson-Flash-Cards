@@ -1,7 +1,7 @@
 {
   "source": {
     "filename": "Section 5 Question Manuscript.docx",
-    "sha256": "0816fc25eba4743a92da2a9acfe73a264a050c9db2c83fd8be8a722b3dad662a",
+    "sha256": "7f111bd8092d1d203fb17bca8653ee9c8bf05ed60cb609c5638b49886e3a6d8b",
     "manuscriptSectionHeadings": [
       "Section 1: Head and neck",
       "Section 2: Lumbar Region",
@@ -20,14 +20,14 @@
   },
   "summary": {
     "cards": 244,
-    "readyCards": 185,
-    "draftCards": 59,
+    "readyCards": 186,
+    "draftCards": 58,
     "interactions": {
       "drag-drop": 50,
       "fill-blank": 77,
       "select-all": 117
     },
-    "errors": 2,
+    "errors": 0,
     "warnings": 60
   },
   "issues": [
@@ -390,18 +390,6 @@
       "code": "multiple_card_images",
       "message": "Found 2 embedded images; the largest image was selected as the card thumbnail.",
       "cardId": "1.27"
-    },
-    {
-      "severity": "error",
-      "code": "select_group_has_no_correct_answer",
-      "message": "The Distal insertion group has no asterisked correct answer.",
-      "cardId": "5.23"
-    },
-    {
-      "severity": "error",
-      "code": "select_group_has_no_correct_answer",
-      "message": "The Innervation group has no asterisked correct answer.",
-      "cardId": "5.23"
     }
   ]
 }
