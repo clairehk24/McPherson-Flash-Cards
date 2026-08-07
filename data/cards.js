@@ -2,22 +2,22 @@
 window.MCPHERSON_CARD_DATA = {
   "schemaVersion": 2,
   "source": {
-    "filename": "Section 5 Question Manuscript.docx",
-    "sha256": "7f111bd8092d1d203fb17bca8653ee9c8bf05ed60cb609c5638b49886e3a6d8b",
+    "filename": "Section 6 Question Manuscript.docx",
+    "sha256": "5ba8053f4a059dea17e16f42aa4c16645862a4fb3231ca40c42815796568ee1a",
     "manuscriptSectionHeadings": [
       "Section 1: Head and neck",
       "Section 2: Lumbar Region",
       "Section 3: Thorax and Abdomen",
       "Section 4: Pelvic Bones",
       "Section 5: Upper Extremity",
-      "Section 6:?"
+      "Section 6: Lower Extremity"
     ],
     "merge": {
       "replacedSectionIds": [
-        "upper-extremity"
+        "lower-extremity"
       ],
-      "replacedCards": 73,
-      "preservedCards": 171
+      "replacedCards": 71,
+      "preservedCards": 173
     }
   },
   "sections": [
@@ -21516,7 +21516,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Femur (Anterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -21530,9 +21532,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Femur (Anterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image175.png"
+        "packageSource": "word/media/image1.png"
       },
-      "searchText": "6.1 lower extremity femur (anterior) l1344_760185 a. head b. lesser trochanter c. adductor tubercle d. patellar surface e. intertrochanteric line f. neck",
+      "searchText": "6.1 lower extremity bones femur (anterior) l1344_760185 a. head b. lesser trochanter c. adductor tubercle d. patellar surface e. intertrochanteric line f. neck",
       "labels": [
         {
           "id": "label-a",
@@ -21572,7 +21574,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Femur (Posterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -21586,9 +21590,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Femur (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image176.png"
+        "packageSource": "word/media/image2.png"
       },
-      "searchText": "6.2 lower extremity femur (posterior) l1344_760186 a. head b. trochanteric fossa c. greater trochanter d. shaft e. lateral epicondyle f. lateral condyle g. intercondylar fossa h. medial condyle i. medial epicondyle j. adductor tubercle k. linea aspera l. pectineal line m. lesser trochanter n. intertrochanteric crest o. neck p. fovea for ligament of the head",
+      "searchText": "6.2 lower extremity bones femur (posterior) l1344_760186 a. head b. trochanteric fossa c. greater trochanter d. shaft e. lateral epicondyle f. lateral condyle g. intercondylar fossa h. medial condyle i. medial epicondyle j. adductor tubercle k. linea aspera l. pectineal line m. lesser trochanter n. intertrochanteric crest o. neck p. fovea for ligament of the head",
       "labels": [
         {
           "id": "label-a",
@@ -21678,7 +21682,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Tibiofemoral Joint (Anterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -21692,9 +21698,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Tibiofemoral Joint (Anterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image177.png"
+        "packageSource": "word/media/image3.png"
       },
-      "searchText": "6.3 lower extremity tibiofemoral joint (anterior) l1344_760187 a. intercondylar notch b. medial epicondyle c. medial condyle d. tibial tuberosity e. tibial condyle f. lateral condyle g. femoral condyle h. lateral epicondyle",
+      "searchText": "6.3 lower extremity bones tibiofemoral joint (anterior) l1344_760187 a. intercondylar notch b. medial epicondyle c. medial condyle d. tibial tuberosity e. tibial condyle f. lateral condyle g. femoral condyle h. lateral epicondyle",
       "labels": [
         {
           "id": "label-a",
@@ -21744,7 +21750,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Tibiofemoral Joint (Posterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -21758,9 +21766,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Tibiofemoral Joint (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image178.png"
+        "packageSource": "word/media/image4.png"
       },
-      "searchText": "6.4 lower extremity tibiofemoral joint (posterior) l1344_760188 a. lateral epicondyle b. lateral condyle c. intercondylar notch d. tibial tuberosity e. tibial condyle f. medial condyle g. femoral condyle h. medial epicondyle",
+      "searchText": "6.4 lower extremity bones tibiofemoral joint (posterior) l1344_760188 a. lateral epicondyle b. lateral condyle c. intercondylar notch d. tibial tuberosity e. tibial condyle f. medial condyle g. femoral condyle h. medial epicondyle",
       "labels": [
         {
           "id": "label-a",
@@ -21810,7 +21818,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Patella (Anterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -21824,9 +21834,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Patella (Anterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image179.png"
+        "packageSource": "word/media/image5.png"
       },
-      "searchText": "6.5 lower extremity patella (anterior) l1344_760189 a. base b. lateral border c. apex d. medial border",
+      "searchText": "6.5 lower extremity bones patella (anterior) l1344_760189 a. base b. lateral border c. apex d. medial border",
       "labels": [
         {
           "id": "label-a",
@@ -21856,7 +21866,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Patella (Posterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -21870,9 +21882,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Patella (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image180.png"
+        "packageSource": "word/media/image6.png"
       },
-      "searchText": "6.6 lower extremity patella (posterior) l1344_760190 a. vertical ridge b. lateral facet c. odd facet d. medial facet",
+      "searchText": "6.6 lower extremity bones patella (posterior) l1344_760190 a. vertical ridge b. lateral facet c. odd facet d. medial facet",
       "labels": [
         {
           "id": "label-a",
@@ -21902,7 +21914,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Tibiofibular Joint (Anterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -21916,9 +21930,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Tibiofibular Joint (Anterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image181.png"
+        "packageSource": "word/media/image7.png"
       },
-      "searchText": "6.7 lower extremity tibiofibular joint (anterior) l1344_760191 a. medial condyle b. tibial tuberosity c. tibia d. anterior crest e. medial malleolus f. lateral malleolus g. fibula h. head i. lateral condyle j. tibial spines",
+      "searchText": "6.7 lower extremity bones tibiofibular joint (anterior) l1344_760191 a. medial condyle b. tibial tuberosity c. tibia d. anterior crest e. medial malleolus f. lateral malleolus g. fibula h. head i. lateral condyle j. tibial spines",
       "labels": [
         {
           "id": "label-a",
@@ -21978,7 +21992,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Tibiofibular Joint (Posterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -21992,9 +22008,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Tibiofibular Joint (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image182.png"
+        "packageSource": "word/media/image8.png"
       },
-      "searchText": "6.8 lower extremity tibiofibular joint (posterior) l1344_760192 a. fibula b. lateral malleolus c. medial malleolus d. tibia e. soleal line",
+      "searchText": "6.8 lower extremity bones tibiofibular joint (posterior) l1344_760192 a. fibula b. lateral malleolus c. medial malleolus d. tibia e. soleal line",
       "labels": [
         {
           "id": "label-a",
@@ -22029,7 +22045,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Proximal Tibiofibular Joint (Anterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -22043,9 +22061,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Proximal Tibiofibular Joint (Anterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image183.png"
+        "packageSource": "word/media/image9.png"
       },
-      "searchText": "6.9 lower extremity proximal tibiofibular joint (anterior) l1344_760193 a. tibial spines b. medial intercondylar tubercle c. medial condyle d. tibial tuberosity e. tibia f. fibula g. head of the fibula h. apex or styloid process of the fibula i. lateral condyle j. intercondylar eminence",
+      "searchText": "6.9 lower extremity bones proximal tibiofibular joint (anterior) l1344_760193 a. tibial spines b. medial intercondylar tubercle c. medial condyle d. tibial tuberosity e. tibia f. fibula g. head of the fibula h. apex or styloid process of the fibula i. lateral condyle j. intercondylar eminence",
       "labels": [
         {
           "id": "label-a",
@@ -22105,7 +22123,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Proximal Tibiofibular Joint (Posterior)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -22119,9 +22139,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Proximal Tibiofibular Joint (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image184.png"
+        "packageSource": "word/media/image10.png"
       },
-      "searchText": "6.10 lower extremity proximal tibiofibular joint (posterior) l1344_760194 a. superior articular surface b. lateral condyle c. apex d. head of the fibula e. neck f. fibula g. tibia h. soleal line i. medial condyle j. medial plateau k. posterior intercondylar area",
+      "searchText": "6.10 lower extremity bones proximal tibiofibular joint (posterior) l1344_760194 a. superior articular surface b. lateral condyle c. apex d. head of the fibula e. neck f. fibula g. tibia h. soleal line i. medial condyle j. medial plateau k. posterior intercondylar area",
       "labels": [
         {
           "id": "label-a",
@@ -22186,7 +22206,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Foot (Lateral)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -22200,9 +22222,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Foot (Lateral) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image185.png"
+        "packageSource": "word/media/image11.png"
       },
-      "searchText": "6.11 lower extremity foot (lateral) l1344_760195 a. cuneiforms b. navicular c. head and neck d. body e. talus f. calcaneus g. tubercle h. cuboid i. tuberosity j. base k. shaft l. head m. tubercle n. phalanges o. metatarsals",
+      "searchText": "6.11 lower extremity bones foot (lateral) l1344_760195 a. cuneiforms b. navicular c. head and neck d. body e. talus f. calcaneus g. tubercle h. cuboid i. tuberosity j. base k. shaft l. head m. tubercle n. phalanges o. metatarsals",
       "labels": [
         {
           "id": "label-a",
@@ -22287,7 +22309,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Foot (Medial)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -22301,9 +22325,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Foot (Medial) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image186.png"
+        "packageSource": "word/media/image12.png"
       },
-      "searchText": "6.12 lower extremity foot (medial) l1344_760196 a. talus b. sustentaculum tali c. calcaneus d. sesamoid e. cuneiforms f. navicular",
+      "searchText": "6.12 lower extremity bones foot (medial) l1344_760196 a. talus b. sustentaculum tali c. calcaneus d. sesamoid e. cuneiforms f. navicular",
       "labels": [
         {
           "id": "label-a",
@@ -22343,7 +22367,9 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "bones",
+      "cardTypeLabel": "Bones",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Foot (Plantar)",
       "interaction": "drag-drop",
       "interactionLabel": "Drag and Drop",
@@ -22357,9 +22383,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Foot (Plantar) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image187.png"
+        "packageSource": "word/media/image13.png"
       },
-      "searchText": "6.13 lower extremity foot (plantar) l1344_760197 a. cuboid g. talus b. tuberosity h. navicular c. groove for peroneus longus i. cuneiforms d. tuberosity j. sesamoids e. calcaneus k. phalanges f. sustentaculum tali",
+      "searchText": "6.13 lower extremity bones foot (plantar) l1344_760197 a. cuboid g. talus b. tuberosity h. navicular c. groove for peroneus longus i. cuneiforms d. tuberosity j. sesamoids e. calcaneus k. phalanges f. sustentaculum tali",
       "labels": [
         {
           "id": "label-a",
@@ -22424,15 +22450,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Hip Ligaments (Anterior)",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760198",
         "src": "Assets/Cards/L1344_760198.png",
@@ -22440,9 +22466,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Hip Ligaments (Anterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image188.png"
+        "packageSource": "word/media/image14.png"
       },
-      "searchText": "6.14 lower extremity hip ligaments (anterior) l1344_760198 a. pubofemoral ligament: restricts hip abduction and extension b. iliofemoral ligament: restricts excessive hip joint extension",
+      "searchText": "6.14 lower extremity ligaments hip ligaments (anterior) l1344_760198 a. pubofemoral ligament: restricts hip abduction and extension b. iliofemoral ligament: restricts excessive hip joint extension",
       "titleTemplate": [
         {
           "type": "text",
@@ -22453,17 +22479,58 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Pubofemoral ligament: restricts hip abduction and extension"
+            "text": "a. Pubofemoral ligament: restricts hip "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Iliofemoral ligament: restricts excessive hip joint extension"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive hip joint "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "abduction"
+        },
+        {
+          "id": "blank-2",
+          "answer": "extension"
+        },
+        {
+          "id": "blank-3",
+          "answer": "Iliofemoral"
+        },
+        {
+          "id": "blank-4",
+          "answer": "extension"
+        }
+      ]
     },
     {
       "id": "6.15",
@@ -22471,15 +22538,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Hip Ligaments (Posterior)",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760199",
         "src": "Assets/Cards/L1344_760199.png",
@@ -22487,9 +22554,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Hip Ligaments (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image189.png"
+        "packageSource": "word/media/image15.png"
       },
-      "searchText": "6.15 lower extremity hip ligaments (posterior) l1344_760199 a. iliofemoral ligament: restricts excessive hip joint extension b. ischiofemoral ligament: reinforces posterior capsule, limits internal rotation and adduction",
+      "searchText": "6.15 lower extremity ligaments hip ligaments (posterior) l1344_760199 a. iliofemoral ligament: restricts excessive hip joint extension b. ischiofemoral ligament: reinforces posterior capsule, limits internal rotation and adduction",
       "titleTemplate": [
         {
           "type": "text",
@@ -22500,17 +22567,70 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Iliofemoral ligament: restricts excessive hip joint extension"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive hip joint "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Ischiofemoral ligament: reinforces posterior capsule, limits internal rotation and adduction"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ligament: reinforces posterior capsule, limits "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " rotation and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Iliofemoral"
+        },
+        {
+          "id": "blank-2",
+          "answer": "extension"
+        },
+        {
+          "id": "blank-3",
+          "answer": "Ischiofemoral"
+        },
+        {
+          "id": "blank-4",
+          "answer": "internal"
+        },
+        {
+          "id": "blank-5",
+          "answer": "adduction"
+        }
+      ]
     },
     {
       "id": "6.16",
@@ -22518,15 +22638,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Hip Ligaments (Intracapsular)",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760200",
         "src": "Assets/Cards/L1344_760200.png",
@@ -22534,9 +22654,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Hip Ligaments (Intracapsular) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image190.png"
+        "packageSource": "word/media/image16.png"
       },
-      "searchText": "6.16 lower extremity hip ligaments (intracapsular) l1344_760200 a. a. ligamentum teres: restricts excessive movement of the femoral head within the acetabulum b. annular ligament: ensures joint stability during weight bearing and secures the femoral head into the acetabulum c. joint capsule: stabilize the femoral head in the acetabulum",
+      "searchText": "6.16 lower extremity ligaments hip ligaments (intracapsular) l1344_760200 a. ligamentum teres: restricts excessive movement of the femoral head within the acetabulum b. annular ligament: ensures joint stability during weight bearing and secures the femoral head into the acetabulum c. joint capsule: stabilize the femoral head in the acetabulum",
       "titleTemplate": [
         {
           "type": "text",
@@ -22547,23 +22667,56 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. a. Ligamentum teres: restricts excessive movement of the femoral head within the acetabulum"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": ": restricts excessive movement of the femoral head within the acetabulum"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Annular ligament: ensures joint stability during weight bearing and secures the femoral head into the acetabulum"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " ligament: ensures joint stability during weight bearing and secures the femoral head into the acetabulum"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Joint capsule: stabilize the femoral head in the acetabulum"
+            "text": "c. Joint capsule: stabilize the femoral head in the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Ligamentum teres"
+        },
+        {
+          "id": "blank-2",
+          "answer": "Annular"
+        },
+        {
+          "id": "blank-3",
+          "answer": "acetabulum"
+        }
+      ]
     },
     {
       "id": "6.17",
@@ -22571,15 +22724,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Knee Intracapsular Ligaments",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760201",
         "src": "Assets/Cards/L1344_760201.png",
@@ -22587,9 +22740,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Knee Intracapsular Ligaments anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image191.png"
+        "packageSource": "word/media/image17.png"
       },
-      "searchText": "6.17 lower extremity knee intracapsular ligaments l1344_760201 a. posterior cruciate ligament: restricts posterior tibial translation and excessive rotation at high flexion angles b. anterior cruciate ligament: restricts anterior tibial translation, internal rotation, and hyperextension c. medial collateral ligament: restricts valgus stress and external tibial rotation d. lateral collateral ligament: restricts varus stress and external tibial rotation",
+      "searchText": "6.17 lower extremity ligaments knee intracapsular ligaments l1344_760201 a. posterior cruciate ligament: restricts posterior tibial translation and excessive rotation at high flexion angles b. anterior cruciate ligament: restricts anterior tibial translation, internal rotation, and hyperextension c. medial collateral ligament: restricts valgus stress and external tibial rotation d. lateral collateral ligament: restricts varus stress and external tibial rotation",
       "titleTemplate": [
         {
           "type": "text",
@@ -22600,29 +22753,182 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Posterior cruciate ligament: restricts posterior tibial translation and excessive rotation at high flexion angles"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " tibial translation and excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " at high flexion angles"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Anterior cruciate ligament: restricts anterior tibial translation, internal rotation, and hyperextension"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " tibial translation, "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
+          },
+          {
+            "type": "text",
+            "text": " rotation, and hyper"
+          },
+          {
+            "type": "blank",
+            "id": "blank-7"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Medial collateral ligament: restricts valgus stress and external tibial rotation"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-8"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-9"
+          },
+          {
+            "type": "text",
+            "text": " stress and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-10"
+          },
+          {
+            "type": "text",
+            "text": " tibial rotation"
           }
         ],
         [
           {
             "type": "text",
-            "text": "d. Lateral collateral ligament: restricts varus stress and external tibial rotation"
+            "text": "d. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-11"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-12"
+          },
+          {
+            "type": "text",
+            "text": " stress and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-13"
+          },
+          {
+            "type": "text",
+            "text": " tibial rotation"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Posterior cruciate"
+        },
+        {
+          "id": "blank-2",
+          "answer": "posterior"
+        },
+        {
+          "id": "blank-3",
+          "answer": "rotation"
+        },
+        {
+          "id": "blank-4",
+          "answer": "Anterior cruciate"
+        },
+        {
+          "id": "blank-5",
+          "answer": "anterior"
+        },
+        {
+          "id": "blank-6",
+          "answer": "internal"
+        },
+        {
+          "id": "blank-7",
+          "answer": "extension"
+        },
+        {
+          "id": "blank-8",
+          "answer": "Medial collateral"
+        },
+        {
+          "id": "blank-9",
+          "answer": "valgus"
+        },
+        {
+          "id": "blank-10",
+          "answer": "external"
+        },
+        {
+          "id": "blank-11",
+          "answer": "Lateral collateral"
+        },
+        {
+          "id": "blank-12",
+          "answer": "varus"
+        },
+        {
+          "id": "blank-13",
+          "answer": "external"
+        }
+      ]
     },
     {
       "id": "6.18",
@@ -22630,15 +22936,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Knee Intracapsular Ligaments (Superior)",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760202",
         "src": "Assets/Cards/L1344_760202.png",
@@ -22646,9 +22952,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Knee Intracapsular Ligaments (Superior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image192.png"
+        "packageSource": "word/media/image18.png"
       },
-      "searchText": "6.18 lower extremity knee intracapsular ligaments (superior) l1344_760202 a. transverse ligament: provides stability by minimizing meniscal movement b. posterior cruciate ligament: restricts posterior tibial translation and excessive rotation at high flexion angles c. anterior cruciate ligament: restricts anterior tibial translation, internal rotation, and hyperextension",
+      "searchText": "6.18 lower extremity ligaments knee intracapsular ligaments (superior) l1344_760202 a. transverse ligament: provides stability by minimizing meniscal movement b. posterior cruciate ligament: restricts posterior tibial translation and excessive rotation at high flexion angles c. anterior cruciate ligament: restricts anterior tibial translation, internal rotation, and hyperextension",
       "titleTemplate": [
         {
           "type": "text",
@@ -22659,23 +22965,116 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Transverse ligament: provides stability by minimizing meniscal movement"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament: provides stability by minimizing meniscal movement"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Posterior cruciate ligament: restricts posterior tibial translation and excessive rotation at high flexion angles"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " tibial translation and excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " at high flexion angles"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Anterior cruciate ligament: restricts anterior tibial translation, internal rotation, and hyperextension"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
+          },
+          {
+            "type": "text",
+            "text": " tibial translation, "
+          },
+          {
+            "type": "blank",
+            "id": "blank-7"
+          },
+          {
+            "type": "text",
+            "text": " rotation, and hyper"
+          },
+          {
+            "type": "blank",
+            "id": "blank-8"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Transverse"
+        },
+        {
+          "id": "blank-2",
+          "answer": "Posterior cruciate"
+        },
+        {
+          "id": "blank-3",
+          "answer": "posterior"
+        },
+        {
+          "id": "blank-4",
+          "answer": "rotation"
+        },
+        {
+          "id": "blank-5",
+          "answer": "Anterior cruciate"
+        },
+        {
+          "id": "blank-6",
+          "answer": "anterior"
+        },
+        {
+          "id": "blank-7",
+          "answer": "internal"
+        },
+        {
+          "id": "blank-8",
+          "answer": "extension"
+        }
+      ]
     },
     {
       "id": "6.19",
@@ -22683,15 +23082,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Tibiofibular Joint (Posterior)",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760203",
         "src": "Assets/Cards/L1344_760203.png",
@@ -22699,9 +23098,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Tibiofibular Joint (Posterior) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image193.png"
+        "packageSource": "word/media/image19.png"
       },
-      "searchText": "6.19 lower extremity tibiofibular joint (posterior) l1344_760203 a. popliteofibular ligament: restricts external tibial rotation, posterolateral translation, and varus rotation b. anterior proximal tibiofibular ligament: restricts posterior and medial translation of the fibular head, and fibular rotation c. posterior proximal tibiofibular ligament: restricts anterior and lateral translation of the fibular head, and fibular rotation",
+      "searchText": "6.19 lower extremity ligaments tibiofibular joint (posterior) l1344_760203 a. popliteofibular ligament: restricts external tibial rotation, posterolateral translation, and varus rotation b. anterior proximal tibiofibular ligament: restricts posterior and medial translation of the fibular head, and fibular rotation c. posterior proximal tibiofibular ligament: restricts anterior and lateral translation of the fibular head, and fibular rotation",
       "titleTemplate": [
         {
           "type": "text",
@@ -22712,23 +23111,132 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Popliteofibular ligament: restricts external tibial rotation, posterolateral translation, and varus rotation"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": " tibial rotation, posterolateral translation, and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " rotation"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Anterior proximal tibiofibular ligament: restricts posterior and medial translation of the fibular head, and fibular rotation"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
+          },
+          {
+            "type": "text",
+            "text": " translation of the fibular head, and fibular rotation"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Posterior proximal tibiofibular ligament: restricts anterior and lateral translation of the fibular head, and fibular rotation"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-7"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-8"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-9"
+          },
+          {
+            "type": "text",
+            "text": " translation of the fibular head, and fibular rotation"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Popliteofibular"
+        },
+        {
+          "id": "blank-2",
+          "answer": "external"
+        },
+        {
+          "id": "blank-3",
+          "answer": "varus"
+        },
+        {
+          "id": "blank-4",
+          "answer": "Anterior proximal tibiofibular"
+        },
+        {
+          "id": "blank-5",
+          "answer": "posterior"
+        },
+        {
+          "id": "blank-6",
+          "answer": "medial"
+        },
+        {
+          "id": "blank-7",
+          "answer": "Posterior proximal tibiofibular"
+        },
+        {
+          "id": "blank-8",
+          "answer": "anterior"
+        },
+        {
+          "id": "blank-9",
+          "answer": "lateral"
+        }
+      ]
     },
     {
       "id": "6.20",
@@ -22736,15 +23244,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Foot Ligaments (Lateral)",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760204",
         "src": "Assets/Cards/L1344_760204.png",
@@ -22752,9 +23260,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Foot Ligaments (Lateral) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image194.png"
+        "packageSource": "word/media/image20.png"
       },
-      "searchText": "6.20 lower extremity foot ligaments (lateral) l1344_760204 a. anterior tibiofibular ligament (aitfl): maintains stability between the tibia and fibula b. anterior talofibular (atfl) ligament: restricts inversion and plantar flexion c. cuboideonavicular ligament: restricts excessive movement between the cuboid and the navicular d. bifurcate (chopart) ligament: restricts excessive midfoot mobility e. calcaneocuboid ligament: restricts excessive movement between the calcaneus and cuboid f. calcaneofibular ligament: restricts inversion during dorsiflexion g. posterior talofibular ligament: restricts extreme inversion and dorsiflexion h. posterior tibiofibular ligament: restricts excessive separation between the tibia and fibulaand fibula",
+      "searchText": "6.20 lower extremity ligaments foot ligaments (lateral) l1344_760204 a. anterior tibiofibular ligament (aitfl): maintains stability between the tibia and fibula b. anterior talofibular (atfl) ligament: restricts inversion and plantar flexion c. cuboideonavicular ligament: restricts excessive movement between the cuboid and the navicular d. bifurcate (chopart) ligament: restricts excessive midfoot mobility e. calcaneocuboid ligament: restricts excessive movement between the calcaneus and cuboid f. calcaneofibular ligament: restricts inversion during dorsiflexion g. posterior talofibular ligament: restricts extreme inversion and dorsiflexion h. posterior tibiofibular ligament: restricts excessive separation between the tibia and fibula",
       "titleTemplate": [
         {
           "type": "text",
@@ -22765,53 +23273,310 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Anterior tibiofibular ligament (AITFL): maintains stability between the tibia and fibula"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ("
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
+          },
+          {
+            "type": "text",
+            "text": "): maintains stability between the tibia and fibula"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Anterior talofibular (ATFL) ligament: restricts inversion and plantar flexion"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ("
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
+          },
+          {
+            "type": "text",
+            "text": ") ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " and plantar "
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Cuboideonavicular ligament: restricts excessive movement between the cuboid and the navicular"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-7"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive movement between the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-8"
+          },
+          {
+            "type": "text",
+            "text": " and the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-9"
           }
         ],
         [
           {
             "type": "text",
-            "text": "d. Bifurcate (Chopart) ligament: restricts excessive midfoot mobility"
+            "text": "d. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-10"
+          },
+          {
+            "type": "text",
+            "text": " ("
+          },
+          {
+            "type": "blank",
+            "id": "blank-11"
+          },
+          {
+            "type": "text",
+            "text": ") ligament: restricts excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-12"
+          },
+          {
+            "type": "text",
+            "text": " mobility"
           }
         ],
         [
           {
             "type": "text",
-            "text": "e. Calcaneocuboid ligament: restricts excessive movement between the calcaneus and cuboid"
+            "text": "e. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-13"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive movement between the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-14"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-15"
           }
         ],
         [
           {
             "type": "text",
-            "text": "f. Calcaneofibular ligament: restricts inversion during dorsiflexion"
+            "text": "f. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-16"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-17"
+          },
+          {
+            "type": "text",
+            "text": " during dorsiflexion"
           }
         ],
         [
           {
             "type": "text",
-            "text": "g. Posterior talofibular ligament: restricts extreme inversion and dorsiflexion"
+            "text": "g. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-18"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts extreme "
+          },
+          {
+            "type": "blank",
+            "id": "blank-19"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-20"
           }
         ],
         [
           {
             "type": "text",
-            "text": "h. Posterior tibiofibular ligament: restricts excessive separation between the tibia and fibulaand fibula"
+            "text": "h. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-21"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts excessive separation between the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-22"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "blank",
+            "id": "blank-23"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Anterior tibiofibular ligament"
+        },
+        {
+          "id": "blank-2",
+          "answer": "AITFL"
+        },
+        {
+          "id": "blank-3",
+          "answer": "Anterior talofibular"
+        },
+        {
+          "id": "blank-4",
+          "answer": "ATFL"
+        },
+        {
+          "id": "blank-5",
+          "answer": "inversion"
+        },
+        {
+          "id": "blank-6",
+          "answer": "flexion"
+        },
+        {
+          "id": "blank-7",
+          "answer": "Cuboideonavicular"
+        },
+        {
+          "id": "blank-8",
+          "answer": "cuboid"
+        },
+        {
+          "id": "blank-9",
+          "answer": "navicular"
+        },
+        {
+          "id": "blank-10",
+          "answer": "Bifurcate"
+        },
+        {
+          "id": "blank-11",
+          "answer": "Chopart"
+        },
+        {
+          "id": "blank-12",
+          "answer": "midfoot"
+        },
+        {
+          "id": "blank-13",
+          "answer": "Calcaneocuboid"
+        },
+        {
+          "id": "blank-14",
+          "answer": "calcaneus"
+        },
+        {
+          "id": "blank-15",
+          "answer": "cuboid"
+        },
+        {
+          "id": "blank-16",
+          "answer": "Calcaneofibular"
+        },
+        {
+          "id": "blank-17",
+          "answer": "inversion"
+        },
+        {
+          "id": "blank-18",
+          "answer": "Posterior talofibular"
+        },
+        {
+          "id": "blank-19",
+          "answer": "inversion"
+        },
+        {
+          "id": "blank-20",
+          "answer": "dorsiflexion"
+        },
+        {
+          "id": "blank-21",
+          "answer": "Posterior tibiofibular"
+        },
+        {
+          "id": "blank-22",
+          "answer": "tibia"
+        },
+        {
+          "id": "blank-23",
+          "answer": "fibula"
+        }
+      ]
     },
     {
       "id": "6.21",
@@ -22819,15 +23584,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "ligaments",
+      "cardTypeLabel": "Ligaments",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Foot Ligaments (Medial)",
       "interaction": "fill-blank",
       "interactionLabel": "Fill in the Blank",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760205",
         "src": "Assets/Cards/L1344_760205.png",
@@ -22835,9 +23600,9 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Foot Ligaments (Medial) anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image195.png"
+        "packageSource": "word/media/image21.png"
       },
-      "searchText": "6.21 lower extremity foot ligaments (medial) l1344_760205 a. posterior talotibial ligament: resists excessive inversion b. calcaneotibial ligament: resists excessive inversion c. calcaneonavicular (spring) ligament: restricts depression of the medial arch d. long plantar ligament: restricts flattening of the longitudinal arch e. dorsal talonavicular ligament: restricts midtarsal joint instability f. tibionavicular ligament: restricts subluxation of the ankle joint and stabilizes the ankle during eversion g. anterior talotibial ligament: restricts eversion of the foot",
+      "searchText": "6.21 lower extremity ligaments foot ligaments (medial) l1344_760205 a. posterior talotibial ligament: resists excessive inversion b. calcaneotibial ligament: resists excessive inversion c. calcaneonavicular (spring) ligament: restricts depression of the medial arch d. long plantar ligament: restricts flattening of the longitudinal arch e. dorsal talonavicular ligament: restricts midtarsal joint instability f. tibionavicular ligament: restricts subluxation of the ankle joint and stabilizes the ankle during eversion g. anterior talotibial ligament: restricts eversion of the foot",
       "titleTemplate": [
         {
           "type": "text",
@@ -22848,47 +23613,216 @@ window.MCPHERSON_CARD_DATA = {
         [
           {
             "type": "text",
-            "text": "a. Posterior talotibial ligament: resists excessive inversion"
+            "text": "a. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-1"
+          },
+          {
+            "type": "text",
+            "text": " ligament: resists excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-2"
           }
         ],
         [
           {
             "type": "text",
-            "text": "b. Calcaneotibial ligament: resists excessive inversion"
+            "text": "b. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-3"
+          },
+          {
+            "type": "text",
+            "text": " ligament: resists excessive "
+          },
+          {
+            "type": "blank",
+            "id": "blank-4"
           }
         ],
         [
           {
             "type": "text",
-            "text": "c. Calcaneonavicular (spring) ligament: restricts depression of the medial arch"
+            "text": "c. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-5"
+          },
+          {
+            "type": "text",
+            "text": " ("
+          },
+          {
+            "type": "blank",
+            "id": "blank-6"
+          },
+          {
+            "type": "text",
+            "text": ") ligament: restricts depression of the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-7"
+          },
+          {
+            "type": "text",
+            "text": " arch"
           }
         ],
         [
           {
             "type": "text",
-            "text": "d. Long plantar ligament: restricts flattening of the longitudinal arch"
+            "text": "d. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-8"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts flattening of the "
+          },
+          {
+            "type": "blank",
+            "id": "blank-9"
+          },
+          {
+            "type": "text",
+            "text": " arch"
           }
         ],
         [
           {
             "type": "text",
-            "text": "e. Dorsal talonavicular ligament: restricts midtarsal joint instability"
+            "text": "e. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-10"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-11"
+          },
+          {
+            "type": "text",
+            "text": " joint instability"
           }
         ],
         [
           {
             "type": "text",
-            "text": "f. Tibionavicular ligament: restricts subluxation of the ankle joint and stabilizes the ankle during eversion"
+            "text": "f. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-12"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts subluxation of the ankle joint and stabilizes the ankle during "
+          },
+          {
+            "type": "blank",
+            "id": "blank-13"
           }
         ],
         [
           {
             "type": "text",
-            "text": "g. Anterior talotibial ligament: restricts eversion of the foot"
+            "text": "g. "
+          },
+          {
+            "type": "blank",
+            "id": "blank-14"
+          },
+          {
+            "type": "text",
+            "text": " ligament: restricts "
+          },
+          {
+            "type": "blank",
+            "id": "blank-15"
+          },
+          {
+            "type": "text",
+            "text": " of the foot"
           }
         ]
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Posterior talotibial"
+        },
+        {
+          "id": "blank-2",
+          "answer": "inversion"
+        },
+        {
+          "id": "blank-3",
+          "answer": "Calcaneotibial"
+        },
+        {
+          "id": "blank-4",
+          "answer": "inversion"
+        },
+        {
+          "id": "blank-5",
+          "answer": "Calcaneonavicular"
+        },
+        {
+          "id": "blank-6",
+          "answer": "spring"
+        },
+        {
+          "id": "blank-7",
+          "answer": "medial"
+        },
+        {
+          "id": "blank-8",
+          "answer": "Long plantar"
+        },
+        {
+          "id": "blank-9",
+          "answer": "longitudinal"
+        },
+        {
+          "id": "blank-10",
+          "answer": "Dorsal talonavicular"
+        },
+        {
+          "id": "blank-11",
+          "answer": "midtarsal"
+        },
+        {
+          "id": "blank-12",
+          "answer": "Tibionavicular"
+        },
+        {
+          "id": "blank-13",
+          "answer": "eversion"
+        },
+        {
+          "id": "blank-14",
+          "answer": "Anterior talotibial"
+        },
+        {
+          "id": "blank-15",
+          "answer": "eversion"
+        }
+      ]
     },
     {
       "id": "6.22",
@@ -22896,15 +23830,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Rectus femoris",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760206",
         "src": "Assets/Cards/L1344_760206.png",
@@ -22912,42 +23846,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Rectus femoris anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image196.png"
+        "packageSource": "word/media/image22.png"
       },
-      "searchText": "6.22 lower extremity rectus femoris l1344_760206 proximal insertion: anterior inferior iliac spine and area superior to the acetabulum distal insertion: patella via the quadriceps tendon, tibial tuberosity via the patellar ligament innervation: femoral nerve action: hip flexion, knee extension",
-      "titleTemplate": [
+      "searchText": "6.22 lower extremity muscles rectus femoris l1344_760206 proximal insertion: *anterior inferior iliac spine *area superior to the acetabulum greater trochanter of the femur lateral condyle of the femur distal insertion: *patella via the quadriceps tendon *tibial tuberosity via the patellar ligament linea aspera medial tibial condyle on the pes anserinus innervation: *femoral nerve tibial nerve superior gluteal nerve (l4-s1) obturator nerve action: *hip flexion *knee extension knee flexion hip external rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Rectus femoris"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "anterior inferior iliac spine",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "area superior to the acetabulum",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "greater trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lateral condyle of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "patella via the quadriceps tendon",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "tibial tuberosity via the patellar ligament",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "linea aspera",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "medial tibial condyle on the pes anserinus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "femoral nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "obturator nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "knee extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "knee flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip external rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: anterior inferior iliac spine and area superior to the acetabulum"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: patella via the quadriceps tendon, tibial tuberosity via the patellar ligament"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: femoral nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip flexion, knee extension"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Rectus femoris"
+        }
+      ]
     },
     {
       "id": "6.23",
@@ -22955,15 +23978,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Vastus lateralis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760207",
         "src": "Assets/Cards/L1344_760207.png",
@@ -22971,42 +23994,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Vastus lateralis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image197.png"
+        "packageSource": "word/media/image23.png"
       },
-      "searchText": "6.23 lower extremity vastus lateralis l1344_760207 proximal insertion: greater trochanter; intertrochanteric line, proximal to the lateral lip of the linea aspera distal insertion: patella via the quadriceps tendon, tibial tuberosity via the patellar ligament innervation: femoral nerve action: knee extension",
-      "titleTemplate": [
+      "searchText": "6.23 lower extremity muscles vastus lateralis l1344_760207 proximal insertion: *greater trochanter *intertrochanteric line, proximal to the lateral lip of the linea aspera pubic rami ischial tuberosity distal insertion: *patella via the quadriceps tendon *tibial tuberosity via the patellar ligament linea aspera medial tibial condyle on the pes anserinus innervation: *femoral nerve tibial nerve superior gluteal nerve (l4-s1) obturator nerve action: hip flexion *knee extension knee flexion hip external rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Vastus lateralis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "greater trochanter",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "intertrochanteric line, proximal to the lateral lip of the linea aspera",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "pubic rami",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "ischial tuberosity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "patella via the quadriceps tendon",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "tibial tuberosity via the patellar ligament",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "linea aspera",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "medial tibial condyle on the pes anserinus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "femoral nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "obturator nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-2",
+              "text": "knee extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "knee flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip external rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: greater trochanter; intertrochanteric line, proximal to the lateral lip of the linea aspera"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: patella via the quadriceps tendon, tibial tuberosity via the patellar ligament"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: femoral nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: knee extension"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Vastus lateralis"
+        }
+      ]
     },
     {
       "id": "6.24",
@@ -23014,15 +24126,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Vastus medialis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760208",
         "src": "Assets/Cards/L1344_760208.png",
@@ -23030,42 +24142,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Vastus medialis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image198.png"
+        "packageSource": "word/media/image24.png"
       },
-      "searchText": "6.24 lower extremity vastus medialis l1344_760208 proximal insertion: intertrochanteric line and linea aspera distal insertion: patella via the quadriceps tendon, tibial tuberosity via the patellar ligament innervation: femoral nerve action: knee extension",
-      "titleTemplate": [
+      "searchText": "6.24 lower extremity muscles vastus medialis l1344_760208 proximal insertion: *intertrochanteric line and linea aspera greater trochanter of the femur iliopectineal line lesser trochanter of the femur distal insertion: *patella via the quadriceps tendon *tibial tuberosity via the patellar ligament linea aspera medial tibial condyle on the pes anserinus innervation: *femoral nerve tibial nerve superior gluteal nerve (l4-s1) obturator nerve action: hip flexion *knee extension knee flexion hip external rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Vastus medialis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "intertrochanteric line and linea aspera",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "greater trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "iliopectineal line",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lesser trochanter of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "patella via the quadriceps tendon",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "tibial tuberosity via the patellar ligament",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "linea aspera",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "medial tibial condyle on the pes anserinus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "femoral nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "obturator nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-2",
+              "text": "knee extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "knee flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip external rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: intertrochanteric line and linea aspera"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: patella via the quadriceps tendon, tibial tuberosity via the patellar ligament"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: femoral nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: knee extension"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Vastus medialis"
+        }
+      ]
     },
     {
       "id": "6.25",
@@ -23073,15 +24274,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Vastus intermedius",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760209",
         "src": "Assets/Cards/L1344_760209.png",
@@ -23089,42 +24290,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Vastus intermedius anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image199.png"
+        "packageSource": "word/media/image25.png"
       },
-      "searchText": "6.25 lower extremity vastus intermedius l1344_760209 proximal insertion: proximal two thirds of the anterior femur proximal insertion: patella via the quadriceps tendon, tibial tuberosity via the patellar ligament innervation: femoral nerve action: knee extension",
-      "titleTemplate": [
+      "searchText": "6.25 lower extremity muscles vastus intermedius l1344_760209 proximal insertion: *proximal two thirds of the anterior femur greater trochanter of the femur superior aspect of the pubic bone lesser trochanter of the femur proximal insertion: *patella via the quadriceps tendon *tibial tuberosity via the patellar ligament linea aspera medial tibial condyle on the pes anserinus innervation: *femoral nerve tibial nerve superior gluteal nerve (l4-s1) obturator nerve action: hip flexion *knee extension knee flexion hip external rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Vastus intermedius"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "proximal two thirds of the anterior femur",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "greater trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "superior aspect of the pubic bone",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lesser trochanter of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "patella via the quadriceps tendon",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "tibial tuberosity via the patellar ligament",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "linea aspera",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "medial tibial condyle on the pes anserinus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "femoral nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "obturator nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-2",
+              "text": "knee extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "knee flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip external rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: proximal two thirds of the anterior femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: patella via the quadriceps tendon, tibial tuberosity via the patellar ligament"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: femoral nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: knee extension"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Vastus intermedius"
+        }
+      ]
     },
     {
       "id": "6.26",
@@ -23132,15 +24422,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Sartorius",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760210",
         "src": "Assets/Cards/L1344_760210.png",
@@ -23148,42 +24438,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Sartorius anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image200.png"
+        "packageSource": "word/media/image26.png"
       },
-      "searchText": "6.26 lower extremity sartorius l1344_760210 proximal insertion: anterior superior iliac spine distal insertion: inferior to the medial condyle of the tibia on the pes anserinus innervation: femoral nerve action: hip flexion, abduction, and external rotation; knee flexion; lower leg internal rotation",
-      "titleTemplate": [
+      "searchText": "6.26 lower extremity muscles sartorius l1344_760210 proximal insertion: *anterior superior iliac spine pubic rami lateral condyle of the femur greater trochanter of the femur distal insertion: *inferior to the medial condyle of the tibia on the pes anserinus lateral meniscus linea aspera pectineal line of the femur innervation: *femoral nerve tibial nerve superior gluteal nerve (l4-s1) obturator nerve action: *hip flexion, abduction, and external rotation knee flexion and lower leg internal rotation *hip flexion, adduction, and internal rotation *hip flexion, abduction, and internal rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Sartorius"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "anterior superior iliac spine",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "pubic rami",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral condyle of the femur",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "greater trochanter of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "inferior to the medial condyle of the tibia on the pes anserinus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lateral meniscus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "linea aspera",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "pectineal line of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "femoral nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "obturator nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip flexion, abduction, and external rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "knee flexion and lower leg internal rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "hip flexion, adduction, and internal rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip flexion, abduction, and internal rotation",
+              "correct": true
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: anterior superior iliac spine"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: inferior to the medial condyle of the tibia on the pes anserinus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: femoral nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip flexion, abduction, and external rotation; knee flexion; lower leg internal rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Sartorius"
+        }
+      ]
     },
     {
       "id": "6.27",
@@ -23191,15 +24570,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Iliacus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760211",
         "src": "Assets/Cards/L1344_760211.png",
@@ -23207,42 +24586,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Iliacus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image201.png"
+        "packageSource": "word/media/image27.png"
       },
-      "searchText": "6.27 lower extremity iliacus l1344_760211 proximal insertion: iliac fossa, iliac crest, lateral sacrum distal insertion: lesser trochanter of the femur innervation: femoral nerve action: trunk and thigh flexion",
-      "titleTemplate": [
+      "searchText": "6.27 lower extremity muscles iliacus l1344_760211 proximal insertion: *iliac fossa *iliac crest *lateral sacrum lumbar vertebrae l1-l5 distal insertion: *lesser trochanter of the femur pubic rami ischial tuberosity greater trochanter of the femur innervation: *femoral nerve tibial nerve superior gluteal nerve (l4-s1) obturator nerve action: *trunk and thigh flexion hip external rotation stabilization of the hip joint assistance in abduction of the thigh",
+      "groups": [
         {
-          "type": "text",
-          "text": "Iliacus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "iliac fossa",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "iliac crest",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral sacrum",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lumbar vertebrae L1-L5",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "lesser trochanter of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "pubic rami",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "ischial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "greater trochanter of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "femoral nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "obturator nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "trunk and thigh flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip external rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "stabilization of the hip joint",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "assistance in abduction of the thigh",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: iliac fossa, iliac crest, lateral sacrum"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: lesser trochanter of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: femoral nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: trunk and thigh flexion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Iliacus"
+        }
+      ]
     },
     {
       "id": "6.28",
@@ -23250,15 +24718,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Psoas major",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760212",
         "src": "Assets/Cards/L1344_760212.png",
@@ -23266,42 +24734,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Psoas major anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image202.png"
+        "packageSource": "word/media/image28.png"
       },
-      "searchText": "6.28 lower extremity psoas major l1344_760212 proximal insertion: lumbar vertebrae l1-l5 distal insertion: lesser trochanter of the femur innervation: anterior rami of the lumbar spinal nerves action: thigh flexion, vertebral column lateral flexion",
-      "titleTemplate": [
+      "searchText": "6.28 lower extremity muscles psoas major l1344_760212 proximal insertion: iliac fossa iliac crest lateral sacrum *lumbar vertebrae l1-l5 distal insertion: *lesser trochanter of the femur pubic rami ischial tuberosity greater trochanter of the femur innervation: femoral nerve *anterior rami of the lumbar spinal nerves superior gluteal nerve (l4-s1) obturator nerve action: * thigh flexion hip external rotation *vertebral column lateral flexion assistance in abduction of the thigh",
+      "groups": [
         {
-          "type": "text",
-          "text": "Psoas major"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "iliac fossa",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "iliac crest",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral sacrum",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lumbar vertebrae L1-L5",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "lesser trochanter of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "pubic rami",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "ischial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "greater trochanter of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "anterior rami of the lumbar spinal nerves",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "obturator nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "thigh flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip external rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "vertebral column lateral flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "assistance in abduction of the thigh",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lumbar vertebrae L1-L5"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: lesser trochanter of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: anterior rami of the lumbar spinal nerves"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: thigh flexion, vertebral column lateral flexion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Psoas major"
+        }
+      ]
     },
     {
       "id": "6.29",
@@ -23309,15 +24866,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Psoas minor",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760213",
         "src": "Assets/Cards/L1344_760213.png",
@@ -23325,42 +24882,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Psoas minor anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image203.png"
+        "packageSource": "word/media/image29.png"
       },
-      "searchText": "6.29 lower extremity psoas minor l1344_760213 proximal insertion: t12 and l1 intervertebral discs and bodies distal insertion: iliopectineal line innervation: anterior ramus of l1 spinal nerve action: pelvis flexion",
-      "titleTemplate": [
+      "searchText": "6.29 lower extremity muscles psoas minor l1344_760213 proximal insertion: *t12 and l1 intervertebral discs and bodies iliac fossa iliac crest lateral sacrum distal insertion: *iliopectineal line lesser trochanter of the femur pubic rami ischial tuberosity innervation: *anterior ramus of l1 spinal nerve obturator nerve femoral nerve superior gluteal nerve (l4-s1) action: *pelvis flexion hip external rotation vertebral column lateral flexion assistance in abduction of the thigh",
+      "groups": [
         {
-          "type": "text",
-          "text": "Psoas minor"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "T12 and L1 intervertebral discs and bodies",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "iliac fossa",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "iliac crest",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lateral sacrum",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "iliopectineal line",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lesser trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "pubic rami",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "ischial tuberosity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "anterior ramus of L1 spinal nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "obturator nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "pelvis flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip external rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "vertebral column lateral flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "assistance in abduction of the thigh",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: T12 and L1 intervertebral discs and bodies"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: iliopectineal line"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: anterior ramus of L1 spinal nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: pelvis flexion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Psoas minor"
+        }
+      ]
     },
     {
       "id": "6.30",
@@ -23368,15 +25014,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Pectineus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760214",
         "src": "Assets/Cards/L1344_760214.png",
@@ -23384,42 +25030,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Pectineus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image204.png"
+        "packageSource": "word/media/image30.png"
       },
-      "searchText": "6.30 lower extremity pectineus l1344_760214 proximal insertion: iliopectineal line and superior aspect of the pubic bone distal insertion: pectineal line of the femur innervation: femoral nerve action: hip flexion, adduction, and external rotation",
-      "titleTemplate": [
+      "searchText": "6.30 lower extremity muscles pectineus l1344_760214 proximal insertion: iliopectineal line *superior aspect of the pubic bone ischial tuberosity ischial rami distal insertion: *pectineal line of the femur lesser trochanter of the femur pubic rami ischial tuberosity innervation: anterior ramus of l1 spinal nerve obturator nerve *femoral nerve superior gluteal nerve (l4-s1) action: *hip flexion *hip adduction *hip external rotation hip internal rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Pectineus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "iliopectineal line",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "superior aspect of the pubic bone",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ischial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "ischial rami",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "pectineal line of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lesser trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "pubic rami",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "ischial tuberosity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "anterior ramus of L1 spinal nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "obturator nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip adduction",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "hip external rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip internal rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: iliopectineal line and superior aspect of the pubic bone"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: pectineal line of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: femoral nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip flexion, adduction, and external rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Pectineus"
+        }
+      ]
     },
     {
       "id": "6.31",
@@ -23427,15 +25162,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Gluteus maximus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760215",
         "src": "Assets/Cards/L1344_760215.png",
@@ -23443,42 +25178,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Gluteus maximus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image205.png"
+        "packageSource": "word/media/image31.png"
       },
-      "searchText": "6.31 lower extremity gluteus maximus l1344_760215 proximal insertion: lateroposterior surface of the sacrum and coccyx, gluteal surface of the ilium, thoracolumbar fascia, sacrotuberous ligament distal insertion: iliotibial tract, gluteal tuberosity of the femur innervation: inferior gluteal nerve (l5-s2) action: hip extension",
-      "titleTemplate": [
+      "searchText": "6.31 lower extremity muscles gluteus maximus l1344_760215 proximal insertion: *lateroposterior surface of the sacrum and coccyx *gluteal surface of the ilium *thoracolumbar fascia *sacrotuberous ligament distal insertion: *iliotibial tract *gluteal tuberosity of the femur lesser trochanter of the femur linea aspera innervation: *inferior gluteal nerve (l5-s2) superior gluteal nerve (l4-s1) tibial nerve femoral nerve action: *hip extension hip internal rotation assistance in adduction of the thigh",
+      "groups": [
         {
-          "type": "text",
-          "text": "Gluteus maximus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateroposterior surface of the sacrum and coccyx",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "gluteal surface of the ilium",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "thoracolumbar fascia",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "sacrotuberous ligament",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "iliotibial tract",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "gluteal tuberosity of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lesser trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "linea aspera",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "inferior gluteal nerve (L5-S2)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "femoral nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip internal rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "assistance in adduction of the thigh",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateroposterior surface of the sacrum and coccyx, gluteal surface of the ilium, thoracolumbar fascia, sacrotuberous ligament"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: iliotibial tract, gluteal tuberosity of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: inferior gluteal nerve (L5-S2)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip extension"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Gluteus maximus"
+        }
+      ]
     },
     {
       "id": "6.32",
@@ -23486,15 +25305,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Biceps femoris",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760216",
         "src": "Assets/Cards/L1344_760216.png",
@@ -23502,54 +25321,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Biceps femoris anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image206.png"
+        "packageSource": "word/media/image32.png"
       },
-      "searchText": "6.32 lower extremity biceps femoris l1344_760216 proximal insertion: long head—ischial tuberosity; short head—linea aspera distal insertion: long and short head—head of the fibula innervation: long head—tibial nerve; short head—fibular nerve action: long head: hip extension and external rotation, knee flexion short head: knee flexion, lower leg external rotation",
-      "titleTemplate": [
+      "searchText": "6.32 lower extremity muscles biceps femoris l1344_760216 proximal insertion: *ischial tuberosity *linea aspera pubic rami distal insertion: *head of the fibula proximal tibia distal to the medial tibial condyle on the pes anserinus innervation: *tibial nerve *fibular nerve femoral nerve deep fibular (peroneal) nerve action: hip extension and external rotation *knee flexion lower leg external rotation hip extension and internal rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Biceps femoris"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischial tuberosity",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "linea aspera",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "pubic rami",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "head of the fibula",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "proximal tibia",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "distal to the medial tibial condyle on the pes anserinus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "tibial nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "fibular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip extension and external rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-2",
+              "text": "knee flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "lower leg external rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip extension and internal rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: long head—ischial tuberosity; short head—linea aspera"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: long and short head—head of the fibula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: long head—tibial nerve; short head—fibular nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action:"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Long head: hip extension and external rotation, knee flexion"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Short head: knee flexion, lower leg external rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Biceps femoris"
+        }
+      ]
     },
     {
       "id": "6.33",
@@ -23557,15 +25443,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Semitendinosus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760217",
         "src": "Assets/Cards/L1344_760217.png",
@@ -23573,42 +25459,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Semitendinosus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image207.png"
+        "packageSource": "word/media/image33.png"
       },
-      "searchText": "6.33 lower extremity semitendinosus l1344_760217 proximal insertion: ischial tuberosity distal insertion: inferior to the medial tibial condyle on the pes anserinus innervation: tibial nerve action: hip extension, knee flexion, lower leg internal rotation",
-      "titleTemplate": [
+      "searchText": "6.33 lower extremity muscles semitendinosus l1344_760217 proximal insertion: *ischial tuberosity ischial rami superior aspect of the pubic bone iliopectineal line distal insertion: *inferior to the medial tibial condyle on the pes anserinus lateral meniscus anteromedial fibula shaft pectineal line of the femur innervation: *tibial nerve fibular nerve femoral nerve deep fibular (peroneal) nerve action: *hip extension *knee flexion *lower leg internal rotation hip adduction",
+      "groups": [
         {
-          "type": "text",
-          "text": "Semitendinosus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischial tuberosity",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "ischial rami",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "superior aspect of the pubic bone",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "iliopectineal line",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "inferior to the medial tibial condyle on the pes anserinus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lateral meniscus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "pectineal line of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "tibial nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "knee flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "lower leg internal rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip adduction",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ischial tuberosity"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: inferior to the medial tibial condyle on the pes anserinus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: tibial nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip extension, knee flexion, lower leg internal rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Semitendinosus"
+        }
+      ]
     },
     {
       "id": "6.34",
@@ -23616,15 +25591,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Semimembranosus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760218",
         "src": "Assets/Cards/L1344_760218.png",
@@ -23632,42 +25607,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Semimembranosus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image208.png"
+        "packageSource": "word/media/image34.png"
       },
-      "searchText": "6.34 lower extremity semimembranosus l1344_760218 proximal insertion: ischial tuberosity distal insertion: medial tibial condyle innervation: tibial nerve action: hip extension, knee flexion, lower leg internal rotation",
-      "titleTemplate": [
+      "searchText": "6.34 lower extremity muscles semimembranosus l1344_760218 proximal insertion: *ischial tuberosity ischial rami superior aspect of the pubic bone iliopectineal line distal insertion: inferior to the medial tibial condyle on the pes anserinus *medial tibial condyle anteromedial fibula shaft pectineal line of the femur innervation: *tibial nerve fibular nerve femoral nerve deep fibular (peroneal) nerve action: *hip extension *knee flexion *lower leg internal rotation hip adduction",
+      "groups": [
         {
-          "type": "text",
-          "text": "Semimembranosus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischial tuberosity",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "ischial rami",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "superior aspect of the pubic bone",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "iliopectineal line",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "inferior to the medial tibial condyle on the pes anserinus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "medial tibial condyle",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "pectineal line of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "tibial nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "knee flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "lower leg internal rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip adduction",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ischial tuberosity"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial tibial condyle"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: tibial nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip extension, knee flexion, lower leg internal rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Semimembranosus"
+        }
+      ]
     },
     {
       "id": "6.35",
@@ -23675,15 +25739,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Piriformis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760219",
         "src": "Assets/Cards/L1344_760219.png",
@@ -23691,42 +25755,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Piriformis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image209.png"
+        "packageSource": "word/media/image35.png"
       },
-      "searchText": "6.35 lower extremity piriformis l1344_760219 proximal insertion: anterolateral surface of the sacrum distal insertion: greater trochanter of the femur innervation: spinal nerves l5-s2 action: hip external rotation and abduction",
-      "titleTemplate": [
+      "searchText": "6.35 lower extremity muscles piriformis l1344_760219 proximal insertion: *anterolateral surface of the sacrum superior aspect of the pubic bone ischial tuberosity distal insertion: *greater trochanter of the femur lesser trochanter of the femur lateral condyle of the femur innervation: tibial nerve fibular nerve deep fibular (peroneal) nerve *spinal nerves l5-s2 action: *hip external rotation *hip abduction hip internal rotation hip extension",
+      "groups": [
         {
-          "type": "text",
-          "text": "Piriformis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "anterolateral surface of the sacrum",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "superior aspect of the pubic bone",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ischial tuberosity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "greater trochanter of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lesser trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lateral condyle of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "spinal nerves L5-S2",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip external rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip abduction",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "hip internal rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip extension",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: anterolateral surface of the sacrum"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: greater trochanter of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: spinal nerves L5-S2"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip external rotation and abduction"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Piriformis"
+        }
+      ]
     },
     {
       "id": "6.36",
@@ -23734,15 +25877,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Tensor fascia latae",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760220",
         "src": "Assets/Cards/L1344_760220.png",
@@ -23750,42 +25893,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Tensor fascia latae anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image210.png"
+        "packageSource": "word/media/image36.png"
       },
-      "searchText": "6.36 lower extremity tensor fascia latae l1344_760220 proximal insertion: anterior aspect of the iliac crest, anterior superior iliac spine (asis) distal insertion: iliotibial tract innervation: superior gluteal nerve (l4-s1) action: thigh internal rotation, maintenance of stability between the leg and the trunk",
-      "titleTemplate": [
+      "searchText": "6.36 lower extremity muscles tensor fascia latae l1344_760220 proximal insertion: *anterior aspect of the iliac crest anterior superior iliac spine (asis) greater trochanter of the femur lesser trochanter of the femur distal insertion: *iliotibial tract anteromedial fibula shaft distal to the medial tibial condyle on the pes anserinus innervation: *superior gluteal nerve (l4-s1) obturator nerve femoral nerve tibial nerve action: *thigh internal rotation *maintenance of stability between the leg and the trunk flexion of the knee when the foot is dorsiflexed",
+      "groups": [
         {
-          "type": "text",
-          "text": "Tensor fascia latae"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "anterior aspect of the iliac crest",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "anterior superior iliac spine (ASIS)",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "greater trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lesser trochanter of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "iliotibial tract",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "distal to the medial tibial condyle on the pes anserinus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "obturator nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "tibial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "thigh internal rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "maintenance of stability between the leg and the trunk",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexion of the knee when the foot is dorsiflexed",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: anterior aspect of the iliac crest, anterior superior iliac spine (ASIS)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: iliotibial tract"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: superior gluteal nerve (L4-S1)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: thigh internal rotation, maintenance of stability between the leg and the trunk"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Tensor fascia latae"
+        }
+      ]
     },
     {
       "id": "6.37",
@@ -23793,15 +26015,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Gluteus medius",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760221",
         "src": "Assets/Cards/L1344_760221.png",
@@ -23809,42 +26031,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Gluteus medius anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image211.png"
+        "packageSource": "word/media/image37.png"
       },
-      "searchText": "6.37 lower extremity gluteus medius l1344_760221 proximal insertion: lateral surface of the ilium distal insertion: greater trochanter of the femur innervation: superior gluteal nerve (l4-s1) action: hip abduction and internal rotation",
-      "titleTemplate": [
+      "searchText": "6.37 lower extremity muscles gluteus medius l1344_760221 proximal insertion: *lateral surface of the ilium external surface of the ilium lateroposterior surface of the sacrum and coccyx distal insertion: *greater trochanter of the femur lesser trochanter of the femur iliopectineal line linea aspera innervation: *superior gluteal nerve (l4-s1) obturator nerve femoral nerve tibial nerve action: *hip abduction *hip internal rotation hip external rotation hip extension",
+      "groups": [
         {
-          "type": "text",
-          "text": "Gluteus medius"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral surface of the ilium",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "external surface of the ilium",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateroposterior surface of the sacrum and coccyx",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "greater trochanter of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lesser trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "iliopectineal line",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "linea aspera",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "obturator nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "tibial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip abduction",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip internal rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "hip external rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip extension",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral surface of the ilium"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: greater trochanter of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: superior gluteal nerve (L4-S1)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip abduction and internal rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Gluteus medius"
+        }
+      ]
     },
     {
       "id": "6.38",
@@ -23852,15 +26158,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Gluteus minimus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760222",
         "src": "Assets/Cards/L1344_760222.png",
@@ -23868,42 +26174,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Gluteus minimus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image212.png"
+        "packageSource": "word/media/image38.png"
       },
-      "searchText": "6.38 lower extremity gluteus minimus l1344_760222 proximal insertion: external surface of the ilium distal insertion: greater trochanter of the femur innervation: superior gluteal nerve (l4-s1) action: hip abduction and internal rotation",
-      "titleTemplate": [
+      "searchText": "6.38 lower extremity muscles gluteus minimus l1344_760222 proximal insertion: lateral surface of the ilium *external surface of the ilium lateroposterior surface of the sacrum and coccyx distal insertion: *greater trochanter of the femur lesser trochanter of the femur iliopectineal line linea aspera innervation: *superior gluteal nerve (l4-s1) obturator nerve femoral nerve tibial nerve action: *hip abduction *hip internal rotation hip external rotation hip extension",
+      "groups": [
         {
-          "type": "text",
-          "text": "Gluteus minimus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral surface of the ilium",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "external surface of the ilium",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateroposterior surface of the sacrum and coccyx",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "greater trochanter of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lesser trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "iliopectineal line",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "linea aspera",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "superior gluteal nerve (L4-S1)",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "obturator nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "tibial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip abduction",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip internal rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "hip external rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip extension",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: external surface of the ilium"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: greater trochanter of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: superior gluteal nerve (L4-S1)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip abduction and internal rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Gluteus minimus"
+        }
+      ]
     },
     {
       "id": "6.39",
@@ -23911,15 +26301,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Obturator internus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760223",
         "src": "Assets/Cards/L1344_760223.png",
@@ -23927,42 +26317,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Obturator internus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image213.png"
+        "packageSource": "word/media/image39.png"
       },
-      "searchText": "6.39 lower extremity obturator internus l1344_760223 proximal insertion: inner surface of the obturator membrane, greater sciatic notch, margins of the obturator foramen distal insertion: greater trochanter in front of the piriformis innervation: nerve to the obturator internus action: hip external rotation, stabilization of the hip joint, assistance in abduction of the thigh",
-      "titleTemplate": [
+      "searchText": "6.39 lower extremity muscles obturator internus l1344_760223 proximal insertion: *inner surface of the obturator membrane *greater sciatic notch *margins of the obturator foramen ischial spine distal insertion: *greater trochanter in front of the piriformis trochanteric fossa of the posterior femur trochanteric crest of the femur innervation: *nerve to the obturator internus obturator nerve nerve to the quadratus femoris tibial nerve action: *hip external rotation *stabilization of the hip joint *assistance in abduction of the thigh internal rotation assistance in adduction of the thigh",
+      "groups": [
         {
-          "type": "text",
-          "text": "Obturator internus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "inner surface of the obturator membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "greater sciatic notch",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "margins of the obturator foramen",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "ischial spine",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "greater trochanter in front of the piriformis",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "trochanteric fossa of the posterior femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "trochanteric crest of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "nerve to the obturator internus",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "obturator nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "nerve to the quadratus femoris",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "tibial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip external rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "stabilization of the hip joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assistance in abduction of the thigh",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "internal rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-5",
+              "text": "assistance in adduction of the thigh",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: inner surface of the obturator membrane, greater sciatic notch, margins of the obturator foramen"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: greater trochanter in front of the piriformis"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: nerve to the obturator internus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip external rotation, stabilization of the hip joint, assistance in abduction of the thigh"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Obturator internus"
+        }
+      ]
     },
     {
       "id": "6.40",
@@ -23970,15 +26449,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Obturator externus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760224",
         "src": "Assets/Cards/L1344_760224.png",
@@ -23986,42 +26465,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Obturator externus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image214.png"
+        "packageSource": "word/media/image40.png"
       },
-      "searchText": "6.40 lower extremity obturator externus l1344_760224 proximal insertion: outer surface of the obturator membrane, pubis and ischium, margins of the obturator foramen distal insertion: trochanteric fossa of the posterior femur innervation: obturator nerve action: hip external rotation, stabilization of the hip joint, assistance in abduction of the thigh",
-      "titleTemplate": [
+      "searchText": "6.40 lower extremity muscles obturator externus l1344_760224 proximal insertion: *outer surface of the obturator membrane pubis *ischium *margins of the obturator foramen distal insertion: *trochanteric fossa of the posterior femur trochanteric crest of the femur greater trochanter innervation: *obturator nerve nerve to the obturator internus nerve to the quadratus femoris tibial nerve action: *hip external rotation *stabilization of the hip joint *assistance in abduction of the thigh internal rotation assistance in adduction of the thigh",
+      "groups": [
         {
-          "type": "text",
-          "text": "Obturator externus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "outer surface of the obturator membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "pubis",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ischium",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "margins of the obturator foramen",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "trochanteric fossa of the posterior femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "trochanteric crest of the femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "greater trochanter",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "obturator nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "nerve to the obturator internus",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "nerve to the quadratus femoris",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "tibial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip external rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "stabilization of the hip joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assistance in abduction of the thigh",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "internal rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-5",
+              "text": "assistance in adduction of the thigh",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: outer surface of the obturator membrane, pubis and ischium, margins of the obturator foramen"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: trochanteric fossa of the posterior femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: obturator nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip external rotation, stabilization of the hip joint, assistance in abduction of the thigh"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Obturator externus"
+        }
+      ]
     },
     {
       "id": "6.41",
@@ -24029,15 +26597,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Superior gemellus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760225",
         "src": "Assets/Cards/L1344_760225.png",
@@ -24045,42 +26613,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Superior gemellus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image215.png"
+        "packageSource": "word/media/image41.png"
       },
-      "searchText": "6.41 lower extremity superior gemellus l1344_760225 proximal insertion: ischial spine distal insertion: greater trochanter of the femur innervation: nerve to the obturator internus action: hip external rotation, stabilization of the hip joint, assistance in abduction of the thigh",
-      "titleTemplate": [
+      "searchText": "6.41 lower extremity muscles superior gemellus l1344_760225 proximal insertion: *ischial spine margins of the obturator foramen greater sciatic notch pubis distal insertion: *greater trochanter of the femur trochanteric fossa of the posterior femur linea aspera innervation: *nerve to the obturator internus obturator nerve nerve to the quadratus femoris tibial nerve action: *hip external rotation *stabilization of the hip joint *assistance in abduction of the thigh internal rotation assistance in adduction of the thigh",
+      "groups": [
         {
-          "type": "text",
-          "text": "Superior gemellus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischial spine",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "margins of the obturator foramen",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "greater sciatic notch",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "pubis",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "greater trochanter of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "trochanteric fossa of the posterior femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "linea aspera",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "nerve to the obturator internus",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "obturator nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "nerve to the quadratus femoris",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "tibial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip external rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "stabilization of the hip joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assistance in abduction of the thigh",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "internal rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-5",
+              "text": "assistance in adduction of the thigh",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ischial spine"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: greater trochanter of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: nerve to the obturator internus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip external rotation, stabilization of the hip joint, assistance in abduction of the thigh"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Superior gemellus"
+        }
+      ]
     },
     {
       "id": "6.42",
@@ -24088,15 +26745,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Inferior gemellus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760226",
         "src": "Assets/Cards/L1344_760226.png",
@@ -24104,42 +26761,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Inferior gemellus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image216.png"
+        "packageSource": "word/media/image42.png"
       },
-      "searchText": "6.42 lower extremity inferior gemellus l1344_760226 proximal insertion: ischial tuberosity distal insertion: greater trochanter of the femur innervation: nerve to the quadratus femoris action: hip external rotation, stabilization of the hip joint, assistance in abduction of the thigh",
-      "titleTemplate": [
+      "searchText": "6.42 lower extremity muscles inferior gemellus l1344_760226 proximal insertion: *ischial tuberosity margins of the obturator foramen greater sciatic notch pubis distal insertion: *greater trochanter of the femur trochanteric fossa of the posterior femur linea aspera innervation: nerve to the obturator internus obturator nerve *nerve to the quadratus femoris tibial nerve action: *hip external rotation *stabilization of the hip joint *assistance in abduction of the thigh internal rotation assistance in adduction of the thigh",
+      "groups": [
         {
-          "type": "text",
-          "text": "Inferior gemellus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischial tuberosity",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "margins of the obturator foramen",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "greater sciatic notch",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "pubis",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "greater trochanter of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "trochanteric fossa of the posterior femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "linea aspera",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "nerve to the obturator internus",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "obturator nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "nerve to the quadratus femoris",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "tibial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip external rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "stabilization of the hip joint",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assistance in abduction of the thigh",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "internal rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-5",
+              "text": "assistance in adduction of the thigh",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ischial tuberosity"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: greater trochanter of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: nerve to the quadratus femoris"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip external rotation, stabilization of the hip joint, assistance in abduction of the thigh"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Inferior gemellus"
+        }
+      ]
     },
     {
       "id": "6.43",
@@ -24147,15 +26893,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Quadratus femoris",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760227",
         "src": "Assets/Cards/L1344_760227.png",
@@ -24163,42 +26909,136 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Quadratus femoris anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image217.png"
+        "packageSource": "word/media/image43.png"
       },
-      "searchText": "6.43 lower extremity quadratus femoris l1344_760227 proximal insertion: ischial tuberosity distal insertion: trochanteric crest of the femur innervation: nerve to the quadratus femoris action: hip external rotation",
-      "titleTemplate": [
+      "searchText": "6.43 lower extremity muscles quadratus femoris l1344_760227 proximal insertion: *ischial tuberosity margins of the obturator foramen greater sciatic notch pubis distal insertion: *trochanteric crest of the femur greater trochanter of the femur trochanteric fossa of the posterior femur linea aspera innervation: nerve to the obturator internus obturator nerve *nerve to the quadratus femoris tibial nerve action: *hip external rotation stabilization of the hip joint assistance in abduction of the thigh internal rotation assistance in adduction of the thigh",
+      "groups": [
         {
-          "type": "text",
-          "text": "Quadratus femoris"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischial tuberosity",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "margins of the obturator foramen",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "greater sciatic notch",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "pubis",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "trochanteric crest of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "greater trochanter of the femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "trochanteric fossa of the posterior femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "linea aspera",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "nerve to the obturator internus",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "obturator nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "nerve to the quadratus femoris",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "tibial nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip external rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "stabilization of the hip joint",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "assistance in abduction of the thigh",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "internal rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-5",
+              "text": "assistance in adduction of the thigh",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ischial tuberosity"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: trochanteric crest of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: nerve to the quadratus femoris"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip external rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Quadratus femoris"
+        }
+      ]
     },
     {
       "id": "6.44",
@@ -24206,15 +27046,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Adductor magnus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760228",
         "src": "Assets/Cards/L1344_760228.png",
@@ -24222,42 +27062,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Adductor magnus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image218.png"
+        "packageSource": "word/media/image44.png"
       },
-      "searchText": "6.44 lower extremity adductor magnus l1344_760228 proximal insertion: ischial rami, pubic rami, ischial tuberosity distal insertion: linea aspera, adductor tubercle of the femur innervation: obturator, tibial nerve action: hip adduction and internal rotation",
-      "titleTemplate": [
+      "searchText": "6.44 lower extremity muscles adductor magnus l1344_760228 proximal insertion: *ischial rami pubic rami *ischial tuberosity lateral condyle of the femur distal insertion: *linea aspera *adductor tubercle of the femur anteromedial fibula shaft proximal tibia innervation: *obturator *tibial nerve femoral nerve deep fibular (peroneal) nerve action: *hip adduction *hip internal rotation hip external rotation stabilization of the hip joint",
+      "groups": [
         {
-          "type": "text",
-          "text": "Adductor magnus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "ischial rami",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "pubic rami",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ischial tuberosity",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lateral condyle of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "linea aspera",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "adductor tubercle of the femur",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "proximal tibia",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "obturator",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip adduction",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip internal rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "hip external rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "stabilization of the hip joint",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: ischial rami, pubic rami, ischial tuberosity"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: linea aspera, adductor tubercle of the femur"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: obturator, tibial nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip adduction and internal rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Adductor magnus"
+        }
+      ]
     },
     {
       "id": "6.45",
@@ -24265,15 +27194,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Adductor longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760229",
         "src": "Assets/Cards/L1344_760229.png",
@@ -24281,42 +27210,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Adductor longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image219.png"
+        "packageSource": "word/media/image45.png"
       },
-      "searchText": "6.45 lower extremity adductor longus l1344_760229 proximal insertion: pubis near the pubic symphysis distal insertion: linea aspera innervation: obturator nerve action: hip adduction",
-      "titleTemplate": [
+      "searchText": "6.45 lower extremity muscles adductor longus l1344_760229 proximal insertion: *pubis near the pubic symphysis iliopectineal line ischial tuberosity ischial rami distal insertion: *linea aspera adductor tubercle of the femur anteromedial fibula shaft proximal tibia innervation: *obturator nerve tibial nerve femoral nerve deep fibular (peroneal) nerve action: *hip adduction hip internal rotation hip external rotation stabilization of the hip joint",
+      "groups": [
         {
-          "type": "text",
-          "text": "Adductor longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "pubis near the pubic symphysis",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "iliopectineal line",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ischial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "ischial rami",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "linea aspera",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "adductor tubercle of the femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "proximal tibia",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "obturator nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip adduction",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip internal rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "hip external rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "stabilization of the hip joint",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: pubis near the pubic symphysis"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: linea aspera"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: obturator nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip adduction"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Adductor longus"
+        }
+      ]
     },
     {
       "id": "6.46",
@@ -24324,15 +27342,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Gracilis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760230",
         "src": "Assets/Cards/L1344_760230.png",
@@ -24340,42 +27358,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Gracilis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image220.png"
+        "packageSource": "word/media/image46.png"
       },
-      "searchText": "6.46 lower extremity gracilis l1344_760230 proximal insertion: anterior inferior aspect of the pubic symphysis and the inferior pubic bone distal insertion: distal to the medial tibial condyle on the pes anserinus innervation: obturator nerve action: hip adduction, flexion, and external rotation; knee flexion; lower leg internal rotation",
-      "titleTemplate": [
+      "searchText": "6.46 lower extremity muscles gracilis l1344_760230 proximal insertion: *anterior inferior aspect of the pubic symphysis *the inferior pubic bone ischial tuberosity ischial rami distal insertion: *distal to the medial tibial condyle on the pes anserinus anteromedial fibula shaft adductor tubercle of the femur innervation: *obturator nerve tibial nerve femoral nerve deep fibular (peroneal) nerve action: *hip adduction, flexion, and external rotation *knee flexion lower leg internal rotation *hip adduction, flexion, and internal rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Gracilis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "anterior inferior aspect of the pubic symphysis",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "the inferior pubic bone",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ischial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "ischial rami",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "distal to the medial tibial condyle on the pes anserinus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "adductor tubercle of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "obturator nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip adduction, flexion, and external rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "knee flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "lower leg internal rotation",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip adduction, flexion, and internal rotation",
+              "correct": true
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: anterior inferior aspect of the pubic symphysis and the inferior pubic bone"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: distal to the medial tibial condyle on the pes anserinus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: obturator nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip adduction, flexion, and external rotation; knee flexion; lower leg internal rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Gracilis"
+        }
+      ]
     },
     {
       "id": "6.47",
@@ -24383,15 +27485,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Adductor brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760231",
         "src": "Assets/Cards/L1344_760231.png",
@@ -24399,42 +27501,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Adductor brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image221.png"
+        "packageSource": "word/media/image47.png"
       },
-      "searchText": "6.47 lower extremity adductor brevis l1344_760231 proximal insertion: body of the pubis, inferior ramus of the pubis distal insertion: linea aspera innervation: obturator nerve action: hip adduction, flexion, and internal rotation",
-      "titleTemplate": [
+      "searchText": "6.47 lower extremity muscles adductor brevis l1344_760231 proximal insertion: *body of the pubis inferior ramus of the pubis ischial tuberosity ischial rami distal insertion: *linea aspera distal to the medial tibial condyle on the pes anserinus anteromedial fibula shaft adductor tubercle of the femur innervation: *obturator nerve tibial nerve femoral nerve deep fibular (peroneal) nerve action: hip adduction *hip flexion *hip internal rotation hip external rotation",
+      "groups": [
         {
-          "type": "text",
-          "text": "Adductor brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "body of the pubis",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "inferior ramus of the pubis",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ischial tuberosity",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "ischial rami",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "linea aspera",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal to the medial tibial condyle on the pes anserinus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "adductor tubercle of the femur",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "obturator nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "hip adduction",
+              "correct": false
+            },
+            {
+              "id": "action-option-2",
+              "text": "hip flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "hip internal rotation",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "hip external rotation",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: body of the pubis, inferior ramus of the pubis"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: linea aspera"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: obturator nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: hip adduction, flexion, and internal rotation"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Adductor brevis"
+        }
+      ]
     },
     {
       "id": "6.48",
@@ -24442,15 +27633,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Popliteus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760232",
         "src": "Assets/Cards/L1344_760232.png",
@@ -24458,42 +27649,131 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Popliteus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image222.png"
+        "packageSource": "word/media/image48.png"
       },
-      "searchText": "6.48 lower extremity popliteus l1344_760232 proximal insertion: lateral condyle of the femur, lateral meniscus distal insertion: proximal tibia innervation: deep fibular (peroneal) nerve action: flexes and rotates the leg medially to unlock the extended knee when flexion begins",
-      "titleTemplate": [
+      "searchText": "6.48 lower extremity muscles popliteus l1344_760232 proximal insertion: *lateral condyle of the femur *lateral meniscus medial meniscus distal to the medial tibial condyle on the pes anserinus distal insertion: *proximal tibia adductor tubercle of the femur fibular head anteromedial fibula shaft innervation: superficial fibular nerve tibial nerve femoral nerve *deep fibular (peroneal) nerve action: *flexes and rotates the leg medially to unlock the extended knee when flexion begins flexes and rotates the leg laterally to unlock the extended knee when flexion begins extends and rotates the leg medially to unlock the extended knee when flexion begins extends and rotates the leg laterally to unlock the extended knee when flexion begins",
+      "groups": [
         {
-          "type": "text",
-          "text": "Popliteus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral condyle of the femur",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "lateral meniscus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "medial meniscus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "distal to the medial tibial condyle on the pes anserinus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "proximal tibia",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "adductor tubercle of the femur",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "fibular head",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "flexes and rotates the leg medially to unlock the extended knee when flexion begins",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexes and rotates the leg laterally to unlock the extended knee when flexion begins",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "extends and rotates the leg medially to unlock the extended knee when flexion begins",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "extends and rotates the leg laterally to unlock the extended knee when flexion begins",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral condyle of the femur, lateral meniscus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: proximal tibia"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: deep fibular (peroneal) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: flexes and rotates the leg medially to unlock the extended knee when flexion begins"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Popliteus"
+        }
+      ]
     },
     {
       "id": "6.49",
@@ -24501,15 +27781,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Tibialis anterior",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760233",
         "src": "Assets/Cards/L1344_760233.png",
@@ -24517,42 +27797,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Tibialis anterior anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image223.png"
+        "packageSource": "word/media/image49.png"
       },
-      "searchText": "6.49 lower extremity tibialis anterior l1344_760233 proximal insertion: upper two thirds of the lateral surface of the tibia distal insertion: medial cuneiform and first metatarsal innervation: deep peroneal action: foot dorsiflexion and inversion",
-      "titleTemplate": [
+      "searchText": "6.49 lower extremity muscles tibialis anterior l1344_760233 proximal insertion: *upper two thirds of the lateral surface of the tibia fibular head distal to the medial tibial condyle on the pes anserinus tibial tuberosity distal insertion: *medial cuneiform *first metatarsal distal phalanx of the big toe innervation: superficial fibular nerve tibial nerve femoral nerve *peroneal nerve action: *foot dorsiflexion *foot inversion foot eversion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Tibialis anterior"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "upper two thirds of the lateral surface of the tibia",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "fibular head",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "distal to the medial tibial condyle on the pes anserinus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "tibial tuberosity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial cuneiform",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "first metatarsal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "distal phalanx of the big toe",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "peroneal nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "foot dorsiflexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "foot inversion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "foot eversion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: upper two thirds of the lateral surface of the tibia"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial cuneiform and first metatarsal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: deep peroneal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: foot dorsiflexion and inversion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Tibialis anterior"
+        }
+      ]
     },
     {
       "id": "6.50",
@@ -24560,15 +27919,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Extensor hallucis longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760234",
         "src": "Assets/Cards/L1344_760234.png",
@@ -24576,42 +27935,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor hallucis longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image224.png"
+        "packageSource": "word/media/image50.png"
       },
-      "searchText": "6.50 lower extremity extensor hallucis longus l1344_760234 proximal insertion: anteromedial fibula shaft, interosseous membrane distal insertion: distal phalanx of the big toe innervation: deep fibular (peroneal) nerve action: big toe extension, assistance in dorsiflexion of the foot",
-      "titleTemplate": [
+      "searchText": "6.50 lower extremity muscles extensor hallucis longus l1344_760234 proximal insertion: *anteromedial fibula shaft *interosseous membrane fibular head upper two thirds of the lateral surface of the tibia distal insertion: *distal phalanx of the big toe medial cuneiform first metatarsal innervation: superficial fibular nerve tibial nerve femoral nerve *deep fibular (peroneal) nerve action: *big toe extension *assistance in dorsiflexion of the foot assistance in eversion of the foot big toe adduction",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor hallucis longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "anteromedial fibula shaft",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "fibular head",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "upper two thirds of the lateral surface of the tibia",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "distal phalanx of the big toe",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "medial cuneiform",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "first metatarsal",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "femoral nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "big toe extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "assistance in dorsiflexion of the foot",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assistance in eversion of the foot",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "big toe adduction",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: anteromedial fibula shaft, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: distal phalanx of the big toe"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: deep fibular (peroneal) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: big toe extension, assistance in dorsiflexion of the foot"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor hallucis longus"
+        }
+      ]
     },
     {
       "id": "6.51",
@@ -24619,15 +28062,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Extensor digitorum longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760235",
         "src": "Assets/Cards/L1344_760235.png",
@@ -24635,42 +28078,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor digitorum longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image225.png"
+        "packageSource": "word/media/image51.png"
       },
-      "searchText": "6.51 lower extremity extensor digitorum longus l1344_760235 proximal insertion: lateral condyle of the tibia, proximal portion of the fibula, interosseous membrane distal insertion: middle and distal phalanges of toes two to four innervation: deep fibular (peroneal) nerve action: toe extension, dorsiflexion of the foot",
-      "titleTemplate": [
+      "searchText": "6.51 lower extremity muscles extensor digitorum longus l1344_760235 proximal insertion: *lateral condyle of the tibia *proximal portion of the fibula *interosseous membrane distal insertion: *middle and distal phalanges of toes two to four dorsal aspect of the base of the fifth metatarsal medial cuneiform innervation: *deep fibular (peroneal) nerve superficial fibular nerve tibial nerve medial plantar nerve action: *toe extension dorsiflexion of the foot assistance in eversion of the foot big toe adduction",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor digitorum longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral condyle of the tibia",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "proximal portion of the fibula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "interosseous membrane",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "middle and distal phalanges of toes two to four",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "dorsal aspect of the base of the fifth metatarsal",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "medial cuneiform",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "toe extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "dorsiflexion of the foot",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "assistance in eversion of the foot",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "big toe adduction",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral condyle of the tibia, proximal portion of the fibula, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: middle and distal phalanges of toes two to four"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: deep fibular (peroneal) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: toe extension, dorsiflexion of the foot"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor digitorum longus"
+        }
+      ]
     },
     {
       "id": "6.52",
@@ -24678,15 +28200,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Fibularis tertius",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760236",
         "src": "Assets/Cards/L1344_760236.png",
@@ -24694,42 +28216,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Fibularis tertius anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image226.png"
+        "packageSource": "word/media/image52.png"
       },
-      "searchText": "6.52 lower extremity fibularis tertius l1344_760236 proximal insertion: distal one third of the fibula and interosseous membrane distal insertion: dorsal aspect of the base of the fifth metatarsal innervation: deep fibular (peroneal) nerve action: ankle dorsiflexion and eversion",
-      "titleTemplate": [
+      "searchText": "6.52 lower extremity muscles fibularis tertius l1344_760236 proximal insertion: distal one third of the fibula *interosseous membrane fibular head lateral femoral condyles distal insertion: *dorsal aspect of the base of the fifth metatarsal lateral cuneiform cuboid bones dorsal aspect of the base of the second metatarsal innervation: *deep fibular (peroneal) nerve tibial nerve tibial nerve from the anterior rami of s1-s2 superficial fibular nerve action: *ankle dorsiflexion and eversion *ankle eversion ankle inversion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Fibularis tertius"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "distal one third of the fibula",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "fibular head",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lateral femoral condyles",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "dorsal aspect of the base of the fifth metatarsal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lateral cuneiform",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "cuboid bones",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "dorsal aspect of the base of the second metatarsal",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve from the anterior rami of S1-S2",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "superficial fibular nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "ankle dorsiflexion and eversion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "ankle eversion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "ankle inversion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: distal one third of the fibula and interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: dorsal aspect of the base of the fifth metatarsal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: deep fibular (peroneal) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: ankle dorsiflexion and eversion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Fibularis tertius"
+        }
+      ]
     },
     {
       "id": "6.53",
@@ -24737,15 +28343,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Gastrocnemius",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760237",
         "src": "Assets/Cards/L1344_760237.png",
@@ -24753,42 +28359,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Gastrocnemius anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image227.png"
+        "packageSource": "word/media/image53.png"
       },
-      "searchText": "6.53 lower extremity gastrocnemius l1344_760237 proximal insertion: medial and lateral femoral condyles distal insertion: posterior calcaneus innervation: tibial nerve action: foot plantar flexion, flexion of the knee when the foot is dorsiflexed",
-      "titleTemplate": [
+      "searchText": "6.53 lower extremity muscles gastrocnemius l1344_760237 proximal insertion: *medial femoral condyles *lateral femoral condyles fibular head anteromedial fibula shaft distal insertion: *posterior calcaneus fibularis longus tendon sheath base of metatarsals two to four innervation: tibial nerve deep fibular (peroneal) nerve *tibial nerve tibial nerve from the anterior rami of s1-s2 superficial fibular nerve action: *foot plantar flexion *flexion of the knee when the foot is dorsiflexed extension of the knee when the foot is dorsiflexed foot inversion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Gastrocnemius"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "medial femoral condyles",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "lateral femoral condyles",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "fibular head",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "posterior calcaneus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "fibularis longus tendon sheath",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of metatarsals two to four",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "tibial nerve",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve from the anterior rami of S1-S2",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "superficial fibular nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "foot plantar flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexion of the knee when the foot is dorsiflexed",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "extension of the knee when the foot is dorsiflexed",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "foot inversion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: medial and lateral femoral condyles"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: posterior calcaneus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: tibial nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: foot plantar flexion, flexion of the knee when the foot is dorsiflexed"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Gastrocnemius"
+        }
+      ]
     },
     {
       "id": "6.54",
@@ -24796,15 +28486,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Soleus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760238",
         "src": "Assets/Cards/L1344_760238.png",
@@ -24812,42 +28502,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Soleus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image228.png"
+        "packageSource": "word/media/image54.png"
       },
-      "searchText": "6.54 lower extremity soleus l1344_760238 proximal insertion: superior tibia, fibula, interosseous membrane distal insertion: posterior calcaneus innervation: tibial nerve from the anterior rami of s1-s2 action: plantar flexes the foot",
-      "titleTemplate": [
+      "searchText": "6.54 lower extremity muscles soleus l1344_760238 proximal insertion: *superior tibia *fibula *interosseous membrane lateral femoral condyles distal insertion: *posterior calcaneus fibularis longus tendon sheath base of metatarsals two to four innervation: deep fibular (peroneal) nerve *tibial nerve from the anterior rami of s1-s2 superficial fibular nerve peroneal nerve action: *foot plantar flexion flexion of the knee when the foot is dorsiflexed extension of the knee when the foot is dorsiflexed foot inversion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Soleus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "superior tibia",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "fibula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "interosseous membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lateral femoral condyles",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "posterior calcaneus",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "fibularis longus tendon sheath",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of metatarsals two to four",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve from the anterior rami of S1-S2",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "peroneal nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "foot plantar flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "flexion of the knee when the foot is dorsiflexed",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "extension of the knee when the foot is dorsiflexed",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "foot inversion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: superior tibia, fibula, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: posterior calcaneus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: tibial nerve from the anterior rami of S1-S2"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: plantar flexes the foot"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Soleus"
+        }
+      ]
     },
     {
       "id": "6.55",
@@ -24855,15 +28629,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Plantaris",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760239",
         "src": "Assets/Cards/L1344_760239.png",
@@ -24871,42 +28645,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Plantaris anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image229.png"
+        "packageSource": "word/media/image55.png"
       },
-      "searchText": "6.55 lower extremity plantaris l1344_760239 proximal insertion: posterior femur above the lateral condyle distal insertion: calcaneus or calcaneus tendon innervation: tibial nerve from the anterior rami of s1-s2 action: aids in flexing the leg and plantar flexing the foot",
-      "titleTemplate": [
+      "searchText": "6.55 lower extremity muscles plantaris l1344_760239 proximal insertion: *posterior femur above the lateral condyle fibula interosseous membrane distal insertion: *calcaneus or calcaneus tendon fibularis longus tendon sheath medial cuneiform innervation: fibular nerve *tibial nerve from the anterior rami of s1-s2 superficial fibular nerve peroneal nerve action: *aids in flexing the leg and plantar flexing the foot ankle eversion flexion of the knee when the foot is dorsiflexed",
+      "groups": [
         {
-          "type": "text",
-          "text": "Plantaris"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "posterior femur above the lateral condyle",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "fibula",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "interosseous membrane",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "calcaneus or calcaneus tendon",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "fibularis longus tendon sheath",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "medial cuneiform",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve from the anterior rami of S1-S2",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "peroneal nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "aids in flexing the leg and plantar flexing the foot",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "ankle eversion",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "flexion of the knee when the foot is dorsiflexed",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: posterior femur above the lateral condyle"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: calcaneus or calcaneus tendon"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: tibial nerve from the anterior rami of S1-S2"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: aids in flexing the leg and plantar flexing the foot"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Plantaris"
+        }
+      ]
     },
     {
       "id": "6.56",
@@ -24914,15 +28762,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Fibularis longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760240",
         "src": "Assets/Cards/L1344_760240.png",
@@ -24930,42 +28778,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Fibularis longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image230.png"
+        "packageSource": "word/media/image56.png"
       },
-      "searchText": "6.56 lower extremity fibularis longus l1344_760240 proximal insertion: upper portion of the lateral fibula distal insertion: first metatarsal, medial cuneiform innervation: superficial fibular nerve action: foot plantar flexion and eversion",
-      "titleTemplate": [
+      "searchText": "6.56 lower extremity muscles fibularis longus l1344_760240 proximal insertion: *upper portion of the lateral fibula anteromedial fibula shaft interosseous membrane distal insertion: *first metatarsal *medial cuneiform lateral cuneiform cuboid bones innervation: deep fibular (peroneal) nerve *superficial fibular nerve tibial nerve medial plantar nerve action: *foot plantar flexion *foot eversion foot inversion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Fibularis longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "upper portion of the lateral fibula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "interosseous membrane",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "first metatarsal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "medial cuneiform",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lateral cuneiform",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "cuboid bones",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "foot plantar flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "foot eversion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "foot inversion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: upper portion of the lateral fibula"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: first metatarsal, medial cuneiform"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: superficial fibular nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: foot plantar flexion and eversion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Fibularis longus"
+        }
+      ]
     },
     {
       "id": "6.57",
@@ -24973,15 +28900,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Fibularis brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760241",
         "src": "Assets/Cards/L1344_760241.png",
@@ -24989,42 +28916,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Fibularis brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image231.png"
+        "packageSource": "word/media/image57.png"
       },
-      "searchText": "6.57 lower extremity fibularis brevis l1344_760241 proximal insertion: distal fibular shaft distal insertion: proximal end of the fifth metatarsal innervation: superficial fibular nerve action: foot plantar flexion and eversion",
-      "titleTemplate": [
+      "searchText": "6.57 lower extremity muscles fibularis brevis l1344_760241 proximal insertion: *distal fibular shaft lateral femoral condyles interosseous membrane distal insertion: *proximal end of the fifth metatarsal lateral cuneiform cuboid bones innervation: deep fibular (peroneal) nerve *superficial fibular nerve tibial nerve medial plantar nerve action: *foot plantar flexion *foot eversion foot inversion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Fibularis brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "distal fibular shaft",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "lateral femoral condyles",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "interosseous membrane",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "proximal end of the fifth metatarsal",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lateral cuneiform",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "cuboid bones",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "foot plantar flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "foot eversion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "foot inversion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: distal fibular shaft"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: proximal end of the fifth metatarsal"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: superficial fibular nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: foot plantar flexion and eversion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Fibularis brevis"
+        }
+      ]
     },
     {
       "id": "6.58",
@@ -25032,15 +29033,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Tibialis posterior",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760242",
         "src": "Assets/Cards/L1344_760242.png",
@@ -25048,42 +29049,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Tibialis posterior anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image232.png"
+        "packageSource": "word/media/image58.png"
       },
-      "searchText": "6.58 lower extremity tibialis posterior l1344_760242 proximal insertion: superior tibia and fibula, interosseous membrane distal insertion: tarsals and metatarsals two to four innervation: tibial nerve action: foot plantar flexion and inversion, assistance in stabilizing medial longitudinal arch of the foot",
-      "titleTemplate": [
+      "searchText": "6.58 lower extremity muscles tibialis posterior l1344_760242 proximal insertion: *superior tibia and fibula interosseous membrane medial femoral condyles lateral femoral condyles distal insertion: *tarsals of toes two to four metatarsals of toes two to four proximal phalanx of toes two to five innervation: deep fibular (peroneal) nerve superficial fibular nerve *tibial nerve medial plantar nerve action: *foot plantar flexion *foot inversion *assistance in stabilizing medial longitudinal arch of the foot",
+      "groups": [
         {
-          "type": "text",
-          "text": "Tibialis posterior"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "superior tibia and fibula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "medial femoral condyles",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "lateral femoral condyles",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "tarsals of toes two to four",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "metatarsals of toes two to four",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "proximal phalanx of toes two to five",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "foot plantar flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "foot inversion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "assistance in stabilizing medial longitudinal arch of the foot",
+              "correct": true
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: superior tibia and fibula, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: tarsals and metatarsals two to four"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: tibial nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: foot plantar flexion and inversion, assistance in stabilizing medial longitudinal arch of the foot"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Tibialis posterior"
+        }
+      ]
     },
     {
       "id": "6.59",
@@ -25091,15 +29171,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Flexor digitorum longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760243",
         "src": "Assets/Cards/L1344_760243.png",
@@ -25107,42 +29187,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor digitorum longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image233.png"
+        "packageSource": "word/media/image59.png"
       },
-      "searchText": "6.59 lower extremity flexor digitorum longus l1344_760243 proximal insertion: posterior tibia distal insertion: distal phalanx of toes two to five innervation: tibial nerve action: foot plantar flexion and inversion, toes two to five flexion",
-      "titleTemplate": [
+      "searchText": "6.59 lower extremity muscles flexor digitorum longus l1344_760243 proximal insertion: *posterior tibia medial femoral condyles lateral femoral condyles fibular head distal insertion: *distal phalanx of toes two to five proximal phalanx of toes two to five metacarpals of toes two to five innervation: deep fibular (peroneal) nerve superficial fibular nerve *tibial nerve medial plantar nerve action: *foot inversion *toes two to five flexion *foot plantar flexion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor digitorum longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "posterior tibia",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "medial femoral condyles",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral femoral condyles",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "fibular head",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "distal phalanx of toes two to five",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "proximal phalanx of toes two to five",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "metacarpals of toes two to five",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "foot inversion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "toes two to five flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "foot plantar flexion",
+              "correct": true
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: posterior tibia"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: distal phalanx of toes two to five"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: tibial nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: foot plantar flexion and inversion, toes two to five flexion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor digitorum longus"
+        }
+      ]
     },
     {
       "id": "6.60",
@@ -25150,15 +29309,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Flexor hallucis longus",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760244",
         "src": "Assets/Cards/L1344_760244.png",
@@ -25166,42 +29325,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor hallucis longus anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image234.png"
+        "packageSource": "word/media/image60.png"
       },
-      "searchText": "6.60 lower extremity flexor hallucis longus l1344_760244 proximal insertion: midshaft of the fibula, interosseous membrane distal insertion: distal phalanx of the big toe innervation: tibial nerve action: foot plantar flexion and inversion, big toe flexion",
-      "titleTemplate": [
+      "searchText": "6.60 lower extremity muscles flexor hallucis longus l1344_760244 proximal insertion: *midshaft of the fibula *interosseous membrane lateral femoral condyles distal insertion: *distal phalanx of the big toe dorsal aspect of the base of the second metatarsal base of the proximal phalanx of the big toe innervation: deep fibular (peroneal) nerve superficial fibular nerve *tibial nerve medial plantar nerve action: *foot plantar flexion *foot inversion *big toe flexion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor hallucis longus"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "midshaft of the fibula",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "interosseous membrane",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral femoral condyles",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "distal phalanx of the big toe",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "dorsal aspect of the base of the second metatarsal",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "base of the proximal phalanx of the big toe",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "foot plantar flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "foot inversion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "big toe flexion",
+              "correct": true
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: midshaft of the fibula, interosseous membrane"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: distal phalanx of the big toe"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: tibial nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: foot plantar flexion and inversion, big toe flexion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor hallucis longus"
+        }
+      ]
     },
     {
       "id": "6.61",
@@ -25209,15 +29442,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Extensor digitorum brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760245",
         "src": "Assets/Cards/L1344_760245.png",
@@ -25225,42 +29458,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor digitorum brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image235.png"
+        "packageSource": "word/media/image61.png"
       },
-      "searchText": "6.61 lower extremity extensor digitorum brevis l1344_760245 proximal insertion: calcaneus, extensor retinaculum distal insertion: base of the proximal phalanx of the big toe, extensor expansions on toes two to five innervation: posterior interosseous nerve action: toes two to five extension",
-      "titleTemplate": [
+      "searchText": "6.61 lower extremity muscles extensor digitorum brevis l1344_760245 proximal insertion: *calcaneus *extensor retinaculum anteromedial fibula shaft distal insertion: *base of the proximal phalanx of the big toe *extensor expansions on toes two to five extensor expansion over the first phalanx innervation: *posterior interosseous nerve superficial fibular nerve tibial nerve medial plantar nerve action: *toes two to five extension big toe extension supports the longitudinal arch",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor digitorum brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "calcaneus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "extensor retinaculum",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "anteromedial fibula shaft",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the proximal phalanx of the big toe",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "extensor expansions on toes two to five",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "extensor expansion over the first phalanx",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "posterior interosseous nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "toes two to five extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "big toe extension",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "supports the longitudinal arch",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: calcaneus, extensor retinaculum"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the proximal phalanx of the big toe, extensor expansions on toes two to five"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: posterior interosseous nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: toes two to five extension"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor digitorum brevis"
+        }
+      ]
     },
     {
       "id": "6.62",
@@ -25268,15 +29575,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Extensor hallucis brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760246",
         "src": "Assets/Cards/L1344_760246.png",
@@ -25284,42 +29591,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Extensor hallucis brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image236.png"
+        "packageSource": "word/media/image62.png"
       },
-      "searchText": "6.62 lower extremity extensor hallucis brevis l1344_760246 proximal insertion: calcaneus distal insertion: distal phalanx of the big toe innervation: deep fibular (peroneal) nerve action: great toe extension and adduction",
-      "titleTemplate": [
+      "searchText": "6.62 lower extremity muscles extensor hallucis brevis l1344_760246 proximal insertion: *calcaneus posterior calcaneus lateral cuneiform cuboid bones distal insertion: *distal phalanx of the big toe proximal phalanx of the big toe lateral aspect of the proximal phalanx of the big toe innervation: *deep fibular (peroneal) nerve superficial fibular nerve tibial nerve medial plantar nerve action: *great toe extension great toe adduction great toe abduction",
+      "groups": [
         {
-          "type": "text",
-          "text": "Extensor hallucis brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "calcaneus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "posterior calcaneus",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral cuneiform",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "cuboid bones",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "distal phalanx of the big toe",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "proximal phalanx of the big toe",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "lateral aspect of the proximal phalanx of the big toe",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "great toe extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "great toe adduction",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "great toe abduction",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: calcaneus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: distal phalanx of the big toe"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: deep fibular (peroneal) nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: great toe extension and adduction"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Extensor hallucis brevis"
+        }
+      ]
     },
     {
       "id": "6.63",
@@ -25327,15 +29713,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Abductor hallucis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760247",
         "src": "Assets/Cards/L1344_760247.png",
@@ -25343,42 +29729,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Abductor hallucis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image237.png"
+        "packageSource": "word/media/image63.png"
       },
-      "searchText": "6.63 lower extremity abductor hallucis l1344_760247 proximal insertion: calcaneal tuberosity, flexor retinaculum distal insertion: proximal phalanx of the big toe innervation: medial plantar nerve action: big toe abduction",
-      "titleTemplate": [
+      "searchText": "6.63 lower extremity muscles abductor hallucis l1344_760247 proximal insertion: *calcaneal tuberosity *flexor retinaculum ligament across the metatarsophalangeal joints distal insertion: *proximal phalanx of the big toe distal phalanx of the big toe dorsal aspect of the base of the second metatarsal innervation: deep fibular (peroneal) nerve superficial fibular nerve tibial nerve *medial plantar nerve action: *big toe abduction big toe adduction big toe extension",
+      "groups": [
         {
-          "type": "text",
-          "text": "Abductor hallucis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "calcaneal tuberosity",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "flexor retinaculum",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ligament across the metatarsophalangeal joints",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "proximal phalanx of the big toe",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanx of the big toe",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "dorsal aspect of the base of the second metatarsal",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "tibial nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "big toe abduction",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "big toe adduction",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "big toe extension",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: calcaneal tuberosity, flexor retinaculum"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: proximal phalanx of the big toe"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: medial plantar nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: big toe abduction"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Abductor hallucis"
+        }
+      ]
     },
     {
       "id": "6.64",
@@ -25386,16 +29846,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Flexor digitorum brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
-      "interactionInferred": true,
-      "ready": false,
-      "draftReasonCodes": [
-        "missing_interaction_inferred",
-        "fill_card_has_no_highlights"
-      ],
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
+      "interactionInferred": false,
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760248",
         "src": "Assets/Cards/L1344_760248.png",
@@ -25403,42 +29862,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor digitorum brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image238.png"
+        "packageSource": "word/media/image64.png"
       },
-      "searchText": "6.64 lower extremity flexor digitorum brevis l1344_760248 proximal insertion: calcaneal tuberosity distal insertion: middle phalanx of toes two to four innervation: superficial branch of the lateral plantar nerve action: toes two to five flexion",
-      "titleTemplate": [
+      "searchText": "6.64 lower extremity muscles flexor digitorum brevis l1344_760248 proximal insertion: *calcaneal tuberosity flexor retinaculum lateral malleolus distal insertion: *middle phalanx of toes two to four dorsal aspect of the base of the second metatarsal extensor expansion over the middle phalanx innervation: fibular nerve tibial nerve from the anterior rami of s1-s2 superficial fibular nerve *superficial branch of the lateral plantar nerve action: *toes two to five flexion provides joint stability supports longitudinal arch",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor digitorum brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "calcaneal tuberosity",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "flexor retinaculum",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral malleolus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "middle phalanx of toes two to four",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "dorsal aspect of the base of the second metatarsal",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "extensor expansion over the middle phalanx",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "tibial nerve from the anterior rami of S1-S2",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "superficial branch of the lateral plantar nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "toes two to five flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "provides joint stability",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "supports longitudinal arch",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: calcaneal tuberosity"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: middle phalanx of toes two to four"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: superficial branch of the lateral plantar nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: toes two to five flexion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor digitorum brevis"
+        }
+      ]
     },
     {
       "id": "6.65",
@@ -25446,15 +29979,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Abductor digiti minimi",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760249",
         "src": "Assets/Cards/L1344_760249.png",
@@ -25462,42 +29995,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Abductor digiti minimi anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image239.png"
+        "packageSource": "word/media/image65.png"
       },
-      "searchText": "6.65 lower extremity abductor digiti minimi l1344_760249 proximal insertion: calcaneal tuberosity, flexor retinaculum distal insertion: proximal phalanx of the little toe innervation: lateral plantar nerve action: fifth toe abduction",
-      "titleTemplate": [
+      "searchText": "6.65 lower extremity muscles abductor digiti minimi l1344_760249 proximal insertion: *calcaneal tuberosity *flexor retinaculum lateral malleolus distal insertion: *proximal phalanx of the little toe lateral calcaneus sustentaculum tali innervation: deep fibular (peroneal) nerve superficial fibular nerve * lateral plantar nerve medial plantar nerve action: *fifth toe abduction fifth toe flexion assists with ankle eversion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Abductor digiti minimi"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "calcaneal tuberosity",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "flexor retinaculum",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral malleolus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "proximal phalanx of the little toe",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "lateral calcaneus",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "sustentaculum tali",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "lateral plantar nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "fifth toe abduction",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "fifth toe flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "assists with ankle eversion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: calcaneal tuberosity, flexor retinaculum"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: proximal phalanx of the little toe"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: lateral plantar nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: fifth toe abduction"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Abductor digiti minimi"
+        }
+      ]
     },
     {
       "id": "6.66",
@@ -25505,15 +30112,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Lumbricals",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760250",
         "src": "Assets/Cards/L1344_760250.png",
@@ -25521,42 +30128,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Lumbricals anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image240.png"
+        "packageSource": "word/media/image66.png"
       },
-      "searchText": "6.66 lower extremity lumbricals l1344_760250 proximal insertion: tendons of the flexor digitorum longus distal insertion: medial side of the proximal phalanx of toes two to five innervation: medial and lateral plantar nerve (s3) action: metatarsophalangeal flexion, interphalangeal extension",
-      "titleTemplate": [
+      "searchText": "6.66 lower extremity muscles lumbricals l1344_760250 proximal insertion: *tendons of the flexor digitorum longus distal one third of the fibula lateral cuneiform interosseous membrane distal insertion: *medial side of the proximal phalanx of toes two to five dorsal aspect of the base of the second metatarsal extensor expansion over the first phalanx innervation: deep fibular (peroneal) nerve superficial fibular nerve * lateral plantar nerve *medial plantar nerve action: *metatarsophalangeal flexion *interphalangeal extension interphalangeal abduction assists with foot eversion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Lumbricals"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "tendons of the flexor digitorum longus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "distal one third of the fibula",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "lateral cuneiform",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "interosseous membrane",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "medial side of the proximal phalanx of toes two to five",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "dorsal aspect of the base of the second metatarsal",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "extensor expansion over the first phalanx",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "lateral plantar nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "metatarsophalangeal flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "interphalangeal extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "interphalangeal abduction",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "assists with foot eversion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: tendons of the flexor digitorum longus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: medial side of the proximal phalanx of toes two to five"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: medial and lateral plantar nerve (S3)"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: metatarsophalangeal flexion, interphalangeal extension"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Lumbricals"
+        }
+      ]
     },
     {
       "id": "6.67",
@@ -25564,15 +30255,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Flexor hallucis brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760251",
         "src": "Assets/Cards/L1344_760251.png",
@@ -25580,42 +30271,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor hallucis brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image241.png"
+        "packageSource": "word/media/image67.png"
       },
-      "searchText": "6.67 lower extremity flexor hallucis brevis l1344_760251 proximal insertion: lateral cuneiform, cuboid bones distal insertion: base of the proximal phalanx of the big toe innervation: medial plantar nerve action: big toe flexion",
-      "titleTemplate": [
+      "searchText": "6.67 lower extremity muscles flexor hallucis brevis l1344_760251 proximal insertion: *lateral cuneiform *cuboid bones distal phalanx of the big toe dorsal aspect of the big toe distal insertion: *base of the proximal phalanx of the big toe distal phalanx of the big toe dorsal aspect of the base of the second metatarsal innervation: deep fibular (peroneal) nerve superficial fibular nerve lateral plantar nerve *medial plantar nerve action: *big toe flexion big toe abduction big toe adduction big toe extension",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor hallucis brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "lateral cuneiform",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "cuboid bones",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "distal phalanx of the big toe",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-4",
+              "text": "dorsal aspect of the big toe",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the proximal phalanx of the big toe",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanx of the big toe",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "dorsal aspect of the base of the second metatarsal",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "lateral plantar nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "big toe flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "big toe abduction",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "big toe adduction",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "big toe extension",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: lateral cuneiform, cuboid bones"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the proximal phalanx of the big toe"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: medial plantar nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: big toe flexion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor hallucis brevis"
+        }
+      ]
     },
     {
       "id": "6.68",
@@ -25623,15 +30398,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Adductor hallucis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760252",
         "src": "Assets/Cards/L1344_760252.png",
@@ -25639,42 +30414,121 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Adductor hallucis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image242.png"
+        "packageSource": "word/media/image68.png"
       },
-      "searchText": "6.68 lower extremity adductor hallucis l1344_760252 proximal insertion: base of metatarsals two to four, fibularis longus tendon sheath, ligament across the metatarsophalangeal joints distal insertion: base of the proximal phalanx of the big toe innervation: lateral plantar nerve action: big toe abduction and flexion",
-      "titleTemplate": [
+      "searchText": "6.68 lower extremity muscles adductor hallucis l1344_760252 proximal insertion: *base of metatarsals two to four *fibularis longus tendon sheath *ligament across the metatarsophalangeal joints distal insertion: *base of the proximal phalanx of the big toe distal phalanx of the big toe dorsal aspect of the base of the second metatarsal innervation: deep fibular (peroneal) nerve superficial fibular nerve * lateral plantar nerve medial plantar nerve action: big toe flexion big toe abduction *big toe adduction big toe extension",
+      "groups": [
         {
-          "type": "text",
-          "text": "Adductor hallucis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "base of metatarsals two to four",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "fibularis longus tendon sheath",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "ligament across the metatarsophalangeal joints",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the proximal phalanx of the big toe",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanx of the big toe",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "dorsal aspect of the base of the second metatarsal",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "lateral plantar nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "big toe flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-2",
+              "text": "big toe abduction",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "big toe adduction",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "big toe extension",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: base of metatarsals two to four, fibularis longus tendon sheath, ligament across the metatarsophalangeal joints"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the proximal phalanx of the big toe"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: lateral plantar nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: big toe abduction and flexion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Adductor hallucis"
+        }
+      ]
     },
     {
       "id": "6.69",
@@ -25682,15 +30536,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Flexor digiti minimi brevis",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760253",
         "src": "Assets/Cards/L1344_760253.png",
@@ -25698,42 +30552,116 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Flexor digiti minimi brevis anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image243.png"
+        "packageSource": "word/media/image69.png"
       },
-      "searchText": "6.69 lower extremity flexor digiti minimi brevis l1344_760253 proximal insertion: base of the fifth metatarsal, tendon sheath of the fibularis longus distal insertion: base of the proximal phalanx of the little toe innervation: deep branch of the ulnar nerve action: small toe flexion",
-      "titleTemplate": [
+      "searchText": "6.69 lower extremity muscles flexor digiti minimi brevis l1344_760253 proximal insertion: *base of the fifth metatarsal *tendon sheath of the fibularis longus posterior calcaneus distal insertion: *base of the proximal phalanx of the little toe extensor expansion over the first phalanx sides of the metatarsals innervation: deep fibular (peroneal) nerve superficial fibular nerve * lateral plantar nerve medial plantar nerve action: *small toe flexion small toe abduction small toe adduction",
+      "groups": [
         {
-          "type": "text",
-          "text": "Flexor digiti minimi brevis"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "base of the fifth metatarsal",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "tendon sheath of the fibularis longus",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "posterior calcaneus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "base of the proximal phalanx of the little toe",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "extensor expansion over the first phalanx",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "sides of the metatarsals",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "lateral plantar nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "small toe flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "small toe abduction",
+              "correct": false
+            },
+            {
+              "id": "action-option-3",
+              "text": "small toe adduction",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: base of the fifth metatarsal, tendon sheath of the fibularis longus"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: base of the proximal phalanx of the little toe"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: deep branch of the ulnar nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: small toe flexion"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Flexor digiti minimi brevis"
+        }
+      ]
     },
     {
       "id": "6.70",
@@ -25741,15 +30669,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Dorsal interossei",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760254",
         "src": "Assets/Cards/L1344_760254.png",
@@ -25757,42 +30685,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Dorsal interossei anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image244.png"
+        "packageSource": "word/media/image70.png"
       },
-      "searchText": "6.70 lower extremity dorsal interossei l1344_760254 proximal insertion: sides of the metatarsals distal insertion: both sides of toe two, extensor expansion over the first phalanx on the side opposite toe two innervation: lateral plantar nerve action: middle toes at the metatarsophalangeal joints’ abduction and flexion; middle toes at the interphalangeal joints’ extension",
-      "titleTemplate": [
+      "searchText": "6.70 lower extremity muscles dorsal interossei l1344_760254 proximal insertion: *sides of the metatarsals base of the fifth metatarsal tendon sheath of the fibularis longus distal insertion: *both sides of toe two *extensor expansion over the first phalanx on the side opposite toe two base of the proximal phalanx of the little toe innervation: deep fibular (peroneal) nerve superficial fibular nerve * lateral plantar nerve medial plantar nerve action: *middle toes at the metatarsophalangeal joints’ abduction and flexion *middle toes at the interphalangeal joints’ extension big toe metatarsophalangeal joint’s abduction and flexion middle toes at the metatarsophalangeal joints’ adduction",
+      "groups": [
         {
-          "type": "text",
-          "text": "Dorsal interossei"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "sides of the metatarsals",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "base of the fifth metatarsal",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "tendon sheath of the fibularis longus",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "both sides of toe two",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "extensor expansion over the first phalanx",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "on the side opposite toe two",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-4",
+              "text": "base of the proximal phalanx of the little toe",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "lateral plantar nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "middle toes at the metatarsophalangeal joints’ abduction and flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "middle toes at the interphalangeal joints’ extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "big toe metatarsophalangeal joint’s abduction and flexion",
+              "correct": false
+            },
+            {
+              "id": "action-option-4",
+              "text": "middle toes at the metatarsophalangeal joints’ adduction",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: sides of the metatarsals"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: both sides of toe two, extensor expansion over the first phalanx on the side opposite toe two"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: lateral plantar nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: middle toes at the metatarsophalangeal joints’ abduction and flexion; middle toes at the interphalangeal joints’ extension"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Dorsal interossei"
+        }
+      ]
     },
     {
       "id": "6.71",
@@ -25800,15 +30812,15 @@ window.MCPHERSON_CARD_DATA = {
       "sectionId": "lower-extremity",
       "sectionName": "Lower Extremity",
       "sectionColorClass": "section-6",
-      "manuscriptSectionHeading": "Section 6:?",
+      "cardType": "muscles",
+      "cardTypeLabel": "Muscles",
+      "manuscriptSectionHeading": "Section 6: Lower Extremity",
       "title": "Plantar interossei",
-      "interaction": "fill-blank",
-      "interactionLabel": "Fill in the Blank",
+      "interaction": "select-all",
+      "interactionLabel": "Select All That Apply",
       "interactionInferred": false,
-      "ready": false,
-      "draftReasonCodes": [
-        "fill_card_has_no_highlights"
-      ],
+      "ready": true,
+      "draftReasonCodes": [],
       "image": {
         "sourceFile": "L1344_760255",
         "src": "Assets/Cards/L1344_760255.png",
@@ -25816,42 +30828,126 @@ window.MCPHERSON_CARD_DATA = {
         "height": 547,
         "alt": "Plantar interossei anatomical reference illustration",
         "draftThumbnail": true,
-        "packageSource": "word/media/image245.png"
+        "packageSource": "word/media/image71.png"
       },
-      "searchText": "6.71 lower extremity plantar interossei l1344_760255 proximal insertion: side of each metatarsal that faces metatarsal two distal insertion: extensor expansion of the first phalanx of each toe facing toe two innervation: lateral plantar nerve action: toes three to five abduction, proximal phalanges flexion, and distal phalanges extension",
-      "titleTemplate": [
+      "searchText": "6.71 lower extremity muscles plantar interossei l1344_760255 proximal insertion: *side of each metatarsal that faces metatarsal two distal phalanx of each toe plantar surface of each metatarsal distal insertion: *extensor expansion of the first phalanx of each toe facing toe two distal phalanx of each toe plantar surface of each metatarsal innervation: deep fibular (peroneal) nerve superficial fibular nerve * lateral plantar nerve medial plantar nerve action: *toes three to five abduction *proximal phalanges flexion *distal phalanges extension proximal phalanges extension distal phalanges flexion",
+      "groups": [
         {
-          "type": "text",
-          "text": "Plantar interossei"
+          "id": "proximal-insertion",
+          "label": "Proximal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "proximal-insertion-option-1",
+              "text": "side of each metatarsal that faces metatarsal two",
+              "correct": true
+            },
+            {
+              "id": "proximal-insertion-option-2",
+              "text": "distal phalanx of each toe",
+              "correct": false
+            },
+            {
+              "id": "proximal-insertion-option-3",
+              "text": "plantar surface of each metatarsal",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "distal-insertion",
+          "label": "Distal insertion",
+          "staticText": "",
+          "options": [
+            {
+              "id": "distal-insertion-option-1",
+              "text": "extensor expansion of the first phalanx of each toe facing toe two",
+              "correct": true
+            },
+            {
+              "id": "distal-insertion-option-2",
+              "text": "distal phalanx of each toe",
+              "correct": false
+            },
+            {
+              "id": "distal-insertion-option-3",
+              "text": "plantar surface of each metatarsal",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "innervation",
+          "label": "Innervation",
+          "staticText": "",
+          "options": [
+            {
+              "id": "innervation-option-1",
+              "text": "deep fibular (peroneal) nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-2",
+              "text": "superficial fibular nerve",
+              "correct": false
+            },
+            {
+              "id": "innervation-option-3",
+              "text": "lateral plantar nerve",
+              "correct": true
+            },
+            {
+              "id": "innervation-option-4",
+              "text": "medial plantar nerve",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "action",
+          "label": "Action",
+          "staticText": "",
+          "options": [
+            {
+              "id": "action-option-1",
+              "text": "toes three to five abduction",
+              "correct": true
+            },
+            {
+              "id": "action-option-2",
+              "text": "proximal phalanges flexion",
+              "correct": true
+            },
+            {
+              "id": "action-option-3",
+              "text": "distal phalanges extension",
+              "correct": true
+            },
+            {
+              "id": "action-option-4",
+              "text": "proximal phalanges extension",
+              "correct": false
+            },
+            {
+              "id": "action-option-5",
+              "text": "distal phalanges flexion",
+              "correct": false
+            }
+          ]
         }
       ],
-      "paragraphs": [
-        [
-          {
-            "type": "text",
-            "text": "Proximal insertion: side of each metatarsal that faces metatarsal two"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Distal insertion: extensor expansion of the first phalanx of each toe facing toe two"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Innervation: lateral plantar nerve"
-          }
-        ],
-        [
-          {
-            "type": "text",
-            "text": "Action: toes three to five abduction, proximal phalanges flexion, and distal phalanges extension"
-          }
-        ]
+      "titleTemplate": [
+        {
+          "type": "blank",
+          "id": "blank-1"
+        }
       ],
-      "blanks": []
+      "blanks": [
+        {
+          "id": "blank-1",
+          "answer": "Plantar interossei"
+        }
+      ]
     }
   ]
 };

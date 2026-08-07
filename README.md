@@ -59,16 +59,16 @@ Keep one embedded thumbnail with each card. If a card contains more than one ima
 
 ## Editorial validation
 
-The importer never silently invents missing answer data. In the supplied July 2026 draft it found:
+The importer never silently invents missing answer data. In the current six-section build it found:
 
 - 244 total cards and 244 mapped thumbnails.
-- 49 drag-and-drop cards.
-- 178 fill-in-the-blank cards, including one recorded inference for card 6.64.
-- 17 select-all-that-apply cards.
-- 73 cards currently ready to grade and 171 visible as editorial drafts.
-- 0 structural errors and 177 warnings.
+- 50 drag-and-drop cards.
+- 27 fill-in-the-blank cards.
+- 167 select-all-that-apply cards.
+- 244 cards ready to grade and no editorial drafts.
+- 0 structural errors and 1 warning.
 
-Most warnings are fill-in cards that do not yet contain highlighted answer text. The report also identifies a missing interaction on card 6.64, a duplicate embedded image on card 1.27, and asterisks on six non-select cards. Cards with contradictory asterisks remain visible but are not gradeable. As the manuscript is edited, rerun the importer and use the new report as the editorial punch list.
+The remaining warning identifies a duplicate embedded image on card 1.27; the importer selects the image with the largest pixel area. As the manuscript is edited, rerun the importer and use the new report as the editorial punch list.
 
 ## Preview and verify
 

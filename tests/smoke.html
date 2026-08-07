@@ -148,13 +148,28 @@
               ).length === 51,
             "Section 5 card-type metadata does not match its approved ranges.",
           );
+          assert(
+            data.cards.filter(
+              (card) => card.sectionId === "lower-extremity" && card.cardType === "bones",
+            ).length === 13 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "lower-extremity" &&
+                  card.cardType === "ligaments",
+              ).length === 8 &&
+              data.cards.filter(
+                (card) =>
+                  card.sectionId === "lower-extremity" && card.cardType === "muscles",
+              ).length === 50,
+            "Section 6 card-type metadata does not match its approved ranges.",
+          );
           const cardTypeFilter = documentRoot.getElementById("cardTypeFilter");
           cardTypeFilter.value = "muscles";
           cardTypeFilter.dispatchEvent(new Event("change", { bubbles: true }));
           assert(
-            documentRoot.getElementById("progressText").textContent === "1 of 117" &&
+            documentRoot.getElementById("progressText").textContent === "1 of 167" &&
               documentRoot.querySelector(".card-id").textContent.includes("1.17"),
-            "The Muscles filter should include approved muscle cards through Section 5.",
+            "The Muscles filter should include approved muscle cards through Section 6.",
           );
           cardTypeFilter.value = "all";
           cardTypeFilter.dispatchEvent(new Event("change", { bubbles: true }));
