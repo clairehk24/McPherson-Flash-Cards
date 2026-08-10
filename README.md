@@ -21,6 +21,9 @@ The import is deterministic and produces:
 - `data/cards.js` — all browser-ready card content and answer data.
 - `data/import-report.json` — counts plus card-specific editorial warnings/errors.
 - `Assets/Cards/<Image file>.png` — the embedded thumbnail associated with each card.
+- `Assets/images/<Image file>.png` — production artwork used across all six sections
+  when available. Card 4.8 remains on its imported thumbnail until
+  `L1344_760107.png` is supplied.
 
 Do not edit generated files by hand. Make content corrections in the manuscript and rerun the importer. `--clean-assets` only removes stale image files from the exact `Assets/Cards` directory. Use `--check-only` to validate a manuscript without changing generated files, or `--strict` when any warning should fail a production check.
 

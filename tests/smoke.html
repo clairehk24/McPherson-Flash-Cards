@@ -177,6 +177,32 @@
             documentRoot.querySelectorAll("[data-drop-target]").length === 18,
             "Card 1.1 should render 18 drag-and-drop targets.",
           );
+          assert(
+            documentRoot
+              .querySelector(".artwork-image")
+              .getAttribute("src") === "Assets/images/L1344_760012.png",
+            "Section 1 should use the full-size production artwork.",
+          );
+          documentRoot.querySelector('[data-action="zoom"]').click();
+          assert(
+            documentRoot
+              .querySelector(".zoom-artwork")
+              .getAttribute("src") === "Assets/images/L1344_760012.png" &&
+              documentRoot.getElementById("zoomDialog").open,
+            "Image zoom should open the full-size Section 1 artwork.",
+          );
+          const portraitFrameBounds = documentRoot
+            .querySelector(".zoom-frame")
+            .getBoundingClientRect();
+          const portraitImageBounds = documentRoot
+            .querySelector(".zoom-artwork")
+            .getBoundingClientRect();
+          assert(
+            portraitImageBounds.width <= portraitFrameBounds.width &&
+              portraitImageBounds.height <= portraitFrameBounds.height,
+            `Portrait artwork should fit completely inside the zoom frame (${portraitImageBounds.width}x${portraitImageBounds.height} in ${portraitFrameBounds.width}x${portraitFrameBounds.height}).`,
+          );
+          documentRoot.getElementById("closeZoomBtn").click();
 
           const firstChip = documentRoot.querySelector("[data-choice-id]");
           const firstTarget = documentRoot.querySelector("[data-drop-target]");
@@ -186,6 +212,21 @@
             documentRoot.querySelector("[data-drop-target]").classList.contains("is-filled"),
             "Click-to-place drag-and-drop fallback did not fill a target.",
           );
+
+          searchFor(documentRoot, "L1344_760015");
+          documentRoot.querySelector('[data-action="zoom"]').click();
+          const landscapeFrameBounds = documentRoot
+            .querySelector(".zoom-frame")
+            .getBoundingClientRect();
+          const landscapeImageBounds = documentRoot
+            .querySelector(".zoom-artwork")
+            .getBoundingClientRect();
+          assert(
+            landscapeImageBounds.width <= landscapeFrameBounds.width &&
+              landscapeImageBounds.height <= landscapeFrameBounds.height,
+            `Landscape artwork should fit completely inside the zoom frame (${landscapeImageBounds.width}x${landscapeImageBounds.height} in ${landscapeFrameBounds.width}x${landscapeFrameBounds.height}).`,
+          );
+          documentRoot.getElementById("closeZoomBtn").click();
 
           searchFor(documentRoot, "L1344_760021");
           const fillCard = data.cards.find((card) => card.id === "1.10");
@@ -287,14 +328,65 @@
             "The muscle name and select-all response were not graded together.",
           );
 
-          searchFor(documentRoot, "L1344_760248");
+          const draftCard = data.cards.find((card) => !card.ready);
+          if (draftCard) {
+            searchFor(documentRoot, draftCard.image.sourceFile);
+            assert(
+              documentRoot.querySelector('[data-action="check"]').disabled,
+              "Draft cards should not allow grading.",
+            );
+            assert(
+              documentRoot.querySelector(".draft-notice"),
+              "Draft cards should explain their editorial status.",
+            );
+          }
+
+          searchFor(documentRoot, "L1344_760069");
           assert(
-            documentRoot.querySelector('[data-action="check"]').disabled,
-            "Draft card 6.64 should not allow grading.",
+            documentRoot
+              .querySelector(".artwork-image")
+              .getAttribute("src") === "Assets/images/L1344_760069.png",
+            "Section 2 should use the full-size production artwork.",
           );
+
+          searchFor(documentRoot, "L1344_760076");
           assert(
-            documentRoot.querySelector(".draft-notice"),
-            "Draft card 6.64 should explain its editorial status.",
+            documentRoot
+              .querySelector(".artwork-image")
+              .getAttribute("src") === "Assets/images/L1344_760076.png",
+            "Section 3 should use the full-size production artwork.",
+          );
+
+          searchFor(documentRoot, "L1344_760099");
+          assert(
+            documentRoot
+              .querySelector(".artwork-image")
+              .getAttribute("src") === "Assets/images/L1344_760099.png",
+            "Section 4 should use the full-size production artwork.",
+          );
+
+          searchFor(documentRoot, "L1344_760107");
+          assert(
+            documentRoot
+              .querySelector(".artwork-image")
+              .getAttribute("src") === "Assets/Cards/L1344_760107.png",
+            "Missing production artwork should fall back to its imported thumbnail.",
+          );
+
+          searchFor(documentRoot, "L1344_760114");
+          assert(
+            documentRoot
+              .querySelector(".artwork-image")
+              .getAttribute("src") === "Assets/images/L1344_760114.png",
+            "Section 5 should use the full-size production artwork.",
+          );
+
+          searchFor(documentRoot, "L1344_760185");
+          assert(
+            documentRoot
+              .querySelector(".artwork-image")
+              .getAttribute("src") === "Assets/images/L1344_760185.png",
+            "Section 6 should use the full-size production artwork.",
           );
 
           searchFor(documentRoot, "L1344_760021");

@@ -34,6 +34,19 @@
     "lower-extremity": "Assets/L1344_760187-TabCardSection6.png?v=20260804-4",
   };
 
+  // Production artwork is being introduced one section at a time. Sections
+  // not listed here continue to use the thumbnails imported from the DOCX.
+  const productionArtworkDirectories = {
+    "head-neck": "Assets/images",
+    "lumbar-region": "Assets/images",
+    "thorax-abdomen": "Assets/images",
+    "pelvic-bones": "Assets/images",
+    "upper-extremity": "Assets/images",
+    "lower-extremity": "Assets/images",
+  };
+
+  const unavailableProductionArtwork = new Set(["L1344_760107"]);
+
   const state = {
     cards: originalCards.slice(),
     selectedSections: new Set(),
@@ -337,11 +350,12 @@
   }
 
   function renderArtwork(card) {
+    const imageSource = artworkSource(card);
     const safeAlt = titleContainsBlank(card)
       ? `Anatomical reference illustration for card ${card.id}`
       : card.image.alt;
 
-    if (!card.image.src) {
+    if (!imageSource) {
       return `
         <div class="image-wrap">
           <div class="empty-state" role="img" aria-label="${escapeHtml(safeAlt)}">
@@ -351,10 +365,8 @@
       `;
     }
 
-    const width = Number(card.image.width) || 836;
-    const height = Number(card.image.height) || 547;
     return `
-      <div class="image-wrap" style="--image-aspect: ${width} / ${height}">
+      <div class="image-wrap">
         <button
           class="artwork-button"
           type="button"
@@ -363,16 +375,26 @@
         >
           <img
             class="artwork-image"
-            src="${escapeHtml(card.image.src)}"
+            src="${escapeHtml(imageSource)}"
             alt="${escapeHtml(safeAlt)}"
-            width="${width}"
-            height="${height}"
           />
         </button>
       </div>
       <p class="zoom-hint">Select the image to enlarge it.</p>
       <p class="image-source">Source: <code>${escapeHtml(card.image.sourceFile)}</code></p>
     `;
+  }
+
+  function artworkSource(card) {
+    const productionDirectory = productionArtworkDirectories[card.sectionId];
+    if (
+      productionDirectory &&
+      card.image.sourceFile &&
+      !unavailableProductionArtwork.has(card.image.sourceFile)
+    ) {
+      return `${productionDirectory}/${card.image.sourceFile}.png`;
+    }
+    return card.image.src;
   }
 
   function stableHash(value) {
@@ -1140,7 +1162,8 @@
   }
 
   function openZoom(card) {
-    if (!card.image.src) return;
+    const imageSource = artworkSource(card);
+    if (!imageSource) return;
     const safeAlt = titleContainsBlank(card)
       ? `Anatomical reference illustration for card ${card.id}`
       : card.image.alt;
@@ -1148,7 +1171,7 @@
     elements.zoomFrame.innerHTML = `
       <img
         class="zoom-artwork"
-        src="${escapeHtml(card.image.src)}"
+        src="${escapeHtml(imageSource)}"
         alt="${escapeHtml(safeAlt)}"
       />
     `;
