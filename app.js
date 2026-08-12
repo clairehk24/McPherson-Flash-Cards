@@ -45,8 +45,6 @@
     "lower-extremity": "Assets/images",
   };
 
-  const unavailableProductionArtwork = new Set(["L1344_760107"]);
-
   const state = {
     cards: originalCards.slice(),
     selectedSections: new Set(),
@@ -387,11 +385,7 @@
 
   function artworkSource(card) {
     const productionDirectory = productionArtworkDirectories[card.sectionId];
-    if (
-      productionDirectory &&
-      card.image.sourceFile &&
-      !unavailableProductionArtwork.has(card.image.sourceFile)
-    ) {
+    if (productionDirectory && card.image.sourceFile) {
       return `${productionDirectory}/${card.image.sourceFile}.png`;
     }
     return card.image.src;

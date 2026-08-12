@@ -2,8 +2,8 @@
 window.MCPHERSON_CARD_DATA = {
   "schemaVersion": 2,
   "source": {
-    "filename": "Section 6 Question Manuscript.docx",
-    "sha256": "5ba8053f4a059dea17e16f42aa4c16645862a4fb3231ca40c42815796568ee1a",
+    "filename": "Section 4 Question Manuscript.docx",
+    "sha256": "c5172620e0857a0d076669b8bee6e4cda042c45850747f9ad6e9b35f9ba59f48",
     "manuscriptSectionHeadings": [
       "Section 1: Head and neck",
       "Section 2: Lumbar Region",
@@ -14,10 +14,10 @@ window.MCPHERSON_CARD_DATA = {
     ],
     "merge": {
       "replacedSectionIds": [
-        "lower-extremity"
+        "pelvic-bones"
       ],
-      "replacedCards": 71,
-      "preservedCards": 173
+      "replacedCards": 13,
+      "preservedCards": 231
     }
   },
   "sections": [
@@ -11670,15 +11670,15 @@ window.MCPHERSON_CARD_DATA = {
       "ready": true,
       "draftReasonCodes": [],
       "image": {
-        "sourceFile": "L1344_760107",
-        "src": "Assets/Cards/L1344_760107.png",
+        "sourceFile": "L1344_760108",
+        "src": "Assets/Cards/L1344_760108.png",
         "width": 836,
         "height": 547,
         "alt": "Superficial transverse perineal anatomical reference illustration",
         "draftThumbnail": true,
         "packageSource": "word/media/image8.png"
       },
-      "searchText": "4.8 pelvic bones muscles superficial transverse perineal l1344_760107 proximal insertion: *ischium pubis anococcygeal ligament distal insertion: *perineal body pubic symphysis coccyx innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *supports the perineal body *maintains the anus at the center of the perineum compression of the anal canal",
+      "searchText": "4.8 pelvic bones muscles superficial transverse perineal l1344_760108 proximal insertion: *ischium pubis anococcygeal ligament distal insertion: *perineal body pubic symphysis coccyx innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *supports the perineal body *maintains the anus at the center of the perineum compression of the anal canal",
       "groups": [
         {
           "id": "proximal-insertion",
@@ -11793,15 +11793,15 @@ window.MCPHERSON_CARD_DATA = {
       "ready": true,
       "draftReasonCodes": [],
       "image": {
-        "sourceFile": "L1344_760108",
-        "src": "Assets/Cards/L1344_760108.png",
+        "sourceFile": "L1344_760109",
+        "src": "Assets/Cards/L1344_760109.png",
         "width": 836,
         "height": 547,
         "alt": "Bulbospongiosus anatomical reference illustration",
         "draftThumbnail": true,
         "packageSource": "word/media/image9.png"
       },
-      "searchText": "4.9 pelvic bones muscles bulbospongiosus l1344_760108 proximal insertion: *perineal body anococcygeal ligament ischial rami distal insertion: *perineal membrane *corpus spongiosum of the penis, deep fascia of the penis, clitoris in the female pubic symphysis innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *compresses the urethra during urination or ejaculation *aids erection stabilizes the coccyx",
+      "searchText": "4.9 pelvic bones muscles bulbospongiosus l1344_760109 proximal insertion: *perineal body anococcygeal ligament ischial rami distal insertion: *perineal membrane *corpus spongiosum of the penis, deep fascia of the penis, clitoris in the female pubic symphysis innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *compresses the urethra during urination or ejaculation *aids erection stabilizes the coccyx",
       "groups": [
         {
           "id": "proximal-insertion",
@@ -11916,15 +11916,15 @@ window.MCPHERSON_CARD_DATA = {
       "ready": true,
       "draftReasonCodes": [],
       "image": {
-        "sourceFile": "L1344_760109",
-        "src": "Assets/Cards/L1344_760109.png",
+        "sourceFile": "L1344_760110",
+        "src": "Assets/Cards/L1344_760110.png",
         "width": 836,
         "height": 547,
         "alt": "Ischiocavernosus anatomical reference illustration",
         "draftThumbnail": true,
         "packageSource": "word/media/image10.png"
       },
-      "searchText": "4.10 pelvic bones muscles ischiocavernosus l1344_760109 proximal insertion: *ischium *ischial rami *pubic rami distal insertion: *pubic symphysis *corpus cavernosum of the penis in males, clitoris in females perineal body innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *compresses veins to maintain erection supports the pelvic floor closes the anus",
+      "searchText": "4.10 pelvic bones muscles ischiocavernosus l1344_760110 proximal insertion: *ischium *ischial rami *pubic rami distal insertion: *pubic symphysis *corpus cavernosum of the penis in males, clitoris in females perineal body innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *compresses veins to maintain erection supports the pelvic floor closes the anus",
       "groups": [
         {
           "id": "proximal-insertion",
@@ -12039,15 +12039,15 @@ window.MCPHERSON_CARD_DATA = {
       "ready": true,
       "draftReasonCodes": [],
       "image": {
-        "sourceFile": "L1344_760110",
-        "src": "Assets/Cards/L1344_760110.png",
+        "sourceFile": "L1344_760111",
+        "src": "Assets/Cards/L1344_760111.png",
         "width": 836,
         "height": 547,
         "alt": "External urethral sphincter anatomical reference illustration",
         "draftThumbnail": true,
         "packageSource": "word/media/image11.png"
       },
-      "searchText": "4.11 pelvic bones muscles external urethral sphincter l1344_760110 proximal insertion: *ischial rami *pubic rami pubic symphysis ischial spine distal insertion: *male—median raphe; female—vaginal wall perineal body coccyx innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *voluntarily compresses urethra during urination closes the anus stabilizes the coccyx",
+      "searchText": "4.11 pelvic bones muscles external urethral sphincter l1344_760111 proximal insertion: *ischial rami *pubic rami pubic symphysis ischial spine distal insertion: *male—median raphe; female—vaginal wall perineal body coccyx innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *voluntarily compresses urethra during urination closes the anus stabilizes the coccyx",
       "groups": [
         {
           "id": "proximal-insertion",
@@ -12167,15 +12167,15 @@ window.MCPHERSON_CARD_DATA = {
       "ready": true,
       "draftReasonCodes": [],
       "image": {
-        "sourceFile": "L1344_760111",
-        "src": "Assets/Cards/L1344_760111.png",
+        "sourceFile": "L1344_760112",
+        "src": "Assets/Cards/L1344_760112.png",
         "width": 836,
         "height": 547,
         "alt": "External anal sphincter anatomical reference illustration",
         "draftThumbnail": true,
         "packageSource": "word/media/image12.png"
       },
-      "searchText": "4.12 pelvic bones muscles external anal sphincter l1344_760111 proximal insertion: *anococcygeal ligament pubic symphysis ischial spine distal insertion: *perineal body pubic symphysis coccyx innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *closes the anus voluntarily compresses urethra during urination stabilizes the coccyx",
+      "searchText": "4.12 pelvic bones muscles external anal sphincter l1344_760112 proximal insertion: *anococcygeal ligament pubic symphysis ischial spine distal insertion: *perineal body pubic symphysis coccyx innervation: *pudendal nerve anterior rami of spinal nerves s4-s5 action: *closes the anus voluntarily compresses urethra during urination stabilizes the coccyx",
       "groups": [
         {
           "id": "proximal-insertion",
@@ -12290,15 +12290,15 @@ window.MCPHERSON_CARD_DATA = {
       "ready": true,
       "draftReasonCodes": [],
       "image": {
-        "sourceFile": "L1344_760112",
-        "src": "Assets/Cards/L1344_760112.png",
+        "sourceFile": "L1344_760113",
+        "src": "Assets/Cards/L1344_760113.png",
         "width": 836,
         "height": 547,
         "alt": "Coccygeus anatomical reference illustration",
         "draftThumbnail": true,
         "packageSource": "word/media/image13.png"
       },
-      "searchText": "4.13 pelvic bones muscles coccygeus l1344_760112 proximal insertion: *ischial spine ischial rami pubic rami ischium distal insertion: *anterior rami of spinal nerves s4-s5 perineal body pubic symphysis coccyx innervation: *s4 and s5 pudendal nerve action: *supports the pelvic floor *stabilizes the coccyx closes the anus",
+      "searchText": "4.13 pelvic bones muscles coccygeus l1344_760113 proximal insertion: *ischial spine ischial rami pubic rami ischium distal insertion: *anterior rami of spinal nerves s4-s5 perineal body pubic symphysis coccyx innervation: *s4 and s5 pudendal nerve action: *supports the pelvic floor *stabilizes the coccyx closes the anus",
       "groups": [
         {
           "id": "proximal-insertion",

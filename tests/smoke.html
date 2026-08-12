@@ -76,6 +76,14 @@
           const data = appWindow.MCPHERSON_CARD_DATA;
 
           assert(data.cards.length === 244, "Expected all 244 manuscript cards.");
+          const stackActions = documentRoot.querySelector(".stack-actions");
+          const stackContent = documentRoot.getElementById("stackContent");
+          assert(
+            stackContent.getBoundingClientRect().top -
+              stackActions.getBoundingClientRect().bottom >=
+              12,
+            "Study-stack actions should be visually separated from its content box.",
+          );
           assert(
             data.cards.filter(
               (card) => card.sectionId === "head-neck" && card.cardType === "bones",
@@ -365,12 +373,30 @@
             "Section 4 should use the full-size production artwork.",
           );
 
-          searchFor(documentRoot, "L1344_760107");
+          const correctedSectionFourImages = {
+            "4.8": "L1344_760108",
+            "4.9": "L1344_760109",
+            "4.10": "L1344_760110",
+            "4.11": "L1344_760111",
+            "4.12": "L1344_760112",
+            "4.13": "L1344_760113",
+          };
+          for (const [cardId, sourceFile] of Object.entries(
+            correctedSectionFourImages,
+          )) {
+            const correctedCard = data.cards.find((card) => card.id === cardId);
+            assert(
+              correctedCard?.image.sourceFile === sourceFile,
+              `Card ${cardId} should use ${sourceFile}.`,
+            );
+          }
+
+          searchFor(documentRoot, "L1344_760113");
           assert(
             documentRoot
               .querySelector(".artwork-image")
-              .getAttribute("src") === "Assets/Cards/L1344_760107.png",
-            "Missing production artwork should fall back to its imported thumbnail.",
+              .getAttribute("src") === "Assets/images/L1344_760113.png",
+            "Corrected Section 4 cards should use full-size production artwork.",
           );
 
           searchFor(documentRoot, "L1344_760114");
