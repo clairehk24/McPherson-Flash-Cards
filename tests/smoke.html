@@ -67,6 +67,52 @@
         search.dispatchEvent(new Event("input", { bubbles: true }));
       }
 
+      function gradeDragCardWithSwappedAnswers(
+        documentRoot,
+        data,
+        sourceFile,
+        firstTarget,
+        secondTarget,
+      ) {
+        searchFor(documentRoot, sourceFile);
+        documentRoot.querySelector('[data-action="clear-response"]').click();
+        const card = data.cards.find(
+          (candidate) => candidate.image.sourceFile === sourceFile,
+        );
+        const firstLabel = card.labels.find(
+          (label) => label.target === firstTarget,
+        );
+        const secondLabel = card.labels.find(
+          (label) => label.target === secondTarget,
+        );
+
+        assert(
+          firstLabel.answer === secondLabel.answer,
+          `Targets ${firstTarget} and ${secondTarget} should have duplicate answers.`,
+        );
+
+        card.labels.forEach((label) => {
+          const choiceId =
+            label.target === firstTarget
+              ? secondLabel.id
+              : label.target === secondTarget
+                ? firstLabel.id
+                : label.id;
+          documentRoot.querySelector(`[data-choice-id="${choiceId}"]`).click();
+          documentRoot
+            .querySelector(`[data-drop-target="${label.target}"]`)
+            .click();
+        });
+
+        documentRoot.querySelector('[data-action="check"]').click();
+        assert(
+          [...documentRoot.querySelectorAll("[data-drop-target]")].every((target) =>
+            target.classList.contains("correct"),
+          ),
+          `Card ${card.id} should accept duplicate answers in either matching target.`,
+        );
+      }
+
       localStorage.clear();
       frame.addEventListener("load", () => {
         if (!frame.contentWindow.MCPHERSON_CARD_DATA) return;
@@ -219,6 +265,28 @@
           assert(
             documentRoot.querySelector("[data-drop-target]").classList.contains("is-filled"),
             "Click-to-place drag-and-drop fallback did not fill a target.",
+          );
+
+          gradeDragCardWithSwappedAnswers(
+            documentRoot,
+            data,
+            "L1344_760069",
+            "a",
+            "n",
+          );
+          gradeDragCardWithSwappedAnswers(
+            documentRoot,
+            data,
+            "L1344_760080",
+            "i",
+            "m",
+          );
+          gradeDragCardWithSwappedAnswers(
+            documentRoot,
+            data,
+            "L1344_760082",
+            "b",
+            "c",
           );
 
           searchFor(documentRoot, "L1344_760015");

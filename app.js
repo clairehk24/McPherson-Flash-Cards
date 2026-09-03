@@ -417,6 +417,11 @@
     return result;
   }
 
+  function isDragChoiceCorrect(card, targetLabel, choiceId) {
+    const choice = card.labels.find((label) => label.id === choiceId);
+    return Boolean(choice) && choice.answer === targetLabel.answer;
+  }
+
   function renderDragInteraction(card) {
     const response = getResponse(card.id);
     const assignedIds = new Set(Object.values(response));
@@ -450,7 +455,7 @@
       .map((label) => {
         const choiceId = response[label.target];
         const choice = card.labels.find((item) => item.id === choiceId);
-        const isCorrect = choiceId === label.id;
+        const isCorrect = isDragChoiceCorrect(card, label, choiceId);
         const gradeClass = state.answerShown
           ? isCorrect
             ? "correct"
@@ -954,7 +959,9 @@
     const response = getResponse(card.id);
 
     if (card.interaction === "drag-drop") {
-      return card.labels.every((label) => response[label.target] === label.id);
+      return card.labels.every((label) =>
+        isDragChoiceCorrect(card, label, response[label.target]),
+      );
     }
 
     if (card.interaction === "fill-blank") {
