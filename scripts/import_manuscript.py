@@ -105,6 +105,10 @@ GROUP_PATTERN = re.compile(
 LABEL_PATTERN = re.compile(r"^([a-z]{1,2}|\d+)[.)]\s*(.+)$", re.IGNORECASE)
 LIST_PREFIX_PATTERN = re.compile(r"^[a-z][.)]\s*", re.IGNORECASE)
 
+# Card 1.27 intentionally contains an additional embedded image. Continue to
+# select the largest image, but do not report this approved editorial exception.
+APPROVED_MULTIPLE_IMAGE_CARD_IDS = {"1.27"}
+
 
 @dataclass
 class TextSegment:
@@ -481,7 +485,10 @@ def select_largest_image(
         )
         return None
 
-    if len(candidates) > 1:
+    if (
+        len(candidates) > 1
+        and raw_card.card_id not in APPROVED_MULTIPLE_IMAGE_CARD_IDS
+    ):
         issue(
             issues,
             "warning",

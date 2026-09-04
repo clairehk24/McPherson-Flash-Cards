@@ -153,6 +153,20 @@
     }, 10);
   }
 
+  function focusDataControl(root, attribute, value, fallback = questionContainer) {
+    const control = [...root.querySelectorAll(`[${attribute}]`)].find(
+      (element) => element.getAttribute(attribute) === value,
+    );
+    (control || fallback)?.focus({ preventScroll: true });
+  }
+
+  function focusFirstQuestionResponse() {
+    const control = questionContainer.querySelector(
+      "[data-choice-id], [data-blank-id], [data-option-id], [data-drop-target]",
+    );
+    (control || questionContainer).focus({ preventScroll: true });
+  }
+
   function getResponse(cardId) {
     const response = state.responses[cardId];
     return response && typeof response === "object" && !Array.isArray(response)
@@ -252,6 +266,12 @@
         state.answerShown = false;
         persistFilters();
         render();
+        focusDataControl(
+          elements.tabs,
+          "data-section-id",
+          sectionId,
+          elements.clearFiltersBtn,
+        );
       });
     });
   }
@@ -760,6 +780,7 @@
     announce(`${answer} placed at target ${target.toUpperCase()}.`);
     renderQuestion();
     renderProgress();
+    focusDataControl(questionContainer, "data-drop-target", target);
   }
 
   function releaseDragChoice(card, target) {
@@ -773,6 +794,7 @@
     announce(`${answer} returned to the answer bank.`);
     renderQuestion();
     renderProgress();
+    focusDataControl(questionContainer, "data-drop-target", target);
   }
 
   function bindDragEvents(card) {
@@ -785,6 +807,7 @@
             ? null
             : { cardId: card.id, choiceId };
         renderQuestion();
+        focusDataControl(questionContainer, "data-choice-id", choiceId);
       });
 
       button.addEventListener("dragstart", (event) => {
@@ -924,6 +947,7 @@
         state.selectedDragChoice = null;
         announce(`Response cleared for card ${card.id}.`);
         render();
+        focusFirstQuestionResponse();
       });
 
     questionContainer
@@ -1009,9 +1033,10 @@
     state.selectedDragChoice = null;
     announce(correct ? "All answers are correct." : "Some answers need review.");
     render();
+    focusDataControl(questionContainer, "data-action", "check");
   }
 
-  function toggleStack(cardId) {
+  function toggleStack(cardId, focusLocation = "question") {
     if (state.stack.includes(cardId)) {
       state.stack = state.stack.filter((id) => id !== cardId);
       announce(`Card ${cardId} removed from the study stack.`);
@@ -1022,6 +1047,14 @@
     saveJSON(storageKeys.stack, state.stack);
     if (state.mode === "stack") clampIndex();
     render();
+    if (focusLocation === "stack") {
+      const fallback = elements.clearStackBtn.disabled
+        ? elements.viewStackBtn
+        : elements.clearStackBtn;
+      fallback.focus({ preventScroll: true });
+    } else {
+      focusDataControl(questionContainer, "data-action", "toggle-stack");
+    }
   }
 
   function renderStack() {
@@ -1067,7 +1100,7 @@
       .querySelectorAll("[data-stack-remove]")
       .forEach((button) => {
         button.addEventListener("click", () =>
-          toggleStack(button.dataset.stackRemove),
+          toggleStack(button.dataset.stackRemove, "stack"),
         );
       });
   }
@@ -1087,6 +1120,7 @@
     state.answerShown = false;
     syncViewButtons();
     render();
+    questionContainer.focus({ preventScroll: true });
   }
 
   function renderProgress() {

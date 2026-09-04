@@ -28,14 +28,7 @@
       "select-all": 167
     },
     "errors": 0,
-    "warnings": 1
+    "warnings": 0
   },
-  "issues": [
-    {
-      "severity": "warning",
-      "code": "multiple_card_images",
-      "message": "Found 2 embedded images; the largest image was selected as the card thumbnail.",
-      "cardId": "1.27"
-    }
-  ]
+  "issues": []
 }

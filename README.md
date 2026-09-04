@@ -67,9 +67,9 @@ The importer never silently invents missing answer data. In the current six-sect
 - 27 fill-in-the-blank cards.
 - 167 select-all-that-apply cards.
 - 244 cards ready to grade and no editorial drafts.
-- 0 structural errors and 1 warning.
+- 0 structural errors and 0 warnings.
 
-The remaining warning identifies a duplicate embedded image on card 1.27; the importer selects the image with the largest pixel area. As the manuscript is edited, rerun the importer and use the new report as the editorial punch list.
+As the manuscript is edited, rerun the importer and use the new report as the editorial punch list.
 
 ## Preview and verify
 

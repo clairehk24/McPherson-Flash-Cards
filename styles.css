@@ -27,6 +27,11 @@
   --section-5: #59347f;
   --section-6: #008843;
 
+  /* Darker companions preserve section identity for normal-sized text. */
+  --section-2-text: #b24814;
+  --section-3-text: #027584;
+  --section-6-text: #00763a;
+
   /* Ten-percent tints of the approved colors for card backgrounds. */
   --section-1-soft: #e6eff5;
   --section-2-soft: #fcf0e9;
@@ -68,7 +73,7 @@ select {
 
 button {
   min-height: 42px;
-  border: 1px solid #b8c3cd;
+  border: 1px solid #718497;
   border-radius: 0.65rem;
   padding: 0.58rem 0.82rem;
   background: var(--surface);
@@ -97,7 +102,7 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 [tabindex]:focus-visible {
-  outline: 3px solid rgba(0, 110, 220, 0.35);
+  outline: 3px solid var(--focus);
   outline-offset: 2px;
   border-color: var(--focus);
 }
@@ -107,7 +112,7 @@ input[type="text"],
 select {
   width: 100%;
   min-height: 46px;
-  border: 1px solid #aebbc7;
+  border: 1px solid #718497;
   border-radius: 0.65rem;
   padding: 0.65rem 0.75rem;
   background: var(--surface);
@@ -129,6 +134,42 @@ code {
   width: min(1280px, 100%);
   margin: 0 auto;
   padding: clamp(1rem, 2.5vw, 2rem);
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin-top: 2rem;
+  border-top: 1px solid #718497;
+  padding-top: 1.25rem;
+}
+
+.footer-logo {
+  display: block;
+  width: min(250px, 48vw);
+  height: auto;
+}
+
+.footer-download {
+  min-height: 42px;
+  border: 1px solid #718497;
+  border-radius: 0.65rem;
+  padding: 0.58rem 0.82rem;
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-download:hover {
+  background: #f7f9fa;
+}
+
+.footer-download:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
 }
 
 .skip-link {
@@ -284,11 +325,13 @@ h1 {
 
 .section-2 {
   --section-color: var(--section-2);
+  --section-text: var(--section-2-text);
   --section-soft: var(--section-2-soft);
 }
 
 .section-3 {
   --section-color: var(--section-3);
+  --section-text: var(--section-3-text);
   --section-soft: var(--section-3-soft);
 }
 
@@ -304,6 +347,7 @@ h1 {
 
 .section-6 {
   --section-color: var(--section-6);
+  --section-text: var(--section-6-text);
   --section-soft: var(--section-6-soft);
 }
 
@@ -393,7 +437,7 @@ h1 {
 .view-toggle {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 1px solid #aebbc7;
+  border: 1px solid #718497;
   border-radius: 0.7rem;
   padding: 0.2rem;
   background: var(--surface-muted);
@@ -489,7 +533,7 @@ h1 {
 
 .interaction-pill {
   border-color: var(--section-color);
-  color: var(--section-color);
+  color: var(--section-text, var(--section-color));
 }
 
 .result-pill.correct {
@@ -518,7 +562,7 @@ h1 {
 .card-id {
   display: block;
   margin-bottom: 0.25rem;
-  color: var(--section-color);
+  color: var(--section-text, var(--section-color));
   font-size: 0.76rem;
   font-weight: 850;
   letter-spacing: 0.1em;
@@ -603,6 +647,10 @@ h1 {
   background: #fff;
 }
 
+.artwork-button:focus-visible {
+  outline-offset: -4px;
+}
+
 .artwork-image {
   display: block;
   width: auto;
@@ -660,7 +708,7 @@ h1 {
 
 .drag-chip {
   min-height: 34px;
-  border-color: #8aa3b9;
+  border-color: #718497;
   border-radius: 999px;
   padding: 0.32rem 0.65rem;
   background: #fff;
@@ -763,7 +811,7 @@ h1 {
 
 .content-marker {
   padding-top: 0.2rem;
-  color: var(--section-color);
+  color: var(--section-text, var(--section-color));
   font-weight: 850;
   line-height: 2;
   text-transform: lowercase;
@@ -792,7 +840,7 @@ h1 {
   width: 100%;
   min-height: 38px;
   margin: 0;
-  border: 1px solid #9eacb9;
+  border: 1px solid #718497;
   border-radius: 0.42rem;
   padding: 0.38rem 0.55rem;
   background: #fff;
@@ -1240,6 +1288,15 @@ dialog::backdrop {
     grid-column: 1 / -1;
     grid-row: 1;
     text-align: center;
+  }
+
+  .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    width: min(250px, 80vw);
   }
 }
 

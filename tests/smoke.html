@@ -67,6 +67,23 @@
         search.dispatchEvent(new Event("input", { bubbles: true }));
       }
 
+      function contrastRatio(firstColor, secondColor) {
+        const luminance = (color) => {
+          const channels = color.match(/[\d.]+/g).slice(0, 3).map(Number);
+          const linear = channels.map((channel) => {
+            const value = channel / 255;
+            return value <= 0.04045
+              ? value / 12.92
+              : ((value + 0.055) / 1.055) ** 2.4;
+          });
+          return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2];
+        };
+        const values = [luminance(firstColor), luminance(secondColor)].sort(
+          (first, second) => second - first,
+        );
+        return (values[0] + 0.05) / (values[1] + 0.05);
+      }
+
       function gradeDragCardWithSwappedAnswers(
         documentRoot,
         data,
@@ -105,6 +122,10 @@
         });
 
         documentRoot.querySelector('[data-action="check"]').click();
+        assert(
+          documentRoot.activeElement?.dataset.action === "check",
+          `Card ${card.id} should retain keyboard focus on Check answers after grading.`,
+        );
         assert(
           [...documentRoot.querySelectorAll("[data-drop-target]")].every((target) =>
             target.classList.contains("correct"),
@@ -227,6 +248,16 @@
           );
           cardTypeFilter.value = "all";
           cardTypeFilter.dispatchEvent(new Event("change", { bubbles: true }));
+
+          const firstSectionTab = documentRoot.querySelector("[data-section-id]");
+          const firstSectionId = firstSectionTab.dataset.sectionId;
+          firstSectionTab.click();
+          assert(
+            documentRoot.activeElement?.dataset.sectionId === firstSectionId,
+            "A section filter should retain focus after rerendering.",
+          );
+          documentRoot.querySelector(`[data-section-id="${firstSectionId}"]`).click();
+
           assert(
             documentRoot.querySelectorAll("[data-drop-target]").length === 18,
             "Card 1.1 should render 18 drag-and-drop targets.",
@@ -259,12 +290,61 @@
           documentRoot.getElementById("closeZoomBtn").click();
 
           const firstChip = documentRoot.querySelector("[data-choice-id]");
-          const firstTarget = documentRoot.querySelector("[data-drop-target]");
+          const firstChoiceId = firstChip.dataset.choiceId;
+          const firstTargetKey = documentRoot.querySelector("[data-drop-target]").dataset
+            .dropTarget;
           firstChip.click();
+          assert(
+            documentRoot.activeElement?.dataset.choiceId === firstChoiceId,
+            "Selecting a drag term should retain focus on that term.",
+          );
           documentRoot.querySelector("[data-drop-target]").click();
           assert(
             documentRoot.querySelector("[data-drop-target]").classList.contains("is-filled"),
             "Click-to-place drag-and-drop fallback did not fill a target.",
+          );
+          assert(
+            documentRoot.activeElement?.dataset.dropTarget === firstTargetKey,
+            "Placing a drag term should move focus to the updated target.",
+          );
+          documentRoot.querySelector('[data-action="clear-response"]').click();
+          assert(
+            documentRoot.activeElement?.matches(
+              "[data-choice-id], [data-blank-id], [data-option-id], [data-drop-target]",
+            ),
+            "Clearing a response should move focus to the first response control.",
+          );
+
+          const searchStyle = appWindow.getComputedStyle(
+            documentRoot.getElementById("searchInput"),
+          );
+          assert(
+            contrastRatio(searchStyle.borderTopColor, searchStyle.backgroundColor) >= 3,
+            "Input boundaries should have at least 3:1 contrast.",
+          );
+          documentRoot.getElementById("searchInput").focus();
+          const focusStyle = appWindow.getComputedStyle(
+            documentRoot.getElementById("searchInput"),
+          );
+          assert(
+            contrastRatio(focusStyle.outlineColor, "rgb(255, 255, 255)") >= 3,
+            "The keyboard focus indicator should have at least 3:1 contrast.",
+          );
+
+          ["L1344_760069", "L1344_760080", "L1344_760187"].forEach(
+            (sourceFile) => {
+              searchFor(documentRoot, sourceFile);
+              const metadataStyle = appWindow.getComputedStyle(
+                documentRoot.querySelector(".card-id"),
+              );
+              const headingStyle = appWindow.getComputedStyle(
+                documentRoot.querySelector(".card-heading"),
+              );
+              assert(
+                contrastRatio(metadataStyle.color, headingStyle.backgroundColor) >= 4.5,
+                `${sourceFile} metadata text should have at least 4.5:1 contrast.`,
+              );
+            },
           );
 
           gradeDragCardWithSwappedAnswers(
